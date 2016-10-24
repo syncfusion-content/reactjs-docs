@@ -15,7 +15,12 @@ The Kanban control has the following list of external JavaScript dependencies.
 
 * [`jQuery 1.7.1`](http://jquery.com) and later versions
 * [`jsRender`](https://github.com/borismoore/jsrender) - to render the templates
-* [`jQuery.easing`](http://gsgd.co.uk/sandbox/jquery/easing) - to support animation effects in the components
+
+The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about react js.
+
+* `react.min.js` - [http://cdn.syncfusion.com/js/assets/external/react.min.js](http://cdn.syncfusion.com/js/assets/external/react.min.js)
+* `react-dom.min.js` - [http://cdn.syncfusion.com/js/assets/external/react-dom.min.js](http://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
+* `ej.web.react.min.js` - [http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js](http://cdn.syncfusion.com/14.3.0.49/js/common/ej.web.react.min.js)
 
 Refer to the internal dependencies in the following table.
 
@@ -50,6 +55,14 @@ Refer to the internal dependencies in the following table.
       </td>
       <td>
           It is referred when using touch functionalities in Kanban.
+      </td>
+   </tr>
+   <tr>
+      <td>
+        ej.draggable.min.js 
+      </td>
+      <td>
+          It is referred when using drag and drop functionalities in Kanban.
       </td>
    </tr>
    <tr>
@@ -159,15 +172,16 @@ To get started, you can use the `ej.web.all.min.js` file that encapsulates all t
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Essential Studio for JavaScript">
     <meta name="author" content="Syncfusion">
-    <title></title>
+    <title>Getting Started for Kanban React JS</title>
     <!-- Essential Studio for JavaScript  theme reference -->
     <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
     <!-- Essential Studio for JavaScript  script references -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="http://cdn.syncfusion.com/js/assets/external/jquery.easing.1.3.min.js"> </script>
-    <script src="http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js"></script>
+    <script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>
     <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+    <script src="http://cdn.syncfusion.com/js/assets/external/react.min.js"></script>
+    <script src="http://cdn.syncfusion.com/js/assets/external/react-dom.min.js"></script>
     <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/ej.web.all.min.js"></script>
+    <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js"></script>
     <!-- Add your custom scripts here -->
     </head>
     <body>
@@ -181,36 +195,44 @@ N> 2. For themes, you can use the `ej.web.all.min.css` CDN link from the code sn
 
 ## Create a Kanban
 
-The Kanban can be created from a HTML `DIV` element with the HTML `id` attribute set to it. To create the Kanban, you should call the `ejKanban` jQuery plug-in function with the options as parameter. Refer to the following code example.
+Control can be initialized in two ways.
 
+ * Using jsx Template
+ * Without using jsx Template
+ 
+## Using jsx Template
+
+By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be refered in html page.
+
+Please refer to the code of HTML file.
 
 {% highlight html %}
 
     <div id="kanbanboard-default"></div>
+    <script src="app/kanbanboard/default.js"></script>
 
 {% endhighlight %}
 
+Kanban control can be initialized with the following in HTML document.
 
-{% highlight html %}
-
-    ReactDOM.render(
-    React.createElement(EJ.Kanban, {}, 
-                React.createElement("columns", null, 
-				   React.createElement("column", {headerText: "Backlog", key: "Open"}), 
-				   React.createElement("column", {headerText: "In Progress", key: "InProgress"}), 
-				   React.createElement("column", {headerText: "Testing", key: "Testing"}), 
-				   React.createElement("column", {headerText: "Done", key: "Close"})
-				 )
-    ),
-    document.getElementById('kanbanboard-default')
-    );
-
+{% highlight html %}     
+                
+        ReactDOM.render(
+            <EJ.Kanban >
+                      <columns>
+                          <column headerText="Backlog" />
+                          <column headerText="In Progress" />
+                          <column headerText="Done" />
+                      </columns>
+            </EJ.Kanban>,
+            document.getElementById('kanbanboard-default')
+        );
+    
 {% endhighlight %}
 
 ![](Getting-Started_images/Getting_Started_img1.png)
 
-
-## Data Binding
+### Data Binding
 
 `Data binding` in the Kanban is achieved by using the [`ej.DataManager`](http://help.syncfusion.com/js/datamanager/overview) that supports both RESTful JSON data services binding and local JSON array binding. To set the data source to Kanban, the `dataSource` property is assigned with the instance of the `ej.DataManger`. 
 
@@ -218,18 +240,17 @@ For demonstration purpose, [`Northwind OData service`](http://mvc.syncfusion.com
 
 {% highlight html %}
 
-    var data = ej.DataManager(window.kanbanData).executeLocal(ej.Query().take(20));
-    ReactDOM.render(
-    React.createElement(EJ.Kanban, {dataSource: data}, 
-                React.createElement("columns", null, 
-				   React.createElement("column", {headerText: "Backlog", key: "Open"}), 
-				   React.createElement("column", {headerText: "In Progress", key: "InProgress"}), 
-				   React.createElement("column", {headerText: "Testing", key: "Testing"}), 
-				   React.createElement("column", {headerText: "Done", key: "Close"})
-				 )
-    ),
-    document.getElementById('kanbanboard-default')
-    );
+        var dataManager = new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Tasks");        
+        ReactDOM.render(
+            <EJ.Kanban dataSource = {dataManager} >
+                      <columns>
+                          <column headerText="Backlog" key="Open" />
+                          <column headerText="In Progress" key="InProgress" />
+                          <column headerText="Done" key="Close"/>
+                      </columns>
+            </EJ.Kanban>,
+            document.getElementById('kanbanboard-default')
+        );
 
 {% endhighlight %}
 
@@ -238,7 +259,7 @@ For demonstration purpose, [`Northwind OData service`](http://mvc.syncfusion.com
 N>  ODataAdaptor is the default adaptor used within DataManager. While binding to other web services, proper [`data adaptor`](http://help.syncfusion.com/js/datamanager/data-adaptors) needs to be set for `adaptor` option of DataManager.
 
 
-## Mapping Values
+### Mapping Values
 
 In order to display cards in Kanban control, you need to map the database fields to Kanban cards and columns. The required mapping field are listed as follows
 
@@ -249,18 +270,17 @@ In order to display cards in Kanban control, you need to map the database fields
 
 {% highlight html %}
 
-     var data = ej.DataManager(window.kanbanData).executeLocal(ej.Query().take(20));
-     ReactDOM.render(
-     React.createElement(EJ.Kanban, {dataSource: data, keyField: "Status", "fields-content": "Summary", "fields-primaryKey": "Id"}, 
-                React.createElement("columns", null, 
-				   React.createElement("column", {headerText: "Backlog", key: "Open"}), 
-				   React.createElement("column", {headerText: "In Progress", key: "InProgress"}), 
-				   React.createElement("column", {headerText: "Testing", key: "Testing"}), 
-				   React.createElement("column", {headerText: "Done", key: "Close"})
-				 )
-     ),
-     document.getElementById('kanbanboard-default')
-     );
+        var dataManager = new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Tasks");        
+        ReactDOM.render(
+            <EJ.Kanban dataSource = {dataManager} keyField = "Status" allowTitle={true} fields-content= "Summary" fields-primaryKey = "Id" allowSearching={true} fields-imageUrl="ImgUrl" allowSelection={false} >
+                      <columns>
+                          <column headerText="Backlog" key="Open" />
+                          <column headerText="In Progress" key="InProgress" />
+                          <column headerText="Done" key="Close"/>
+                      </columns>
+            </EJ.Kanban>,
+            document.getElementById('kanbanboard-default')
+        );
 
 {% endhighlight %} 
 
@@ -269,51 +289,97 @@ In order to display cards in Kanban control, you need to map the database fields
 N>  `fields.primaryKey` field is mandatory for “Drag and Drop” ,”Selection” and “Editing” Features.
 
 
-## Enable Swimlane
+### Enable Swimlane
 
 `Swimlane` can be enabled by mapping the `fields.swimlaneKey` to appropriate column name in `dataSource`. This enables the grouping of the cards based on the mapped column values.
 
 {% highlight html %}
 
-    var data = ej.DataManager(window.kanbanData).executeLocal(ej.Query().take(20));
-     ReactDOM.render(
-     React.createElement(EJ.Kanban, {dataSource: data, keyField: "Status", "fields-content": "Summary","fields-swimlaneKey": "Assignee", "fields-primaryKey": "Id"}, 
-                React.createElement("columns", null, 
-				   React.createElement("column", {headerText: "Backlog", key: "Open"}), 
-				   React.createElement("column", {headerText: "In Progress", key: "InProgress"}), 
-				   React.createElement("column", {headerText: "Testing", key: "Testing"}), 
-				   React.createElement("column", {headerText: "Done", key: "Close"})
-				 )
-     ),
-     document.getElementById('kanbanboard-default')
-     );
+        var dataManager = new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Tasks");        
+        ReactDOM.render(
+            <EJ.Kanban dataSource = {dataManager} keyField = "Status" allowTitle={true} fields-content= "Summary" fields-primaryKey = "Id" fields-swimlaneKey = "Assignee" allowSearching={true} fields-imageUrl="ImgUrl" allowSelection={false} >
+                      <columns>
+                          <column headerText="Backlog" key="Open" />
+                          <column headerText="In Progress" key="InProgress" />
+                          <column headerText="Done" key="Close"/>
+                      </columns>
+            </EJ.Kanban>,
+            document.getElementById('kanbanboard-default')
+        );
 
 {% endhighlight %} 
 
 ![](Getting-Started_images/Getting_Started_img4.png)
 
-## Adding Filters
+### Adding Filters
 
 Filters allows to filter the collection of cards from `dataSource` which meets the predefined `query` in the filters collection. To enable filtering, define `filterSettings` collection with display `text` and [`ej.Query`](http://help.syncfusion.com/js/datamanager/query).
  
 {% highlight html %}
 
-    var data = ej.DataManager(window.kanbanData).executeLocal(ej.Query().take(20));
-    var filter = [                             
-                             { text: "Janet Issues", query: new ej.Query().where("Assignee", "equal", "Janet Leverling"), description: "Displays issues which matches the assignee as 'Janet Leverling'" },
-                             { text: "Andrew Issues", query: new ej.Query().where("Assignee", "equal", "Andrew Fuller"), description: "Displays issues which matches the assignee as 'Andrew Fuller'" }
-                    ];
-    ReactDOM.render(
-    React.createElement(EJ.Kanban, {dataSource: data, keyField: "Status", "fields-content": "Summary", "fields-primaryKey": "Id","fields-swimlaneKey": "Assignee", filterSettings: filter}, 
-                    React.createElement("columns", null, 
-					    React.createElement("column", {headerText: "Backlog", key: "Open"}), 
-					    React.createElement("column", {headerText: "In Progress", key: "InProgress"}), 
-                        React.createElement("column", {headerText: "Done", key: "Close"})
-				    )
-		 ),
-		  document.getElementById('kanbanboard-filtering')
-    );
+        var dataManager = new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Tasks");
+        var filter = [
+                   { text: "Janet Issues", query: new ej.Query().where("Assignee", "equal", "Janet Leverling"), description: "Displays issues which matches the assignee as 'Janet Leverling'" },
+                   { text: "Andrew Issues", query: new ej.Query().where("Assignee", "equal", "Andrew Fuller"), description: "Displays issues which matches the assignee as 'Andrew Fuller'" }
+        ];
+        ReactDOM.render(
+            <EJ.Kanban dataSource = {dataManager} keyField = "Status" allowTitle={true} fields-content= "Summary" fields-primaryKey = "Id"  fields-swimlaneKey = "Assignee" allowSearching={true} fields-imageUrl="ImgUrl" allowSelection={false} filterSettings={filter}>
+                      <columns>
+                          <column headerText="Backlog" key="Open" />
+                          <column headerText="In Progress" key="InProgress" />
+                          <column headerText="Done" key="Close"/>
+                      </columns>
+            </EJ.Kanban>,
+            document.getElementById('kanbanboard-default')
+        );
 
 {% endhighlight %} 
+
+![](Getting-Started_images/Getting_Started_img5.png)
+
+## Without using jsx Template
+
+The Kanban can be created from a HTML `DIV` element with the HTML `id` attribute set to it. Refer to the following code example.
+
+{% highlight html %}
+
+    <body>
+      <div id="kanbanboard-default"></div>
+    </body>
+
+{% endhighlight %}
+
+Initialize the Kanban control by adding the following script code to the body section of the HTML document.
+
+{% highlight html %}
+
+    <div id="kanbanboard-default"></div>
+    <script type="text/javascript">
+        var dataManager = new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Tasks");
+        var filter = [
+            { text: "Janet Issues", query: new ej.Query().where("Assignee", "equal", "Janet Leverling"), description: "Displays issues which matches the assignee as 'Janet Leverling'" },
+            { text: "Open Issues", query: new ej.Query().where("Status", "equal", "Open"), description: "Displays issues which matches the status as 'Open'" }
+        ];
+        ReactDOM.render(
+        React.createElement(EJ.Kanban,
+            {
+                dataSource: data,
+                keyField: "Status",
+                "fields-content": "Summary",
+                "fields-primaryKey": "Id",
+                "fields-swimlaneKey": "Assignee",
+                filterSettings: filter
+            },
+            React.createElement("columns", null,
+                            React.createElement("column", { headerText: "Backlog", key: "Open" }),
+                            React.createElement("column", { headerText: "In Progress", key: "InProgress" }),
+                            React.createElement("column", { headerText: "Done", key: "Close" })
+                        )
+             ),
+             document.getElementById('kanbanboard-default')
+        );        
+    </script>
+
+{% endhighlight %}
 
 ![](Getting-Started_images/Getting_Started_img5.png)
