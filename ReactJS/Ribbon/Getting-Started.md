@@ -16,7 +16,6 @@ This section explains briefly how to create a `Ribbon`.
 The Ribbon control has the following list of external JavaScript dependencies.
 
 * [`jQuery`](http://jquery.com) 1.7.1 and later versions
-* [`jsRender`](https://github.com/borismoore/jsrender) - to render the templates
 
 The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about react js.
 
@@ -24,19 +23,26 @@ The required ReactJS script dependencies as follows. And you can also refer [Rea
 * `react-dom.min.js` - [http://cdn.syncfusion.com/js/assets/external/react-dom.min.js](http://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
 * `ej.web.react.min.js` - [http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js](http://cdn.syncfusion.com/14.3.0.49/js/common/ej.web.react.min.js)
 
+To get started, you can use the `ej.web.all.min.js` file that encapsulates all the `ej` controls and frameworks in one single file. So the complete boilerplate code is
+
 {% highlight html %}
 
     <!DOCTYPE html>
-    <html xmlns="http://www.w3.org/1999/xhtml">
+    <html>
     <head>
-    <title>Ribbon Control</title>
-    <!-- style sheet for default theme(flat azure) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Essential Studio for JavaScript">
+    <meta name="author" content="Syncfusion">
+    <title>Getting Started for Ribbon React JS</title>
+    <!-- Essential Studio for JavaScript  theme reference -->
     <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
-    <!—jQuery dependency scripts-->
-    <script src="http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js"></script>
-    <script src="http://cdn.syncfusion.com/js/assets/external/jquery.easing.1.3.min.js"></script>
-    <!— ej script to render JavaScript control-->
+    <!-- Essential Studio for JavaScript  script references -->
+    <script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>
+    <script src="http://cdn.syncfusion.com/js/assets/external/react.min.js"></script>
+    <script src="http://cdn.syncfusion.com/js/assets/external/react-dom.min.js"></script>
     <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/ej.web.all.min.js"></script>
+    <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js"></script>
+    <!-- Add your custom scripts here -->
     </head>
     <body>
     </body>
@@ -46,6 +52,8 @@ The required ReactJS script dependencies as follows. And you can also refer [Rea
 
 N> 1. In production, we highly recommend you to use our [`custom script generator`](http://help.syncfusion.com/js/custom-script-generator) to create custom script file with required controls and its dependencies only. Also to reduce the file size further please use [`GZip compression`](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer?hl=en) in your server.
 N> 2. For themes, you can use the `ej.web.all.min.css` CDN link from the code snippet given. To add the themes in your application, please refer to [`this link`](http://help.syncfusion.com/js/theming-in-essential-javascript-components).
+
+N>  Ribbon’s sample level icons can be loaded using ej.icons.CSS from the location “/Content/ej/themes/ribbon-css”.
 
 ## Control Initialization
 
@@ -65,15 +73,15 @@ Please refer to the code of HTML file.
     <div id="ribbon-default"></div>
     <script src="app/ribbon/default.js"></script>
     <ul id="ribbonmenu1">
-    <li><a>FILE</a>
-       <ul>
-         <li><a>New</a></li>
-         <li><a>Open</a></li>
-         <li><a>Save</a></li>
-         <li><a>Save As</a></li>
-         <li><a>Print</a></li>
-	   </ul>
-    </li>
+        <li><a>FILE</a>
+            <ul>
+                <li><a>New</a></li>
+                <li><a>Open</a></li>
+                <li><a>Save</a></li>
+                <li><a>Save As</a></li>
+                <li><a>Print</a></li>
+            </ul>
+        </li>
     </ul>
 
 {% endhighlight %}
@@ -83,9 +91,9 @@ Ribbon control can be initialized with the following in HTML document.
 {% highlight html %}     
                 
     ReactDOM.render(
-    React.createElement(EJ.Ribbon, { width: "50%", "applicationTab-type": "menu", "applicationTab-menuItemID": "ribbonmenu1" }
-    ),
-    document.getElementById('ribbon-default')
+        <EJ.Ribbon width="50%" applicationTab-type="menu" applicationTab-menuItemID="ribbonmenu1">
+        </EJ.Ribbon>,
+        document.getElementById('ribbon-default')
     );
 
 {% endhighlight %}
@@ -96,43 +104,38 @@ N>  Set the required width to Ribbon, else default parent container or window wi
 
 ## Adding Tabs
 
-Tab is a set of related groups which are combined into single item. For creating Tab, id and text properties should be specified.
+Tab is a set of related groups which are combined into single item. For creating tab, id and text properties should be specified.
 
 {% highlight html %}
 
     <div id="ribbon-default"></div>
     <script src="app/ribbon/default.js"></script>
     <ul id="ribbonmenu1">
-    <li><a>FILE</a>
-       <ul>
-         <li><a>New</a></li>
-         <li><a>Open</a></li>
-         <li><a>Save</a></li>
-         <li><a>Save As</a></li>
-         <li><a>Print</a></li>
-	   </ul>
-    </li>
+        <li><a>FILE</a>
+            <ul>
+                <li><a>New</a></li>
+                <li><a>Open</a></li>
+                <li><a>Save</a></li>
+                <li><a>Save As</a></li>
+                <li><a>Print</a></li>
+            </ul>
+        </li>
     </ul>
 
 {% endhighlight %}
 
-Configure the React.createElement bind value tabs in Reactjs view-model as shown in the following code.
+Configure the tabs bind value tab in Reactjs view-model as shown in the following code.
 
 {% highlight html %}
 
-	ReactDOM.render(
-    React.createElement(EJ.Ribbon, { width: "50%", "applicationTab-type": "menu", "applicationTab-menuItemID": "ribbonmenu1" },
-      React.createElement ("tabs", null,
-        React.createElement ("tab", { id: "home", text: "HOME" },
-           React.createElement ("groups", null,
-		      React.createElement (
-			  )
-				)
-        )
-      )
-    ),
-     document.getElementById('ribbon-default')
-    );
+	  ReactDOM.render(
+        <EJ.Ribbon width="50%" applicationtab-type="menu" applicationtab-menuitemid="ribbonmenu1">
+            <tabs>
+                <tab id="home" text="HOME"></tab>
+            </tabs>
+        </EJ.Ribbon>
+        document.getElementById('ribbon-default')
+     );
 
 {% endhighlight %}
 
@@ -140,35 +143,53 @@ Configure the React.createElement bind value tabs in Reactjs view-model as shown
 
 ## Configuring Groups
 
-List of controls are combined as logical groups into Tab. Group alignment type as row/column, Default is row.
+List of controls are combined as logical groups into tab. Group alignment type as row/column, Default is row.
 
 Create group item with text specified and add content group to Groups collection with ejButton control settings.
 
-Configure the React.createElement bind value tabs with group and button named as New.
+Configure the tabs bind value tab with group and button named as New.
+
+{% highlight html %}
+
+    <div id="ribbon-default"></div>
+    <script src="app/ribbon/default.js"></script>
+    <ul id="ribbonmenu1">
+        <li><a>FILE</a>
+            <ul>
+                <li><a>New</a></li>
+                <li><a>Open</a></li>
+                <li><a>Save</a></li>
+                <li><a>Save As</a></li>
+                <li><a>Print</a></li>
+            </ul>
+        </li>
+    </ul>
+
+{% endhighlight %}
 
 {% highlight html %}
 
 	  ReactDOM.render(
-    React.createElement(EJ.Ribbon, { width: "50%", "applicationTab-type": "menu", "applicationTab-menuItemID": "ribbonmenu1" },
-      React.createElement("tabs", null,
-        React.createElement("tab", { id: "home", text: "HOME" },
-           React.createElement("groups", null,
-		      React.createElement("group", { text: "New", alignType: "rows" },
-			    React.createElement("content", null,
-				   React.createElement("content", { "defaults-type": "button" },
-				      React.createElement("groups", null,
-					     React.createElement("group", { id: "new", text: "New", "buttonSettings-contentType": "imageonly", "buttonSettings-prefixIcon": "e-icon e-ribbon e-new" }
-						 )
-					   )
-					)
-				)
-			  )
-				)
-        )
-      )
-    ),
-    document.getElementById('ribbon-default')
-    );
+        <EJ.Ribbon width="50%" applicationtab-type="menu" applicationtab-menuitemid="ribbonmenu1">
+            <tabs>
+                <tab id="home" text="HOME">
+                    <groups>
+                        <group text="New" alignType="rows">
+                            <content>
+                                <content defaults-type="button">
+                                    <groups>
+                                        <group id="new" text="New" buttonSettings-contentType="imageonly" buttonSettings-prefixIcon="e-icon e-ribbon e-new" >
+                                        </group>
+                                    </groups>
+                                </content>
+                            </content>
+                        </group>
+                    </groups>
+                </tab>
+            </tabs>
+        </EJ.Ribbon>
+        document.getElementById('ribbon-default')
+     );
 
 {% endhighlight %}
 
@@ -178,37 +199,109 @@ Configure the React.createElement bind value tabs with group and button named as
 
 Syncfusion JavaScript Controls can be added to group’s content with corresponding type specified like button, split button, toggle button, dropdown list, gallery, custom, etc. Default type is button.
 
-Configure the React.createElement bind value tabs with groups, button , split button and dropdown controls.Also the datasource to dropdown control is configured with bind name fontfamily.Please refer to the following code snippets.
+Configure the tabs bind value tab with groups, button,split button and dropdown controls.Also the datasource to dropdown control is configured with bind name fontfamily.Please refer to the following code snippets.
 
 {% highlight html %}
 
-    var fontfamily = ["Segoe UI", "Arial", "Times New Roman", "Tahoma", "Helvetica"];
-    ReactDOM.render(
-    React.createElement(EJ.Ribbon, { width: "50%", "applicationTab-type": "menu", "applicationTab-menuItemID": "ribbonmenu1" },
-        React.createElement("tabs", null,
-        React.createElement("tab", { id: "home", text: "HOME" },
-           React.createElement("groups", null,
-			  React.createElement("group", { text: "SplitButton & Dropdown", alignType: "columns" },
-                React.createElement("content", null,
-                    React.createElement("content", { "defaults-type": "splitbutton", "defaults-width": 50, "defaults-height": 70 },
-                       React.createElement("groups", null,
-                           React.createElement("group", { id: "paste", text: "Paste", "customTooltip-prefixIcon": "e-pastetip", "splitButtonSettings-contentType": "imageonly", "splitButtonSettings-prefixIcon": "e-icon e-ribbon e-ribbonpaste", "splitButtonSettings-targetID": "pasteSplit1", "splitButtonSettings-buttonMode": "dropdown", "splitButtonSettings-arrowPosition": "bottom", "splitButtonSettings-click": "executeAction" }
+     var fontfamily = ["Segoe UI", "Arial", "Times New Roman", "Tahoma", "Helvetica"];
+     ReactDOM.render(
+     <div>
+         <ul id="ribbonmenu3">
+             <li><a>FILE</a>
+                 <ul>
+                     <li><a>New</a></li>
+                     <li><a>Open</a></li>
+                     <li><a>Save</a></li>
+                     <li><a>Save As</a></li>
+                     <li><a>Print</a></li>
+                 </ul>
+             </li>
+         </ul>
+         <ul id="pasteSplit3">
+             <li><a>Paste</a></li>
+         </ul>
+         <EJ.Ribbon width="100%" applicationtab-type="menu" applicationtab-menuitemid="ribbonmenu3">
+            <tabs>
+                <tab id="home" text="HOME">
+                    <groups>		     
+                        <group text="SplitButton & Dropdown" alignType="columns">
+                            <content>
+                                <content defaults-type="splitbutton" defaults-width={60} defaults-height={70}>
+                                    <groups>
+                                        <group id="paste" text="Paste" customTooltip-prefixIcon="e-pastetip" splitButtonSettings-contentType="imageonly" splitButtonSettings-prefixIcon="e-icon e-ribbon e-ribbonpaste" splitButtonSettings-targetID="pasteSplit3" splitButtonSettings-buttonMode="dropdown" splitButtonSettings-arrowPosition="bottom" splitButtonSettings-click="executeAction">
+                                        </group>
+                                    </groups>
+                                </content>
+                                <content defaults-type="dropdownlist" defaults-height={28}>
+                                    <groups>
+                                        <group id="fontfamily" dropdownSettings-dataSource={fontfamily} dropdownSettings-text="Segoe UI" dropdownSettings-select="executeAction" dropdownSettings-width={150}>
+                                        </group>    
+                                    </groups>
+                                </content>
+                            </content>
+                        </group>
+                    </groups>  
+                </tab>		
+            </tabs>
+         </EJ.Ribbon>
+     </div>
+     document.getElementById('ribbon-default')
+     );
+
+{% endhighlight %}
+	 
+![](Getting-Started_images/Getting-Started_img4.png)
+
+## Without using jsx Template
+
+The Ribbon can be created from a HTML `DIV` element with the HTML `id` attribute set to it. Refer to the following code example.
+
+{% highlight html %}
+	 
+     <body>
+	  <div id="ribbon-default"></div>
+      <ul id="ribbonmenu3">
+             <li><a>FILE</a>
+                 <ul>
+                     <li><a>New</a></li>
+                     <li><a>Open</a></li>
+                     <li><a>Save</a></li>
+                     <li><a>Save As</a></li>
+                     <li><a>Print</a></li>
+                 </ul>
+             </li>
+         </ul>
+         <ul id="pasteSplit3">
+             <li><a>Paste</a></li>
+         </ul>
+ 	  </body>
+
+{% endhighlight %}
+
+{% highlight html %}
+
+    var fontfamily = ["Segoe UI", "Arial", "Times New Roman", "Tahoma", "Helvetica"];     
+    React.createElement(EJ.Ribbon, {width: "100%", allowResizing: true, "applicationTab-type": "menu", "applicationTab-menuItemID": "ribbonmenu3"}, 
+      React.createElement("tabs", null, 
+        React.createElement("tab", {id: "home", text: "HOME"}, 
+           React.createElement("groups", null,		     
+			  React.createElement("group", {text: "SplitButton & Dropdown", alignType: "columns"}, 
+                React.createElement("content", null, 
+                    React.createElement("content", {"defaults-type": "splitbutton", "defaults-width": 60, "defaults-height": 70}, 
+                       React.createElement("groups", null, 
+                           React.createElement("group", {id: "paste", text: "Paste", "customTooltip-prefixIcon": "e-pastetip", "splitButtonSettings-contentType": "imageonly", "splitButtonSettings-prefixIcon": "e-icon e-ribbon e-ribbonpaste", "splitButtonSettings-targetID": "pasteSplit3", "splitButtonSettings-buttonMode": "dropdown", "splitButtonSettings-arrowPosition": "bottom", "splitButtonSettings-click": "executeAction"}
                            )
                         )
-                      ),
-                      React.createElement("content", { "defaults-type": "dropdownlist", "defaults-height": 28 },
-                              React.createElement("groups", null,
-                                 React.createElement("group", { id: "fontfamily", "dropdownSettings-dataSource": fontfamily, "dropdownSettings-text": "Segoe UI", "dropdownSettings-select": "executeAction", "dropdownSettings-width": 150 }
-                                )
-
-                              )
+                      ), 
+					React.createElement("content", {"defaults-type": "dropdownlist", "defaults-height": 28}, 
+                       React.createElement("groups", null, 
+                           React.createElement("group", {id: "fontfamily", "dropdownSettings-dataSource": fontfamily, "dropdownSettings-text": "Segoe UI", "dropdownSettings-select": "executeAction", "dropdownSettings-width": 150})
                             )
                         )
-                     )
-
+                    )
 				)
+            )		
         )
-
       )
     ),
     document.getElementById('ribbon-default')
