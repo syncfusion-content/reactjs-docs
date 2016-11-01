@@ -51,7 +51,7 @@ Include the following dependencies for render React components with Syncfusion w
 
 ### Add React Components
 
-React components are typically written in JSX.It is allowing quoting of HTML and using HTML tag’s syntax to render sub-components.HTML syntax is processed into JavaScript calls of the React library.
+React components are typically written in JSX. It is allowing quoting of HTML and using HTML tag’s syntax to render sub-components.HTML syntax is processed into JavaScript calls of the React library.
 
  To translate JSX to plain JavaScript, we must use **&lt;script type=”text/babel”&gt;** and refer the **browser.min.js** file to perform the transformation in the browser.
 
@@ -240,9 +240,9 @@ gulp.task('default', ['watch']);
 
 #### Converting JSX to JavaScript with React
 
-When building with React, you can write plain JavaScript or in[JSX](https://facebook.github.io/jsx/). JSX is a preprocessor that gives you a more concise syntax.
+When building with React, you can write plain JavaScript or in [JSX](https://facebook.github.io/jsx/). JSX is a preprocessor that gives you a more concise syntax.
 
-which is easier and more readable, but it’s needs to be converted to plain JavaScript.
+which is easier and more readable, but it’s needs to be converted to plain JavaScript through gulp-react plugin.
 
 {% highlight js %}
 
@@ -315,7 +315,7 @@ gulp.task('clean', function () {
 
 #### Run Application
 
-Create a index.html file, then include the following dependencies to render the React application with Essential JS widgets. This index.html will be act as a start page of the application. 
+Create an index.html file, then include the following dependencies to render the React application with Essential JS widgets. This index.html will be act as a start page of the application. 
 
 {% highlight html %}
 
@@ -369,7 +369,7 @@ document.getElementById('container')
 
 
 
-Now type the below commands by step by step for ReactJS application launch in browser.
+Now type the below commands step by step for launching ReactJS application in browser.
 
 * npm install – To install the npm packages 
 
