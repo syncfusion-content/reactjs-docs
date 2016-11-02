@@ -11,7 +11,7 @@ documentation: ug
 # React JS
 
 React is an DOM management library that is used to create user interfaces, it computes the minimal set of changes that makes keep your DOM up-to-date.
-Essential JavaScript components are supported to React JavaScript library through wrappers in ej.web.react.min.js. 
+Essential JavaScript components are supported to React JavaScript library through wrappers in ej.web.react.min.js file. 
 
 ## Getting started with React 
 
@@ -51,7 +51,7 @@ Include the following dependencies for render React components with Syncfusion w
 
 ### Add React Components
 
-React components are typically written in JSX. It is allowing quoting of HTML and using HTML tag’s syntax to render sub-components.HTML syntax is processed into JavaScript calls of the React library.
+React components are typically written in JSX. It is allowing quoting of HTML and using HTML tag’s syntax to render sub-components. HTML syntax is processed into JavaScript calls of the React library.
 
  To translate JSX to plain JavaScript, we must use **&lt;script type=”text/babel”&gt;** and refer the **browser.min.js** file to perform the transformation in the browser.
 
@@ -155,7 +155,7 @@ We can create the React application with NPM packages.
 <td>
 1</td><td>
 NodeJS and NPM</td><td>
-NodeJS is the platform needed for the Cordova development. Checkout our <a href=https://www.tutorialspoint.com/nodejs/nodejs_environment_setup.htm>NodeJS Environment Setup</a></td></tr>
+NodeJS is the platform needed for the Cordova development. Checkout  <a href=https://nodejs.org/en/download/package-manager/> NodeJS package-manager </a></td></tr>
 </table>
 
 
@@ -265,7 +265,7 @@ document.getElementById('container')
 
 
 
-With the help of[gulp-react](https://www.npmjs.com/package/gulp-react)and its gulp plugin, you can convert JSX to JavaScript by piping react() into the**build**task
+With the help of [gulp-react](https://www.npmjs.com/package/gulp-react) and its gulp plugin, you can convert JSX to JavaScript by piping react() into the **build** task
 
 {% highlight js %}
 
