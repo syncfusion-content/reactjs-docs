@@ -11,9 +11,9 @@ keywords: ejpivottreemap, pivottreemap, js pivottreemap
 
 This section explains you the steps required to populate the PivotTreeMap with data source. This section covers only the minimal features that you need to know to get started with the PivotTreeMap.
 
-## Adding Script and Style Reference
+## Script and CSS Reference
 
-Create a **HTML** page and add the script references in the order mentioned in the following code example.
+Create a **HTML** page and add the script and CSS references in the order mentioned in the following code example.
 
 {% highlight html %}
 
