@@ -3,7 +3,7 @@ title: Getting Started for React JS Grid
 description: Getting-Started
 platform: React JS
 control: Grid
-documentation: Ug
+documentation: ug
 keywords: 
 ---
 # Getting started
@@ -30,6 +30,18 @@ It is referred always before using all the JS controls.</td></tr>
 <td>
 ej.data.min.js</td><td>
 Used to handle data operation and is used while binding data to the JS controls.</td></tr>
+<tr>
+<td>
+ej.touch.min.js</td><td>
+Used to handle touch operations in touch-enabled devices</td></tr>
+<tr>
+<td>
+ej.print.min.js</td><td>
+Used to handle print operation in JS controls.</td></tr>
+<tr>
+<td>
+ej.draggable.min.js</td><td>
+Used for drag and drop an element in JS controls.</td></tr>
 <tr>
 <td>
 ej.grid.min.js</td><td>
@@ -71,10 +83,28 @@ ej.datepicker.min.js</td></tr>
 ej.datetimepicker.min.js</td></tr>
 <tr>
 <td>
+ej.timepicker.min.js</td></tr>
+<tr>
+<td>
 ej.checkbox.min.js</td></tr>
 <tr>
 <td>
 ej.editor.min.js</td></tr>
+<tr>
+<td>
+ej.tooltip.js</td><td rowspan = "2">
+It is referred when toolbar is enabled in Grid.</td></tr>
+<tr>
+<td>
+ej.toolbar.min.js</td></tr>
+<tr>
+<td>
+ej.menu.js</td><td>
+It is referred when excel like filter menu or context menu is enabled.</td></tr>
+<tr>
+<td>
+ej.radiobutton.js</td><td>
+It is referred when filtering is enabled.</td></tr>
 <tr>
 <td>
 ej.excelfilter.js</td><td>
@@ -98,31 +128,31 @@ To get started, you can use the `ej.web.all.min.js` file that encapsulates all t
 
 {% highlight html %}
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Essential Studio for React JS"/>
-    <meta name="author" content="Syncfusion"/>
-    <title>Getting started for Grid React JS</title>
-    <!-- Essential Studio for React JS  theme reference -->
-    <link rel="stylesheet" href="http://cdn.syncfusion.com/13.2.0.29/js/web/flat-azure/ej.web.all.min.css" />
+      <!DOCTYPE html>
+      <html>
+      <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <meta name="description" content="Essential Studio for React JS"/>
+          <meta name="author" content="Syncfusion"/>
+          <title>Getting started for Grid React JS</title>
+          <!-- Essential Studio for React JS  theme reference -->
+          <link rel="stylesheet" href="http://cdn.syncfusion.com/13.2.0.29/js/web/flat-azure/ej.web.all.min.css" />
 
-    <!-- Essential Studio for React JS  script references -->
-    <script src="http://cdn.syncfusion.com/js/assets/external/react.min.js"></script>
-    <script src="http://cdn.syncfusion.com/js/assets/external/react-dom.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
-    <script src="http://cdn.syncfusion.com/13.2.0.29/js/web/ej.web.all.min.js"></script>
-    <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js"></script>
+          <!-- Essential Studio for React JS  script references -->
+          <script src="http://cdn.syncfusion.com/js/assets/external/react.min.js"></script>
+          <script src="http://cdn.syncfusion.com/js/assets/external/react-dom.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+          <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+          <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+          <script src="http://cdn.syncfusion.com/13.2.0.29/js/web/ej.web.all.min.js"></script>
+          <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js"></script>
 
-    <!-- Add your custom scripts here -->
-</head>
-<body>
+          <!-- Add your custom scripts here -->
+     </head>
+     <body>
 
-</body>
-</html>
+     </body>
+     </html>
 
 
 {% endhighlight %}
@@ -148,10 +178,9 @@ Please refer to the code of HTML file.
 
 {% highlight html %}
 
-<div id="Grid-default"></div>
-<script type="text/babel" src="app.jsx">
-</script>
-
+       <div id="Grid-default"></div>
+       <script type="text/babel" src="app.jsx">
+       </script>
 
 {% endhighlight %}
 
@@ -177,12 +206,27 @@ Create a JSX file and paste the following content
 
 
 ![](Getting-started_images/Getting-started_img1.png)
-{:.image }
+
 
 
 ## Data binding
 
 [`Data binding`](http://helpjs.syncfusion.com/js/grid/data-binding) in the grid is achieved by using the [`ej.DataManager`](http://helpjs.syncfusion.com/js/datamanager/overview) that supports both RESTful JSON data services binding and local JSON array binding.  To set the data source to the grid, the [`dataSource`](http://help.syncfusion.com/js/api/ejgrid#members:columns-datasource) property is assigned with the instance of the `ej.DataManger`. For demonstration purpose, [Northwind OData service](http://mvc.syncfusion.com/Services/Northwnd.svc/) is used in this tutorial. Refer to the following code example.
+
+
+Please refer to the code of HTML file.
+
+{% highlight html %}
+
+       <div id="Grid-default"></div>
+       <script type="text/babel" src="app.jsx">
+       </script>
+
+{% endhighlight %}
+
+
+Create a JSX file and paste the following content
+
 
 {% highlight js %}
 
@@ -198,15 +242,30 @@ Create a JSX file and paste the following content
 {% endhighlight %}
 
 ![](Getting-started_images/Getting-started_img2.png)
-{:.image }
 
 
-N> _ODataAdaptor is the default adaptor for the DataManager. On binding to other web services, proper_ [data adaptor](http://helpjs.syncfusion.com/js/datamanager/data-adaptors) needs _to be set on `adaptor` option of the DataManager._ 
+
+N> ODataAdaptor is the default adaptor for the DataManager. On binding to other web services, proper [data adaptor](http://helpjs.syncfusion.com/js/datamanager/data-adaptors) needs to be set on `adaptor` option of the DataManager. 
 
 
 ## Enable Paging
 
 [Paging](http://helpjs.syncfusion.com/js/grid/paging) can be enabled by setting the [`allowPaging`](http://help.syncfusion.com/js/api/ejgrid#members:allowpaging) to true.  This adds the pager in the bottom of the grid and page size can be customized by using the [`pageSettings.pageSize`](http://help.syncfusion.com/js/api/ejgrid#members:pagesettings-pagesize) property
+
+
+Please refer to the code of HTML file.
+
+{% highlight html %}
+
+       <div id="Grid-default"></div>
+       <script type="text/babel" src="app.jsx">
+       </script>
+
+{% endhighlight %}
+
+
+Create a JSX file and paste the following content
+
 
 {% highlight js %}
 
@@ -221,16 +280,30 @@ N> _ODataAdaptor is the default adaptor for the DataManager. On binding to other
 
 {% endhighlight %}
 
-N> _Pager settings can be customized by using the [`pageSettings.pageSize`](http://help.syncfusion.com/js/api/ejgrid#members:pagesettings-pagesize) property. When it is not given the default values for `pageSize` and `pageCount` are 12 and 8 respectively._
+N> Pager settings can be customized by using the [`pageSettings.pageSize`](http://help.syncfusion.com/js/api/ejgrid#members:pagesettings-pagesize) property. When it is not given the default values for `pageSize` and `pageCount` are 12 and 8 respectively.
 
 
 ![](Getting-started_images/Getting-started_img3.png)
-{:.image }
+
 
 
 ## Enable Filtering
 
-[`Filtering`](/js/grid/filter) can be enabled by setting the `allowFiltering` to `true`. By default, the filter bar row is displayed to perform filtering, you can change the filter type by using the [`filterSetting.filterType`](http://help.syncfusion.com/js/api/ejgrid#members:filtersettings) property.
+[`Filtering`](http://helpjs.syncfusion.com/js/grid/filter) can be enabled by setting the `allowFiltering` to `true`. By default, the filter bar row is displayed to perform filtering, you can change the filter type by using the [`filterSetting.filterType`](http://help.syncfusion.com/js/api/ejgrid#members:filtersettings) property.
+
+
+Please refer to the code of HTML file.
+
+{% highlight html %}
+
+       <div id="Grid-default"></div>
+       <script type="text/babel" src="app.jsx">
+       </script>
+
+{% endhighlight %}
+
+Create a JSX file and paste the following content
+
 
 {% highlight js %}
 
@@ -246,12 +319,26 @@ N> _Pager settings can be customized by using the [`pageSettings.pageSize`](http
 {% endhighlight %}
 
 ![](Getting-started_images/Getting-started_img4.png)
-{:.image }
+
 
 
 ## Enable Grouping
 
-[`Grouping`](/js/grid/grouping) can be enabled by setting the [`allowGrouping`](http://help.syncfusion.com/js/api/ejgrid#members:allowgrouping) to `true`.  Columns can be grouped dynamically by drag and drop the grid column header to the group drop area. The initial grouping can be done by adding required column names in the [`groupSettings.groupedColumns`](http://help.syncfusion.com/js/api/ejgrid#members:groupsettings-groupedcolumns) property. 
+[`Grouping`](http://helpjs.syncfusion.com/js/grid/grouping) can be enabled by setting the [`allowGrouping`](http://help.syncfusion.com/js/api/ejgrid#members:allowgrouping) to `true`.  Columns can be grouped dynamically by drag and drop the grid column header to the group drop area. The initial grouping can be done by adding required column names in the [`groupSettings.groupedColumns`](http://help.syncfusion.com/js/api/ejgrid#members:groupsettings-groupedcolumns) property. 
+
+
+Please refer to the code of HTML file.
+
+{% highlight html %}
+
+       <div id="Grid-default"></div>
+       <script type="text/babel" src="app.jsx">
+       </script>
+
+{% endhighlight %}
+
+
+Create a JSX file and paste the following content
 
 {% highlight js %}
 
@@ -268,10 +355,24 @@ N> _Pager settings can be customized by using the [`pageSettings.pageSize`](http
 {% endhighlight %}
 
 ![](Getting-started_images/Getting-started_img5.png)
-{:.image }
+
 
 
 Refer to the following code example for initial grouping.
+
+
+Please refer to the code of HTML file.
+
+{% highlight html %}
+
+       <div id="Grid-default"></div>
+       <script type="text/babel" src="app.jsx">
+       </script>
+
+{% endhighlight %}
+
+
+Create a JSX file and paste the following content
 
 {% highlight js %}
 
@@ -289,7 +390,7 @@ Refer to the following code example for initial grouping.
 {% endhighlight %}
 
 ![](Getting-started_images/Getting-started_img6.png)
-{:.image }
+
 
 
 ## Add Summaries
@@ -318,4 +419,3 @@ Refer to the following code example for initial grouping.
 {% endhighlight %}
 
 ![](Getting-started_images/Getting-started_img7.png)
-{:.image }
