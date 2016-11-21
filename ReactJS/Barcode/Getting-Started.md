@@ -21,7 +21,7 @@ This section helps to understand the getting started of the ReactJS Barcode with
 ## Create an Barcode
 
 
-You can create a React application and add necessary scripts and styles with the help of the given [ReactJJs Getting Started](https://help.syncfusion.com/reactjs/overview) Documentation.
+You can create a React application and add necessary scripts and styles with the help of the given [ReactJs Getting Started](https://help.syncfusion.com/reactjs/overview) Documentation.
 
 Define an HTML element for adding Barcode in the application and refer the JSX file created.
 
