@@ -132,7 +132,7 @@ Initialize the PDF viewer control by adding the following script code to the bod
 
 {% endhighlight %}
 
-Now, the PDF viewer control is rendered with default PDF document, which used in the service.
+Now, the PDF viewer control will be rendered with the default PDF document, which is used in the service.
 
 ![](getting-started_images/pdfviewer.png)
 
