@@ -58,7 +58,7 @@ Control can be initialized in two ways.
  
 ## Using jsx Template
 
-By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be refered in html page.
+By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be converted into `.js` file and it can be refered in html page.
 
 Please refer to the code of HTML file.
 
@@ -132,7 +132,7 @@ Initialize the PDF viewer control by adding the following script code to the bod
 
 {% endhighlight %}
 
-Now, the PDF viewer control is rendered with default PDF document, which used in the services.
+Now, the PDF viewer control is rendered with default PDF document, which used in the service.
 
 ![](getting-started_images/pdfviewer.png)
 
