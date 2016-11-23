@@ -2,7 +2,7 @@
 layout: post
 title: Getting-Started
 description: getting started
-platform: js
+platform: reactjs
 control: Splitter 
 documentation: ug
 ---
@@ -19,7 +19,7 @@ Refer the common React JS [Getting Started Documentation](https://help.syncfusio
 
 Create a JSX file for rendering Splitter component using &lt;EJ.Splitter&gt; syntax. Add required properties to it in &lt;EJ.Splitter&gt; tag element.
 
-{% highlight js %}
+{% highlight html %}
 
     "use strict";
     ReactDOM.render(
@@ -48,7 +48,7 @@ This will render an empty Splitter component on executing.
 
 To configure properties for Splitter component, define properties in the JSX.
 
-{% highlight js %}
+{% highlight html %}
 
     <EJ.Splitter id="integration_outterSplitter" width= "100%" height="100%" isResponsive={true}>
 
@@ -58,7 +58,7 @@ To configure properties for Splitter component, define properties in the JSX.
 
 Configure the Splitter panes with images. Save the images in the corresponding location.
 
-{% highlight js %}
+{% highlight html %}
 
     <div id="samplecontrol" className="integrationContainer">
                     <EJ.Splitter id="integration_outterSplitter" width= "100%" height="100%" isResponsive={true}>
@@ -96,7 +96,7 @@ For adding Treeview component, you have to use &lt;EJ.TreeView&gt; syntax to cor
 
 Add the following code example in JSX to configure Tree View.
 
-{% highlight js %}
+{% highlight html %}
 
     <EJ.TreeView id="treeView" className="visibleHide" nodeSelect={this.treeClicked}>
                                     <li>Mobile
@@ -123,7 +123,7 @@ Add the following code example in JSX to configure Tree View.
 
 Add the nodeSelect event in JSX to set the action to view the images for “li” content of the Tree view.
 
-{% highlight js %}
+{% highlight javascript %}
 
     treeClicked: function(e){
             if (e.currentElement.hasClass('_child')) {
@@ -137,7 +137,7 @@ Add the nodeSelect event in JSX to set the action to view the images for “li�
 
 You can render Splitter with Tree View using React JS, Please refer the below code in JSX.
 
-{% highlight js %}
+{% highlight html %}
 
     ReactDOM.render(document.getElementById(splitter-default'));
 

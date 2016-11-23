@@ -2,7 +2,7 @@
 layout: post
 title: Getting-Started
 description: getting started
-platform: js
+platform: reactjs
 control: RadialMenu 
 documentation: ug
 ---
@@ -21,7 +21,7 @@ Refer the common React JS [Getting Started Documentation](https://help.syncfusio
 
 Create a JSX file for rendering RadialMenu component using &lt;EJ.RadialMenu&gt; syntax. Add required properties to it in &lt;EJ.RadialMenu&gt; tag element.
 
-{% highlight js %}
+{% highlight html %}
 
     "use strict";
     ReactDOM.render(   
@@ -52,7 +52,7 @@ To configure items for RadialMenu component, define RadialMenu items using ‘li
 
 Refer to the following code example. Initialize Radial Menu component with items and set its target content as follows.
 
-{% highlight js %}
+{% highlight html %}
 
     <EJ.RadialMenu id="defaultradialmenu" imageClass="imageclass" backImageClass="backimageclass" targetElementId="radialtarget1">
       <ul>
@@ -70,7 +70,7 @@ Refer to the following code example. Initialize Radial Menu component with items
 Refer to the following code example to add target content to the **RadialMenu**. You need to perform any actions while selecting the RTE content, you need to add **Select** and **change** events in RTE.
 
 
-{% highlight js %}
+{% highlight html %}
 
     <div id="radialtarget1">
     <EJ.RTE id="rteSample4" width="100%" height="400" change={this.rteChange} select={this.radialShow} showToolbar={false} showContextMenu={false} value={content}>
@@ -81,7 +81,7 @@ Refer to the following code example to add target content to the **RadialMenu**.
 
 Define the RTE content by using value property of RTE. Declare the value property in &lt;EJ.RTE&gt; attribute and define the content of RTE in JSX.
 
-{% highlight js %}
+{% highlight javascript %}
 
     var content = "Model–view–controller (MVC) is a software architecture pattern which separates the representation of information from the user's interaction with it. The model consists of application data, business rules, logic, and functions. A view can be any output representation of data, such as a chart or a diagram. Multiple views of the same data are possible, such as a bar chart for management and a tabular view for accountants. The controller mediates input, converting it to commands for the model or view.The central ideas behind MVC are code reusability and in addition to dividing the application into three kinds of components, the MVC design defines the interactions between them.A controller can send commands to its associated view to change the view's presentation of the model (e.g., by scrolling through a document). It can also send commands to the model to update the model's state (e.g., editing a document).A model notifies its associated views and controllers when there has been a change in its state. This notification allows the views to produce updated output, and the controllers to change the available set of commands. A passive implementation of MVC omits these notifications, because the application does not require them or the software platform does not support them.A view requests from the model the information that it needs to generate an output representation to the user.";   
 
@@ -91,7 +91,7 @@ Define the RTE content by using value property of RTE. Declare the value propert
 
 You can display the Radial Menu by performing desired action on the target content while selecting the text inside the target. Therefore, call the **radialShow** event to perform the select action of the RTE content. Refer to the following code example and add it to event handler function.
 
-{% highlight js %}
+{% highlight javascript %}
 
     radialShow: function (e) {
     var target = $("#radialtarget1"), radialRadius = 150, radialDiameter = 2 * radialRadius,
@@ -115,7 +115,7 @@ Run the above code and select any text inside the target. The settings icon is d
 You can set the functionalities for each item and define click event by using **Click** event of RadialMenu. Refer to the following code example. Define the click event for Radial Menu component as follows.
 
 
-{% highlight js %}
+{% highlight html %}
 
     <EJ.RadialMenu id="defaultradialmenu" imageClass="imageclass" backImageClass="backimageclass" targetElementId="radialtarget1" click={this.onItemClick}>
         <ul>
@@ -132,7 +132,7 @@ You can set the functionalities for each item and define click event by using **
 
 Refer to the following code example to add functionalities for each items in event handler for items click and you can enable items in RadialMenu by using **Change** event in JSX.
 
-{% highlight js %}
+{% highlight javascript %}
 
     rteChange: function (e) {
     $('#defaultradialmenu').ejRadialMenu("enableItem", "Undo");

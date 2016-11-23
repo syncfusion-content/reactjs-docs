@@ -2,7 +2,7 @@
 layout: post
 title: Getting-Started
 description: getting started
-platform: js
+platform: reactjs
 control: RadialMenu 
 documentation: ug
 ---
