@@ -61,30 +61,30 @@ Configure the Splitter panes with images. Save the images in the corresponding l
 {% highlight html %}
 
     <div id="samplecontrol" className="integrationContainer">
-                    <EJ.Splitter id="integration_outterSplitter" width= "100%" height="100%" isResponsive={true}>
-                        <div>
-                            <div className="cont">
-                                <h3 className="h3">React JS</h3>                               
-                            </div>
-                        </div>
-                        <div>
-                            <div className="cont">
-                                <div className="_content">Select any product from the tree to show the description.</div>
-                                <div className="mobile spe">
-                                    <h3>Mobile</h3>
-                                    <img src="content/images/Splitter/mobile.jpeg" />
-                                </div>
-                                <div className="harddisk spe">
-                                    <h3>Harddisk</h3>
-                                    <img src="content/images/Splitter/harddisk.jpg" />
-                                </div>
-                                <div className="logo spe">
-                                    <h3>Logo</h3>
-                                <img src="content/images/Splitter/logo.png" />
-                                </div>
-                            </div>
-                        </div>
-                    </EJ.Splitter>
+        <EJ.Splitter id="integration_outterSplitter" width= "100%" height="100%" isResponsive={true}>
+            <div>
+                <div className="cont">
+                    <h3 className="h3">React JS</h3>                               
+                </div>
+            </div>
+            <div>
+            <div className="cont">
+                <div className="_content">Select any product from the tree to show the description.</div>
+                <div className="mobile spe">
+                    <h3>Mobile</h3>
+                    <img src="content/images/Splitter/mobile.jpeg" />
+                </div>
+                <div className="harddisk spe">
+                    <h3>Harddisk</h3>
+                    <img src="content/images/Splitter/harddisk.jpg" />
+                </div>
+                <div className="logo spe">
+                    <h3>Logo</h3>
+                <img src="content/images/Splitter/logo.png" />
+                </div>
+            </div>
+            </div>
+         </EJ.Splitter>
     </div>
 
 
@@ -99,21 +99,21 @@ Add the following code example in JSX to configure Tree View.
 {% highlight html %}
 
     <EJ.TreeView id="treeView" className="visibleHide" nodeSelect={this.treeClicked}>
-                                    <li>Mobile
-                                        <ul>
-                                            <li id="mobile" className="_child">Galaxy</li>
-                                        </ul>
-                                    </li>
-                                    <li>Harddisk
-                                        <ul>
-                                            <li id="harddisk" className="_child">Segate </li>
-                                        </ul>
-                                    </li>
-                                    <li>Logo
-                                        <ul>
-                                            <li id="logo" className="_child">Amazon</li>
-                                        </ul>
-                                    </li>
+        <li>Mobile
+            <ul>
+                <li id="mobile" className="_child">Galaxy</li>
+            </ul>
+        </li>
+        <li>Harddisk
+            <ul>
+                <li id="harddisk" className="_child">Segate </li>
+            </ul>
+        </li>
+        <li>Logo
+            <ul>
+                <li id="logo" className="_child">Amazon</li>
+            </ul>
+        </li>
     </EJ.TreeView>
 
 

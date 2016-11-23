@@ -94,14 +94,14 @@ You can display the Radial Menu by performing desired action on the target conte
 {% highlight javascript %}
 
     radialShow: function (e) {
-    var target = $("#radialtarget1"), radialRadius = 150, radialDiameter = 2 * radialRadius,
-    // To get Iframe positions
-    iframeY = target.offset().top + e.event.clientY, iframeX = target.offset().left + e.event.clientX,
-    // To set Radial Menu position within target
-    x = iframeX > target.width() - radialRadius ? target.width() - radialDiameter : (iframeX > radialRadius ? iframeX - radialRadius : 0),
-    y = (iframeY > target.height() - radialRadius ? target.height() - radialDiameter : (iframeY > radialRadius ? iframeY - radialRadius : 0)) + radialRadius;
-    $('#defaultradialmenu').ejRadialMenu("setPosition", x, y);
-    $('iframe').contents().find('body').blur();
+        var target = $("#radialtarget1"), radialRadius = 150, radialDiameter = 2 * radialRadius,
+        // To get Iframe positions
+        iframeY = target.offset().top + e.event.clientY, iframeX = target.offset().left + e.event.clientX,
+        // To set Radial Menu position within target
+        x = iframeX > target.width() - radialRadius ? target.width() - radialDiameter : (iframeX > radialRadius ? iframeX - radialRadius : 0),
+        y = (iframeY > target.height() - radialRadius ? target.height() - radialDiameter : (iframeY > radialRadius ? iframeY - radialRadius : 0)) + radialRadius;
+        $('#defaultradialmenu').ejRadialMenu("setPosition", x, y);
+        $('iframe').contents().find('body').blur();
     },
 
 {% endhighlight %}
@@ -135,25 +135,25 @@ Refer to the following code example to add functionalities for each items in eve
 {% highlight javascript %}
 
     rteChange: function (e) {
-    $('#defaultradialmenu').ejRadialMenu("enableItem", "Undo");
+        $('#defaultradialmenu').ejRadialMenu("enableItem", "Undo");
     },
     onItemClick: function (e){
-    var rteObj = $("#rteSample4").data("ejRTE");
-    var itemName = (ej.isNullOrUndefined(e.text)) ? "none" : e.text.toLowerCase();
-    switch (itemName) {
-    case "bold":
-        rteObj.executeCommand("bold");
-        break;
-    case "italic":
-        rteObj.executeCommand("italic");
-        break;
-    case "undo":
-        rteObj.executeCommand("undo");
-        break;
-    case "redo":
-        rteObj.executeCommand("redo");
-        break;
-        }
+        var rteObj = $("#rteSample4").data("ejRTE");
+        var itemName = (ej.isNullOrUndefined(e.text)) ? "none" : e.text.toLowerCase();
+        switch (itemName) {
+            case "bold":
+                rteObj.executeCommand("bold");
+                break;
+            case "italic":
+                rteObj.executeCommand("italic");
+                break;
+            case "undo":
+                rteObj.executeCommand("undo");
+                break;
+            case "redo":
+                rteObj.executeCommand("redo");
+                break;
+            }
     }	
 
 
