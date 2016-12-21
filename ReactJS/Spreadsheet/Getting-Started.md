@@ -1,7 +1,8 @@
 ---
-title: Getting Started for React JS Spreadsheet
+layout: post
+title: Getting Started for ReactJS Spreadsheet
 description: How to create a Spreadsheet with data source, apply format and export it as excel file.
-platform: React JS
+platform: ReactJS
 control: Spreadsheet
 documentation: Ug
 keywords: 
