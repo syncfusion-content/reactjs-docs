@@ -1,7 +1,8 @@
 ---
+layout: post
 title: Overview
 description: overview
-platform: React JS
+platform: ReactJS
 control: Spreadsheet
 documentation: ug
 ---
