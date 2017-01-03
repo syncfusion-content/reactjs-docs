@@ -67,4 +67,3 @@ Run the above code to render the following output,
 
 
 > _Note:_ _You can find the SplitButton properties from the_ [API reference](https://help.syncfusion.com/api/js/ejsplitbutton) _document._
-
