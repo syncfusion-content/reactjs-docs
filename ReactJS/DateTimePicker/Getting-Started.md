@@ -1,8 +1,8 @@
 ---
 layout: post
-title: getting-started
-description: getting started for DateTimePicker
-platform: reactjs
+title: Getting-started
+description: Getting started for DateTimePicker
+platform: ReactJS
 control: DateTimePicker
 documentation: ug
 ---
@@ -28,9 +28,9 @@ You can render EJ components by using JSX template, wherein this JSX file will b
 
 {% highlight html %}
 
-<body>
-    <div id="dtp"></div>
-</body>
+    <body>
+        <div id="dtp"></div>
+    </body>
 
 {% endhighlight %}
 
@@ -50,13 +50,13 @@ You can render EJ components by using JSX template, wherein this JSX file will b
 
  {% highlight html %}
 
-<body>
-    <div id="dtp"></div>
+        <body>
+            <div id="dtp"></div>
 
-    <!-- Datetimepicker.jsx created in previous step-->
-    <script type="text/babel" src="Datetimepicker.jsx">
-    </script>   
-</body>
+            <!-- Datetimepicker.jsx created in previous step-->
+            <script type="text/babel" src="Datetimepicker.jsx">
+            </script>   
+        </body>
 
 {% endhighlight %}
 
@@ -98,7 +98,7 @@ The DateTimepicker component can be initialized without using JSX template.
 
 {% highlight HTML %}
 
-<div id="dtp"></div>
+    <div id="dtp"></div>
 
 {% endhighlight %}
 
@@ -106,13 +106,13 @@ The DateTimepicker component can be initialized without using JSX template.
 
 {% highlight javascript %}
 
-ReactDOM.render(
-            React.createElement(EJ.DateTimePicker, {
-                id: "dtp-0",
-                value: new Date()
-            }
-        ),
-	    document.getElementById('dtp')
+    ReactDOM.render(
+                React.createElement(EJ.DateTimePicker, {
+                    id: "dtp-0",
+                    value: new Date()
+                }
+            ),
+            document.getElementById('dtp')
 
 {% endhighlight %}
 
@@ -126,15 +126,15 @@ EJ DateTimePicker provides API through which you can set the maximum and minimum
 
 {% highlight javascript %}
 
-   ReactDOM.render(
-            React.createElement(EJ.DateTimePicker, {
-                id: "dtp-0",
-                minDateTime: new Date("11/1/2016 10:00 AM"),
-                maxDateTime: new Date("11/27/2016 10:00 PM")
-            }
-        ),
-	    document.getElementById('dtp')
-        );
+    ReactDOM.render(
+                React.createElement(EJ.DateTimePicker, {
+                    id: "dtp-0",
+                    minDateTime: new Date("11/1/2016 10:00 AM"),
+                    maxDateTime: new Date("11/27/2016 10:00 PM")
+                }
+            ),
+            document.getElementById('dtp')
+            );
 
 {% endhighlight %}
 

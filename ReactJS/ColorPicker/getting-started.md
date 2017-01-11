@@ -1,8 +1,8 @@
 ---
 layout: post
-title: getting-started 
-description: getting started for ColorPicker
-platform: reactjs
+title: Getting-started 
+description: Getting started for ColorPicker
+platform: ReactJS
 control: ColorPicker
 documentation: ug
 ---

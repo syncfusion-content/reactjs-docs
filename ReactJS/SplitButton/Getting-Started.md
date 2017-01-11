@@ -1,8 +1,8 @@
-    ---
+---
 layout: post
-title: getting-started
-description: getting started for SplitButton
-platform: reactjs
+title: Getting-started
+description: Getting started for SplitButton
+platform: ReactJS
 control: SplitButton
 documentation: ug
 ---
@@ -13,9 +13,9 @@ This section explains briefly about how to create a SplitButton in your applicat
 
 ## Create a SplitButton
 
-Refer the common React Getting Started Documentation to create an application and add necessary scripts and styles for rendering our ReactJS components.
+Refer the common ReactJS getting started documentation to create an application and add necessary scripts and styles for rendering our ReactJS components.
 
-Create a JSX file and use &lt;EJ.SplitButton&gt; syntax to render React SplitButton component. Add required properties to &lt;EJ.SplitButton&gt; tag element. 
+Create a JSX file and use &lt;EJ.SplitButton&gt; syntax to render ReactJS SplitButton component. Add required properties to &lt;EJ.SplitButton&gt; tag element. 
 
 {% highlight html %}
 
@@ -40,7 +40,7 @@ Define an HTML element for adding SplitButton in the application and refer the J
 
 {% endhighlight %}
 
-This will render splitButton component on executing.
+This will render SplitButton component on executing.
 
 ## Configure Properties
 

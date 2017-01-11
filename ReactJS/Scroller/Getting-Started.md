@@ -1,21 +1,21 @@
 ---
 layout: post
 title: getting-started
-description: getting started for Scroller
-platform: reactjs
+description: Getting started for Scroller
+platform: ReactJS
 control: Scroller
 documentation: ug
 ---
 
 # Getting Started
 
-This section helps to get started of the Scroller component in a React application 
+This section helps to get started of the Scroller component in a ReactJS application 
 
 ## Create a Scroller
 
-Refer the common React Getting Started Documentation to create an application and add necessary scripts and styles for rendering our ReactJS components.
+Refer the common ReactJS Getting Started Documentation to create an application and add necessary scripts and styles for rendering our ReactJS components.
 
-Create a JSX file and use &lt;EJ.Scroller&gt; syntax to render React Scroller component. Add required properties to &lt;EJ.Scroller&gt; tag element. 
+Create a JSX file and use &lt;EJ.Scroller&gt; syntax to render ReactJS Scroller component. Add required properties to &lt;EJ.Scroller&gt; tag element. 
 
 {% highlight html %}
 
@@ -71,7 +71,7 @@ This will render scroller component on executing.
 
 Run the above code to render the following output,
 
-![](Getting-Started_images/Getting-Started_img1.jpeg)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 > _Note:_ _You can find the Scroller properties from the_ [API reference](https://help.syncfusion.com/api/js/ejscroller) _document._

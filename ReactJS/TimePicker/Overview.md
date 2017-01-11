@@ -1,8 +1,8 @@
 ---
 layout: post
 title: TimePicker| TimePicker  | ReactJS | Syncfusion
-description: overview
-platform: reactjs
+description: Overview
+platform: ReactJS
 control: TimePicker
 documentation: ug
 ---

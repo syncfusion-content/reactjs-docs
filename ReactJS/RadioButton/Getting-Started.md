@@ -1,8 +1,8 @@
 ---
 layout: post
-title: getting-started
-description: getting started for RadioButton
-platform: reactjs
+title: Getting-started
+description: Getting started for RadioButton
+platform: ReactJS
 control: RadioButton
 documentation: ug
 ---
