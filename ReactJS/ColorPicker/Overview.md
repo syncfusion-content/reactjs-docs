@@ -2,7 +2,7 @@
 layout: post
 title: Overview
 description: overview
-platform: reactjs
+platform: ReactJS
 control: ColorPicker
 documentation: ug
 ---

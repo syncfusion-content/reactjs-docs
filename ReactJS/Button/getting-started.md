@@ -2,8 +2,8 @@
 layout: post
 title: create a Button in ReactJS framework 
 description: create a Button in ReactJS framework 
-platform: reactjs
-control: Overview
+platform: ReactJS
+control:Button
 documentation: ug
 ---
 
@@ -55,7 +55,7 @@ Run the above code to render the following output.
 
 
 
-![](getting-started_images/getting-started_img1.png)
+![](getting-started_images/getting-started_img1.jpg)
 
 #### Configuring Button
 
@@ -113,6 +113,6 @@ This section encompasses the details on how you can configure the Button control
 
 {% endhighlight %}
 
-Run the above code to render the following output.
 
-![](getting-started_images/getting-started_img2.png)
+
+

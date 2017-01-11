@@ -1,8 +1,8 @@
 ---
 layout: post
-title: getting-started
-description: getting started for TimePicker
-platform: reactjs
+title: Getting-started
+description: Getting started for TimePicker
+platform: ReactJS
 control: TimePicker
 documentation: ug
 ---
@@ -18,28 +18,11 @@ Create an HTML page and refer the necessary script and CSS dependency files in y
 Example
 
 {% highlight html %}
-<!DOCTYPE html>
-   <html>
-     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Essential Studio for React JS">
-        <meta name="author" content="Syncfusion">
-        <title>Getting Started for TimePicker React JS</title>
-        <!-- Essential Studio for JavaScript  theme reference -->
-        <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
-        <!-- Essential Studio for JavaScript  script references -->
-        <script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>
-         <script src="http://cdn.syncfusion.com/js/assets/external/react.min.js"></script>
-        <script src="http://cdn.syncfusion.com/js/assets/external/react-dom.min.js"></script>
-        <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/ej.web.all.min.js"></script>
-        <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js"></script>
-        <!-- Add your custom scripts here -->
-    </head>
-        <body>
-        </body>
-   </html>
 
-{% endhighlight %}
+        <body>
+            <input id="timepicker"/>
+        </body>
+{% endhighlight html %}
 
 ## Configure Properties
 
@@ -47,13 +30,13 @@ Example
 
  This property specifies the list of time range to be disabled in TimePicker control.To know more about TimePicker properties please refer the [API reference](https://help.syncfusion.com/api/js/ejtimepicker)
 
-{% highlight html %}
+        {% highlight html %}
 
-ReactDOM.render(   
-		  <EJ.TimePicker id="timepicker" value={"10:30 PM"} >
-</EJ.TimePicker>,
-document.getElementById('dtp')
-);
+        ReactDOM.render(   
+                <EJ.TimePicker id="timepicker" value={"10:30 PM"} >
+        </EJ.TimePicker>,
+        document.getElementById('dtp')
+        );
 
 {% endhighlight %}
 
@@ -63,15 +46,15 @@ document.getElementById('dtp')
 
 {% highlight html %}
 
-var  disableTime= [{ startTime: "3:00 AM", endTime: "6:00 AM" },
-                    { startTime: "1:00 PM", endTime: "3:00 PM" },
-                    { startTime: "8:00 PM", endTime: "10:00 PM" }];
+        var  disableTime= [{ startTime: "3:00 AM", endTime: "6:00 AM" },
+                            { startTime: "1:00 PM", endTime: "3:00 PM" },
+                            { startTime: "8:00 PM", endTime: "10:00 PM" }];
 
-ReactDOM.render(   
-		  <EJ.TimePicker id="timepicker"  disableTimeRanges={disableTime} >
-</EJ.TimePicker>,
-document.getElementById('dtp')
-);
+        ReactDOM.render(   
+                <EJ.TimePicker id="timepicker"  disableTimeRanges={disableTime} >
+        </EJ.TimePicker>,
+        document.getElementById('dtp')
+        );
 
 {% endhighlight %}
 
@@ -80,11 +63,11 @@ In the JSX, need to declare the Timepicker properties. Refer to the following co
 
 {% highlight html %}
 
-ReactDOM.render(   
-        <EJ.TimePicker value={20} >
-        </EJ.TimePicker>,
-        document.getElementById('timepicker')
-    );
+        ReactDOM.render(   
+                <EJ.TimePicker value={20} >
+                </EJ.TimePicker>,
+                document.getElementById('timepicker')
+            );
 
 {% endhighlight %}
 
@@ -103,9 +86,9 @@ You can render EJ component by using JSX template, wherein the document will be 
 
 {% highlight html %}
 
-<body>
-    <div id="timepicker"></div>
-</body>
+        <body>
+            <div id="timepicker"></div>
+        </body>
 
 {% endhighlight %}
 
@@ -113,11 +96,11 @@ You can render EJ component by using JSX template, wherein the document will be 
 
 {% highlight html %}
 
-    ReactDOM.render(   
-        <EJ.TimePicker id="timepicker">
-        </EJ.TimePicker>,
-        document.getElementById('timepicker')
-    );
+        ReactDOM.render(   
+            <EJ.TimePicker id="timepicker">
+            </EJ.TimePicker>,
+            document.getElementById('timepicker')
+        );
 
 {% endhighlight %}
 
@@ -125,13 +108,13 @@ You can render EJ component by using JSX template, wherein the document will be 
 
  {% highlight html %}
 
-<body>
-    <div id="timepicker"></div>
+        <body>
+            <div id="timepicker"></div>
 
-    <!-- timepicker.jsx created in previous step-->
-    <script type="text/babel" src="timepicker.jsx">
-    </script>   
-</body>
+            <!-- timepicker.jsx created in previous step-->
+            <script type="text/babel" src="timepicker.jsx">
+            </script>   
+        </body>
 
 {% endhighlight %}
 
@@ -143,29 +126,30 @@ The Timepicker can be created from a HTML `INPUT` element with the HTML `id` att
 
 {% highlight html %}
 
-<body>
-    <input id="timepicker"/>
-</body>
+    <body>
+        <input id="timepicker"/>
+    </body>
 
            
 {% endhighlight %}
 
 {% highlight javascript %}
 
- <script>
+    <script>
 
- ReactDOM.render(
-    React.createElement(EJ.Chart, {id: "timepicker"}       
-    ),
-	document.getElementById('timepicker')
-);      
+            ReactDOM.render(
+                React.createElement(EJ.Chart, {id: "timepicker"}       
+                ),
+                document.getElementById('timepicker')
+            );      
 
- </script>
+    </script>
 
  {% endhighlight %}
 
 Execute the above code to render Timepicker component. 
 
-![](Getting-Started_images/timepicker.png)
+![](Getting-Started_images/image1.png)
+
 
 > _Note:_ _You can find the TimePicker properties from the_ [API reference](https://help.syncfusion.com/api/js/ejtimepicker) _document._

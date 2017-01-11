@@ -1,8 +1,8 @@
 ---
 layout: post
-title: getting-started
-description: getting started for CheckBox
-platform: reactjs
+title: Getting-started
+description: Getting started for CheckBox
+platform: ReactJS
 control: CheckBox
 documentation: ug
 ---

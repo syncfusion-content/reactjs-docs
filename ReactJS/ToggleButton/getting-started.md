@@ -1,8 +1,8 @@
 ---
 layout: post
-title: getting-started 
-description: getting started for ToggleButton
-platform: reactjs
+title: Getting-started 
+description: Getting started for ToggleButton
+platform: ReactJS
 control: ToggleButton
 documentation: ug
 ---

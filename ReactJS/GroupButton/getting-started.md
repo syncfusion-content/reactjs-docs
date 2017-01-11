@@ -1,19 +1,19 @@
 ---
 layout: post
 title: create a GroupButton in ReactJS framework 
-description: create a GroupButt0n in ReactJS framework 
-platform: reactjs
-control: Overview
+description: create a GroupButton in ReactJS framework 
+platform: ReactJS
+control: GroupButton
 documentation: ug
 ---
 
 # Getting Started
 
-You can create a ReactJS GroupButton component in your application with the help of the following steps. The basic rendering of React JS GroupButton is achieved with default functionality.
+You can create a ReactJS GroupButton component in your application with the help of the following steps. The basic rendering of ReactJS GroupButton is achieved with default functionality.
 
 ## Create a GroupButton Using JSX template
 
-You can create a React JS application and add necessary scripts and styles with the help of the given link[https://help.syncfusion.com/reactjs/overview](https://help.syncfusion.com/reactjs/overview)
+You can create a ReactJS application and add necessary scripts and styles with the help of the given link [https://help.syncfusion.com/reactjs/overview](https://help.syncfusion.com/reactjs/overview)
 
 Define an HTML element for adding GroupButton in the application and refer the JSX file.
 
@@ -72,7 +72,7 @@ Create a JSX file for rendering GroupButton components using '<EJ.GroupButton>' 
 {% endhighlight %}
 
 
-This will render the Group Button in the above html page in the div element with id sample.
+This will render the GroupButton in the above HTML page in the div element with id sample.
 
 
 
@@ -81,9 +81,9 @@ This will render the Group Button in the above html page in the div element with
 
 ## Create a GroupButton without using JSX template
 
-GroupButton can be created without using JSX template. It can be done by using script section in html file.
+GroupButton can be created without using JSX template. It can be done by using script section in HTML file.
 
-The following script code will render the GroupButton Component.
+The following script code will render the GroupButton component.
 
 {% highlight html %}
 
@@ -167,6 +167,6 @@ you can make use of all available properties in GroupButton in ReactJS framework
 
 {% endhighlight %}
 
-Run the above code to render the following output …
+Run the above code to render the following output.
 
 ![](configureproperties_images\configureproperties_img1.png)

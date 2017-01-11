@@ -2,8 +2,8 @@
 layout: post
 title: overview
 description: overview
-platform: js
-control: Group Button
+platform: ReactJS
+control: GroupButton
 documentation: ug
 ---
 

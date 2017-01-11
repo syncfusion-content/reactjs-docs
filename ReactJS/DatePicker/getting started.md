@@ -1,19 +1,19 @@
 ---
 layout: post
-title: getting started
-description: getting started
-platform: js
-control: React JS
+title: Getting started
+description: Getting started
+platform: ReactJS
+control: DatePicker
 documentation: ug
 ---
 
 # Getting Started
 
-This section helps to get start with the DatePicker component in a React application
+This section helps to get start with the DatePicker component in a ReactJS application
 
 ## Create a DatePicker
 
-Refer the common React Getting Started Documentation to create an application and add necessary scripts and styles for rendering our ReactJS components.
+Refer the common ReactJS Getting Started Documentation to create an application and add necessary scripts and styles for rendering our ReactJS components.
 
 ### Using JSX template
 
