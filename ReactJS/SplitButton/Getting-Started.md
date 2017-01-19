@@ -1,4 +1,4 @@
-    ---
+---
 layout: post
 title: getting-started
 description: getting started for SplitButton
