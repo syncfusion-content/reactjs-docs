@@ -2,8 +2,8 @@
 layout: post
 title: Overview of DatePicker with ReactJS framework
 description: About ReactJS DatePicker
-platform: js
-control: ReactJS DatePicker
+platform: ReactJS
+control:DatePicker
 documentation: ug
 ---
 # OverView

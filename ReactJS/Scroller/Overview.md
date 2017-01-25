@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Overview
-description: overview
-platform: reactjs
+description: Overview
+platform: ReactJS
 control: Scroller
 documentation: ug
 ---

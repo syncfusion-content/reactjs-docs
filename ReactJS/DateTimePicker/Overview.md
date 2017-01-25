@@ -1,8 +1,8 @@
 ---
 layout: post
 title: DateTimePicker| DateTimePicker  | ReactJS | Syncfusion
-description: overview
-platform: reactjs
+description: Overview
+platform: ReactJS
 control: DateTimePicker
 documentation: ug
 ---
@@ -20,5 +20,5 @@ documentation: ug
 * Themes: Supports 17 built-in themes (6 – flat and 6 – gradient effects), and also support custom skin options to set user-defined themes.
 
 
-N> As the DateTimePicker inherits the functionalities of the DatePicker and TimePicker controls, it supports the basic functionalities of both controls.
+ As the DateTimePicker inherits the functionalities of the DatePicker and TimePicker controls, it supports the basic functionalities of both controls.
 
