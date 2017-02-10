@@ -8,7 +8,7 @@ documentation: ug
 ---
 # OverView
 
-The ReactJS DatePicker control provides an intuitive visual interface for selecting a date. Its rich feature set includes functionalities like highlighting special dates, globalization, responsive rendering, accessibility and much more.
+The **ReactJS DatePicker** control provides an intuitive visual interface for selecting a date. Its rich feature set includes functionalities like highlighting special dates, globalization, responsive rendering, accessibility and much more.
 
 ## Key features
 

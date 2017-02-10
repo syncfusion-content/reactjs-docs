@@ -11,7 +11,7 @@ documentation: ug
 
 The **Button** control allows you to perform an action by clicking on it. The **Button** control has the feature of displaying both text and images. When the **Button** is clicked, it looks as if it is being pushed in and released.
 
-**Key Features**
+## Key Features
 
 * **Trendy Look:** Rich Appearance with Theme Support
 * **RTL:** Supports for Right to Left alignment

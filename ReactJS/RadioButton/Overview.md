@@ -11,7 +11,7 @@ documentation: ug
 
 The **RadioButton** component allows you to pick an option from multiple options to perform an action based on selection.  
 
-**Key Features**
+## Key Features
 
 * **Trendy Look :** Rich appearance with theme Support
 * **RTL :** Supports for right to left alignment

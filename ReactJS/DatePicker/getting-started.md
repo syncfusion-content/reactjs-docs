@@ -9,11 +9,11 @@ documentation: ug
 
 # Getting Started
 
-This section helps to get start with the DatePicker component in a ReactJS application
+This section helps to get start with the **DatePicker** component in a ReactJS application
 
 ## Create a DatePicker
 
-Refer the common ReactJS Getting Started Documentation to create an application and add necessary scripts and styles for rendering our ReactJS components.
+You can create a React application and add necessary scripts and styles with the help of the given React [Getting Started Documentation](https://help.syncfusion.com/reactjs/overview).
 
 ### Using JSX template
 
@@ -24,13 +24,11 @@ Create a JSX file and add the EJ component, by using DatePicker tag like &lt;EJ.
 
 {% highlight javascript %}
 
-    ReactDOM.render(   
-            <EJ.DatePicker id="dtp" value={new Date()} >
+    ReactDOM.render(
+    <EJ.DatePicker id="dtp" value={new Date()}>
     </EJ.DatePicker>,
-            document.getElementById('dtp')
-    );
-
-
+    document.getElementById('dtp')
+    );    
 
 {% endhighlight %}
 
@@ -46,27 +44,24 @@ _Define an HTML element for adding DatePicker in the application and refer the J
 
 {% highlight javascript %}
 
-    ReactDOM.render(   
-            <EJ.DatePicker 
-            value = {new Date()} 
-            minDate={new Date("11/11/2011")} 
-            maxDate= {new Date("11/11/2018")}
-            >
+    ReactDOM.render(
+    <EJ.DatePicker value={new Date()}
+                   minDate={new Date("11/11/2011")}
+    maxDate= {new Date("11/11/2018")}
+    >
     </EJ.DatePicker>,
     document.getElementById('container')
     );
 
-
 {% endhighlight %}
-
 
 ### Without using JSX template
 
-You can also render the DatePicker component without using JSX template. Here the DatePicker component can be created with use of script section lie below.
+You can also render the DatePicker component without using JSX template. Here the DatePicker component can be created with use of script section like below.
 
     {% highlight javascript %}
 
-    <script>
+        <script>
         ReactDOM.render(
         React.createElement(EJ.DatePicker, { id: "container", }
         ),
@@ -75,29 +70,27 @@ You can also render the DatePicker component without using JSX template. Here th
 
         </script>
 
-
     {% endhighlight %}
 
 This will render an empty DatePicker component on executing.
 
-
 #### Configure Properties
 
-In the JSX file, you can define all required APIs of DatePicker based on needs. Refer below code example to know the adding the required APIs.
+In the JSX file, you can define all required APIs of DatePicker based on needs. Refer below code example to know adding the required APIs.
 
 {% highlight javascript %}
 
     <script>
+
     ReactDOM.render(
-        React.createElement(EJ.DatePicker, {id: "container", 
+        React.createElement(EJ.DatePicker, {id: "container",
     value:new Date("11/12/2018"),
     minDate: new Date("12/12/2015"),
     maxDate: new Date("1/12/2019")
-    }    
+    }
         ),
     document.getElementById('container')
-    );       
-
+    );
     </script>
 
 

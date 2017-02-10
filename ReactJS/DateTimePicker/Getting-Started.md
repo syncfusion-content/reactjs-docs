@@ -9,7 +9,7 @@ documentation: ug
 
 # GettingStarted
 
-This section discloses the details on how to render and configure DateTimePicker component in a ReactJS application.
+This section discloses the details on how to render and configure **DateTimePicker** component in a ReactJS application.
 
 ## Create a DateTimePicker
 
@@ -24,7 +24,7 @@ With ReactJS, the components can be initialized in two ways.
 
 You can render EJ components by using JSX template, wherein this JSX file will be converted to its equivalent JS file. 
 
-1. Create a div element in the HTML file and give it an ID. 
+* Create a div element in the HTML file and give it an ID. 
 
 {% highlight html %}
 
@@ -34,29 +34,29 @@ You can render EJ components by using JSX template, wherein this JSX file will b
 
 {% endhighlight %}
 
-2. Create a JSX file and initialize DateTimepicker component by using the below code snippet.
+* Create a JSX file and initialize DateTimepicker component by using the below code snippet.
 
 {% highlight html %}
 
-    ReactDOM.render(   
-        <EJ.DateTimePicker id="dtp" value={new Date()}>
-        </EJ.DateTimePicker>,
-        document.getElementById('dtp')
+    ReactDOM.render(
+    <EJ.DateTimePicker id="dtp" value={new Date()}>
+    </EJ.DateTimePicker>,
+    document.getElementById('dtp')
     );
 
 {% endhighlight %}
 
-3. Refer the JSX file created in last step in the HTML file as given below. 
+* Refer the JSX file created in last step in the HTML file as given below. 
 
  {% highlight html %}
 
-        <body>
-            <div id="dtp"></div>
+    <body>
+        <div id="dtp"></div>
 
-            <!-- Datetimepicker.jsx created in previous step-->
-            <script type="text/babel" src="Datetimepicker.jsx">
-            </script>   
-        </body>
+        <!-- Datetimepicker.jsx created in previous step-->
+        <script type="text/babel" src="Datetimepicker.jsx">
+        </script>
+    </body>
 
 {% endhighlight %}
 
@@ -74,10 +74,10 @@ EJ DateTimePicker provides API through which you can set the maximum and minimum
 
 {% highlight javascript %}
 
-    ReactDOM.render(   
-        <EJ.DateTimePicker id="dtp" minDateTime={new Date("11/1/2016 10:00 AM")} maxDateTime={new Date("11/27/2016 10:00 PM")}>
-        </EJ.DateTimePicker>,
-        document.getElementById('dtp')
+    ReactDOM.render(
+    <EJ.DateTimePicker id="dtp" minDateTime={new Date("11/1/2016 10:00 AM")} maxDateTime={new Date("11/27/2016 10:00 PM")}>
+    </EJ.DateTimePicker>,
+    document.getElementById('dtp')
     );
 
 {% endhighlight %}
@@ -94,7 +94,7 @@ The following screenshot illustrates the output of above code.
 
 The DateTimepicker component can be initialized without using JSX template. 
 
-1. Create an HTML page and render a <div> element with an ID set to it. 
+* Create an HTML page and render a <div> element with an ID set to it. 
 
 {% highlight HTML %}
 
@@ -102,21 +102,19 @@ The DateTimepicker component can be initialized without using JSX template.
 
 {% endhighlight %}
 
-2. Render the DateTimePicker component by using the below mentioned code snippet.
+* Render the DateTimePicker component by using the below mentioned code snippet.
 
 {% highlight javascript %}
 
     ReactDOM.render(
-                React.createElement(EJ.DateTimePicker, {
-                    id: "dtp-0",
-                    value: new Date()
-                }
-            ),
-            document.getElementById('dtp')
+    React.createElement(EJ.DateTimePicker, {
+    id: "dtp-0",
+    value: new Date()
+    }
+    ),
+    document.getElementById('dtp')
 
 {% endhighlight %}
-
-Run the above code snippet to get the following output.
 
 ### Configuring DateTimePicker
 
@@ -127,14 +125,14 @@ EJ DateTimePicker provides API through which you can set the maximum and minimum
 {% highlight javascript %}
 
     ReactDOM.render(
-                React.createElement(EJ.DateTimePicker, {
-                    id: "dtp-0",
-                    minDateTime: new Date("11/1/2016 10:00 AM"),
-                    maxDateTime: new Date("11/27/2016 10:00 PM")
-                }
-            ),
-            document.getElementById('dtp')
-            );
+    React.createElement(EJ.DateTimePicker, {
+    id: "dtp-0",
+    minDateTime: new Date("11/1/2016 10:00 AM"),
+    maxDateTime: new Date("11/27/2016 10:00 PM")
+    }
+    ),
+    document.getElementById('dtp')
+    );
 
 {% endhighlight %}
 
