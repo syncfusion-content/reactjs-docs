@@ -9,7 +9,7 @@ documentation: ug
 
 # GettingStarted
 
-This section discloses the details on how to render and configure CheckBox component in a ReactJS application.
+This section discloses the details on how to render and configure **CheckBox** component in a **ReactJS** application.
 
 ## Create a CheckBox
 
@@ -24,7 +24,7 @@ With ReactJS, the components can be initialized in two ways.
 
 You can render EJ components by using JSX template, wherein this JSX file will be converted to its equivalent JS file. 
 
-1. Create an HTML file and add a div element and give it an ID. 
+* Create an HTML page and render a <div> element with an ID set to it.
 
 {% highlight html %}
 
@@ -34,54 +34,54 @@ You can render EJ components by using JSX template, wherein this JSX file will b
 
 {% endhighlight %}
 
-2. Create a JSX file and initialize CheckBox component by using the below code snippet.
+2. Create a JSX file for rendering Checkbox component using <EJ.Checkbox> syntax. Add required properties to it in <EJ.Checkbox> tag element
 
 {% highlight html %}
 
-    ReactDOM.render(   
-         <div>
-				 <br />
-				   Category
-				<br />
-				<br />
-				<table >
-					<tr>
-					<td>
-						<EJ.CheckBox id="music" text="Music" name="music" value="music" checked={true}></EJ.CheckBox>
-					</td>
-					<td>
-						<EJ.CheckBox id="sports" text="Sports" name="sports" value="sports" enableTriState={true} checkState="indeterminate"></EJ.CheckBox>
-					</td>
-					<td>
-						<EJ.CheckBox id="bike" text="Bike riding" name="bike" value="bike"></EJ.CheckBox>
-					</td>
-					</tr>
-				</table>
-				 <br />
-				 <br />
-				  Favourite search engines
-				<br />
-				<br />
-				<table>
-					<tr>
-						<td>
-						<EJ.CheckBox id="google" text="Google" name="google" value="google" checked={true}></EJ.CheckBox>
-						</td>
-						<td colspan="2">
-						<EJ.CheckBox id="yahoo" text="yahoo" name="yahoo" value="yahoo" enableTriState={true} checkState="indeterminate"></EJ.CheckBox>
-						</td>
-						<td colspan="2">
-						<EJ.CheckBox id="bing" text="Bing" name="bing" value="bing"></EJ.CheckBox>
-						</twd>
-					</tr>
-				</table>
-			 </div>,
-        document.getElementById('dtp')
-    );
+    ReactDOM.render(
+    <div>
+        <br />
+        Category
+        <br />
+        <br />
+        <table>
+            <tr>
+                <td>
+                    <EJ.CheckBox id="music" text="Music" name="music" value="music" checked={true}></EJ.CheckBox>
+                </td>
+                <td>
+                    <EJ.CheckBox id="sports" text="Sports" name="sports" value="sports" enableTriState={true} checkState="indeterminate"></EJ.CheckBox>
+                </td>
+                <td>
+                    <EJ.CheckBox id="bike" text="Bike riding" name="bike" value="bike"></EJ.CheckBox>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        Favourite search engines
+        <br />
+        <br />
+        <table>
+            <tr>
+                <td>
+                    <EJ.CheckBox id="google" text="Google" name="google" value="google" checked={true}></EJ.CheckBox>
+                </td>
+                <td colspan="2">
+                    <EJ.CheckBox id="yahoo" text="yahoo" name="yahoo" value="yahoo" enableTriState={true} checkState="indeterminate"></EJ.CheckBox>
+                </td>
+                <td colspan="2">
+                    <EJ.CheckBox id="bing" text="Bing" name="bing" value="bing"></EJ.CheckBox>
+                    </twd>
+            </tr>
+        </table>
+    </div>,
+    document.getElementById('dtp')
+    );    
 
 {% endhighlight %}
 
-3. Refer the JSX file created in last step in the HTML file as given below. 
+3. Define an HTML element for adding Checkbox in the application and refer the JSX file created.
 
  {% highlight html %}
 

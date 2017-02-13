@@ -9,7 +9,7 @@ documentation: ug
 
 # Getting Started
 
-Using the following steps, you can create a React ColorPicker component. The basic rendering of React ColorPicker can be achieved with default functionality.
+Using the following steps, you can create a **ReactJS ColorPicker component**. The basic rendering of React ColorPicker can be achieved with default functionality.
 
 ## Create an ColorPicker
 
@@ -19,11 +19,11 @@ Create a JSX file for rendering ColorPicker component using &lt;EJ.ColorPicker&g
 
 {% highlight html %}
 
-    ReactDOM.render(   
-        <EJ.ColorPicker>
-        </EJ.ColorPicker>,
-        document.getElementById('colorpick')  
-    );
+    ReactDOM.render(
+    <EJ.ColorPicker>
+    </EJ.ColorPicker>,
+    document.getElementById('colorpick')
+    );    
 
 {% endhighlight %}
 
@@ -32,7 +32,7 @@ Define an HTML element for adding ColorPicker in the application and refer the J
 {% highlight html %}
 
     <div id="colorpick"></div>
-    <script type="text/babel" src="sample.jsx"> 
+    <script type="text/babel" src="sample.jsx">
 
 {% endhighlight %}
 
@@ -44,10 +44,10 @@ In the JSX, need to declare the ColorPicker properties. Refer to the following c
 
 {% highlight html %}
 
-    ReactDOM.render(   
-	<EJ.ColorPicker value="#278787">
-	</EJ.ColorPicker>,
-        document.getElementById('colorpick')
+    ReactDOM.render(
+    <EJ.ColorPicker value="#278787">
+    </EJ.ColorPicker>,
+    document.getElementById('colorpick')
     );
 
 {% endhighlight %}

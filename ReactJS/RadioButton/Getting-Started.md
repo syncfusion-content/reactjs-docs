@@ -9,7 +9,7 @@ documentation: ug
 
 # GettingStarted
 
-This section discloses the details on how to render and configure RadioButton component in a ReactJS application.
+This section discloses the details on how to render and configure **RadioButton** component in a ReactJS application.
 
 ## Create a RadioButton
 
@@ -24,7 +24,7 @@ With ReactJS, the components can be initialized in two ways.
 
 You can render EJ components by using JSX template, wherein this JSX file will be converted to its equivalent JS file. 
 
-1. Create an HTML file and add a div element and give it an ID. 
+* Create an HTML file and add a div element and give it an ID. 
 
 {% highlight html %}
 
@@ -34,51 +34,51 @@ You can render EJ components by using JSX template, wherein this JSX file will b
 
 {% endhighlight %}
 
-2. Create a JSX file and initialize RadioButton component by using the below code snippet.
+* Create a JSX file and initialize RadioButton component by using the below code snippet.
 
 {% highlight html %}
 
-    ReactDOM.render(   
-       <div>
-				 <br />
-				   Category
-				<br />
-				<br />
-				<table >
-					<tr>
-					<td>
-						<EJ.RadioButton id="fresher" text="Fresher" name="category" value="fresher"></EJ.RadioButton>
-					</td>
-					<td  colspan="2">
-						<EJ.RadioButton id="experienced" text="Experienced" name="category" value="experienced" checked={true}></EJ.RadioButton>
-					</td>
-					</tr>
-				</table>
-				 <br />
-				 <br />
-				  Experienced
-				<br />
-				<br />
-				<table>
-					<tr>
-						<td>
-						<EJ.RadioButton id="exp1" text="1+ years" name="experienced" value="1+ years" checked={true}></EJ.RadioButton>
-						</td>
-						<td colspan="2">
-						<EJ.RadioButton id="exp2" text="2.5+ years" name="experienced" value="2.5+ years"></EJ.RadioButton>
-						</td>
-						<td colspan="2">
-						<EJ.RadioButton id="exp5" text="2.5+ years" name="experienced" value="5+ years"></EJ.RadioButton>
-						</twd>
-					</tr>
-				</table>
-			 </div>,
-        document.getElementById('container')
-    );
+    ReactDOM.render(
+    <div>
+        <br />
+        Category
+        <br />
+        <br />
+        <table>
+            <tr>
+                <td>
+                    <EJ.RadioButton id="fresher" text="Fresher" name="category" value="fresher"></EJ.RadioButton>
+                </td>
+                <td colspan="2">
+                    <EJ.RadioButton id="experienced" text="Experienced" name="category" value="experienced" checked={true}></EJ.RadioButton>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        Experienced
+        <br />
+        <br />
+        <table>
+            <tr>
+                <td>
+                    <EJ.RadioButton id="exp1" text="1+ years" name="experienced" value="1+ years" checked={true}></EJ.RadioButton>
+                </td>
+                <td colspan="2">
+                    <EJ.RadioButton id="exp2" text="2.5+ years" name="experienced" value="2.5+ years"></EJ.RadioButton>
+                </td>
+                <td colspan="2">
+                    <EJ.RadioButton id="exp5" text="2.5+ years" name="experienced" value="5+ years"></EJ.RadioButton>
+                    </twd>
+            </tr>
+        </table>
+    </div>,
+    document.getElementById('container')
+    );    
 
 {% endhighlight %}
 
-3. Refer the JSX file created in last step in the HTML file as given below. 
+* Define an HTML element for adding Radiobutton in the application and refer the JSX file created.
 
  {% highlight html %}
 
@@ -102,7 +102,7 @@ Execute the above code to render RadioButton component.
 
 The RadioButton component can be initialized without using JSX template. 
 
-1. Create an HTML page and render a <div> element with an ID set to it. 
+* Create an HTML page and render a <div> element with an ID set to it. 
 
 {% highlight HTML %}
 
@@ -120,7 +120,7 @@ Category
 
 {% endhighlight %}
 
-2. Render the RadioButton component by using the below mentioned code snippet.
+* Render the RadioButton component by using the below mentioned code snippet.
 
 {% highlight javascript %}
 

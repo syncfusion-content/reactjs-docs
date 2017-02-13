@@ -9,20 +9,20 @@ documentation: ug
 
 # Getting Started
 
-Using the following steps, you can create a React ToggleButton component. The basic rendering of React ToggleButton can be achieved with default functionality.
+Using the following steps, you can create a **ReactJS ToggleButton** component. The basic rendering of ReactJS ToggleButton can be achieved with default functionality.
 
 ## Create an ToggleButton
 
-You can create a React application and add necessary scripts and styles with the help of the given [React Getting Started Documentation.](https://help.syncfusion.com/reactjs/overview)
+You can create a ReactJS application and add necessary scripts and styles with the help of the given [ReactJS Getting Started Documentation.](https://help.syncfusion.com/reactjs/overview)
 
 Create a JSX file for rendering ToggleButton component using &lt;EJ.ToggleButton&gt; syntax. Add required properties to it in &lt;EJ.ToggleButton&gt; tag element
 
 {% highlight html %}
 
-    ReactDOM.render(   
-        <EJ.ToggleButton>
-        </EJ.ToggleButton>,
-        document.getElementById('togglebtn')  
+    ReactDOM.render(
+    <EJ.ToggleButton>
+    </EJ.ToggleButton>,
+    document.getElementById('togglebtn')
     );
 
 {% endhighlight %}
@@ -31,7 +31,7 @@ Define an HTML element for adding ToggleButton in the application and refer the 
 
 {% highlight html %}
 
-    <div id="togglebtn"></div>
+     <div id="togglebtn"></div>
     <script type="text/babel" src="sample.jsx"> 
 
 {% endhighlight %}
@@ -44,9 +44,9 @@ In the JSX, need to declare the ToggleButton properties. Refer to the following 
 
 {% highlight html %}
 
-    ReactDOM.render(   
-	<EJ.ToggleButton id="togglebtn" ejHtmlAttributes={{type:"checkbox"}} size={ej.ButtonSize.Large} showRoundedCorner={true} contentType={ej.ContentType.TextAndImage} defaultPrefixIcon="e-icon e-mediaplay" activePrefixIcon="e-icon e-mediapause" defaultText="Play" activeText="Pause"></EJ.ToggleButton>,
-        document.getElementById('togglebtn')
+    ReactDOM.render(
+    <EJ.ToggleButton id="togglebtn" ejHtmlAttributes={{type:"checkbox"}} size={ej.ButtonSize.Large} showRoundedCorner={true} contentType={ej.ContentType.TextAndImage} defaultPrefixIcon="e-icon e-mediaplay" activePrefixIcon="e-icon e-mediapause" defaultText="Play" activeText="Pause"></EJ.ToggleButton>,
+    document.getElementById('togglebtn')
     );
 
 {% endhighlight %}
