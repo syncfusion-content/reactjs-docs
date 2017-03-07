@@ -3,7 +3,7 @@ layout: post
 title: create a Button in ReactJS framework 
 description: create a Button in ReactJS framework 
 platform: ReactJS
-control:Button
+control: Button
 documentation: ug
 ---
 
