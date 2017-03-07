@@ -20,14 +20,14 @@ Create a JSX file for rendering FileExplorer component using &lt;EJ.FileExplorer
 {% highlight js %}
 
 var localServ, ajaxDataType;
-localServ = "http://mvc.syncfusion.com/OdataServices/fileExplorer/fileoperation/doJSONAction";
+localServ = "http://js.syncfusion.com/demos/ejServices/api/FileExplorer/FileOperations"
 var browname = /MSIE 8.0/i.test(window.navigator.userAgent) || /MSIE 9.0/i.test(window.navigator.userAgent) ? true : false;
 if (browname)
 {
-    localServ = "http://mvc.syncfusion.com/OdataServices/fileExplorer/fileoperation/doJSONPAction";
+    localServ = "http://js.syncfusion.com/demos/ejServices/api/FileExplorer/FileOperations";
     ajaxDataType =  "jsonp" ;
 }
-var path =  "http://mvc.syncfusion.com/ODataServices/FileBrowser/";
+var path =  "http://js.syncfusion.com/demos/ejServices/Content/FileBrowser/";
 ReactDOM.render(
 	<EJ.FileExplorer ajaxDataType={ajaxDataType} ajaxAction={localServ} isResponsive={true} width="100%" minWidth= "150px" fileTypes= "*.png, *.gif, *.jpg, *.jpeg, *.docx" layout= "tile" path= {path} >
 	</EJ.FileExplorer>,
