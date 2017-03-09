@@ -92,7 +92,6 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-{% endhighlight %}
 
 N> `allowScrolling` should be false while defining width in percentage.
 
