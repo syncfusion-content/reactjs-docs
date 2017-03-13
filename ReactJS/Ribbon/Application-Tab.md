@@ -50,7 +50,7 @@ Set the UL element `id` to `menuItemID` property to create Application Menu and 
            <groups>
 		      <group text="New" alignType="rows">
 			  </group>			
-				</groups>  
+		   </groups>  
         </tab>
       </tabs>
     </EJ.Ribbon>,
@@ -78,12 +78,12 @@ To render the Ribbon with the Backstage page, refer to the following code snippe
     <div id="ribbon-default"></div>
     <script src="app/ribbon/default.js"></script>
     <style>
-	  .e-blank{
-	  background-image: url("content/ej/themes/common-images/ribbon/blank.png");
-	 }
-	 .e-accuser{
-	  background-image: url("content/ej/themes/common-images/ribbon/User.jpg");
-	 }
+    	 .e-blank{
+    	  background-image: url("content/ej/themes/common-images/ribbon/blank.png");
+    	 }
+    	 .e-accuser{
+    	  background-image: url("content/ej/themes/common-images/ribbon/User.jpg");
+    	 }
         .e-infopageicon {
             background-repeat: no-repeat;
             height: 150px;
@@ -159,7 +159,7 @@ To render the Ribbon with the Backstage page, refer to the following code snippe
            <groups>
 		      <group text="New" alignType="rows">
 			  </group>			
-				</groups>  
+		   </groups>  
         </tab>
       </tabs>
     </EJ.Ribbon>
