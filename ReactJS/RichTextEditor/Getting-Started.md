@@ -113,3 +113,38 @@ document.getElementById('rte-default')
 The following screenshot displays a RTE widget.
 
 ![](Getting-Started_images/Getting-Started_img3.png)
+
+You can also set the content of the editor using value property as follows.
+
+{% highlight html %}
+
+<div id="rte-default"></div>
+<script src="app/rte/default.js"></script>
+
+{% endhighlight %}
+
+{% highlight js %}
+
+"use strict";   
+var RTEDefault = React.createClass({   
+getInitialState: function()   
+  {   
+      return ({   
+          data: 'This is RTE Content'   
+      });   
+  },   
+    render: function () {   
+        return (      
+            <div  id="rte_default" >   
+                <EJ.RTE width="100%" minWidth="150px" isResponsive={true} value={this.state.data} >   
+                </EJ.RTE>   
+            </div>   
+        );   
+    }   
+});     
+  
+ReactDOM.render(<RTEDefault />, document.getElementById('rte-default'));   
+
+{% endhighlight %}
+
+The value that is set to the RTE is added in this.state. Hence, the value is accessible in componentDidMount() 
