@@ -36,7 +36,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-
+To perform the server side actions using local web API service, please refer the [link](https://help.syncfusion.com/js/fileexplorer/how-to#service-for-fileexplorer).
 
 Define an HTML element for adding FileExplorer in the application and refer the JSX file.
 
