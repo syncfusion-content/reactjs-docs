@@ -10,7 +10,7 @@ documentation: ug
 
 The DropDownList widget displays a single column list of items which enables you to select single or multiple items from the list. By default no selection is been made in the widget, the user has to navigate through the items using mouse or keyboard actions to select an item.
 
-##Key Features
+## Key Features
 
 * **DataSources** - Supports various client-side and remote data sources such as JSON, RESTful services, OData services, WCF services and much more. 
 * **Sorting** - Sorts both ascending and descending orders. 

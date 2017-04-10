@@ -92,7 +92,7 @@ document.getElementById('dropdownlist-default')
 
 ## Populating data
 
-The DropDownList can be bounded to both local array and remote data services using [ej.DataManager](http://help.syncfusion.com/js/datamanager/overview). You can use [DataManager](http://help.syncfusion.com/js/datamanager/overview) component to serve data from the data services based on the query provided. To bind data to DropDownList widget, the [dataSource](http://help.syncfusion.com/js/api/ejdropdownlist#members:datasource) property should be assigned with the instance of 'ej.DataManager'.
+The DropDownList can be bounded to both local array and remote data services using [ej.DataManager](http://help.syncfusion.com/js/datamanager/overview). You can use [DataManager](http://help.syncfusion.com/js/datamanager/overview) component to serve data from the data services based on the query provided.You can also bind local data using DataManager. To bind data to DropDownList widget, the [dataSource](http://help.syncfusion.com/js/api/ejdropdownlist#members:datasource) property should be assigned with the instance of 'ej.DataManager'.
  
 N> ODataAdaptor is the default adaptor for DataManager. On binding to other web services, proper [data adaptor](http://help.syncfusion.com/js/datamanager/data-adaptors) needs to be set on 'adaptor' option of DataManager. 
 	
@@ -107,12 +107,16 @@ N> ODataAdaptor is the default adaptor for DataManager. On binding to other web 
 	
 "use strict";
 
-var dataManager = ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Customers");
+var  customers= [
+                 { id: "1", text: "ALFKI" }, { id: "2", text: "ANATR" }, { id: "3", text: "ANTON" },
+                 { id: "4", text: "AROUT" }, { id: "5", text: "BERGS" }, { id: "6", text: "BLAUS" }
+            ];
+var dataManager=ej.DataManager(customers);
 
 ReactDOM.render(
-   <EJ.DropDownList dataSource={dataManager} fields-text="CompanyName"  fields-value='ContactName' >
+   <EJ.DropDownList dataSource={dataManager} fields-text="text" fields-value="value">
    </EJ.DropDownList>,
-document.getElementById('dropdownlist-virtualscrolling')
+document.getElementById('dropdownlist-default')
 );
 			
 {% endhighlight %}
