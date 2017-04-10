@@ -114,7 +114,7 @@ var  customers= [
 var dataManager=ej.DataManager(customers);
 
 ReactDOM.render(
-   <EJ.DropDownList dataSource={dataManager} fields-text="text" fields-value="value">
+   <EJ.DropDownList dataSource={dataManager} fields-text="text" >
    </EJ.DropDownList>,
 document.getElementById('dropdownlist-default')
 );
