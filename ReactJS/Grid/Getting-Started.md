@@ -211,7 +211,7 @@ Create a JSX file and paste the following content
 
 ## Data binding
 
-[`Data binding`](http://helpjs.syncfusion.com/js/grid/data-binding) in the grid is achieved by using the [`ej.DataManager`](http://helpjs.syncfusion.com/js/datamanager/overview) that supports both RESTful JSON data services binding and local JSON array binding.  To set the data source to the grid, the [`dataSource`](http://help.syncfusion.com/js/api/ejgrid#members:columns-datasource) property is assigned with the instance of the `ej.DataManger`. For demonstration purpose, [Northwind OData service](http://mvc.syncfusion.com/Services/Northwnd.svc/) is used in this tutorial. Refer to the following code example.
+[`Data binding`](http://helpjs.syncfusion.com/js/grid/data-binding) in the grid is achieved by assigning a JSON array to the [`dataSource`](http://help.syncfusion.com/js/api/ejgrid#members:columns-datasource) property. Refer to the following code example.
 
 
 Please refer to the code of HTML file.
@@ -229,10 +229,10 @@ Create a JSX file and paste the following content
 
 
 {% highlight js %}
-
-        var dataManager = new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Foods");
+        var cols = ["EmployeeID", "FirstName", "LastName", "City", "Country"];
         ReactDOM.render(   
-		  <EJ.Grid dataSource = {dataManager} >
+                //The datasource "window.employeeView" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+		  <EJ.Grid dataSource = {window.employeeView} columns={cols}>
                     
           </EJ.Grid>,
           document.getElementById('Grid-default')
@@ -269,10 +269,11 @@ Create a JSX file and paste the following content
 
 {% highlight js %}
 
-        var dataManager = new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Foods");
         var pageSettings = { pageSize: 8 };
+        var cols = ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"];
         ReactDOM.render(   
-		  <EJ.Grid dataSource = {dataManager} allowPaging = {true} pageSettings={pageSettings} >
+                //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+		  <EJ.Grid dataSource = {window.gridData} columns={cols} allowPaging = {true} pageSettings={pageSettings} >
                     
           </EJ.Grid>,
           document.getElementById('Grid-default')
@@ -307,10 +308,11 @@ Create a JSX file and paste the following content
 
 {% highlight js %}
 
-        var dataManager = new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Foods");
         var pageSettings = { pageSize: 8 };
+        var cols = ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"];
         ReactDOM.render(   
-		  <EJ.Grid dataSource = {dataManager} allowPaging = {true} pageSettings={pageSettings} allowFiltering={true} >
+                //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+		  <EJ.Grid dataSource = {window.gridData} columns={cols} allowPaging = {true} pageSettings={pageSettings} allowFiltering={true} >
                     
           </EJ.Grid>,
           document.getElementById('Grid-default')
@@ -342,10 +344,11 @@ Create a JSX file and paste the following content
 
 {% highlight js %}
 
-        var dataManager = new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Foods");
         var pageSettings = { pageSize: 8 };
+        var cols = ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"];
         ReactDOM.render(   
-		  <EJ.Grid dataSource = {dataManager} allowPaging = {true} pageSettings={pageSettings} allowGrouping={true} >
+                //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+		  <EJ.Grid dataSource = {window.gridData} columns={cols} allowPaging = {true} pageSettings={pageSettings} allowGrouping={true} >
                     
           </EJ.Grid>,
           document.getElementById('Grid-default')
@@ -376,11 +379,12 @@ Create a JSX file and paste the following content
 
 {% highlight js %}
 
-        var dataManager = new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Foods");
         var pageSettings = { pageSize: 8 };
-        var groupSettings = { groupedColumns: ["ItemType"] };
+        var groupSettings = { groupedColumns: ["ShipCountry", "CustomerID"] };
+        var cols = ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"];
         ReactDOM.render(   
-		  <EJ.Grid dataSource = {dataManager} allowPaging = {true} pageSettings={pageSettings} allowGrouping={true} groupSettings={groupSettings} >
+                //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+		  <EJ.Grid dataSource = {window.gridData} columns={cols} allowPaging = {true} pageSettings={pageSettings} allowGrouping={true} groupSettings={groupSettings} >
                     
           </EJ.Grid>,
           document.getElementById('Grid-default')
@@ -399,17 +403,18 @@ Create a JSX file and paste the following content
 
 {% highlight html %}
 
-        var dataManager = new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Foods");
         var pageSettings = { pageSize: 8 };
-        var groupSettings = { groupedColumns: ["ItemType"] };
+        var groupSettings = { groupedColumns: ["CustomerID"] };
+        var cols = ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"];
         var summaryRows = [
                  {
                   	title: "Sum",
-                  	summaryColumns: [{ summaryType: ej.Grid.SummaryType.Sum, displayColumn: "Stock", dataMember: "Stock" }]
+                  	summaryColumns: [{ summaryType: ej.Grid.SummaryType.Sum, displayColumn: "Freight", dataMember: "Freight" }]
               	 }
         ];
         ReactDOM.render(   
-		    <EJ.Grid dataSource = {dataManager} allowPaging = {true} pageSettings={pageSettings} allowGrouping={true} groupSettings={groupSettings} showSummary={true} summaryRows={summaryRows} >
+                //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+		    <EJ.Grid dataSource = {window.gridData} columns={cols} allowPaging = {true} pageSettings={pageSettings} allowGrouping={true} groupSettings={groupSettings} showSummary={true} summaryRows={summaryRows} >
                     
         </EJ.Grid>,
         document.getElementById('Grid-default')
