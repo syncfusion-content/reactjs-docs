@@ -211,7 +211,7 @@ Create a JSX file and paste the following content
 
 ## Data binding
 
-[`Data binding`](http://helpjs.syncfusion.com/js/grid/data-binding) in the grid is achieved by assigning a JSON array to the [`dataSource`](http://help.syncfusion.com/js/api/ejgrid#members:columns-datasource) property. Refer to the following code example.
+[`Data binding`](http://helpjs.syncfusion.com/js/grid/data-binding) in the grid is achieved by assigning a array of JavaScript objects to the [`dataSource`](http://help.syncfusion.com/js/api/ejgrid#members:columns-datasource) property. Refer to the following code example.
 
 
 Please refer to the code of HTML file.
@@ -229,10 +229,10 @@ Create a JSX file and paste the following content
 
 
 {% highlight js %}
-        var cols = ["EmployeeID", "FirstName", "LastName", "City", "Country"];
+        var cols = ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"];
         ReactDOM.render(   
-                //The datasource "window.employeeView" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
-		  <EJ.Grid dataSource = {window.employeeView} columns={cols}>
+                //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+		  <EJ.Grid dataSource = {window.gridData} columns={cols}>
                     
           </EJ.Grid>,
           document.getElementById('Grid-default')
