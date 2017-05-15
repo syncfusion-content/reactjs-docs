@@ -1108,6 +1108,32 @@ ReactDOM.render(
 
 ![](/js/Chart/Axis_images/axis_img56.png)
 
+#### Positioning the axis elements while crossing
+The [`showNextToAxisLine`](../api/ejchart#members:primaryxaxis-shownexttoaxisline) property is used for controlling the axis elements movement along with the axis line while axis crossing is performed. When the showNextToAxisLine is set as false only the axis line and the tick lines are placed at the crossing Value and the axis elements will be placed outside the chart area. The default value of [`showNextToAxisLine`](../api/ejchart#members:primaryxaxis-shownexttoaxisline) is **true**.  
+
+{% highlight javascript %}
+
+    var primaryXAxis = {
+        //Crosses primary Y axis at 0
+		crossesAt: 0,
+        showNextToAxisLine:false,
+		//...
+    }
+
+    ReactDOM.render(
+        <EJ.Chart id="default_chart_sample_0"
+        width="100%"
+        primaryXAxis={primaryXAxis}>
+        </EJ.Chart>,
+		     document.getElementById('chart')
+    );
+
+{% endhighlight %}
+
+The axis is placed at the crossing value without the axis elements 
+
+![](/js/Chart/Axis_images/axis_img67.png)
+
 
 ### Axis Visibility
 
