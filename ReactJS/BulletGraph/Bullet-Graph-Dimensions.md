@@ -14,7 +14,7 @@ This section explains you on how to change the dimensions of the **Bullet Graph*
 
 ## Size
 
-{% highlight bulletgraph %}
+{% highlight javascript %}
 
 "use strict";
 

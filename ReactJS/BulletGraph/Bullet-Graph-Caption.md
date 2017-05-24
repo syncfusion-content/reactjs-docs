@@ -64,7 +64,7 @@ The following screenshot displays a **Bullet Graph** with customized caption usi
 
 **Subtitle** is added to **Bullet Graph** using **text** property of **subtitle** in **captionSettings**. **Subtitle** also provides properties like location, textAngle and font to customize subtitle similar to caption.
 
-{% highlight bulletgraph %}
+{% highlight javascript %}
 
 "use strict";
 
@@ -107,7 +107,7 @@ You can add **Indicator** to bullet graph by enabling **visible** and setting **
 
 Indicator displays a symbol along with text which is different from caption and subtitle. Images like logos can be used in indicator instead of symbols. Indicator has properties such as **symbol**, **text**, **textSpacing**, **textAngle**, **location** and **font**.
 
-{% highlight bulletgraph %}
+{% highlight javascript %}
 
 "use strict";
 
@@ -158,7 +158,7 @@ The following screenshot displays a bullet graph with indicator.
 
 The title, subtitle and indicator text can be overlapped to the scale group. You can avoid the overlapped text by using the enableTrim property of the captionSettings. The default value of the enableTrim is true. 
 
-{% highlight bulletgraph %}
+{% highlight javascript %}
 
 "use strict";
 
@@ -189,7 +189,7 @@ All the caption group elements (caption, subtitle, and indicator) in the **Bulle
 
 The property, textPosition, is used to position the text at the top, bottom, left, and right side of the quantitative scale. The default value of this property is float. By default, text can be placed at any desired location by using the location property.
 
-{% highlight bulletgraph %}
+{% highlight javascript %}
 
 "use strict";
 
@@ -229,7 +229,7 @@ The following screenshot displays the Bullet Graph with the title positioned abo
 
 Alignment of text at different positions with respect to scale can be customized by using the **textAlignment** property. Text can be aligned in the **near**, **center,** and **far** locations of the scale. Text alignment depends upon **textPosition** property and is not applicable when the value of the **textPosition** property is **float**. The default value of the **textAlignment** property is **near**.
 
-{% highlight bulletgraph %}
+{% highlight javascript %}
 
 "use strict";
 
@@ -282,7 +282,7 @@ The following screenshot displays the Bullet Graph with the title and subtitle a
 
 Text elements aligned at the same position are anchored by using the textAnchor property. These can be anchored at the start, middle, and end. The default value of this property is start and applicable only when two or more text elements are aligned at the same position. 
 
-{% highlight bulletgraph %}
+{% highlight javascript %}
 
 
 "use strict";
