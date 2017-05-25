@@ -34,6 +34,8 @@ The following code snippet illustrates
 
 ## GroupMemberPath
 
+{% highlight js %}
+
 "use strict";
 var levels = [
         { groupMemberPath: "Level 1" },
