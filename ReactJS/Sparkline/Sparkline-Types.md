@@ -53,6 +53,7 @@ ReactDOM.render(
         document.getElementById('sparkline')
 );
 
+{% endhighlight %}
 
 ![](/js/Sparkline/Sparkline-Types_images/Sparkline-Types_img2.png)
 
