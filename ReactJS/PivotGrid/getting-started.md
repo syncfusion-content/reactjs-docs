@@ -156,6 +156,99 @@ The above code will generate a simple PivotGrid with “Country” field in Row,
 
 ![](getting-started_images/purejs.png)
 
+### Apply Sorting
+
+You can sort a field either to ascending or descending order using the **"sortOrder"** property. Sorting is applicable only for Row and Column fields. By default, fields are arranged in ascending order.
+ 
+{% highlight html %}
+
+<script type="text/babel">
+    var pivot_dataset = []; // data source
+    var  pivotdataSource = {
+        data: pivot_dataset, 
+        rows: [
+                  { fieldName: "Country", fieldCaption: "Country", sortOrder: ej.PivotAnalysis.SortOrder.Descending }
+              ], 
+        columns: [{ fieldName: "Product", fieldCaption: "Product" }]
+        values: [
+                    { fieldName: "Amount", fieldCaption: "Amount" }
+                ],
+        filters: []
+    };
+</script>
+
+{% endhighlight %}
+
+![](Getting-Started_images/purejssorting.png)
+
+### Apply Filtering
+
+Filtering option allows you to specify a set of values that either need to be displayed or hided. Also filtering option is applicable only for Row, Column and Filter areas.
+
+**"filterItems"** object allow us to apply filtering to the fields using the following properties:
+
+* filterType -  indicates whether the values should be included or excluded.
+* values -  specify an array of values that needs to be included or excluded within the particular field.
+
+
+{% highlight html %}
+
+<script type="text/babel">
+    var pivot_dataset = []; // data source
+    var  pivotdataSource = {
+        data: pivot_dataset, 
+        rows: [ { fieldName: "Country", 
+                    fieldCaption: "Country", 
+                    filterItems: { 
+                        filterType: ej.PivotAnalysis.FilterType.Exclude,
+                        values: ["United Kingdom"]
+                    } 
+                  }
+              ], 
+        columns: [{ fieldName: "Product", 
+                    fieldCaption: "Product",
+                    filterItems: {
+                        filterType: ej.PivotAnalysis.FilterType.Include,
+                        values: ["Bike", "Car"]
+                    }
+                 }], 
+        //....
+    };
+</script>
+
+{% endhighlight %}
+
+![](Getting-Started_images/purejsfiltering.png)
+
+### Apply Summary Types
+
+Allow us to specify the required summary type that PivotGrid should use in its summary cells. **"sum"** is the default summary type. Following are the summary types that are supported:
+
+* sum
+* average
+* count
+* min
+* max
+
+{% highlight html %}
+
+<script type="text/babel">
+    var pivot_dataset = []; // data source
+    var  pivotdataSource = {
+        data: pivot_dataset, 
+        //...
+        values: [
+                    { fieldName: "Amount", fieldCaption: "Amount", summaryType: ej.PivotAnalysis.SummaryType.Average },
+                    { fieldName: "Quantity", fieldCaption: "Quantity", summaryType: ej.PivotAnalysis.SummaryType.Sum }
+                ],
+        filters: []
+    };
+</script>
+
+{% endhighlight %}    
+
+![](Getting-Started_images/purejssummarytype.png)
+
 ## OLAP
 
 This section covers the information that you need to know to populate a simple PivotGrid with OLAP data source.
