@@ -8,7 +8,7 @@ keywords: customization, spellcheck customization, misspell word appearance, res
 ---
 # SpellCheck Customization
 
-The Essential JavaScript SpellCheck provides option to customize for the following scenarios.
+The SpellCheck provides option to customize for the following scenarios.
 
 * Misspell Word Appearance
 * Restrict Suggestion Count
