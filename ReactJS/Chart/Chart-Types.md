@@ -544,6 +544,64 @@ To render a 100% Stacked Area Chart, set the [`type`](../api/ejchart.html#member
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/100%stackedarea) here to view our 100% Stacked Area Chart online demo.
 
+## Stacked Spline Area Chart
+
+To render a Stacked Spline Area Chart, set the [`type`](../api/ejchart.html#members:series-type) as **"stackingSplineArea"** in the chart series. 
+
+{% highlight javascript %}
+
+"use strict";
+        // ...
+        var series= [{
+            // Change the series type 
+            type: 'stackingSplineArea',                      
+            //  ...         
+        }];
+        // ...
+		ReactDOM.render(
+			<EJ.Chart id="default_chart_sample_0"
+			series={series}
+			>        
+            
+			</EJ.Chart>,
+				document.getElementById('chart')
+		);
+
+
+{% endhighlight %}
+
+![](/js/Chart/Chart-Types_images/Chart-Types_img97.png)
+
+
+## 100% Stacked Spline Area Chart  
+
+To render a 100% Stacked Spline Area Chart, set the [`type`](../api/ejchart.html#members:series-type) as **"stackingSplineArea100"** in the chart series. 
+
+
+{% highlight javascript %}
+
+"use strict";
+        // ...
+        var series= [{
+            // Change the series type 
+            type: 'stackingSplineArea100',                      
+            //  ...         
+        }];
+        // ...
+		ReactDOM.render(
+			<EJ.Chart id="default_chart_sample_0"
+			series={series}
+			>        
+            
+			</EJ.Chart>,
+				document.getElementById('chart')
+		);
+
+
+{% endhighlight %}
+
+![](/js/Chart/Chart-Types_images/Chart-Types_img98.png)
+
 
 ## Column Chart
 
@@ -1336,6 +1394,67 @@ To render a Spline Chart, set the [`type`](../api/ejchart.html#members:series-ty
 
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/spline) here to view the Spline Chart online demo sample.
+
+
+### Spline Types
+
+Spline series supports four types of curves, namely natural, monotonic, cardinal and clamped. To change the spline type, you can use the [`splineType`](../api/ejchart#members:series-splinetype) property in the series. 
+
+
+{% highlight javascript %}
+
+"use strict";
+        // ...        
+        var series= [{
+            //Change the spline series type.
+            type: 'spline',         
+             splineType:'Natural'
+            //  ...                  
+        }];
+        //  ...
+		
+		ReactDOM.render(
+			<EJ.Chart id="default_chart_sample_0"
+			series={series}
+			>        
+            
+			</EJ.Chart>,
+				document.getElementById('chart')
+		);
+
+
+{% endhighlight %}
+
+### Change the cardinal spline tension
+
+To change cardinal spline tension, you can use the [`cardinalSplineTension`](../api/ejchart#members:series-cardinalsplinetension) property in the series.The default value of cardinalSplineTension is **0.5**.Its value ranges from 0 to 1.
+
+
+{% highlight javascript %}
+
+"use strict";
+        // ...        
+        var series= [{            
+            type: 'spline', 
+            //Change the shape of cardinal spline        
+            splineType: 'Natural',
+            cardinalSplineTension: 0.7,     
+            //  ...                  
+        }];
+        //  ...
+		
+		ReactDOM.render(
+			<EJ.Chart id="default_chart_sample_0"
+			series={series}
+			>        
+            
+			</EJ.Chart>,
+				document.getElementById('chart')
+		);
+
+
+{% endhighlight %}
+
 
 
 ### Change the spline width
