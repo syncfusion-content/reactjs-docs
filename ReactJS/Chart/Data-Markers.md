@@ -380,6 +380,54 @@ The label can be wrapped for pie, doughnut, funnel, and pyramid series by settin
 
 ![](/js/Chart/Data-Markers_images/Data-Markers_img13.png)
 
+## Contrast Color for the data label
+
+ 
+To change the contrast color for the data label, you can set the [`enableContrastColor`](../api/ejchart#members:series-marker-datalabel-enablecontrastcolor) as **true** in the dataLabel property of the chart series.
+
+When we enable this property, the data label text will be rendered in contrast color based on the segment on which it is placed.
+If the data label is placed inside the data points segment, then that particular point's color is taken. Else the chart area or chart background color is considered for deriving the contrast color.
+ 
+"use strict";
+        // . . .   
+
+    var series=[
+    {
+                //. . .
+            marker: {
+                 
+                       dataLabel: {
+                                 
+                             // enable the dataLabel
+                          
+                             visible: true,
+
+                               //Set the saturation color to datalabel text	
+
+                               enableContrastColor: true,
+               
+                                //. . .
+
+                      }
+               }
+    
+             // . . .
+
+        }]
+
+     // . . .
+		ReactDOM.render(
+			<EJ.Chart id="default_chart_sample_0"
+			series={series}
+			>        
+            
+			</EJ.Chart>,
+				document.getElementById('chart')
+		);
+
+
+{% endhighlight %} 
+
 
 ## Customize specific points
 

@@ -131,6 +131,46 @@ ReactDOM.render(
 
 ![](/js/TreeMap/TreeMap-Elements_images/TreeMap-Elements_img2.png)
 
+
+## Customizing the header
+
+The text in the header can be customized by triggering the event `headerTemplateRendering` of the **TreeMap**. This event is triggered before rendering the header template. 
+
+{% highlight js %}
+
+    <div  id="treemap" style="width: 950px; height: 500px; "></div>
+
+"use strict";
+
+function loadTemplate(){
+    //...
+}
+
+var levels = [{
+            groupPath: "Continent", 
+            groupGap: 2, 
+            headerHeight: 25, 
+            headerTemplate: 'headertemplate' 
+}];
+
+ReactDOM.render(
+    <EJ.TreeMap id="treemap1" levels = {levels} headerTemplateRendering ='loadTemplate'></EJ.TreeMap>,
+    document.getElementById('treemaps')
+);           
+
+    <script  id="headertemplate" type="application/jsrender">
+        <div style="background-color: white; margin:5px">
+            <label style="color:black;font-size:large;" >{{:header}}</label><br />            
+        </div>                        
+    </script>                      
+
+
+{% endhighlight %}
+
+
+![](/js/TreeMap/TreeMap-Elements_images/TreeMap-Elements_img4.png)
+
+
 ## Label
 
 You can also set labels for the leaf nodes by setting the `showLabels` property as true. Group path value is displayed as a label for leaf nodes. You can customize the default label appearance by setting the `labelTemplate` of the **TreeMap** levels.
@@ -172,4 +212,51 @@ ReactDOM.render(
 
 
 ![](/js/TreeMap/TreeMap-Elements_images/TreeMap-Elements_img3.png)
+
+
+
+## Customizing the Overflow labels
+
+You can handle the label overflow, by specifying any one of the following values to the property `textOverflow`as
+
+**None**       - By specifying textOverflow as “none”, it displays the default label text.
+**Hide**       - By specifying textOverflow as “hide”, You can hide the label, when it exceeds the header width.
+**Wrap**       - By specifying textOverflow as “wrap”, you can wrap the label text.
+**Wrapbyword** - By specifying textOverflow as “wrapbyword”, you can wrap the label text by word.
+
+
+{% highlight js %}
+
+    <div  id="treemap" style="width: 1100px; height: 550px; "></div>
+    
+"use strict";
+var levels = [{
+                groupPath: "Continent", 
+                showLabels: true, 
+                groupGap: 2, 
+                headerHeight: 20,  
+                headerTemplate: 'headertemplate', 
+                labelPosition:"topleft", 
+}];
+var leafItemSettings = { labelPath: "Region", showLabels: true};
+
+var legendSettings = {					
+				    height:40,
+					width:700,
+                    textOverFlow:'Wrap'
+};
+
+ReactDOM.render(
+    <EJ.TreeMap id="treemap1" leafItemSettings = {leafItemSettings} 
+    legendSettings = {legendSettings} levels = {levels}></EJ.TreeMap>,
+    document.getElementById('treemaps')
+);             
+    <script  id="headertemplate" type="application/jsrender">
+        <div style="background-color: white; margin:5px">
+            <label style="color:black;font-size:medium;" >{{:header}}</label><br />            
+        </div>                        
+    </script>             
+
+
+{% endhighlight %}
 
