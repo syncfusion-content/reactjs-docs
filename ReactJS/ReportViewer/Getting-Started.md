@@ -81,7 +81,7 @@ Initialize the ReportViewer by using the ` EjReportViewer` tag.
 ReactDOM.render(  
     <EJ.ReportViewer
 		id = "groupingReportViewer"
-		reportServiceUrl = {'http://js.syncfusion.com/ejservices/api/RDLReport'}
+		reportServiceUrl = {'http://js.syncfusion.com/ejservices/api/ReportViewer'}
 		processingMode = {"remote"}
 		reportPath = {'GroupingAgg.rdl'}>
 	</EJ.ReportViewer>,
@@ -124,7 +124,7 @@ Initialize the ReportViewer control by adding the following script code to the b
         ReactDOM.render(
         React.createElement(EJ.ReportViewer, {
             id: "groupingReportViewer",
-            reportServiceUrl: 'http://js.syncfusion.com/ejservices/api/RDLReport',
+            reportServiceUrl: 'http://js.syncfusion.com/ejservices/api/ReportViewer',
             processingMode: "remote",
             reportPath: 'GroupingAgg.rdl'
         }
@@ -155,7 +155,7 @@ Set the `reportPath` from SSRS and SSRS `reportServerUrl` in the ReportViewer pr
     "use strict";
     ReactDOM.render(
     <ej.reportviewer id="territoryReportViewer"
-                     reportserviceurl={ 'http://ssrs.syncfusion.com/ReportingWebAPIService/api/SSRSReport' }
+                     reportserviceurl={ 'http://js.syncfusion.com/ejservices/api/ReportViewer' }
                      reportserverurl={'http://mvc.syncfusion.com/reportserver'}
                      processingmode={"remote"}
                      reportpath={"/SSRSSamples2/Territory sales new"}>
@@ -193,7 +193,7 @@ Initialize the ReportViewer control by adding the following script code to the b
         ReactDOM.render(
         React.createElement(EJ.ReportViewer, {
             id: "territoryReportViewer",
-            reportServiceUrl: 'http://js.syncfusion.com/ejservices/api/RDLReport',
+            reportServiceUrl: 'http://js.syncfusion.com/ejservices/api/ReportViewer',
             reportServerUrl: 'http://mvc.syncfusion.com/reportserver', 
             processingMode: "remote",
             reportPath: '/SSRSSamples2/Territory Sales new'
@@ -225,7 +225,7 @@ Assign the RDLC report path to ReportViewer’s `reportPath` property and set th
     "use strict";
     ReactDOM.render(
     <ej.reportviewer id="areaReportViewer"
-                     reportserviceurl={ 'http://js.syncfusion.com/ejservices/api/RDLCReport' }
+                     reportserviceurl={ 'http://js.syncfusion.com/ejservices/api/ReportViewer' }
                      processingmode={"local"}
                      reportpath={'AreaCharts.rdlc'}
                      datasources={[{value: [{ salespersonid 281, fullname 'Ito' , title 'Sales Representative' , salesterritory 'South West' , y2002 0, y2003 28000, y2004 3018725 },
@@ -273,7 +273,7 @@ Initialize the ReportViewer control by adding the following script code to the b
        ReactDOM.render(
        React.createElement(EJ.ReportViewer, {
            id: "areaReportViewer",
-           reportServiceUrl: 'http://js.syncfusion.com/ejservices/api/RDLCReport',
+           reportServiceUrl: 'http://js.syncfusion.com/ejservices/api/ReportViewer',
            processingMode: "local",
            reportPath: 'AreaCharts.rdlc',
            dataSources: [{
