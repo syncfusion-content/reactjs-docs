@@ -375,3 +375,34 @@ However, you can force the chart to animate series by calling the animate method
 
 {% endhighlight %}
 
+### Control the Speed of animation
+
+To control the speed of animation, you can use the [`animationDuration`](../api/ejchart#members:series-animationduration) property in the series. 
+
+{% highlight javascript %}
+
+"use strict";
+        // ...
+        
+        var series = [{
+        
+             //Enabling animation of series
+             enableAnimation: true, 
+             animationDuration:"2000"   
+        
+             // ...    
+        }];
+        // ...
+		ReactDOM.render(
+			<EJ.Chart id="default_chart_sample_0"
+			series={series}
+			>        
+            
+			</EJ.Chart>,
+				document.getElementById('chart')
+		);
+
+
+{% endhighlight %}
+
+
