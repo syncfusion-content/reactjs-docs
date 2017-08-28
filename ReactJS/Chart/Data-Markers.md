@@ -388,6 +388,8 @@ To change the contrast color for the data label, you can set the [`enableContras
 When we enable this property, the data label text will be rendered in contrast color based on the segment on which it is placed.
 If the data label is placed inside the data points segment, then that particular point's color is taken. Else the chart area or chart background color is considered for deriving the contrast color.
  
+{% highlight javascript %} 
+ 
 "use strict";
         // . . .   
 
