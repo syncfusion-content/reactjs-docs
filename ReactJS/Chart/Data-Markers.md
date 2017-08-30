@@ -390,8 +390,6 @@ If the data label is placed inside the data points segment, then that particular
 
 {% highlight javascript %} 
  
-{% highlight javascript %} 
- 
 "use strict";
         // . . .   
 
