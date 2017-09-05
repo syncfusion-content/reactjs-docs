@@ -433,71 +433,68 @@ If the data label is placed inside the data points segment, then that particular
 
 ## Binding label from the datasource
 
-You can bind the text value to the datalabel from the datasource and then you need to map the text value field with the [`textMappingName`](../api/ejchart#members:series-textmappingname) property respectively.
+You can bind the text value to the datalabel from the datasource and then you need to map the text value field with the [`textMappingName`](../api/ejchart#members:commonseriesoptions-marker-datalabel-textmappingname) property respectively.
 
 {% highlight javascript %}
 
-    "use strict";
-        // . . . 
+"use strict";
+// . . . 
 
 
-    //data source for chart with label 
-     var chartData = [
-          { month: 'Jan', sales: 35, Text: "January"  }, 
-          { month: 'Feb', sales: 28, Text: "February"  }
-    ];
+//data source for chart with label 
+var chartData = [
+    { month: 'Jan', sales: 35, Text: "January"  }, 
+    { month: 'Feb', sales: 28, Text: "February"  }
+];
     
-       var series=[
-        {
-	        dataSource: chartData,
-	        xName: "month",
-	        yName: "sales",
-            marker: {
-                dataLabel: {
-                        visible: true,
-                        textMappingName:"Text"
-                }
-            },	
-        }        
-       ];
-       ReactDOM.render(
-                <EJ.Chart id="default_chart_sample_0"series={series}>
-                </EJ.Chart>,
-	                document.getElementById('chart-default')
-        );
+var series=[{
+	dataSource: chartData,
+	xName: "month",
+	yName: "sales",
+    marker: {
+        dataLabel: {
+            visible: true,
+            textMappingName:"Text"
+        }
+    },	
+}];
+ReactDOM.render(
+    <EJ.Chart id="default_chart_sample_0"series={series}>
+    </EJ.Chart>,
+	document.getElementById('chart-default')
+);
 
 {% endhighlight %}
 
 
 ## Binding fill color to the points from the datasource
 
-You can bind the color value to the points from the datasource and then you need to map the color value field to the [`pointColorMappingName`](../api/ejchart#members:series-pointcolormappingname) property respectively.
+You can bind the color value to the points from the datasource and then you need to map the color value field to the [`pointColorMappingName`](../api/ejchart#members:commonseriesoptions-pointcolormappingname) property respectively.
 
 {% highlight javascript %}
 
 "use strict";
-        // . . . 
+// . . . 
 
-    //data source for chart with fill color
-     var chartData = [
-          { month: 'Jan', sales: 35, Color: "Red"  }, 
-          { month: 'Feb', sales: 28, Color: "Blue"  }
-    ];
+//data source for chart with fill color
+var chartData = [
+    { month: 'Jan', sales: 35, Color: "Red"  }, 
+    { month: 'Feb', sales: 28, Color: "Blue"  }
+];
     
-    //Mapping the color values to the points
-       var series=[
-        {
-	        dataSource: chartData,
-	        xName: "month",
-	        yName: "sales",        
-            pointColorMappingName:"Color"	
-        }        
-       ];
-       ReactDOM.render(
-            <EJ.Chart id="default_chart_sample_0"series={series}>
-            </EJ.Chart>,
-		        document.getElementById('chart-default')
-        );
+//Mapping the color values to the points
+var series=[{
+	dataSource: chartData,
+	xName: "month",
+	yName: "sales",        
+    pointColorMappingName:"Color"	
+}];
+
+ReactDOM.render(
+    <EJ.Chart id="default_chart_sample_0"series={series}>
+    </EJ.Chart>,
+	document.getElementById('chart-default')
+);
 
 {% endhighlight %}
 
