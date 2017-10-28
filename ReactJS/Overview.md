@@ -119,7 +119,7 @@ allowPaging = {true} allowSorting= {true}>
                         <column field="Freight" headertext="Freight" width={90} />
 </columns>
 </EJ.Grid>
-<EJ.Dialog ,
+</EJ.Dialog>,
 document.getElementById('container')
 );
     </script>
