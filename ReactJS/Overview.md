@@ -101,7 +101,7 @@ Output of above code
 
 ## Content template
 
-It provides to render the multiple components inside of single components. For example if you are using the **EJ.Dialog** component inside the **EJ.Grid,** it can be rendered as like mentioned in the below code example
+It provides to render the multiple components inside of single components. For example if you are using the **EJ.Grid** component inside the **EJ.Dialog**, it can be rendered as like mentioned in the below code example
 
 {% highlight html %}
 
