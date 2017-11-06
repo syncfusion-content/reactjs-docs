@@ -102,14 +102,14 @@ always</td><td>
 Tooltip get displayed for RangeNavigator always.</td></tr>
 <tr>
 <td>
-ondemand</td><td>
+onDemand</td><td>
 Tooltip get displayed only when we move the slider.</td></tr>
 </table>
 
 
 {% highlight javascript %}
 
-var tooltipSettings = { tooltipDisplayMode: "ondemand" };
+var tooltipSettings = { tooltipDisplayMode: "onDemand" };
 
 ReactDOM.render(
                 <EJ.RangeNavigator id="rangenavigator1" tooltipSettings = {tooltipSettings}></EJ.RangeNavigator>,
