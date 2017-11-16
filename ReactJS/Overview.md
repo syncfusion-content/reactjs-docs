@@ -47,7 +47,7 @@ Include the following dependencies for render React components with Syncfusion w
 
 {% endhighlight %}
 
-
+I> From React v16.x.x, support for `React.createClass` has been [removed](https://reactjs.org/blog/2017/09/26/react-v16.0.html#packaging). So if you are using react framework later versions then, you need to  refer [`create-react-class`](https://www.npmjs.com/package/create-react-class) package separately.
 
 ### Add React Components
 
