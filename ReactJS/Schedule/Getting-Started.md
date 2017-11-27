@@ -39,7 +39,7 @@ Scheduler can be initialized in either of the 2 ways by making use of the jsx te
 
 ### Using jsx Template
 
-While making use of jsx template, we have to create both the html and jsx files. The `.jsx` file should be converted into `.js` file using [gulp](/reactjs/overview#converting-jsx-to-javascript-with-react) command and then needs to be added as a reference in the html page.
+While making use of jsx template, we have to create both the HTML and jsx files. The `.jsx` file should be converted into `.js` file using [gulp](/reactjs/overview#converting-jsx-to-javascript-with-react) command and then needs to be added as a reference in the HTML page.
 
 #### HTML file
 
@@ -83,7 +83,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-N> The above jsx template needs to be converted from `.jsx` to `.js` extension by using `gulp` nuget package (refer [here](/reactjs/overview#converting-jsx-to-javascript-with-react)) and then it must be referred in the html page.
+N> The above jsx template needs to be converted from `.jsx` to `.js` extension by using `gulp` NuGet package (refer [here](/reactjs/overview#converting-jsx-to-javascript-with-react)) and then it must be referred in the HTML page.
 
 ### Using without jsx Template
 

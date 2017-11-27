@@ -49,7 +49,7 @@ The other required internal dependencies of Scheduler are tabulated below,
     </tr>
     <tr>
         <td>ej.web.react.min.js<br/><br/></td>
-        <td>Must be referred to render the Synfusion widgets in React applications<br/><br/></td>
+        <td>Must be referred to render the Syncfusion widgets in React applications<br/><br/></td>
     </tr>
 </table>
 

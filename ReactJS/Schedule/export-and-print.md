@@ -79,7 +79,7 @@ The following code example depicts the way to export all the Scheduler appointme
 <div id="schedule-default"></div>
 
 <!-- Button div for Export Option-->
-<button id="exportBtn">Export</button>
+<button id="exportButton">Export</button>
 
 {% endhighlight %}
 
@@ -116,7 +116,7 @@ var Button = React.createClass({
     }
 });
 
-ReactDOM.render(<Button />, document.getElementById('exportBtn'));
+ReactDOM.render(<Button />, document.getElementById('exportButton'));
 ReactDOM.render(<Scheduler />, document.getElementById('schedule-default'));
 
 {% endhighlight %}
@@ -189,7 +189,7 @@ var Button = React.createClass({
     }
 });
 
-ReactDOM.render(<Button />, document.getElementById('exportBtn'));
+ReactDOM.render(<Button />, document.getElementById('exportButton'));
 ReactDOM.render(<Scheduler />, document.getElementById('schedule-default'));
 
 {% endhighlight %}
@@ -427,7 +427,7 @@ var Button = React.createClass({
     }
 });
 
-ReactDOM.render(<Button />, document.getElementById('exportBtn'));
+ReactDOM.render(<Button />, document.getElementById('exportButton'));
 ReactDOM.render(<Scheduler />, document.getElementById('schedule-default'));
 
 {% endhighlight %}
@@ -472,7 +472,7 @@ The following code example shows the way to print the entire Scheduler, by keepi
 <div id="Schedule1"></div>
 
 <!--Button div for Print Option-->
-<button id="exportBtn">Print</button>
+<button id="exportButton">Print</button>
 
 {% endhighlight %}
 
@@ -508,7 +508,7 @@ var Button = React.createClass({
     }
 });
 
-ReactDOM.render(<Button />, document.getElementById('exportBtn'));
+ReactDOM.render(<Button />, document.getElementById('exportButton'));
 ReactDOM.render(<Scheduler />, document.getElementById('schedule-default'));
 
 {% endhighlight %}
@@ -634,7 +634,7 @@ var Button = React.createClass({
     }
 });
 
-ReactDOM.render(<Button />, document.getElementById('exportBtn'));
+ReactDOM.render(<Button />, document.getElementById('exportButton'));
 ReactDOM.render(<Scheduler />, document.getElementById('schedule-default'));
 
 {% endhighlight %}
