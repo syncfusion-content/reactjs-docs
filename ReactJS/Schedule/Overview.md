@@ -10,11 +10,11 @@ keywords: overview
 
 # Overview
 
-**Scheduler** is an event calendar that manages the list of various activities (events/appointments) in different available views (day, week, workweek, month and agenda) for various resources. It is mainly for tracking the user appointments and allows them to create a new or edit/delete the older ones. Almost all the features in JS Scheduler are applicable to Scheduler in ReactJS too.  
+**Scheduler** is an event calendar that manages the list of various activities (events/appointments) in different available views (day, week, workweek, month and agenda) for various resources. It is mainly for tracking the user appointments and allows them to create a new or edit/delete the older ones. Almost all the features in JS Scheduler are applicable to Scheduler in ReactJS too.
 
 **Key Features**
 
-Some of the key features of Scheduler are as follows, 
+Some of the key features of Scheduler are as follows,
 
 * **DataSource** - Supports various client-side and remote data sources such as JSON, RESTful services, OData services, WCF services and much more.
 * **Views** - 6 types of views are available namely Day, Week, WorkWeek, Month, Agenda and Custom View (user-specific date rendering).
