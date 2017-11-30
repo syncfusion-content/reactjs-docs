@@ -369,3 +369,29 @@ ReactDOM.render(
 
 ![](/js/BulletGraph/Bullet-Graph-Caption_images/Bullet-Graph-Caption_img8.png)
 
+## Localization
+
+Bullet graph supports localization for its axis labels and tooltip. To render the bullet graph with specific culture you have to refer the corresponding globalize culture script and need to specify the culture name in locale property of bullet graph.
+
+Enable Group Separator is used to Convert the date object to string while using the locale settings, you can set enableGroupSeparator property as true.
+
+{% highlight javascript %}
+
+
+"use strict";
+
+
+ReactDOM.render(
+    <EJ.BulletGraph id="bulletCore0"
+	locale = "en-fr" 
+    enableGroupSeperator = {true}
+    >        
+            
+    </EJ.BulletGraph>,
+		  document.getElementById('bulletgraph')
+); 
+
+{% endhighlight %}
+
+
+

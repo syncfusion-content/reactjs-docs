@@ -51,6 +51,23 @@ ReactDOM.render(
 {% endhighlight %}
 
 
+Responsiveness of the linear gauge is controlled by using enableResize property.
+
+
+{% highlight javascript %}
+
+"use strict";
+
+ReactDOM.render(
+            <ej.bulletgraph id="bulletgraph1" enableResize = {true}>
+            </ej.bulletgraph>,
+            document.getElementById('bulletgraph')
+);
+
+{% endhighlight %}
+
+
+
 
 ## Applying same color to all ticks and labels in a range
 
