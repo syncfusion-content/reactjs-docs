@@ -51,7 +51,7 @@ ReactDOM.render(
     >        
             
     </EJ.BulletGraph>,
-		  document.getElementById('bulletgraph')
+		  document.getElementById('bulletGraph')
 );
 
 {% endhighlight %}
@@ -90,7 +90,7 @@ ReactDOM.render(
     >        
             
     </EJ.BulletGraph>,
-		  document.getElementById('bulletgraph')
+		  document.getElementById('bulletGraph')
 );
 
 {% endhighlight %}
@@ -142,8 +142,8 @@ var captionSettings =  {
            }
     }
  ReactDOM.render(        
-            <ej.bulletgraph id="bulletgraph1" captionsettings= {captionSettings}></ej.bulletgraph>,
-        document.getElementById('bulletgraph')
+            <ej.bulletgraph id="bulletGraph1" captionsettings= {captionSettings}></ej.bulletgraph>,
+        document.getElementById('bulletGraph')
         );
 
 {% endhighlight %}
@@ -167,8 +167,8 @@ var captionSettings = {
             enableTrim : true,
             }
 ReactDOM.render(
-            <ej.bulletgraph id="bulletgraph1" captionsettings= {captionSettings}></ej.bulletgraph>,
-        document.getElementById('bulletgraph')
+            <ej.bulletgraph id="bulletGraph1" captionsettings= {captionSettings}></ej.bulletgraph>,
+        document.getElementById('bulletGraph')
         );    
 
 
@@ -215,7 +215,7 @@ ReactDOM.render(
     >        
             
     </EJ.BulletGraph>,
-		  document.getElementById('bulletgraph')
+		  document.getElementById('bulletGraph')
 );
            
 
@@ -266,7 +266,7 @@ ReactDOM.render(
     >        
             
     </EJ.BulletGraph>,
-		  document.getElementById('bulletgraph')
+		  document.getElementById('bulletGraph')
 );
             
 
@@ -320,7 +320,7 @@ ReactDOM.render(
     >        
             
     </EJ.BulletGraph>,
-		  document.getElementById('bulletgraph')
+		  document.getElementById('bulletGraph')
 );
 {% endhighlight %}
 
@@ -361,7 +361,7 @@ ReactDOM.render(
     >        
             
     </EJ.BulletGraph>,
-		  document.getElementById('bulletgraph')
+		  document.getElementById('bulletGraph')
 ); 
 
 {% endhighlight %}
@@ -384,11 +384,11 @@ Enable Group Separator is used to Convert the date object to string while using 
 ReactDOM.render(
     <EJ.BulletGraph id="bulletCore0"
 	locale = "en-fr" 
-    enableGroupSeperator = {true}
+    enableGroupSeparator = {true}
     >        
             
     </EJ.BulletGraph>,
-		  document.getElementById('bulletgraph')
+		  document.getElementById('bulletGraph')
 ); 
 
 {% endhighlight %}
