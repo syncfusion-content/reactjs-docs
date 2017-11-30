@@ -196,3 +196,43 @@ Execute the above code examples to render the **Digital****Gauge** as follows.
 
 ![](/js/DigitalGauge/Character-Settings_images/Character-Settings_img4.png)
 
+
+## Font Customization
+
+You can customize the **font** of the text as per your requirement. To customize the font, you have to set `enablecustomfont`. Following font customization options are available.
+
+**Font-family**- used to set the font-family of the text.
+
+**Font-style**- used to set the font-style of the text.
+
+**Font-size**- used to set the font-size of the text.
+
+{% highlight javascript %}
+
+"use strict";
+
+ var items = [{
+//For setting Text
+                value: "WELCOME",
+                //For setting segment length and width
+                segmentSettings: {
+                    length: 3,
+                    width: 3
+                },
+                font:{
+                    fontFamily:'Arial',
+                    fontStyle:'Italic',
+                    size:18,
+                    opacity:0.5
+                }
+            }]; 
+
+ReactDOM.render(                    
+        <ej.digitalgauge id="digitalgauge1" width={800} items = {items}></ej.digitalgauge>,                    
+        document.getElementById('DigitalGauge1')
+    );
+
+
+{% endhighlight %}
+
+
