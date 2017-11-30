@@ -78,10 +78,10 @@ Background color for qualitative range is applied to major ticks and minor ticks
 "use strict";
 
 var qualitativeRanges = [
-                       { rangeEnd: 3.5, rangeStroke: 'darkred', rangeOpacity: 0.5 },
+                       { rangeEnd: 3.5, rangeStroke: 'yellow', rangeOpacity: 0.5 },
                        { rangeEnd: 5.0, rangeStroke: 'red', rangeOpacity: 1 },
                        { rangeEnd: 7.5, rangeStroke: 'blue', rangeOpacity: 0.7 },
-                       { rangeEnd: 9.0, rangeStroke: 'lightgreen', rangeOpacity: 1 },
+                       { rangeEnd: 9.0, rangeStroke: 'pink', rangeOpacity: 1 },
                        { rangeEnd: 10.0, rangeStroke: 'green', rangeOpacity: 1 }
     ];
 ReactDOM.render(
