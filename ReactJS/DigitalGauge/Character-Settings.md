@@ -74,7 +74,7 @@ The number of text to be displayed can be limited by the attribute called **coun
  var items = [{
  // For setting text
                 value: "1234567890",
-                segementSettings: {
+                segmentSettings: {
                     // For setting segment length
                     length: 8,
                     // For setting segment width
@@ -199,7 +199,7 @@ Execute the above code examples to render the **Digital****Gauge** as follows.
 
 ## Font Customization
 
-You can customize the **font** of the text as per your requirement. To customize the font, you have to set `enablecustomfont`. Following font customization options are available.
+You can customize the **font** of the text as per your requirement. To customize the font, you have to set `enableCustomFont`. Following font customization options are available.
 
 **Font-family**- used to set the font-family of the text.
 
