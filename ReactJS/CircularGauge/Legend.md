@@ -61,6 +61,30 @@ ReactDOM.render(
 
 {% endhighlight %}
 
+
+### Legend Fill and Opacity
+
+You can change the opacity and fill color of legend text using `Opacity` and `Fill` property of legend. 
+
+{% highlight javascript %}
+
+var legend = {
+	visible: true,
+    fill:'blue',
+    opacity:0.5
+}
+ReactDOM.render(
+    <EJ.CircularGauge id="default"  legend={legend}
+    >
+	
+    </EJ.CircularGauge>,
+		  document.getElementById('circulargauge')
+);
+
+
+
+{% endhighlight %}
+
 ## Position and Align the Legend
 
 By using the [`position`](../api/ejcirculargauge#members:legend-position) property, you can position the legend at *left*, *right*, *top* or *bottom* of the CircularGauge. The legend is positioned at the **bottom** of the circular gauge, by default.
