@@ -62,6 +62,91 @@ The following screenshot illustrates a **RangeNavigator** with **rangePadding** 
 
 ![](/js/RangeNavigator/Range-Padding_images/Range-Padding_img4.png) 
 
+## Padding
+
+The gap between the container and the **RangeNavigator** can be specified using `padding` property.
+
+{% highlight html %}
+
+ReactDOM.render(
+                     <EJ.RangeNavigator id="rangenavigator1" padding ={15}></EJ.RangeNavigator>,                    
+                     document.getElementById('rangenavigator')
+);
+
+{% endhighlight %}
+
+## AllowSnapping
+
+An `allowSnapping` property toggles the placement of slider exactly on the place it left or on the nearest interval.
+
+{% highlight html %}
+
+ReactDOM.render(
+                    <EJ.RangeNavigator id="rangenavigator1" allowSnapping ={true}></EJ.RangeNavigator>,                    
+                     document.getElementById('rangenavigator')
+);
+
+{% endhighlight %}
+
+## Responsive
+
+Set `isResponsive` value to make the **RangeNavigator** responsive on resize.
+
+{% highlight html %}
+
+ReactDOM.render(
+                    <EJ.RangeNavigator id="rangenavigator1" isResponsive ={true}></EJ.RangeNavigator>,                    
+                     document.getElementById('rangenavigator')
+);
+{% endhighlight %}
+
+## Auto Resizing
+
+Enable `enableAutoResizing` option to resize the **RangeNavigator**.
+
+{% highlight html %}
+
+ReactDOM.render(
+                    <EJ.RangeNavigator id="rangenavigator1" enableAutoResizing ={true}></EJ.RangeNavigator>,                    
+                     document.getElementById('rangenavigator')
+);
+
+{% endhighlight %}
+
+## Customize range Navigator border
+
+**RangeNavigator** provides options to customize the `color`, `opacity` and `width` of range navigator `border`.
+
+{% highlight html %}
+
+var border = {
+    color:'blue',
+    width:2,
+    opacity:0.5
+};
+
+ReactDOM.render(
+                    <EJ.RangeNavigator id="rangenavigator1" border ={border}></EJ.RangeNavigator>,                    
+                     document.getElementById('rangenavigator')
+);
+
+{% endhighlight %}
+
+## Customize size of range navigator
+
+The `height` and `width` of **RangeNavigator** can be customized using `sizeSettings` property.
+
+{% highlight html %}
+
+ReactDOM.render(
+                    <EJ.RangeNavigator id="rangenavigator1" width ={50}
+                    height={50}></EJ.RangeNavigator>,                    
+                     document.getElementById('rangenavigator')
+);
+
+{% endhighlight %}
+
+
 #### DateTime
 
 Using the default range calculation for **RangeNavigator**, the **rangePadding** property allows you to customize the range.
