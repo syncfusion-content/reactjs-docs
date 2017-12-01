@@ -319,6 +319,22 @@ ReactDOM.render(
 
 {% endhighlight %}
 
+### Factor
+
+Specifies the zoom factor for map zoom value, you can use `factor` property.
+
+{% highlight javascript %}
+
+ ReactDOM.render(    
+                    <EJ.Map id="map1" factor={1} ></EJ.Map>,
+                    
+                     document.getElementById('maps')
+);
+
+
+{% endhighlight %}
+
+
 ## Navigation Control
 
 **Navigation** control is built-in with **Maps** control. With Navigation control, **Maps** can be panned in any direction and zoomed. It is possible to show or hide the NavigationControl by `enableNavigation` property.
@@ -426,6 +442,123 @@ ReactDOM.render(
 
 
 {% endhighlight %}
+
+
+#### Orientation
+
+Set the `orientation` value for navigation control.
+
+
+{% highlight javascript %}
+
+var navigationControl ={
+     enableNavigation:true,
+     orientation:'vertical',
+     absolutePosition:{
+         x:5,
+         y:16
+    },
+     dockPosition:'none'
+};
+                
+    
+ReactDOM.render(                   
+                    <EJ.Map id="map1"  
+                    navigationControl = {navigationControl} ></EJ.Map>,
+                    
+                     document.getElementById('maps')
+                     );
+   	
+   
+{% endhighlight %}
+
+#### Content
+
+
+Specifies the navigation control template for map, you can use `content` property.
+
+
+{% highlight html %}
+ 
+var navigationControl ={
+     enableNavigation:true,
+     orientation:'vertical',
+     absolutePosition:{
+         x:5,
+         y:16
+    },
+     dockPosition:'none',
+     content:''
+};
+                
+    
+ReactDOM.render(                   
+                    <EJ.Map id="map1"  
+                    navigationControl = {navigationControl} ></EJ.Map>,
+                    
+                     document.getElementById('maps')
+                     );
+
+{% endhighlight %}
+
+
+
+### Animation
+
+ **Animation** is enabled or disabled using `enableAnimation`property. 
+
+{% highlight javascript %}
+
+ReactDOM.render(                   
+                    <EJ.Map id="map1"  
+                    enableAnimation = {true} ></EJ.Map>,
+                    
+                     document.getElementById('maps')
+                     );
+
+{% endhighlight %}
+
+
+#### Enable Layer Change Animation 
+
+Enables or Disables the animation for layer change in map, you can use `enableLayerChangeAnimation` property and the default value is false.
+
+
+{% highlight javascript %}
+ 
+
+
+ReactDOM.render(                   
+                    <EJ.Map id="map1"  
+                    enableLayerChangeAnimation = {true} ></EJ.Map>,
+                    
+                     document.getElementById('maps')
+                     );
+
+
+
+{% endhighlight %}
+
+
+### Responsiveness during browser resize
+
+**Map** is made responsive when resizing the browser by using `isResponsive` property.
+
+{% highlight javascript %}
+
+
+ReactDOM.render(                   
+                    <EJ.Map id="map1"  
+                    isResponsive = {true} ></EJ.Map>,
+                    
+                     document.getElementById('maps')
+                     );
+
+{% endhighlight %}
+
+
+
+
 
 
 
