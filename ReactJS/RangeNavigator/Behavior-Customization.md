@@ -27,7 +27,7 @@ ReactDOM.render(
     >
                   
     </EJ.RangeNavigator>,
-		  document.getElementById('rangenavigator')
+		  document.getElementById('range')
 );
 
 
@@ -55,7 +55,7 @@ ReactDOM.render(
     >
                   
     </EJ.RangeNavigator>,
-		  document.getElementById('rangenavigator')
+		  document.getElementById('range')
 );
 
 
@@ -80,7 +80,7 @@ ReactDOM.render(
     >
                   
     </EJ.RangeNavigator>,
-		  document.getElementById('rangenavigator')
+		  document.getElementById('range')
 );
 
 
@@ -97,23 +97,23 @@ You can easily update the data for chart by assigning the **zoomFactor** and **z
 
 "use strict";
 // setting zoom factor and position for chart axis in rangeChanged event.
-function onchartloaded(sender){
-	var chartobj = $("#container").data("ejChart");
-    if (chartobj != null) {
-        chartobj.model.axes[0].zoomPosition = sender.zoomPosition;
-        chartobj.model.axes[0].zoomFactor = sender.zoomFactor;
+function onChartLoaded(sender){
+	var chartObj = $("#container").data("ejChart");
+    if (chartObj != null) {
+        chartObj.model.axes[0].zoomPosition = sender.zoomPosition;
+        chartObj.model.axes[0].zoomFactor = sender.zoomFactor;
     }
     $("#container").ejChart("redraw");
 };
 ReactDOM.render(
     <EJ.RangeNavigator id="default_rn_sample_0"
 	//..
-	rangeChanged={onchartloaded}
+	rangeChanged={onChartLoaded}
 	//..
     >
                   
     </EJ.RangeNavigator>,
-		  document.getElementById('rangenavigator')
+		  document.getElementById('range')
 );
 
 
@@ -158,7 +158,7 @@ ReactDOM.render(
     >
                   
     </EJ.RangeNavigator>,
-		  document.getElementById('rangenavigator')
+		  document.getElementById('range')
 );
 
 
@@ -209,7 +209,7 @@ ReactDOM.render(
     >
                   
     </EJ.RangeNavigator>,
-		  document.getElementById('rangenavigator')
+		  document.getElementById('range')
 );
 
 
@@ -236,7 +236,7 @@ ReactDOM.render(
     >
                   
     </EJ.RangeNavigator>,
-		  document.getElementById('rangenavigator')
+		  document.getElementById('range')
 );
 
 {% endhighlight %}

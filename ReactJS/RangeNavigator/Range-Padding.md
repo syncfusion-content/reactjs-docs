@@ -18,9 +18,9 @@ The **rangePadding** property allows you to customize the automatic range calcul
 {% highlight html %}
 
 ReactDOM.render(
-                     <EJ.RangeNavigator id="rangenavigator1"     valueType ="numeric" 
+                     <EJ.RangeNavigator id="range1"     valueType ="numeric" 
                       rangePadding = 'none ' ></EJ.RangeNavigator>,                    
-                     document.getElementById('rangenavigator')
+                     document.getElementById('range')
 );
 
 
@@ -69,8 +69,8 @@ The gap between the container and the **RangeNavigator** can be specified using 
 {% highlight html %}
 
 ReactDOM.render(
-                     <EJ.RangeNavigator id="rangenavigator1" padding ={15}></EJ.RangeNavigator>,                    
-                     document.getElementById('rangenavigator')
+                     <EJ.RangeNavigator id="range1" padding ={15}></EJ.RangeNavigator>,                    
+                     document.getElementById('range')
 );
 
 {% endhighlight %}
@@ -82,8 +82,8 @@ An `allowSnapping` property toggles the placement of slider exactly on the place
 {% highlight html %}
 
 ReactDOM.render(
-                    <EJ.RangeNavigator id="rangenavigator1" allowSnapping ={true}></EJ.RangeNavigator>,                    
-                     document.getElementById('rangenavigator')
+                    <EJ.RangeNavigator id="range1" allowSnapping ={true}></EJ.RangeNavigator>,                    
+                     document.getElementById('range')
 );
 
 {% endhighlight %}
@@ -95,8 +95,8 @@ Set `isResponsive` value to make the **RangeNavigator** responsive on resize.
 {% highlight html %}
 
 ReactDOM.render(
-                    <EJ.RangeNavigator id="rangenavigator1" isResponsive ={true}></EJ.RangeNavigator>,                    
-                     document.getElementById('rangenavigator')
+                    <EJ.RangeNavigator id="range1" isResponsive ={true}></EJ.RangeNavigator>,                    
+                     document.getElementById('range')
 );
 {% endhighlight %}
 
@@ -107,8 +107,8 @@ Enable `enableAutoResizing` option to resize the **RangeNavigator**.
 {% highlight html %}
 
 ReactDOM.render(
-                    <EJ.RangeNavigator id="rangenavigator1" enableAutoResizing ={true}></EJ.RangeNavigator>,                    
-                     document.getElementById('rangenavigator')
+                    <EJ.RangeNavigator id="range1" enableAutoResizing ={true}></EJ.RangeNavigator>,                    
+                     document.getElementById('range')
 );
 
 {% endhighlight %}
@@ -126,8 +126,8 @@ var border = {
 };
 
 ReactDOM.render(
-                    <EJ.RangeNavigator id="rangenavigator1" border ={border}></EJ.RangeNavigator>,                    
-                     document.getElementById('rangenavigator')
+                    <EJ.RangeNavigator id="range1" border ={border}></EJ.RangeNavigator>,                    
+                     document.getElementById('range')
 );
 
 {% endhighlight %}
@@ -139,9 +139,9 @@ The `height` and `width` of **RangeNavigator** can be customized using `sizeSett
 {% highlight html %}
 
 ReactDOM.render(
-                    <EJ.RangeNavigator id="rangenavigator1" width ={50}
+                    <EJ.RangeNavigator id="range1" width ={50}
                     height={50}></EJ.RangeNavigator>,                    
-                     document.getElementById('rangenavigator')
+                     document.getElementById('range')
 );
 
 {% endhighlight %}
@@ -155,9 +155,9 @@ Using the default range calculation for **RangeNavigator**, the **rangePadding**
 
 
 ReactDOM.render(
-              <EJ.RangeNavigator id="rangenavigator1"     valueType ="dateTime" 
+              <EJ.RangeNavigator id="range1"     valueType ="dateTime" 
               rangePadding = 'none ' ></EJ.RangeNavigator>,
-              document.getElementById('rangenavigator')
+              document.getElementById('range')
 );
 
 
@@ -191,8 +191,8 @@ var rangeSettings = {
                     start: "2010/1/1", end: "2012/13/1"
                 };
 ReactDOM.render(
-                <EJ.RangeNavigator id="rangenavigator1" rangeSettings = {rangeSettings}   ></EJ.RangeNavigator>,
-                document.getElementById('rangenavigator')
+                <EJ.RangeNavigator id="range1" rangeSettings = {rangeSettings}   ></EJ.RangeNavigator>,
+                document.getElementById('range')
 );
 
 
