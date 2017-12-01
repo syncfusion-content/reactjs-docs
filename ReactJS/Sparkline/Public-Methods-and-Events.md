@@ -30,7 +30,7 @@ ReactDOM.render(
 	document.getElementById('line')
 );
 
-function SparklLineMethod(){
+function SparkLineMethod(){
     var sparkObj = $("#default").data("ejSparkLine");
     sparkObj.redraw();
 };
