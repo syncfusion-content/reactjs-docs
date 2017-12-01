@@ -22,7 +22,7 @@ ReactDOM.render(
     <EJ.CircularGauge id="default" readonly="false"
     >       
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge')
+		  document.getElementById('gauge')
 );
 
 {% endhighlight %}
@@ -48,7 +48,7 @@ ReactDOM.render(
     animationSpeed={1000}
     >       
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge')
+		  document.getElementById('gauge')
 );
 
 
@@ -71,7 +71,7 @@ ReactDOM.render(
     isRadialGradient={true}    
     >       
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge')
+		  document.getElementById('gauge')
 );
 
 
@@ -90,7 +90,7 @@ ReactDOM.render(
     distanceFromCorner={5}    
     >       
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge')
+		  document.getElementById('gauge')
 );
 
 
@@ -108,7 +108,7 @@ ReactDOM.render(
     enableResize={true}    
     >       
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge')
+		  document.getElementById('gauge')
 );
 
 
@@ -126,7 +126,7 @@ ReactDOM.render(
     locale="en-fr"    
     >       
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge')
+		  document.getElementById('gauge')
 );
 
 
@@ -163,7 +163,7 @@ ReactDOM.render(
     theme="saffron"    
     >       
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge')
+		  document.getElementById('gauge')
 );
 
 
@@ -184,7 +184,7 @@ ReactDOM.render(
     value={20}
     >       
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge')
+		  document.getElementById('gauge')
 );
 
 
