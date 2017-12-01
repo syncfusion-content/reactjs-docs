@@ -52,9 +52,9 @@ var rangeSettings = {
     
 
 ReactDOM.render(                    
-                <EJ.RangeNavigator id="rangenavigator1" labelSettings = {labelSettings} 
+                <EJ.RangeNavigator id="range1" labelSettings = {labelSettings} 
                  rangeSettings = {rangeSettings}></EJ.RangeNavigator>,                    
-                document.getElementById('rangenavigator')
+                document.getElementById('range')
 );
 
 
@@ -91,9 +91,9 @@ var rangeSettings = {
 };        
 
 ReactDOM.render(
-            <EJ.RangeNavigator id="rangenavigator1" labelSettings = {labelSettings}  
+            <EJ.RangeNavigator id="range1" labelSettings = {labelSettings}  
             rangeSettings = {rangeSettings}></EJ.RangeNavigator>,
-            document.getElementById('rangenavigator')
+            document.getElementById('range')
 );
 
 
