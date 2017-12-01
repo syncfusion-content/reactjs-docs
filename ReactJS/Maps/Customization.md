@@ -458,7 +458,7 @@ ReactDOM.render(
 
 ### Base Map Index 
 
-Specifies the index of the map to determine the shape layer to be displayed, you can use `basemapindex` property and the default value is 0.
+Specifies the index of the map to determine the shape layer to be displayed, you can use `baseMapIndex` property and the default value is 0.
 
 
 {% highlight javascript %}
@@ -476,7 +476,7 @@ ReactDOM.render(
 ### Center Position 
 
 
-Specify the `centerposition` where map should be displayed
+Specify the `centerPosition` where map should be displayed
 
 
 {% highlight javascript %}

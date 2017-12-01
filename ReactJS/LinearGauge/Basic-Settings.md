@@ -273,7 +273,7 @@ ReactDOM.render(
 
 ReactDOM.render(
     <EJ.LinearGauge id="lineargauge"
-    locale="en-fr" enableGroupSeperator={true}>                    
+    locale="en-fr" enableGroupSeparator={true}>                    
     </EJ.LinearGauge>,
           document.getElementById('LinearGauge1')
 );
