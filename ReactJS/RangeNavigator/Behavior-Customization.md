@@ -27,7 +27,7 @@ ReactDOM.render(
     >
                   
     </EJ.RangeNavigator>,
-		  document.getElementById('rangenavigator')
+		  document.getElementById('range')
 );
 
 
@@ -55,7 +55,7 @@ ReactDOM.render(
     >
                   
     </EJ.RangeNavigator>,
-		  document.getElementById('rangenavigator')
+		  document.getElementById('range')
 );
 
 
@@ -80,7 +80,7 @@ ReactDOM.render(
     >
                   
     </EJ.RangeNavigator>,
-		  document.getElementById('rangenavigator')
+		  document.getElementById('range')
 );
 
 
@@ -97,23 +97,23 @@ You can easily update the data for chart by assigning the **zoomFactor** and **z
 
 "use strict";
 // setting zoom factor and position for chart axis in rangeChanged event.
-function onchartloaded(sender){
-	var chartobj = $("#container").data("ejChart");
-    if (chartobj != null) {
-        chartobj.model.axes[0].zoomPosition = sender.zoomPosition;
-        chartobj.model.axes[0].zoomFactor = sender.zoomFactor;
+function onChartLoaded(sender){
+	var chartObj = $("#container").data("ejChart");
+    if (chartObj != null) {
+        chartObj.model.axes[0].zoomPosition = sender.zoomPosition;
+        chartObj.model.axes[0].zoomFactor = sender.zoomFactor;
     }
     $("#container").ejChart("redraw");
 };
 ReactDOM.render(
     <EJ.RangeNavigator id="default_rn_sample_0"
 	//..
-	rangeChanged={onchartloaded}
+	rangeChanged={onChartLoaded}
 	//..
     >
                   
     </EJ.RangeNavigator>,
-		  document.getElementById('rangenavigator')
+		  document.getElementById('range')
 );
 
 
@@ -158,7 +158,7 @@ ReactDOM.render(
     >
                   
     </EJ.RangeNavigator>,
-		  document.getElementById('rangenavigator')
+		  document.getElementById('range')
 );
 
 
@@ -169,3 +169,75 @@ ReactDOM.render(
 The following screenshot displays the **RangeNavigator** using thumb template.
 
 ![](/js/RangeNavigator/Behavior-Customization_images/Behavior-Customization_img3.png) 
+
+## Value Axis Settings
+
+You can customize the line, `Font` `Size`, gridline, tickline, range, `RangePadding` and visibility of **RangeNavigator** axis.
+
+To enable the visibility of axis line, you need to set `Visible` property of `AxisLine` in `ValueAxisSettings`. 
+
+You can customize the axis range by specifying `Min`, `Max` and `Interval` for `Range` property.
+
+The `MajorGridLines` can be enabled by specifying `Visible` property. The `Size`, `Width` and `Visible` property of `MajorTickLines` is used to customize the axis tick lines.
+
+The visibility of `ValueAxisSettings` is enabled by setting `Visible` property as true. 
+
+{% highlight javascript %}
+
+
+                    
+                    var valueAxisSettings= {
+                          Min:10 ,
+                          Max: 50 ,
+                          Interval: 5,                          
+                          MajorTickLines:{
+                              visible:'true'
+                          },
+                          Size:2,
+                          Width:2,
+                          MajorGridLines:{
+                              visible:'true'
+                          },
+                    };
+
+
+ReactDOM.render(
+    <EJ.RangeNavigator id="default_rn_sample_0"
+	//..
+	valueAxisSettings={valueAxisSettings}
+	//..
+    >
+                  
+    </EJ.RangeNavigator>,
+		  document.getElementById('range')
+);
+
+
+
+{% endhighlight %}
+
+## Selected Range Settings
+
+The start and end range values of selected range can be customized using `Start` and `End` property of `SelectedRangeSettings`.
+
+{% highlight javascript %}
+
+var selectedRangeSettings= {
+                          start:'',
+                          end:''
+                    };
+
+
+ReactDOM.render(
+    <EJ.RangeNavigator id="default_rn_sample_0"
+	//..
+	selectedRangeSettings={selectedRangeSettings}
+	//..
+    >
+                  
+    </EJ.RangeNavigator>,
+		  document.getElementById('range')
+);
+
+{% endhighlight %}
+

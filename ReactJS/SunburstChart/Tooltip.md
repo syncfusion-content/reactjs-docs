@@ -63,3 +63,31 @@ ReactDOM.render(
 {% endhighlight %}
 
 ![](/js/SunburstChart/Tooltip_images/Tooltip_img2.png)
+
+## Customize the appearance of tooltip
+
+The `fill` and `border` options are used to customize the `background color` and `border` of the tooltip respectively. The `font` option in the tooltip is used to customize the font of the tooltip text.
+
+
+{% highlight js %}
+
+"use strict";
+ var tooltip = { visible: true,
+    border:{
+        color:'red',
+        width:2
+    },
+font:{
+    //..
+}
+    };
+ReactDOM.render(
+    <EJ.SunburstChart id = "sunburst1"          
+	tooltip = {tooltip}>                  
+    </EJ.SunburstChart>,
+          document.getElementById('sunburst')
+);
+
+
+{% endhighlight %}
+

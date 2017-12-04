@@ -26,7 +26,7 @@ ReactDOM.render(
     >
 	
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge')
+		  document.getElementById('gauge')
 );
 
 
@@ -56,8 +56,32 @@ ReactDOM.render(
     >
 	
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge')
+		  document.getElementById('gauge')
 );
+
+{% endhighlight %}
+
+
+### Legend Fill and Opacity
+
+You can change the opacity and fill color of legend text using `Opacity` and `Fill` property of legend. 
+
+{% highlight javascript %}
+
+var legend = {
+	visible: true,
+    fill:'blue',
+    opacity:0.5
+}
+ReactDOM.render(
+    <EJ.CircularGauge id="default"  legend={legend}
+    >
+	
+    </EJ.CircularGauge>,
+		  document.getElementById('gauge')
+);
+
+
 
 {% endhighlight %}
 
@@ -80,7 +104,7 @@ ReactDOM.render(
     >
 	
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge')
+		  document.getElementById('gauge')
 );
 
 
@@ -108,7 +132,7 @@ ReactDOM.render(
     >
 	
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge')
+		  document.getElementById('gauge')
 );
 
 
@@ -137,7 +161,7 @@ ReactDOM.render(
     >
 	
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge-default')
+		  document.getElementById('gauge')
 );
 
 
@@ -164,7 +188,7 @@ ReactDOM.render(
     >
 	
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge-default')
+		  document.getElementById('gauge')
 );
 
 
@@ -191,7 +215,7 @@ ReactDOM.render(
     >
 	
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge-default')
+		  document.getElementById('gauge')
 );
 
 
@@ -221,7 +245,7 @@ ReactDOM.render(
     >
 	
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge-default')
+		  document.getElementById('gauge')
 );
 
 
@@ -250,7 +274,7 @@ ReactDOM.render(
     >
 	
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge-default')
+		  document.getElementById('gauge')
 );
 
 
@@ -278,7 +302,7 @@ ReactDOM.render(
     >
 	
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge-default')
+		  document.getElementById('gauge')
 );
 
 
@@ -306,14 +330,14 @@ ReactDOM.render(
     >
 	
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge-default')
+		  document.getElementById('gauge')
 );
 
 {% endhighlight %}
 
 ### Legend Item Click
 
-You can get the legend item details such as *Rangeindex, bounds and shape* by subscribing the [`legendItemClick`](../api/ejcirculargauge#events:legenditemclick) event of the circular gauge. When the legend item is clicked, it triggers the event and returns the legend information 
+You can get the legend item details such as *RangeIndex, bounds and shape* by subscribing the [`legendItemClick`](../api/ejcirculargauge#events:legenditemclick) event of the circular gauge. When the legend item is clicked, it triggers the event and returns the legend information 
 
 {% highlight javascript %}
 
@@ -325,12 +349,12 @@ function onLegendClicked(sender) {
 }
 ReactDOM.render(
     <EJ.CircularGauge id="default"  
-    //Subscribe the legenditem click event
+    //Subscribe the legend item click event
     legendItemClick={onLegendClicked}
     >
 	
     </EJ.CircularGauge>,
-		  document.getElementById('circulargauge-default')
+		  document.getElementById('gauge')
 );
 
 

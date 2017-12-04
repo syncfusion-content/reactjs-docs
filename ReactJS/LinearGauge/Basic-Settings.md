@@ -246,5 +246,40 @@ Execute the above code to render the following output.
 
 ![](/js/LinearGauge/Basic-Settings_images/Basic-Settings_img4.png)
 
+Responsiveness of the linear gauge is controlled by using `enableResize` property.
+
+
+{% highlight javascript %}
+
+ReactDOM.render(
+    <EJ.LinearGauge id="lineargauge"
+    width={100} height={100} enableResize={true}>                    
+    </EJ.LinearGauge>,
+          document.getElementById('LinearGauge1')
+);
+
+{% endhighlight %}
+
+
+## Localization
+
+**LinearGauge** supports localization for its axis labels and tooltip. To render the gauge with specific culture you have to refer the corresponding globalize culture script and need to specify the culture name in `locale` property of gauge.
+
+**Enable Group Separator** is used to Convert the date object to string while using the locale settings, you can set `enableGroupSeparator` property as **true**.
+
+
+
+{% highlight javascript %}
+
+ReactDOM.render(
+    <EJ.LinearGauge id="lineargauge"
+    locale="en-fr" enableGroupSeparator={true}>                    
+    </EJ.LinearGauge>,
+          document.getElementById('LinearGauge1')
+);
+
+{% endhighlight %}
+
+
 
 

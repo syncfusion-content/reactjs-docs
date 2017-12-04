@@ -440,3 +440,93 @@ The following screenshot illustrates a map control displaying a Tooltip with tem
 
 ![](/js/Maps/Customization_images/Customization_img7.png)
 
+
+### Customize map background
+
+The Map background can be customized by using the `background` property of the Map. 
+
+{% highlight javascript %}
+
+ReactDOM.render(
+        <EJ.Map id="map1" background="blue"></EJ.Map>,
+                    
+        document.getElementById('maps')
+); 
+
+{% endhighlight %} 
+
+
+### Base Map Index 
+
+Specifies the index of the map to determine the shape layer to be displayed, you can use `baseMapIndex` property and the default value is 0.
+
+
+{% highlight javascript %}
+ 
+ReactDOM.render(
+        <EJ.Map id="map1" baseMapIndex={0}></EJ.Map>,
+                    
+        document.getElementById('maps')
+); 
+
+
+{% endhighlight %}
+
+
+### Center Position 
+
+
+Specify the `centerPosition` where map should be displayed
+
+
+{% highlight javascript %}
+  
+         
+ReactDOM.render(
+        <EJ.Map id="map1" centerPosition=""></EJ.Map>,
+                    
+        document.getElementById('maps')
+); 
+
+
+{% endhighlight %}
+
+
+### Label Settings
+
+The `labelSettings` defines the basic customization settings of labels in the map. 
+
+The below properties are used for `labelSettings`
+
+* `enableSmartLabel` - enable or disable the enableSmartLabel property.
+* `labelLength` - set the labelLength property.
+* `labelPath` - set the labelPath property.
+* `showLabels`- The property specifies whether to show labels or not
+* `smartLabelSize` - set the smartLabelSize property.
+
+
+{% highlight javascript %}
+
+var mapLayers= [{
+    // ...
+    LabelSettings: {        
+        enableSmartLabel: "true",
+        labelLength:'',
+        labelPath:'',
+        showLabels:'true',
+        smartLabelSize:''
+    },
+    showTooltip: true
+}];
+
+
+ReactDOM.render(
+        <EJ.Map id="map1" layers={mapLayers}></EJ.Map>,
+                    
+        document.getElementById('maps')
+); 
+
+
+{% endhighlight %}
+
+
