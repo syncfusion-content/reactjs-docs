@@ -66,5 +66,21 @@ Execute the above code to render the following output.
 
 ![](/js/LinearGauge/Interaction-and-Animation_images/Interaction-and-Animation_img1.png)
 
+### Enable Marker Pointer Animation
+
+Specifies the animate state for marker pointer, you can set `enableMarkerPointer`property as **true**
+
+{% highlight javascript %}
+
+ReactDOM.render(
+    <EJ.LinearGauge id="lineargauge"
+    enableMarkerPointer={true}>                 
+    </EJ.LinearGauge>,
+          document.getElementById('LinearGauge1')
+);
+
+{% endhighlight %}
+
+
 
 

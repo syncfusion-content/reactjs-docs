@@ -95,6 +95,25 @@ You can change the size of the legend items by using the [`itemStyle.width`](../
 
 ![](/js/SunburstChart/Legend_images/Legend_img4.png)
 
+## Legend Alignment
+
+You can align the legend to the `center`, `far` or `near` based on its position by using the `legend-alignment` option.
+
+{% highlight js %}
+
+"use strict";
+ var legend = {alignment:"near"};
+ ReactDOM.render(
+    <EJ.SunburstChart id = "sunburst1"      
+    legend ={legend}    
+    >                  
+    </EJ.SunburstChart>,
+          document.getElementById('sunburst')
+);
+
+{% endhighlight %}
+
+
 ## Legend Size
 
 By default, legend takes 20% of the height horizontally when it was placed on the top or bottom position and 20% of the width vertically while placing on the left or right position of the chart. You can change this default legend size by using the [`size`](../api/ejsunburstchart#members:legend-size) property of the legend.
@@ -116,7 +135,52 @@ By default, legend takes 20% of the height horizontally when it was placed on th
 
  ![](/js/SunburstChart/Legend_images/Legend_img5.png)
 
-## Legend Row and Colums
+## Legend title
+
+To add the title to the legend, you have to specify the `legend.title`  option.
+
+{% highlight js %}
+
+"use strict";
+ var legend = {title:{
+       //..
+ }};
+ ReactDOM.render(
+    <EJ.SunburstChart id = "sunburst1"      
+    legend ={legend}    
+    >                  
+    </EJ.SunburstChart>,
+          document.getElementById('sunburst')
+);
+
+{% endhighlight %}
+
+## Customize the legend text
+
+To customize the legend item text and title you can use the `legend-title-font` and `legend-title` options. You can change the legend title alignment by using the `legend-title-textAlignment` option of the legend title.
+
+{% highlight js %}
+
+"use strict";
+ var legend = {title:{
+       //..
+       font:{
+             //..
+       }
+ }};
+ ReactDOM.render(
+    <EJ.SunburstChart id = "sunburst1"      
+    legend ={legend}    
+    >                  
+    </EJ.SunburstChart>,
+          document.getElementById('sunburst')
+);
+
+{% endhighlight %}
+
+
+
+## Legend Row and Column
 
 You can arrange the legend items horizontally and vertically by using the [`rowCount`](../api/ejsunburstchart#members:legend-rowCount) and [`columnCount`](../api/ejsunburstchart#members:legend-clumnCount) properties of the legend.
 •	When only the rowCount is specified, the legend items are arranged according to the rowCount and number of columns may vary based on the number of legend items.
@@ -146,7 +210,7 @@ You can select a specific category while clicking on corresponding legend item t
 
 It has three types of action
 *	ToggleSegmentSelection
-*	ToggleSegmentVisiblity
+*	ToggleSegmentVisibility
 *	None
 
 ## ToggleSegmentSelection
