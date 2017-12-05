@@ -19,12 +19,12 @@ api: /api/js/ejbulletgraph
 "use strict";
 
  ReactDOM.render(
-            <ej.bulletgraph id="bulletgraph1"
+            <ej.bulletgraph id="bulletGraph1"
                             value = {8}					
                             comparativeMeasureValue = {5}
                             enableAnimation = {true}>
             </ej.bulletgraph>,
-            document.getElementById('bulletgraph')
+            document.getElementById('bulletGraph')
             );
 
 
@@ -40,15 +40,32 @@ api: /api/js/ejbulletgraph
 "use strict";
 
 ReactDOM.render(
-            <ej.bulletgraph id="bulletgraph1" isResponsive = {true} value ={8}
+            <ej.bulletgraph id="bulletGraph1" isResponsive = {true} value ={8}
                 comparativeMeasureValue ={5} >
             </ej.bulletgraph>,
-            document.getElementById('bulletgraph')
+            document.getElementById('bulletGraph')
             );
 
 
 
 {% endhighlight %}
+
+
+Responsiveness of the linear gauge is controlled by using enableResize property.
+
+
+{% highlight javascript %}
+
+"use strict";
+
+ReactDOM.render(
+            <ej.bulletgraph id="bulletGraph1" enableResize = {true}>
+            </ej.bulletgraph>,
+            document.getElementById('bulletGraph')
+);
+
+{% endhighlight %}
+
 
 
 
@@ -61,19 +78,19 @@ Background color for qualitative range is applied to major ticks and minor ticks
 "use strict";
 
 var qualitativeRanges = [
-                       { rangeEnd: 3.5, rangeStroke: 'darkred', rangeOpacity: 0.5 },
+                       { rangeEnd: 3.5, rangeStroke: 'yellow', rangeOpacity: 0.5 },
                        { rangeEnd: 5.0, rangeStroke: 'red', rangeOpacity: 1 },
                        { rangeEnd: 7.5, rangeStroke: 'blue', rangeOpacity: 0.7 },
-                       { rangeEnd: 9.0, rangeStroke: 'lightgreen', rangeOpacity: 1 },
+                       { rangeEnd: 9.0, rangeStroke: 'pink', rangeOpacity: 1 },
                        { rangeEnd: 10.0, rangeStroke: 'green', rangeOpacity: 1 }
     ];
 ReactDOM.render(
-            <ej.bulletgraph id="bulletgraph1"		                                
+            <ej.bulletgraph id="bulletGraph1"		                                
                  qualitativeRanges={qualitativeRanges}
                  value ={8}	applyRangeStrokeToTicks ={true}	applyRangeStrokeToLabels ={true}
                  comparativeMeasureValue ={5} >
             </ej.bulletgraph>,
-            document.getElementById('bulletgraph')
+            document.getElementById('bulletGraph')
             );
 
 
@@ -106,9 +123,9 @@ Bullet Graph supports Tooltip template instead of default Tooltip to customize t
 var tooltipSettings = { template: 'BulletGraphTooltip' };
 
 ReactDOM.render(
-            <ej.bulletgraph id="bulletgraph1" tooltipSettings = {tooltipSettings}	                value ={8}	comparativeMeasureValue ={6} height = {150} >
+            <ej.bulletgraph id="bulletGraph1" tooltipSettings = {tooltipSettings}	                value ={8}	comparativeMeasureValue ={6} height = {150} >
             </ej.bulletgraph>,
-            document.getElementById('bulletgraph')
+            document.getElementById('bulletGraph')
 );  
 
 {% endhighlight %}

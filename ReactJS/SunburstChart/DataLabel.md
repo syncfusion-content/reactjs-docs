@@ -15,10 +15,10 @@ You can enable or disable the data labels by setting the [`visible`](../api/ejsu
 {% highlight js %}
 
 "use strict";
- var datalabelSettings = { visible:true};
+ var dataLabelSettings = { visible:true};
  ReactDOM.render(
     <EJ.SunburstChart id = "sunburst1"      
-    datalabelSettings ={datalabelSettings}    
+    dataLabelSettings ={dataLabelSettings}    
     >                  
     </EJ.SunburstChart>,
           document.getElementById('sunburst')
@@ -40,10 +40,10 @@ The following code shows how to set Hide and Trim mode.
 {% highlight js %}
 
 "use strict";
- var datalabelSettings = { visible:true,labelOverflowMode:"hide"};
+ var dataLabelSettings = { visible:true,labelOverflowMode:"hide"};
  ReactDOM.render(
     <EJ.SunburstChart id = "sunburst1"      
-    datalabelSettings ={datalabelSettings}    
+    dataLabelSettings ={dataLabelSettings}    
     >                  
     </EJ.SunburstChart>,
           document.getElementById('sunburst')
@@ -56,10 +56,10 @@ The following code shows how to set Hide and Trim mode.
 {% highlight js %}
 
 "use strict";
- var datalabelSettings = { visible:true,labelOverflowMode:"trim"};
+ var dataLabelSettings = { visible:true,labelOverflowMode:"trim"};
  ReactDOM.render(
     <EJ.SunburstChart id = "sunburst1"      
-    datalabelSettings ={datalabelSettings}    
+    dataLabelSettings ={dataLabelSettings}    
     >                  
     </EJ.SunburstChart>,
           document.getElementById('sunburst')
@@ -77,10 +77,10 @@ The following code shows how to set labelRotationMode as normal and angle.
 
 {% highlight js %}
 "use strict";
- var datalabelSettings = { visible:true,labelRotationMode:"normal"};
+ var dataLabelSettings = { visible:true,labelRotationMode:"normal"};
  ReactDOM.render(
     <EJ.SunburstChart id = "sunburst1"      
-    datalabelSettings ={datalabelSettings}    
+    dataLabelSettings ={dataLabelSettings}    
     >                  
     </EJ.SunburstChart>,
           document.getElementById('sunburst')
@@ -94,10 +94,10 @@ The following code shows how to set labelRotationMode as normal and angle.
 {% highlight js %}
 
 "use strict";
- var datalabelSettings = { visible:true,labelRotationMode:"angle"};
+ var dataLabelSettings = { visible:true,labelRotationMode:"angle"};
  ReactDOM.render(
     <EJ.SunburstChart id = "sunburst1"      
-    datalabelSettings ={datalabelSettings}    
+    dataLabelSettings ={dataLabelSettings}    
     >                  
     </EJ.SunburstChart>,
           document.getElementById('sunburst')
@@ -116,10 +116,10 @@ You can customize the appearance of the data point using the [`font`](../api/ejs
 {% highlight js %}
 
 "use strict";
- var datalabelSettings = {visible: true, font: {color:"black",fontWeight:"bold",size:"15px"}};
+ var dataLabelSettings = {visible: true, font: {color:"black",fontWeight:"bold",size:"15px"}};
  ReactDOM.render(
     <EJ.SunburstChart id = "sunburst1"      
-    datalabelSettings ={datalabelSettings}    
+    dataLabelSettings ={dataLabelSettings}    
     >                  
     </EJ.SunburstChart>,
           document.getElementById('sunburst')
@@ -128,4 +128,51 @@ You can customize the appearance of the data point using the [`font`](../api/ejs
 {% endhighlight %}
 
 ![](/js/SunburstChart/DataLabel_images/DataLabel_img6.png)
+
+
+## Sunburst Chart Title & Subtitle
+
+### Title & TextAlignment
+
+By using the title option, you can add the `title-text` as well as customize its `title-border`, `title-background` and `title-font`.
+
+You can change the title alignment to center, far and near by using the `title-textAlignment` property of the Title.
+
+{% highlight js %}
+
+"use strict";
+ var title = {visible: true, font: {color:"black",fontWeight:"bold",size:"15px"},
+ border:{color:'green',width:5}};
+ ReactDOM.render(
+    <EJ.SunburstChart id = "sunburst1"      
+    title ={title}    
+    >                  
+    </EJ.SunburstChart>,
+          document.getElementById('sunburst')
+);
+
+
+
+{% endhighlight %}
+
+
+### Sub Title & TextAlignment
+
+By using the subTitle option, you can add the `title-subTitle-text` as well as customize its `title-subTitle-border`, `title-subTitle-background` and `title-subTitle-font`.
+
+{% highlight js %}
+
+"use strict";
+ var title = { subTitle:{visible: true, font: {color:"black",fontWeight:"bold",size:"15px"}},
+ border:{color:'green',width:5}};
+ ReactDOM.render(
+    <EJ.SunburstChart id = "sunburst1"      
+    title ={title}    
+    >                  
+    </EJ.SunburstChart>,
+          document.getElementById('sunburst')
+);
+
+{% endhighlight %}
+
 
