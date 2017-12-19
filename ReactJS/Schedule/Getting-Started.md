@@ -85,6 +85,9 @@ ReactDOM.render(
 
 N> The above jsx template needs to be converted from `.jsx` to `.js` extension by using `gulp` NuGet package (refer [here](/reactjs/overview#converting-jsx-to-javascript-with-react)) and then it must be referred in the HTML page.
 
+
+![](Getting-started_images/Getting-started_img1.png)
+
 ### Using without jsx Template
 
 Create a Div element within the body section of the HTML document, where the Scheduler needs to be rendered.
