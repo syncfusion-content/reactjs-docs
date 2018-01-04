@@ -386,7 +386,7 @@ On executing the above code sample renders a Linear Gauge with custom labels as 
 
 * Custom labels are used to specify the texts in the gauge.
 * It can be customized through various properties.
-* In order to show the custom labels, change the showIndicators property to True.
+* In order to show the custom labels, change the showIndicators property to true.
 * Here you can use custom text to display three range descriptions.
 
 

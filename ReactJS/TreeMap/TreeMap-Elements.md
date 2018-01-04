@@ -19,7 +19,7 @@ TreeMap contains various elements such as,
 
 You can set the color value of **leaf nodes** using `treeMapLegend`. This legend is appropriate only for the **TreeMap** whose leaf nodes are colored using `rangeColorMapping`.
 
-You can set `showLegend` property value to **“True”** to enable or disable legend visibility.
+You can set `showLegend` property value to **“true”** to enable or disable legend visibility.
 
 ### TreeMap Legend
 

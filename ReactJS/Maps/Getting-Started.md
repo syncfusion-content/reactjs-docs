@@ -419,7 +419,7 @@ The following screenshot illustrates a Map with gradient color property enabled.
 
 ## Enable Tooltip
 
-The tooltip is displayed only when `showTooltip` is set to ‘True’ in the shape layers. By default, it takes the property of the bound object that is referred in the `valuePath` and displays its content on hovering the corresponding shape. The `tooltipTemplate` property is used for customizing the template for tooltip.
+The tooltip is displayed only when `showTooltip` is set to ‘true’ in the shape layers. By default, it takes the property of the bound object that is referred in the `valuePath` and displays its content on hovering the corresponding shape. The `tooltipTemplate` property is used for customizing the template for tooltip.
 
 
 
