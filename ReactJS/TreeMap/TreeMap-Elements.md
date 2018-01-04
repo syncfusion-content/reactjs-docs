@@ -110,7 +110,7 @@ var levels = [{
             groupPath: "Continent", 
             groupGap: 2, 
             headerHeight: 25, 
-            headerTemplate: 'headertemplate' 
+            headerTemplate: 'headerTemplate' 
 }];
 
 ReactDOM.render(
@@ -150,7 +150,7 @@ var levels = [{
             groupPath: "Continent", 
             groupGap: 2, 
             headerHeight: 25, 
-            headerTemplate: 'headertemplate' 
+            headerTemplate: 'headerTemplate' 
 }];
 
 ReactDOM.render(
@@ -185,8 +185,8 @@ var levels = [{
                 showLabels: true, 
                 groupGap: 2, 
                 headerHeight: 20,  
-                headerTemplate: 'headertemplate', 
-                labelPosition:"topleft", 
+                headerTemplate: 'headerTemplate', 
+                labelPosition:"topLeft", 
 }];
 var leafItemSettings = { labelPath: "Region", showLabels: true};
 
@@ -222,7 +222,7 @@ You can handle the label overflow, by specifying any one of the following values
 **None**       - By specifying textOverflow as “none”, it displays the default label text.
 **Hide**       - By specifying textOverflow as “hide”, You can hide the label, when it exceeds the header width.
 **Wrap**       - By specifying textOverflow as “wrap”, you can wrap the label text.
-**Wrapbyword** - By specifying textOverflow as “wrapbyword”, you can wrap the label text by word.
+**WrapByWord** - By specifying textOverflow as “wrap by word”, you can wrap the label text by word.
 
 
 {% highlight js %}
@@ -235,8 +235,8 @@ var levels = [{
                 showLabels: true, 
                 groupGap: 2, 
                 headerHeight: 20,  
-                headerTemplate: 'headertemplate', 
-                labelPosition:"topleft", 
+                headerTemplate: 'headerTemplate', 
+                labelPosition:"topLeft", 
 }];
 var leafItemSettings = { labelPath: "Region", showLabels: true};
 

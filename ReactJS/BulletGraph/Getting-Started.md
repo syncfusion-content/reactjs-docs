@@ -17,7 +17,7 @@ Create an **HTML** page and add the scripts references in the order mentioned 
 * [`jQuery`](http://jquery.com) 1.10.2 and later versions
 * [jsRender](https://github.com/borismoore/jsrender) - to render the templates
 
-The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about react js.
+The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about ReactJS.
 
 * `react.min.js` - [http://cdn.syncfusion.com/js/assets/external/react.min.js](http://cdn.syncfusion.com/js/assets/external/react.min.js)
 * `react-dom.min.js` - [http://cdn.syncfusion.com/js/assets/external/react-dom.min.js](http://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
@@ -64,7 +64,7 @@ Control can be initialized in two ways.
  
 ## Using jsx Template
 
-By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be refered in html page.
+By using the jsx template, we can create the HTML file and jsx file. The `.jsx` file can be convert to `.js` file and it can be referred in html page.
 
 ### Creating the first Bullet Graph 
 
@@ -82,7 +82,7 @@ In the following screenshot, a BulletGraph is used to compare the actual monsoon
 <!DOCTYPE html>
 <html>    
     <body>
-	<div id="bulletgraph-default" style="height:99%;"></div>
+	<div id="bulletGraph-default" style="height:99%;"></div>
             <script src="app/bulletgraph/default.js"></script>    
     </body>
 </html>
@@ -96,9 +96,9 @@ In the following screenshot, a BulletGraph is used to compare the actual monsoon
 "use strict";
 ReactDOM.render(
     <div className="default">
-        <EJ.BulletGraph id="bulletgraph1"></EJ.BulletGraph>,
+        <EJ.BulletGraph id="bulletGraph1"></EJ.BulletGraph>,
     </div>,
-    document.getElementById('bulletgraph-default')
+    document.getElementById('bulletGraph-default')
     );
 
 {% endhighlight %}
@@ -246,9 +246,9 @@ var fields= {
         <script type="text/babel">
             ReactDOM.render(
                      <div className="default">
-                        <EJ.BulletGraph id="bulletgraph1" fields: {fields} ></EJ.BulletGraph>,
+                        <EJ.BulletGraph id="bulletGraph1" fields: {fields} ></EJ.BulletGraph>,
                      </div>,
-                     document.getElementById('bulletgraph-default')
+                     document.getElementById('bulletGraph-default')
                      );
         </script>
     </body>
@@ -284,9 +284,9 @@ var quantitativeScaleSettings = {
         <script type="text/babel">
             ReactDOM.render(
                      <div className="default">
-                        <EJ.BulletGraph id="bulletgraph1"  quantitativeScaleSettings= {quantitativeScaleSettings} ></EJ.BulletGraph>,
+                        <EJ.BulletGraph id="bulletGraph1"  quantitativeScaleSettings= {quantitativeScaleSettings} ></EJ.BulletGraph>,
                      </div>,
-                     document.getElementById('bulletgraph-default')
+                     document.getElementById('bulletGraph-default')
                      );
         </script>
     </body>
@@ -324,9 +324,9 @@ var qualitativeRanges= [{
         <script type="text/babel">
             ReactDOM.render(
                      <div className="default">
-                        <EJ.BulletGraph id="bulletgraph1"   qualitativeRanges={qualitativeRanges} ></EJ.BulletGraph>,
+                        <EJ.BulletGraph id="bulletGraph1"   qualitativeRanges={qualitativeRanges} ></EJ.BulletGraph>,
                      </div>,
-                     document.getElementById('bulletgraph-default')
+                     document.getElementById('bulletGraph-default')
                      );
         </script>
     </body>
@@ -371,9 +371,9 @@ var quantitativeScaleSettings = {
         <script type="text/babel">
             ReactDOM.render(
                      <div className="default">
-                        <EJ.BulletGraph id="bulletgraph1"  quantitativeScaleSettings= {quantitativeScaleSettings} ></EJ.BulletGraph>,
+                        <EJ.BulletGraph id="bulletGraph1"  quantitativeScaleSettings= {quantitativeScaleSettings} ></EJ.BulletGraph>,
                      </div>,
-                     document.getElementById('bulletgraph-default')
+                     document.getElementById('bulletGraph-default')
                      );
         </script>
     </body>
@@ -418,9 +418,9 @@ var captionSettings= {
         <script type="text/babel">
             ReactDOM.render(
                      <div className="default">
-                        <EJ.BulletGraph id="bulletgraph1"  captionSettings= {captionSettings} ></EJ.BulletGraph>,
+                        <EJ.BulletGraph id="bulletGraph1"  captionSettings= {captionSettings} ></EJ.BulletGraph>,
                      </div>,
-                     document.getElementById('bulletgraph-default')
+                     document.getElementById('bulletGraph-default')
                      );
         </script>
     </body>
@@ -454,9 +454,9 @@ var tooltipSettings= {template: "Tooltip", visible: true};
         <script type="text/babel">
             ReactDOM.render(
                      <div className="default">
-                        <EJ.BulletGraph id="bulletgraph1"   tooltipSettings = {tooltipSettings} ></EJ.BulletGraph>,
+                        <EJ.BulletGraph id="bulletGraph1"   tooltipSettings = {tooltipSettings} ></EJ.BulletGraph>,
                      </div>,
-                     document.getElementById('bulletgraph-default')
+                     document.getElementById('bulletGraph-default')
                      );
         </script>
     </body>
@@ -505,7 +505,7 @@ The BulletGraph can be created from a HTML `DIV` element with the HTML `id` attr
 
 {% highlight html %}
 
-<div id="bulletgraph-default" style="height:99%;"></div>
+<div id="bulletGraph-default" style="height:99%;"></div>
            
 
 {% endhighlight %}
@@ -640,7 +640,7 @@ ReactDOM.render(
         
             
     ),
-		  document.getElementById('bulletgraph-default')
+		  document.getElementById('bulletGraph-default')
 );
 
 </script>
