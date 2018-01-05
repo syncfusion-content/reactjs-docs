@@ -26,7 +26,7 @@ Create an **HTML** page and add the scripts references in the order mentioned 
 * [`jQuery`](http://jquery.com) 1.10.2 and later versions
 
 
-The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about react js.
+The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about ReactJS.
 
 * `react.min.js` - [http://cdn.syncfusion.com/js/assets/external/react.min.js](http://cdn.syncfusion.com/js/assets/external/react.min.js)
 * `react-dom.min.js` - [http://cdn.syncfusion.com/js/assets/external/react-dom.min.js](http://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
@@ -70,11 +70,11 @@ Control can be initialized in two ways.
  
 ## Using jsx Template
 
-By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be refered in html page.
+By using the jsx template, we can create the HTML file and jsx file. The `.jsx` file can be convert to `.js` file and it can be referred in HTML page.
 
 ### Create your circularGauge
 
-In this tutorial, you will learn how to create a simple circulargauge.
+In this tutorial, you will learn how to create a simple circular gauge.
 
 1.Create a <div> tag.
 	
@@ -83,7 +83,7 @@ In this tutorial, you will learn how to create a simple circulargauge.
 <!DOCTYPE html>
 <html>    
     <body>
-	<div id="circulargauge-default" style="height:99%;"></div>
+	<div id="circularGauge-default" style="height:99%;"></div>
             <script src="app/circulargauge/default.js"></script>    
     </body>
 </html>
@@ -129,7 +129,7 @@ Pointers have different height and width so you can set the height and width of 
                      <div className="default">
                         <EJ.CircularGauge id="circulargauge1" height={500} width={500}></EJ.CircularGauge>,
                      </div>,
-                     document.getElementById('circulargauge-default')
+                     document.getElementById('circularGauge-default')
                      );
         </script>
     </body>
@@ -168,7 +168,7 @@ The speedometer must have some dark color as background so that its value is cle
                         backgroundColor="#3D3F3D" 
                         readOnly={false} ></EJ.CircularGauge>,
                      </div>,
-                     document.getElementById('circulargauge-default')
+                     document.getElementById('circularGauge-default')
                      );
         </script>
     </body>
@@ -223,7 +223,7 @@ var scales = [{
                         readOnly={false} 
                         scales={scales} ></EJ.CircularGauge>,
                      </div>,
-                     document.getElementById('circulargauge-default')
+                     document.getElementById('circularGauge-default')
                      );
         </script>
     </body>
@@ -266,7 +266,7 @@ var scales = [{
                         readOnly={false} 
                         scales={scales} ></EJ.CircularGauge>,
                      </div>,
-                     document.getElementById('circulargauge-default')
+                     document.getElementById('circularGauge-default')
                      );
         </script>
     </body>
@@ -349,7 +349,7 @@ var scales = [{
                         //Add the indicators customization code here
                         //Add the Custom labels customization code here ></EJ.CircularGauge>,
                      </div>,
-                     document.getElementById('circulargauge-default')
+                     document.getElementById('circularGauge-default')
                      );
         </script>
     </body>
@@ -408,7 +408,7 @@ var scales = [{
                         scales={scales}  
                        ></EJ.CircularGauge>,
                      </div>,
-                     document.getElementById('circulargauge-default')
+                     document.getElementById('circularGauge-default')
                      );
         </script>
     </body>
@@ -423,7 +423,7 @@ Run the above code example and you will see the following output.
 
 ## Add Range Values
 
-* Ranges denote the property of the scale value in the speedometer. The color values of the ranges denote speed variation. Set ShowRanges as True for showing the ranges in the Circular Gauge.
+* Ranges denote the property of the scale value in the speedometer. The color values of the ranges denote speed variation. Set ShowRanges as true for showing the ranges in the Circular Gauge.
 * For Low speed, you can mention it as safe zone; for moderate speed, you can call it as caution zone and for high speed, you can mark it as high speed.
 * You can customize the range with properties such as start value, end value, start width, end width,  background color , border color, etc.,
 
@@ -477,7 +477,7 @@ var scales = [{
                         scales={scales}  
                        ></EJ.CircularGauge>,
                      </div>,
-                     document.getElementById('circulargauge-default')
+                     document.getElementById('circularGauge-default')
                      );
         </script>
     </body>
@@ -588,7 +588,7 @@ var scales = [{
                         scales={scales}  
                        ></EJ.CircularGauge>,
                      </div>,
-                     document.getElementById('circulargauge-default')
+                     document.getElementById('circularGauge-default')
                      );
         </script>
     </body>
@@ -663,7 +663,7 @@ var scales = [{
                         scales={scales}  
                        ></EJ.CircularGauge>,
                      </div>,
-                     document.getElementById('circulargauge-default')
+                     document.getElementById('circularGauge-default')
                      );
         </script>
     </body>
@@ -681,7 +681,7 @@ Run the above code example and you will see the following output.
 The Circular Gauge can be created from a HTML `DIV` element with the HTML `id` attribute set to it. Refer to the following code example.
 {% highlight html %}
 
-<div id="circulargauge-default"></div>
+<div id="circularGauge-default"></div>
            
 {% endhighlight %}
 
@@ -742,7 +742,7 @@ ReactDOM.render(
         
             
     ),
-		  document.getElementById('circulargauge-default')
+		  document.getElementById('circularGauge-default')
 );
  </script>
  {% endhighlight %}

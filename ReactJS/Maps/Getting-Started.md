@@ -9,7 +9,7 @@ documentation: ug
 
 # Getting Started
 
-* This section explains briefly about how to create Maps in your application with Typescript
+* This section explains briefly about how to create Maps in your application with TypeScript
 
 * You can learn how to configure Map with simple steps. In this example, you can learn how to configure USA population map with customized appearance and tooltip.
 
@@ -26,7 +26,7 @@ Create an **HTML** page and add the scripts references in the order mentioned 
 * [`jsRender`](https://github.com/borismoore/jsrender) - to render the templates
 
 
-The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about react js.
+The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about ReactJS.
 
 * `react.min.js` - [http://cdn.syncfusion.com/js/assets/external/react.min.js](http://cdn.syncfusion.com/js/assets/external/react.min.js)
 * `react-dom.min.js` - [http://cdn.syncfusion.com/js/assets/external/react-dom.min.js](http://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
@@ -70,7 +70,7 @@ Control can be initialized in two ways.
  
 ## Using jsx Template
 
-By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be refered in html page.
+By using the jsx template, we can create the HTML file and jsx file. The `.jsx` file can be convert to `.js` file and it can be referred in html page.
 
 #### Preparing Shape Data
 
@@ -158,7 +158,7 @@ var populationData = [
 
 
 
-You can refer to shape data and datasource as illustrated in the html page,
+You can refer to shape data and datasource as illustrated in the HTML page,
 
 {% highlight html %}
 
@@ -419,7 +419,7 @@ The following screenshot illustrates a Map with gradient color property enabled.
 
 ## Enable Tooltip
 
-The tooltip is displayed only when `showTooltip` is set to ‘True’ in the shape layers. By default, it takes the property of the bound object that is referred in the `valuePath` and displays its content on hovering the corresponding shape. The `tooltipTemplate` property is used for customizing the template for tooltip.
+The tooltip is displayed only when `showTooltip` is set to ‘true’ in the shape layers. By default, it takes the property of the bound object that is referred in the `valuePath` and displays its content on hovering the corresponding shape. The `tooltipTemplate` property is used for customizing the template for tooltip.
 
 
 
