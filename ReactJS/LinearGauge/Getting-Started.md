@@ -23,7 +23,7 @@ Create an **HTML** page and add the scripts references in the order mentioned 
 * [`jQuery`](http://jquery.com) 1.10.2 and later versions
 
 
-The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about react js.
+The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about ReactJS.
 
 * `react.min.js` - [http://cdn.syncfusion.com/js/assets/external/react.min.js](http://cdn.syncfusion.com/js/assets/external/react.min.js)
 * `react-dom.min.js` - [http://cdn.syncfusion.com/js/assets/external/react-dom.min.js](http://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
@@ -67,7 +67,7 @@ Control can be initialized in two ways.
  
 ## Using jsx Template
 
-By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be refered in html page.
+By using the jsx template, we can create the HTML file and jsx file. The `.jsx` file can be convert to `.js` file and it can be referred in HTML page.
 
 ### Create a Linear Gauge
 
@@ -80,7 +80,7 @@ You can easily create the Linear Gauge widget by using the following steps.
 <!DOCTYPE html>
 <html>    
     <body>
-	<div id="lineargauge-default" ></div>
+	<div id="linearGauge-default" ></div>
             <script src="app/lineargauge/default.js"></script>    
     </body>
 </html>
@@ -97,7 +97,7 @@ ReactDOM.render(
     <div className="default">
         <EJ.LinearGauge id="lineargauge1"></EJ.LinearGauge>,
     </div>,
-    document.getElementById('lineargauge-default')
+    document.getElementById('linearGauge-default')
     );
 
 {% endhighlight %}
@@ -128,7 +128,7 @@ Basic attributes of each canvas elements are height and width. You can set the h
                      <div className="default">
                         <EJ.LinearGauge id="lineargauge1" height={550} width={500}></EJ.LinearGauge>,
                      </div>,
-                     document.getElementById('lineargauge-default')
+                     document.getElementById('linearGauge-default')
                      );
         </script>
     </body>
@@ -160,7 +160,7 @@ Run the above code example and you will get the following gauge as similar to de
                      <div className="default">
                         <EJ.LinearGauge id="lineargauge1" height={550} width={500} labelColor="#8c8c8c" enableAnimation={false}></EJ.LinearGauge>,
                      </div>,
-                     document.getElementById('lineargauge-default')
+                     document.getElementById('linearGauge-default')
                      );
         </script>
     </body>
@@ -208,7 +208,7 @@ var scale = [
                      <div className="default">
                         <EJ.LinearGauge id="lineargauge1" height={550} width={500} labelColor="#8c8c8c" enableAnimation={false} scales={scale}></EJ.LinearGauge>,
                      </div>,
-                     document.getElementById('lineargauge-default')
+                     document.getElementById('linearGauge-default')
                      );
         </script>
     </body>
@@ -256,7 +256,7 @@ var scale = [
                      <div className="default">
                         <EJ.LinearGauge id="lineargauge1" height={550} width={500} labelColor="#8c8c8c" enableAnimation={false} scales={scale}></EJ.LinearGauge>,
                      </div>,
-                     document.getElementById('lineargauge-default')
+                     document.getElementById('linearGauge-default')
                      );
         </script>
     </body>
@@ -305,7 +305,7 @@ var scale = [{
                      <div className="default">
                         <EJ.LinearGauge id="lineargauge1" height={550} width={500} labelColor="#8c8c8c" enableAnimation={false} scales={scale}></EJ.LinearGauge>,
                      </div>,
-                     document.getElementById('lineargauge-default')
+                     document.getElementById('linearGauge-default')
                      );
         </script>
     </body>
@@ -331,26 +331,26 @@ On executing the above code sample renders a customized Linear Gauge as follows.
 <script type="text/babel">
 var scale = [{
              ticks: [{
-                    type: "majorinterval",
+                    type: "majorInterval",
                     height: 8,
                     width: 1,
                     color: "#8c8c8c",
                     distanceFromScale: { y: -4 }
                 }, {
-                    type: "minorinterval",
+                    type: "minorInterval",
                     height: 4,
                     width: 1,
                     color: "#8c8c8c",
                     distanceFromScale: { y: -4 }
                 }, {
-                    type: "majorinterval",
+                    type: "majorInterval",
                     placement: "far",
                     height: 8,
                     width: 1,
                     color: "#8c8c8c",
                     distanceFromScale: { y: -4 }
                 }, {
-                    type: "minorinterval",
+                    type: "minorInterval",
                     placement: "far",
                     height: 4,
                     width: 1,
@@ -368,7 +368,7 @@ var scale = [{
                      <div className="default">
                         <EJ.LinearGauge id="lineargauge1" height={550} width={500} labelColor="#8c8c8c" enableAnimation={false} scales={scale}></EJ.LinearGauge>,
                      </div>,
-                     document.getElementById('lineargauge-default')
+                     document.getElementById('linearGauge-default')
                      );
         </script>
     </body>
@@ -386,7 +386,7 @@ On executing the above code sample renders a Linear Gauge with custom labels as 
 
 * Custom labels are used to specify the texts in the gauge.
 * It can be customized through various properties.
-* In order to show the custom labels, change the showIndicators property to True.
+* In order to show the custom labels, change the showIndicators property to true.
 * Here you can use custom text to display three range descriptions.
 
 
@@ -421,7 +421,7 @@ var scale = [{
                      <div className="default">
                         <EJ.LinearGauge id="lineargauge1" height={550} width={500} labelColor="#8c8c8c" enableAnimation={false} scales={scale}></EJ.LinearGauge>,
                      </div>,
-                     document.getElementById('lineargauge-default')
+                     document.getElementById('linearGauge-default')
                      );
         </script>
     </body>
@@ -462,7 +462,7 @@ if (args.label.index == 1) {
                      <div className="default">
                         <EJ.LinearGauge id="lineargauge1" height={550} width={500} labelColor="#8c8c8c" enableAnimation={false} drawLabels={label}></EJ.LinearGauge>,
                      </div>,
-                     document.getElementById('lineargauge-default')
+                     document.getElementById('linearGauge-default')
                      );
         </script>
     </body>
@@ -487,33 +487,33 @@ Add the function that displays the current temperature value in the custom label
 function customLabel(args) {
         if (args.customLabelIndex == 2) {
             var temp = args.scaleElement.barPointers[0].value;
-            var fahValue = (temp * (9 / 5)) + 32;
+            var faValue = (temp * (9 / 5)) + 32;
             if (temp == -10) {
-                args.style.textValue = "Very Cold Weather" + "(" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Very Cold Weather" + "(" + faValue.toFixed(1) + "° F)";
             }
             else if ((temp > -10 && temp < 0) || (temp > 0 && temp < 15)) {
-                args.style.textValue = "Cool Weather" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Cool Weather" + " (" + faValue.toFixed(1) + "° F)";
             }
             else if (temp == 0) {
-                args.style.textValue = "Freezing point of Water" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Freezing point of Water" + " (" + faValue.toFixed(1) + "° F)";
             }
             else if (temp >= 15 && temp < 30) {
-                args.style.textValue = "Room Temperature" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Room Temperature" + " (" + faValue.toFixed(1) + "° F)";
             }
             else if (temp == 30) {
-                args.style.textValue = "Beach Weather" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Beach Weather" + " (" + faValue.toFixed(1) + "° F)";
             }
             else if (temp == 37) {
-                args.style.textValue = "Body Temperature" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Body Temperature" + " (" + faValue.toFixed(1) + "° F)";
             }
             else if (temp == 40) {
-                args.style.textValue = "Hot Bath Temperature" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Hot Bath Temperature" + " (" + faValue.toFixed(1) + "° F)";
             }
             else if (temp > 40 && temp < 100) {
-                args.style.textValue = "Very Hot Temperature" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Very Hot Temperature" + " (" + faValue.toFixed(1) + "° F)";
             }
             else if (temp == 100) {
-                args.style.textValue = "Boiling point of Water" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Boiling point of Water" + " (" + faValue.toFixed(1) + "° F)";
             }
         }
     }
@@ -526,7 +526,7 @@ function customLabel(args) {
                      <div className="default">
                         <EJ.LinearGauge id="lineargauge1" height={550} width={500} labelColor="#8c8c8c" enableAnimation={false} drawLabels={label} drawCustomLabels={customLabel}></EJ.LinearGauge>,
                      </div>,
-                     document.getElementById('lineargauge-default')
+                     document.getElementById('linearGauge-default')
                      );
         </script>
     </body>
@@ -542,7 +542,7 @@ The Linear  Gauge can be created from a HTML `DIV` element with the HTML `id` at
 
 {% highlight html %}
 
-<div id="lineargauge-default"></div>
+<div id="linearGauge-default"></div>
            
 {% endhighlight %}
 
@@ -577,7 +577,7 @@ ReactDOM.render(
         
             
     ),
-		  document.getElementById('lineargauge-default')
+		  document.getElementById('linearGauge-default')
 );
  </script>
  {% endhighlight %}

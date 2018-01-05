@@ -357,7 +357,7 @@ ReactDOM.render(
 
 ## Tooltip
 
-The tooltip is displayed only when you set `showTooltip` to “True” in the shape layers. By default, it takes the property of the bound object that is referred in the `valuePath` and displays its content on hovering the corresponding shape. 
+The tooltip is displayed only when you set `showTooltip` to “true” in the shape layers. By default, it takes the property of the bound object that is referred in the `valuePath` and displays its content on hovering the corresponding shape. 
 
 {% highlight javascript %}
 
