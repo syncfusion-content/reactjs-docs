@@ -591,6 +591,39 @@ You can able to show the trackball tooltip in two modes, using trackballTooltipS
 ![](/js/Chart/User-Interactions_images/User-Interactions_img30.png)
 
 
+#### Trackball tooltip template:
+Trackball tooltip template is used to display the tooltip in customized template format. You can define the desired template in css style. You can enable the **toolTipTemplate**  by using the following code snippet.
+
+
+{% highlight javascript %}
+
+"use strict";
+        // ... 
+        var crosshair= {
+            visible: true,
+            type: 'trackball',
+            //Customize the trackball tooltip
+            trackballTooltipSettings: {
+                //Trackball mode
+                mode: 'float',
+                tooltipTemplate: 'tooltip'
+            }
+        };
+		ReactDOM.render(
+			<EJ.Chart id="default_chart_sample_0"
+			crosshair={crosshair}
+			>        
+            
+			</EJ.Chart>,
+				document.getElementById('chart')
+		);
+
+
+{% endhighlight %}
+
+![](User-Interactions_images/User-Interactions_img33.png)
+
+
 ## Highlight
 
 EjChart provides highlighting support for the series and data points on mouse hover. To enable the highlighting option, set the [`enable`](../api/ejchart#members:series-highlightsettings-enable) property to *true* in the [`highlightsettings`](../api/ejchart#members:series-highlightsettings) of the series.

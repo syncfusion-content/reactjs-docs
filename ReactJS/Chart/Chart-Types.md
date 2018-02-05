@@ -2569,7 +2569,7 @@ Polar chart is created by setting the series [`type`](../api/ejchart.html#member
 
 ### DrawType
 
-Polar [`drawType`](../api/ejchart.html#members:series-drawtype) property is used to change the series plotting type to *line*, *column* or *area*. The default value of [`drawType`](../api/ejchart.html#members:series-drawtype) is **"line"**.  
+Polar **DrawType** property is used to change the series plotting type to *Line*, *scatter*, *rangeColumn*, *stackingArea*, *spline*, *Column* or *Area*. The default value of DrawType is **Line**.
 
 {% highlight javascript %}
 
@@ -2632,7 +2632,7 @@ By using the [`isStacking`](../api/ejchart.html#members:series-isstacking) prope
 
 ## Radar Chart  
 
-To create a Radar chart, you can specify the series [`type`](../api/ejchart.html#members:series-type) as **"radar"** in the chart series.
+Radar **DrawType** property is used to change the series plotting type to *Line*, *scatter*, *rangeColumn*, *stackingArea*, *spline*, *Column* or *Area*. The default value of DrawType is **Line**.
 
 {% highlight javascript %}
 
