@@ -126,7 +126,7 @@ Please find the below table for default context menu items and its actions.
         </tr>
         <tr>
             <td>
-              Move Swimlane
+              Move to Swimlane
             </td>
             <td>
                 Move the card to Swim lane which is chosen from given list
@@ -164,7 +164,7 @@ ReactDOM.render(
 	    <column headerText="Done" key="Close"></column>
 	</columns>
 </EJ.Kanban>,
-   document.getElementById('kanbanboard-default')
+   document.getElementById('kanbanBoard-default')
 );
 
 {% endhighlight %}
@@ -205,7 +205,7 @@ ReactDOM.render(
 	    <column headerText="Done" key="Close"></column>
 	</columns>
 </EJ.Kanban>,
-   document.getElementById('kanbanboard-default')
+   document.getElementById('kanbanBoard-default')
 );
 
 {% endhighlight %}
@@ -246,7 +246,7 @@ ReactDOM.render(
 	    <column headerText="Done" key="Close"></column>
 	</columns>
 </EJ.Kanban>,
-   document.getElementById('kanbanboard-default')
+   document.getElementById('kanbanBoard-default')
 );
 
 {% endhighlight %}
