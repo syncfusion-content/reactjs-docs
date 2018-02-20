@@ -164,7 +164,7 @@ ReactDOM.render(
 	    <column headerText="Done" key="Close"></column>
 	</columns>
 </EJ.Kanban>,
-   document.getElementById('kanbanboard-default')
+   document.getElementById('kanbanBoard-default')
 );
 
 {% endhighlight %}
@@ -205,7 +205,7 @@ ReactDOM.render(
 	    <column headerText="Done" key="Close"></column>
 	</columns>
 </EJ.Kanban>,
-   document.getElementById('kanbanboard-default')
+   document.getElementById('kanbanBoard-default')
 );
 
 {% endhighlight %}
@@ -246,7 +246,7 @@ ReactDOM.render(
 	    <column headerText="Done" key="Close"></column>
 	</columns>
 </EJ.Kanban>,
-   document.getElementById('kanbanboard-default')
+   document.getElementById('kanbanBoard-default')
 );
 
 {% endhighlight %}
