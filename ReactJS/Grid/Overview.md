@@ -2,7 +2,7 @@
 layout: post
 title: Welcome to Syncfusion Essential ReactJS
 description: Overview of Syncfusion Essential ReactJS widgets based on HTML5 and jQuery.
-platform: ReactJS
+platform: reactjs
 control: Introduction
 documentation: ug
 ---
