@@ -34,7 +34,7 @@ The following code example describes the above behavior.
                 //The datasource "window.employeeView" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
 		  <EJ.Grid dataSource = {window.employeeView} allowPaging = {true} pageSettings={pageSettings}>
             <columns>
-                <column headerText="Photo", template = "<img style='width: 75px; height: 70px' src='/13.2.0.29/themes/web/images/employees/{{:EmployeeID}}.png' alt='{{:EmployeeID}}' />" />
+                <column headerText="Photo", template = "<img style='width: 75px; height: 70px' src='/13.2.0.29/themes/web/images/employees/{{"{{"}}:EmployeeID{{}}}}.png' alt='{{"{{"}}:EmployeeID{{}}}}' />" />
                 <column field="EmployeeID" />
                 <column field="FirstName" />
                 <column field="LastName" />
