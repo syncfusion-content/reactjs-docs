@@ -68,8 +68,9 @@ The following code example describes the above behavior.
 </script>
 {% endhighlight %}
 
+Create a JSX file and paste the following content
+
 {% highlight javascript %}
-        var cols = ["OrderID", "EmployeeID", "ShipCity", "ShipCountry", "Freight"];
         var data = ej.DataManager({
                         url: "http://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/Orders"
 	                });

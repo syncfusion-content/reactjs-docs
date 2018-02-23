@@ -27,6 +27,8 @@ The following code example describes the above behavior.
 </script>
 {% endhighlight %}
 
+Create a JSX file and paste the following content
+
 {% highlight javascript %}
 		var pageSettings = {pageSize:4};
 
