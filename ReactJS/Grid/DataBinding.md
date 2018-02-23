@@ -28,12 +28,17 @@ The following code example describes the above behavior.
 Create a JSX file and paste the following content
 
 {% highlight javascript %}
-        var cols = ["OrderID", "EmployeeID", "ShipCity", "ShipCountry", "Freight"];
         ReactDOM.render(   
                 //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
-		  <EJ.Grid dataSource = {window.gridData} columns={cols} allowPaging = {true}>
-                    
-          </EJ.Grid>,
+	<EJ.Grid dataSource = {window.gridData} allowPaging = {true}>
+         <columns>
+                <column field="OrderID" />
+                <column field="EmployeeID" />
+                <column field="ShipCity" />
+                <column field="ShipCountry" />
+                <column field="Freight" />
+         </columns>            
+        </EJ.Grid>,
           document.getElementById('Grid')
         );
 {% endhighlight %}
@@ -70,9 +75,15 @@ The following code example describes the above behavior.
 	                });
         ReactDOM.render(   
                 //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
-		  <EJ.Grid dataSource = {data} columns={cols} allowPaging = {true}>
-                    
-          </EJ.Grid>,
+        <EJ.Grid dataSource = {data} allowPaging = {true}>
+         <columns>
+                <column field="OrderID" />
+                <column field="EmployeeID" />
+                <column field="ShipCity" />
+                <column field="ShipCountry" />
+                <column field="Freight" />
+         </columns>                
+        </EJ.Grid>,
           document.getElementById('Grid')
         );
 {% endhighlight %}
