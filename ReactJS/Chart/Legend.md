@@ -448,13 +448,13 @@ You can get the legend item details such as *index*, *bounds*, *shape* and *seri
 		  };
         
         // ...     
-		function onlegendclicked(sender){
+		function onLegendClicked(sender){
 			var legendItem = sender.data;
 		}
 		ReactDOM.render(
 			<EJ.Chart id="default_chart_sample_0"
 			legend={legend}
-			legendItemClick={onlegendclicked}
+			legendItemClick={onLegendClicked}
 			>        
             
 			</EJ.Chart>,
