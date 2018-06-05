@@ -127,8 +127,8 @@ document.getElementById('spreadsheet')
 
 ## Apply Conditional Formatting
 
-Conditional formatting helps you to apply formats to a cell or range with certain colour based on the cells values. You can use `allowConditionalFormats` attribute to enable/disable Conditional formats.
-To apply conditional formats for a range use `cFormatRule` property . The following code example illustrates this behaviour,
+Conditional formatting helps you to apply formats to a cell or range with certain color based on the cells values. You can use `allowConditionalFormats` attribute to enable/disable Conditional formats.
+To apply conditional formats for a range use `cFormatRule` property . The following code example illustrates this behavior,
 
 {% highlight js %}
 
@@ -164,7 +164,7 @@ document.getElementById('spreadsheet')
 
 ## Export Spreadsheet as Excel File
 
-The Spreadsheet can save its data, style, format into an excel file. To enable save option in Spreadsheet set `allowExporting` option in `exportSettings` as `true`. Since Spreadsheet uses server side helper to save documents set `excelUrl` in `exportSettings` option. The following code example illustrates this behaviour,
+The Spreadsheet can save its data, style, format into an excel file. To enable save option in Spreadsheet set `allowExporting` option in `exportSettings` as `true`. Since Spreadsheet uses server side helper to save documents set `excelUrl` in `exportSettings` option. The following code example illustrates this behavior,
 
 {% highlight js %}
 
