@@ -368,7 +368,7 @@ var levels = [
         
 
 ReactDOM.render(
-    React.createElement(EJ.TreeMap, {id: "treemapdefault", 
+    React.createElement(EJ.TreeMap, {id: "treeMapDefault", 
     dataSource: population_data, 
     colorValuePath: "Growth", 
      weightValuePath: "Population", 

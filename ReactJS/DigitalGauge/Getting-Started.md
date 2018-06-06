@@ -239,7 +239,7 @@ The Location property is used to position the digital letters inside the canvas 
 {% highlight javascript %}
 
 var items=[{
-                //For Diplaying Farenheit value
+                //For Displaying Fahrenheit value
                 segmentSettings: { width: 2, length: 20 },
                 characterSettings: { type: "sevensegment", spacing: 12, },
                 value: "102", position: { x: 15, y: 40 }
@@ -276,7 +276,7 @@ You can further add the Items Collection to display the temperature value like D
 {% highlight javascript %}
 
 var items=[{
-               //For Diplaying fahrenheit value
+               //For Displaying Fahrenheit value
                 segmentSettings: { width: 2, length: 20, spacing: 0 },
                 characterSettings: { type: "sevensegment", spacing: 12, },
                 value: "102",
@@ -290,7 +290,7 @@ var items=[{
                 position: { x: 70, y: 28 }
             },
             {
-                //For displaying fahrenheit symbol
+                //For displaying Fahrenheit symbol
                 segmentSettings: { width: 2, length: 20, spacing: 0 },
                 characterSettings: { type: "sevensegment", spacing: 12, },
                 value: "F",
