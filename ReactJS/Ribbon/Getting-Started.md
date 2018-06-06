@@ -64,7 +64,7 @@ Control can be initialized in two ways.
  
 ## Using jsx Template
 
-By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be refered in html page.
+By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be referred in html page.
 
 Please refer to the code of HTML file.
 
@@ -124,7 +124,7 @@ Tab is a set of related groups which are combined into single item. For creating
 
 {% endhighlight %}
 
-Configure the tabs bind value tab in Reactjs view-model as shown in the following code.
+Configure the tabs bind value tab in ReactJS view-model as shown in the following code.
 
 {% highlight html %}
 
@@ -199,7 +199,7 @@ Configure the tabs bind value tab with group and button named as New.
 
 Syncfusion JavaScript Controls can be added to group’s content with corresponding type specified like button, split button, toggle button, dropdown list, gallery, custom, etc. Default type is button.
 
-Configure the tabs bind value tab with groups, button,split button and dropdown controls.Also the datasource to dropdown control is configured with bind name fontfamily.Please refer to the following code snippets.
+Configure the tabs bind value tab with groups, button,split button and dropdown controls.Also the datasource to dropdown control is configured with bind name fontfamily. Please refer to the following code snippets.
 
 {% highlight html %}
 
