@@ -199,11 +199,11 @@ Configure the tabs bind value tab with group and button named as New.
 
 Syncfusion JavaScript Controls can be added to group’s content with corresponding type specified like button, split button, toggle button, dropdown list, gallery, custom, etc. Default type is button.
 
-Configure the tabs bind value tab with groups, button,split button and dropdown controls.Also the datasource to dropdown control is configured with bind name fontfamily. Please refer to the following code snippets.
+Configure the tabs bind value tab with groups, button,split button and dropdown controls.Also the datasource to dropdown control is configured with bind name fontFamily. Please refer to the following code snippets.
 
 {% highlight html %}
 
-     var fontfamily = ["Segoe UI", "Arial", "Times New Roman", "Tahoma", "Helvetica"];
+     var fontFamily = ["Segoe UI", "Arial", "Times New Roman", "Tahoma", "Helvetica"];
      ReactDOM.render(
      <div>
          <ul id="ribbonmenu3">
@@ -234,7 +234,7 @@ Configure the tabs bind value tab with groups, button,split button and dropdown 
                                 </content>
                                 <content defaults-type="dropdownlist" defaults-height={28}>
                                     <groups>
-                                        <group id="fontfamily" dropdownSettings-dataSource={fontfamily} dropdownSettings-text="Segoe UI" dropdownSettings-select="executeAction" dropdownSettings-width={150}>
+                                        <group id="fontFamily" dropdownSettings-dataSource={fontFamily} dropdownSettings-text="Segoe UI" dropdownSettings-select="executeAction" dropdownSettings-width={150}>
                                         </group>    
                                     </groups>
                                 </content>
@@ -280,7 +280,7 @@ The Ribbon can be created from a HTML `DIV` element with the HTML `id` attribute
 
 {% highlight html %}
 
-    var fontfamily = ["Segoe UI", "Arial", "Times New Roman", "Tahoma", "Helvetica"];     
+    var fontFamily = ["Segoe UI", "Arial", "Times New Roman", "Tahoma", "Helvetica"];     
     React.createElement(EJ.Ribbon, {width: "100%", allowResizing: true, "applicationTab-type": "menu", "applicationTab-menuItemID": "ribbonmenu3"}, 
       React.createElement("tabs", null, 
         React.createElement("tab", {id: "home", text: "HOME"}, 
@@ -295,7 +295,7 @@ The Ribbon can be created from a HTML `DIV` element with the HTML `id` attribute
                       ), 
 					React.createElement("content", {"defaults-type": "dropdownlist", "defaults-height": 28}, 
                        React.createElement("groups", null, 
-                           React.createElement("group", {id: "fontfamily", "dropdownSettings-dataSource": fontfamily, "dropdownSettings-text": "Segoe UI", "dropdownSettings-select": "executeAction", "dropdownSettings-width": 150})
+                           React.createElement("group", {id: "fontFamily", "dropdownSettings-dataSource": fontFamily, "dropdownSettings-text": "Segoe UI", "dropdownSettings-select": "executeAction", "dropdownSettings-width": 150})
                             )
                         )
                     )
