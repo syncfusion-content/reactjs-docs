@@ -69,7 +69,7 @@ Control can be initialized in two ways.
  
 ## Using jsx Template
 
-By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be referred in html page.
+By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be refered in html page.
 
 ### Create a Digital Gauge
 
@@ -239,7 +239,7 @@ The Location property is used to position the digital letters inside the canvas 
 {% highlight javascript %}
 
 var items=[{
-                //For Displaying Fahrenheit value
+                //For Diplaying Farenheit value
                 segmentSettings: { width: 2, length: 20 },
                 characterSettings: { type: "sevensegment", spacing: 12, },
                 value: "102", position: { x: 15, y: 40 }
@@ -276,7 +276,7 @@ You can further add the Items Collection to display the temperature value like D
 {% highlight javascript %}
 
 var items=[{
-               //For Displaying Fahrenheit value
+               //For Diplaying fahrenheit value
                 segmentSettings: { width: 2, length: 20, spacing: 0 },
                 characterSettings: { type: "sevensegment", spacing: 12, },
                 value: "102",
@@ -290,7 +290,7 @@ var items=[{
                 position: { x: 70, y: 28 }
             },
             {
-                //For displaying Fahrenheit symbol
+                //For displaying fahrenheit symbol
                 segmentSettings: { width: 2, length: 20, spacing: 0 },
                 characterSettings: { type: "sevensegment", spacing: 12, },
                 value: "F",
