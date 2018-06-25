@@ -71,7 +71,7 @@ Control can be initialized in two ways.
  
 ## Using jsx Template
 
-By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be referred in html page.
+By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be refered in html page.
 
 ## Initialize TreeMap 
 
@@ -368,7 +368,7 @@ var levels = [
         
 
 ReactDOM.render(
-    React.createElement(EJ.TreeMap, {id: "treeMapDefault", 
+    React.createElement(EJ.TreeMap, {id: "treemapdefault", 
     dataSource: population_data, 
     colorValuePath: "Growth", 
      weightValuePath: "Population", 

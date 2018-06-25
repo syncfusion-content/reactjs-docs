@@ -9,7 +9,7 @@ documentation: ug
 
 # Zooming
 
-Sunburst chart provides zooming (drill down) experience with animation for both mouse and touch enabled devices. It allows you to virtualizing large sets of data into minimum data view.The zooming is achieved by using the property of [`zoomSettings`](../api/ejsunburstchart#members:zoomsettings)
+Sunburst chart provides zooming (drill down) experience with animation for both mouse and touch enabled devices. It allows you to virtualize large sets of data into minimum data view.The zooming is achieved by using the property of [`zoomSettings`](../api/ejsunburstchart#members:zoomsettings)
 
 The following code shows how to initialize the zooming.
 

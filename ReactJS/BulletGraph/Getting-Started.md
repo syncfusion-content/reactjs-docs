@@ -8,7 +8,7 @@ documentation: ug
 
 # Getting Started
 
-This section explains briefly about how to create a BulletGraph control in your application with  **ReactJs**
+This section explains briefly about how to create a BulletGraph control in your application with  **reactjs**
 
 ## Adding Script Reference
 
