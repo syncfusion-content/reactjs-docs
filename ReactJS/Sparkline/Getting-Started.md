@@ -62,7 +62,7 @@ Control can be initialized in two ways.
  
 ## Using jsx Template
 
-By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be referred in html page.
+By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be refered in html page.
 
 ### Create Sparkline
 
@@ -111,7 +111,7 @@ Simple Sparkline
 
 Now, this section explains how to plot JSON data to the Sparkline. First, let us prepare a sample JSON data with each object containing following fields – employeeId and sales.
 
-var sparklineData = [
+var sparklinedata = [
 { employeeId: 1, sales: 25 },
 { employeeId: 2, sales: 28 },
 { employeeId: 3, sales: 34 },
@@ -134,7 +134,7 @@ Now, add the dataSource to the Sparkline and provide the field name to get the v
         <script type="text/babel">
             ReactDOM.render(
                      <div className="default">
-                        <EJ.Sparkline id="sparkline1" dataSource={sparklineData} xName="employeeId" yName="sales"></EJ.Sparkline>,
+                        <EJ.Sparkline id="sparkline1" dataSource={sparklinedata} xName="employeeId" yName="sales"></EJ.Sparkline>,
                      </div>,
                      document.getElementById('sparkline-default')
                      );

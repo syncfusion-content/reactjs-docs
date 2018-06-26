@@ -68,7 +68,7 @@ Control can be initialized in two ways.
  
 ## Using jsx Template
 
-By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be referred in html page.
+By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be refered in html page.
 
 ### Configure ejRangeNavigator
 
@@ -215,17 +215,17 @@ You can create a chart with line series using the following code sample.
 
 {% highlight javascript %}
 <script type="text/babel">
- function onChartLoaded(sender) {
-		var chartObj = $("#chart").data("ejChart");
-            if (chartObj != null) {
-                chartObj.model.primaryXAxis.zoomPosition = sender.zoomPosition;
-                chartObj.model.primaryXAxis.zoomFactor = sender.zoomFactor;
+ function onchartloaded(sender) {
+		var chartobj = $("#chart").data("ejChart");
+            if (chartobj != null) {
+                chartobj.model.primaryXAxis.zoomPosition = sender.zoomPosition;
+                chartobj.model.primaryXAxis.zoomFactor = sender.zoomFactor;
             }
             $("#default_chart_sample_0").ejChart("redraw");
         };
          ReactDOM.render(
                      <div className="default">
-                        <EJ.RangeNavigator id="rangenavigator1"  rangeChanged = {onChartLoaded} dataSource=data xName="XValue" yName="YValue"></EJ.RangeNavigator>,
+                        <EJ.RangeNavigator id="rangenavigator1"  rangeChanged = {onchartloaded} dataSource=data xName="XValue" yName="YValue"></EJ.RangeNavigator>,
                      </div>,
                      document.getElementById('rangenavigator-default')
                      );
