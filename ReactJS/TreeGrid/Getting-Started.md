@@ -12,7 +12,7 @@ This section helps to understand the getting started of the React JS TreeGrid wi
 
 ## Create your first TreeGrid in React JS
 
-To get started Syncfusion React JS application refer [`this`](https://help.syncfusion.com/reactjs/overview) page for basic control integaration and script references.
+To get started Syncfusion React JS application refer [`this`](https://help.syncfusion.com/reactjs/overview) page for basic control integration and script references.
 
 The **Essential React JS TreeGrid** has been designed to represent and edit the hierarchical data. 
 
@@ -27,7 +27,7 @@ The required ReactJS script dependencies as follows. And you can also refer [Rea
 * `browser.min.js` - [http://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js](http://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js)
 * `ej.web.react.min.js` - [http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js](http://cdn.syncfusion.com/14.3.0.49/js/common/ej.web.react.min.js)
 
-1.Create HTML file and add the following necessery script and css files to the HTML file.
+1.Create HTML file and add the following necessary script and css files to the HTML file.
 
 {% highlight html %}
 
@@ -145,7 +145,7 @@ You can enable Editing in TreeGrid by using the [`editSettings`](http://help.syn
 
 {% highlight js %}
 
-var editsettings = {
+var editSettings = {
             allowAdding: true,
             allowEditing: true,
             allowDeleting: true,
@@ -153,7 +153,7 @@ var editsettings = {
             rowPosition: 'belowSelectedRow'
         };
 		ReactDOM.render(
-<EJ.TreeGrid editSettings={editsettings} >
+<EJ.TreeGrid editSettings={editSettings} >
    
 </EJ.TreeGrid>,
    document.getElementById('TreeGrid-default')
