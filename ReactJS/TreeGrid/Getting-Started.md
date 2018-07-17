@@ -145,7 +145,7 @@ You can enable Editing in TreeGrid by using the [`editSettings`](http://help.syn
 
 {% highlight js %}
 
-var editsettings = {
+var editSettings = {
             allowAdding: true,
             allowEditing: true,
             allowDeleting: true,
@@ -153,7 +153,7 @@ var editsettings = {
             rowPosition: 'belowSelectedRow'
         };
 		ReactDOM.render(
-<EJ.TreeGrid editSettings={editsettings} >
+<EJ.TreeGrid editSettings={editSettings} >
    
 </EJ.TreeGrid>,
    document.getElementById('TreeGrid-default')
