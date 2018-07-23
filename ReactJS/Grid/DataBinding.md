@@ -93,4 +93,4 @@ The following output is displayed as a result of the above code example.
 
 ![](dataBinding_images/dataBinding_img2.png)
 
-N> By default , if no adaptor is specified for ej.DataMananger and only the url link is mentioned it will consider as ODataService.
+N> By default , if no adaptor is specified for ej.DataManager and only the url link is mentioned it will consider as ODataService.
