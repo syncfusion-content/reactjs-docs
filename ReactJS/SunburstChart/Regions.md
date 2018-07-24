@@ -15,7 +15,7 @@ The Sunburst region represents the entire chart and all its elements. It include
 * [`valueMemberPath`](../api/ejsunburstchart#members:valueMemberPath)- Property based on the which the data segments are rendered in the  Sunburst chart 
 * [`legend`](../api/ejsunburstchart#members:legend) – displays the legend of the Sunburst Chart
 * [`levels`](../api/ejsunburstchart#members:levels)- displays the hierarchical levels for the chart 
-* [`datalabel`](../api/ejsunburstchart#members:datalabelSettings) – displays the datalabels for the Sunburst Chart
+* [`datalabel`](../api/ejsunburstchart#members:datalabelSettings) – displays the datalabel for the Sunburst Chart
 
 ## Start and End Angle
 Start and End Angle
