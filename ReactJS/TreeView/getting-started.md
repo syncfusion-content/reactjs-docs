@@ -105,6 +105,8 @@ Run the above code to render the following output.
 
 The data for TreeView which can be populated using the `dataSource` property.
 
+The [beforeLoad](https://help.syncfusion.com/api/js/ejtreeview#events:beforeload) event will be triggered before loading nodes into TreeView.
+
 {% highlight js %}
 
 "use strict";
