@@ -67,7 +67,6 @@ ReactDOM.render(
                                     <ul>
                                         <li>Classical
                                              <ul>
-                                                 <li>Avant-Garde</li>
                                                  <li>Medieval</li>
                                                  <li>Orchestral</li>
                                              </ul>
