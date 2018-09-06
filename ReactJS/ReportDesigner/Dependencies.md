@@ -1,5 +1,5 @@
 ---
-title: Essential JavaScript ReportDesigner dependencies
+title: ReportDesigner dependencies
 description: Listed ReportDesigner internal and external dependencies
 platform: ReactJS
 control: ReportDesigner
