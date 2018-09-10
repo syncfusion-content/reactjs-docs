@@ -125,7 +125,7 @@ Initialize the ReportDesigner control by adding the following script code to the
     ReactDOM.render(
     React.createElement(EJ.ReportDesigner, {
         id: "designerId",
-        serviceUrl: 'http://js.syncfusion.com/ejservices/api/ReportDesigner'
+        serviceUrl: 'http://js.syncfusion.com/demos/ejservices/api/ReportDesigner'
     }),
     document.getElementById('reportdesigner')
 );
