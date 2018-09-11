@@ -129,7 +129,7 @@ The following code example describes the above behavior.
         var toolbarItems = { showToolbar: true, toolbarItems: ["add", "edit", "delete", "update", "cancel"] };   
 		var decimalPlaces = {decimalPlaces:3};
 		var enableAnimation = {enableAnimation:true};
-		var showroundedcorner = {showroundedcorner:true};
+		var showRoundedCorner = {showRoundedCorner:true};
         ReactDOM.render(   
                 //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
 		  <EJ.Grid dataSource = {window.gridData} allowPaging = {true} editSettings={editSettings} toolbarSettings={toolbarItems}>
@@ -140,7 +140,7 @@ The following code example describes the above behavior.
                 <column field="ShipCity" editType="dropdownedit" editParams={enableAnimation} />
                 <column field="ShipCountry" />
                 <column field="OrderDate" editType="datepicket" format="{0:MM/dd/yyyy}" />
-                <column field="Verified" editType="booleanedit" editParams={showroundedcorner} />
+                <column field="Verified" editType="booleanedit" editParams={showRoundedCorner} />
             </columns>  
           </EJ.Grid>,
           document.getElementById('Grid')
@@ -917,14 +917,14 @@ Create a JSX file and paste the following content
 		var editSettings = { allowEditing: true, allowAdding: true, allowDeleting: true,showDeleteConfirmDialog:true};
         var toolbarItems = { showToolbar: true, toolbarItems: ["add", "edit", "delete", "update", "cancel"] };   
         var requireValid = {required: true};
-        var lenghtValid = {minlength:3};
+        var lengthValid = {minlength:3};
         var rangeValid = {range:[0, 1000]};
         ReactDOM.render(   
                 //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
 		  <EJ.Grid dataSource = {window.gridData} allowPaging = {true} editSettings={editSettings} toolbarSettings={toolbarItems}>
             <columns>
                 <column field="OrderID" isPrimaryKey={true} validationRules={requireValid} />
-                <column field="CustomerID" validationRules={lenghtValid}/>
+                <column field="CustomerID" validationRules={lengthValid}/>
                 <column field="ShipCity" />
                 <column field="Freight" editType="numericedit" validationRules={rangeValid}/>
                 <column field="ShipCountry" />
@@ -996,17 +996,17 @@ Also when you use `UrlAdaptor`, you need to return the data as `JSON` and the JS
 The following code example describes the above behavior.
 
 {% highlight cs %}
-public ActionResult DataSource(DataManager dm)
+public ActionResult DataSource(DataManager data)
 {
 	IEnumerable DataSource = OrderRepository.GetAllRecords();
 	DataResult result = new DataResult();
 	DataOperations operation = new DataOperations();
 	result.result = DataSource;
 	result.count = result.result.AsQueryable().Count();
-	if (dm.Skip > 0)
-		result.result = operation.PerformSkip(result.result, dm.Skip);
-	if (dm.Take > 0)
-		result.result = operation.PerformTake(result.result, dm.Take);
+	if (data.Skip > 0)
+		result.result = operation.PerformSkip(result.result, data.Skip);
+	if (data.Take > 0)
+		result.result = operation.PerformTake(result.result, data.Take);
 	return Json(result, JsonRequestBehavior.AllowGet);
 }
 public class DataResult
