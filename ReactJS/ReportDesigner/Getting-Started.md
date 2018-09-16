@@ -9,11 +9,20 @@ documentation: ug
 
 # Getting Started
 
-This section explains briefly about how to create a ReportDesigner in React JS.
+This section explains briefly about how to create a ReportDesigner control in your application with **ReactJs**.
 
 ## Script and CSS Reference
 
 Create a **HTML** page and add the script and CSS references in the <head> tag of the html page.
+
+* [`jQuery`](http://jquery.com) 1.10.2 and later versions
+* [jsRender](https://github.com/borismoore/jsrender) - to render the templates
+
+The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about ReactJS.
+
+* `react.min.js` - [http://cdn.syncfusion.com/js/assets/external/react.min.js](http://cdn.syncfusion.com/js/assets/external/react.min.js)
+* `react-dom.min.js` - [http://cdn.syncfusion.com/js/assets/external/react-dom.min.js](http://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
+* `ej.web.react.min.js` - [http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js](http://cdn.syncfusion.com/16.3.0.17/js/common/ej.web.react.min.js)
 
 {% highlight html %}
 
@@ -23,15 +32,16 @@ Create a **HTML** page and add the script and CSS references in the <head> tag
         <!-- theme reference -->
         <link rel="stylesheet" href="http://cdn.syncfusion.com/{{site.releaseversion}}/js/web/bootstrap-theme/ej.web.all.min.css" />
         <link rel="stylesheet" href="http://cdn.syncfusion.com/{{site.releaseversion}}/js/web/bootstrap-theme/ej.reportdesigner.min.css" />  
+        <!--  code miror theme  -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.37.0/codemirror.min.css" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.37.0/addon/hint/show-hint.min.css" rel="stylesheet" />
         <!--  react script  -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react-dom.js"></script>
+        <script src="http://cdn.syncfusion.com/js/assets/external/react.min.js"></script>
+        <script src="http://cdn.syncfusion.com/js/assets/external/react-dom.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
         <!--  jquery script  -->
-        <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.90/jsrender.min.js" type="text/javascript"></script>
+        <script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>
+        <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
         <!--  code miror script  -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.37.0/codemirror.min.js" type="text/javascript"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.37.0/addon/hint/show-hint.min.js" type="text/javascript"></script>
@@ -51,10 +61,6 @@ Create a **HTML** page and add the script and CSS references in the <head> tag
 
 N> In the above code, `ej.web.all.min.js` script reference has been added for demonstration purpose. It is not recommended to use this for deployment purpose, as its file size is larger since it contains all the widgets. Instead, you can use [CSG](http://csg.syncfusion.com/# "") utility to generate a custom script file with the required widgets for deployment purpose.
 
-* `react.js` and `react-dom.js` are the core files needed to create react elements.
-* `browser.min.js` file is required for code transform.
-* `ej.web.react.min.js`  is a react-syncfusion bridge to render Syncfusion components.
-
 ## Initialize and configure the control
 
 Control can be initialized in two ways.
@@ -68,14 +74,14 @@ While making use of jsx template, we have to create both the html and jsx files.
  
 #### Control Initialization
 
-Add a `div` container to render the ReportDesigner.
+Add a `div` container to render the ReportDesigner in **HTML** page.
 
 {% highlight html %}
 
 <!DOCTYPE html>
 <html>    
      <body>
-         <div id="reportDesigner"></div>
+         <div id="reportDesigner" style="height: 590px;width: 100%;"></div>
          <script src="scripts/default.js"></script>
      </body>
 </html>
@@ -112,7 +118,7 @@ ReportDesigner can be created from a HTML `DIV` element with the HTML `id` attri
 {% highlight html %}
 
 <body>
-	<div id="reportdesigner"></div>
+	<div id="reportdesigner" style="height: 590px;width: 100%;"></div>
 </body>
 
 {% endhighlight %}
