@@ -24,7 +24,7 @@ The required ReactJS script dependencies as follows. And you can also refer [Rea
 
 **External Dependency - Code Mirror**
 
-In report deigner to edit the SQL queries with syntax highlighter need to refer the below code mirror scripts and themes.
+In report designer to edit the SQL queries with syntax highlighter need to refer the below code mirror scripts and themes.
 
 {% highlight html %}
 
