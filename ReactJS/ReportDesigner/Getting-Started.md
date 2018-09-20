@@ -9,11 +9,9 @@ documentation: ug
 
 # Getting Started
 
-This section explains briefly about how to create a ReportDesigner control in your application with **ReactJs**.
+This section explains briefly about how to create a ReportDesigner control in your application with **ReactJS**.
 
 ## Script and CSS Reference
-
-Create a **HTML** page and add the script and CSS references in the <head> tag of the html page.
 
 * [`jQuery`](http://jquery.com) 1.10.2 and later versions
 * [jsRender](https://github.com/borismoore/jsrender) - to render the templates
@@ -23,6 +21,24 @@ The required ReactJS script dependencies as follows. And you can also refer [Rea
 * `react.min.js` - [http://cdn.syncfusion.com/js/assets/external/react.min.js](http://cdn.syncfusion.com/js/assets/external/react.min.js)
 * `react-dom.min.js` - [http://cdn.syncfusion.com/js/assets/external/react-dom.min.js](http://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
 * `ej.web.react.min.js` - [http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js](http://cdn.syncfusion.com/16.3.0.17/js/common/ej.web.react.min.js)
+
+**External Dependency - Code Mirror**
+
+In report designer to edit the SQL queries with syntax highlighter need to refer the below code mirror scripts and themes.
+
+{% highlight html %}
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.37.0/codemirror.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.37.0/addon/hint/show-hint.min.css" rel="stylesheet" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.37.0/codemirror.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.37.0/addon/hint/show-hint.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.37.0/addon/hint/sql-hint.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.37.0/mode/sql/sql.min.js" type="text/javascript"></script>
+
+{% endhighlight %} 
+
+Create a **HTML** page and add the below script and CSS references in the &lt;head&gt; tag of the html page.
 
 {% highlight html %}
 
@@ -72,8 +88,6 @@ Control can be initialized in two ways.
 
 While making use of jsx template, we have to create both the html and jsx files. The `.jsx` file should be converted into `.js` file using [gulp](/reactjs/overview#converting-jsx-to-javascript-with-react) command and then needs to be added as a reference in the html page.
  
-#### Control Initialization
-
 Add a `div` container to render the ReportDesigner in **HTML** page.
 
 {% highlight html %}
@@ -105,13 +119,7 @@ ReactDOM.render(
 
 N> The above jsx template needs to be converted from `.jsx` to `.js` extension by using `gulp` nuget package (refer [here](/reactjs/overview#converting-jsx-to-javascript-with-react)) and then it must be referred in the html page.
 
-#### Run the Application
-
-Run the sample application and you can see the ReportDesigner on the page as displayed in the following screenshot.
-
-![](Getting-Started_images/Getting-Started-img1.png) 
-
-### Using without jsx Template
+### Without using jsx Template
 
 ReportDesigner can be created from a HTML `DIV` element with the HTML `id` attribute set to it. Refer to the following code example.
 
@@ -139,6 +147,10 @@ Initialize the ReportDesigner control by adding the following script code to the
 
 {% endhighlight %}
 
+To create your own reporting service for report designer follow the steps explained in the following link [ Reporting Service](https://help.syncfusion.com/js/reportdesigner/getting-started#add-webapi-controller-for-report-designer).
+
+### Run the Application
+
 Run the application and you can see the ReportDesigner on the page as displayed in the following screenshot.
 
-![](Getting-Started_images/Getting-Started-img1.png) 
+![](Getting-Started_images/Getting-Started-img1.png)
