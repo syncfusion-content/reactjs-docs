@@ -13,13 +13,23 @@ Digital Gauge for Essential Studio encompasses the visualization of the segmente
 
 * Seven Segment
 
+![](/ReactJS/DigitalGauge/Overview_images/Overview_img2.png)
+
 * Fourteen Segment
+
+![](/ReactJS/DigitalGauge/Overview_images/Overview_img3.png)
 
 * Sixteen Segment
 
+![](/ReactJS/DigitalGauge/Overview_images/Overview_img4.png)
+
 * EightCrossEightDotMatrix
 
+![](/ReactJS/DigitalGauge/Overview_images/Overview_img5.png)
+
 * EightCrossEightSquareMatrix
+
+![](/ReactJS/DigitalGauge/Overview_images/Overview_img6.png)
 
 
 
