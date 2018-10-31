@@ -143,7 +143,7 @@ We can create the React application with NPM packages.
 
 #### Pre-requisites
 
- We will need **NodeJS.** if you don't have it installed on your machine, check the link from the table below.
+ We will need **Node.js** if you don't have it installed on your machine, check the link from the table below.
 
 <table>
 <tr>
@@ -154,10 +154,10 @@ We can create the React application with NPM packages.
 <tr>
 <td>
 1</td><td>
-NodeJS and NPM</td><td>
-NodeJS is the platform needed for the Cordova development. Checkout  <a href=https://nodejs.org/en/download/package-manager/> NodeJS package-manager </a></td></tr>
+Node.js and NPM</td><td>
+Node.js is the platform needed for the Cordova development. Checkout  <a href=https://nodejs.org/en/download/package-manager/> Node.js package-manager </a></td></tr>
 </table>
-
+    
 
 **Gulp** is a command line task runner using **Node.js** platform. It runs custom defined repetitious tasks.
 
@@ -167,7 +167,7 @@ To use Gulp, you need to install it as a global module through NPM.
 
 #### Configuration
 
-This section briefly explains about how to configure the package.json and gulpfile.js file.
+This section briefly explains about how to configure the `package.json` and `gulpfile.js` file.
 
 ##### package.json
 
