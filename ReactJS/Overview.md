@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to Syncfusion ReactJS
-description: Overview of Syncfusion ReactJS
+description: Overview of Syncfusion Essential Studio for React JS components with 70+ unique components which is powered by Essential Studio JavaScript Components.
 platform: ReactJS
 control: Introduction
 documentation: ug
