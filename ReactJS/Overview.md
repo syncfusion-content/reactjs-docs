@@ -96,7 +96,7 @@ document.getElementById('container')
 
 Output of above code
 
-![](overview_images\getting-started-with-react_img1.png)
+![gettingstarted](overview_images\getting-started-with-react_img1.png)
 
 
 ## Content template
@@ -133,7 +133,7 @@ Output of above code
 
 
 
-![](overview_images\content-template_img1.png)
+![contenttemplate](overview_images\content-template_img1.png)
 
 ## React application with NPM packages
 
@@ -377,10 +377,10 @@ Now type the below commands step by step for launching ReactJS application in br
 
 
 
-![](overview_images\run-application_img1.png)
+![runapplication1](overview_images\run-application_img1.png)
 
 
 
 Screenshot of launching application
 
-![](overview_images\run-application_img2.png)
+![runapplication2](overview_images\run-application_img2.png)
