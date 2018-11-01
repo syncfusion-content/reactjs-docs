@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to Syncfusion ReactJS
-description: Overview of Syncfusion ReactJS
+description: Overview of Syncfusion Essential Studio for React JS components with 70+ unique components which is powered by Essential Studio JavaScript Components.
 platform: ReactJS
 control: Introduction
 documentation: ug
@@ -96,7 +96,7 @@ document.getElementById('container')
 
 Output of above code
 
-![](overview_images\getting-started-with-react_img1.png)
+![gettingstarted](overview_images\getting-started-with-react_img1.png)
 
 
 ## Content template
@@ -133,7 +133,7 @@ Output of above code
 
 
 
-![](overview_images\content-template_img1.png)
+![contenttemplate](overview_images\content-template_img1.png)
 
 ## React application with NPM packages
 
@@ -143,7 +143,7 @@ We can create the React application with NPM packages.
 
 #### Pre-requisites
 
- We will need **NodeJS.** if you don't have it installed on your machine, check the link from the table below.
+ We will need **Node.js** if you don't have it installed on your machine, check the link from the table below.
 
 <table>
 <tr>
@@ -154,10 +154,10 @@ We can create the React application with NPM packages.
 <tr>
 <td>
 1</td><td>
-NodeJS and NPM</td><td>
-NodeJS is the platform needed for the Cordova development. Checkout  <a href=https://nodejs.org/en/download/package-manager/> NodeJS package-manager </a></td></tr>
+Node.js and NPM</td><td>
+Node.js is the platform needed for the Cordova development. Checkout  <a href=https://nodejs.org/en/download/package-manager/> Node.js package-manager </a></td></tr>
 </table>
-
+    
 
 **Gulp** is a command line task runner using **Node.js** platform. It runs custom defined repetitious tasks.
 
@@ -167,7 +167,7 @@ To use Gulp, you need to install it as a global module through NPM.
 
 #### Configuration
 
-This section briefly explains about how to configure the package.json and gulpfile.js file.
+This section briefly explains about how to configure the `package.json` and `gulpfile.js` file.
 
 ##### package.json
 
@@ -377,10 +377,10 @@ Now type the below commands step by step for launching ReactJS application in br
 
 
 
-![](overview_images\run-application_img1.png)
+![runapplication1](overview_images\run-application_img1.png)
 
 
 
 Screenshot of launching application
 
-![](overview_images\run-application_img2.png)
+![runapplication2](overview_images\run-application_img2.png)
