@@ -13,7 +13,7 @@ This section discloses the details on how to render and configure CheckBox compo
 
 ## Create a CheckBox
 
-Create an HTML page and refer the neccessary script and CSS dependency files in your application with the help of given [getting started documention](http://help.syncfusion.com/reactjs)
+Create an HTML page and refer the neccessary script and CSS dependency files in your application with the help of given [getting started documentation](http://help.syncfusion.com/reactjs)
 
 With ReactJS, the components can be initialized in two ways. 
 
