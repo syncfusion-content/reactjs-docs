@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-started
+title: Getting-started | RadioButton | ReactJS | Syncfusion
 description: Getting started for RadioButton
 platform: ReactJS
 control: RadioButton
@@ -96,7 +96,7 @@ Now the jsx file will be compiled into its equivalent Javascript file by means o
 
 Execute the above code to render RadioButton component. 
 
-![](Getting-Started_images/RadiobuttonJSX.png)
+![Create a RadioButton with using jsx Template](Getting-Started_images/RadiobuttonJSX.png)
 
 ### Without using jsx Template
 
@@ -148,4 +148,4 @@ ReactDOM.render(
 
 Run the above code snippet to get the following output.
 
-![](getting-started_images/Radiobutton.png) 
+![Create a RadioButton without using jsx Template](getting-started_images/Radiobutton.png) 

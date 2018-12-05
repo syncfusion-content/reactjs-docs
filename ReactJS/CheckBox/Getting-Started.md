@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-started
+title: Getting-started | CheckBox | ReactJS | Syncfusion
 description: Getting started for CheckBox
 platform: ReactJS
 control: CheckBox
@@ -29,7 +29,7 @@ You can render EJ components by using JSX template, wherein this JSX file will b
 {% highlight html %}
 
 <body>
-    <div id="dtp"></div>
+    <div id="checkbox"></div>
 </body>
 
 {% endhighlight %}
@@ -59,7 +59,7 @@ You can render EJ components by using JSX template, wherein this JSX file will b
 				</table>
 				 <br />
 				 <br />
-				  Favourite search engines
+				  Favorite search engines
 				<br />
 				<br />
 				<table>
@@ -76,7 +76,7 @@ You can render EJ components by using JSX template, wherein this JSX file will b
 					</tr>
 				</table>
 			 </div>,
-        document.getElementById('dtp')
+        document.getElementById('checkbox')
     );
 
 {% endhighlight %}
@@ -86,7 +86,7 @@ You can render EJ components by using JSX template, wherein this JSX file will b
  {% highlight html %}
 
 <body>
-    <div id="dtp"></div>
+    <div id="checkbox"></div>
 
     <!-- CheckBox.jsx created in previous step-->
     <script type="text/babel" src="CheckBox.jsx">
@@ -99,7 +99,7 @@ Now the jsx file will be compiled into its equivalent Javascript file by means o
 
 Execute the above code to render CheckBox component. 
 
-![](Getting-Started_images/Checkbox_jsx.png)
+![Create a CheckBox with using jsx Template](Getting-Started_images/Checkbox_jsx.png)
 
 ### Without using jsx Template
 
@@ -151,4 +151,4 @@ document.getElementById('check2')
 
 Run the above code snippet to get the following output.
 
-![](getting-started_images/Checkbox.png) 
+![Create a CheckBox without using jsx Template](getting-started_images/Checkbox.png) 
