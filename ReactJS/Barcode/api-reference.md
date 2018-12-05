@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Properties, options and events of Essential JS ejBarcode widget
-documentation: How to use Properties, options and events of Essential JS ejBarcode widget
+title: Properties, options and events of Syncfusion ejBarcode widget
+description: How to use Properties, options and events of Essential JS ejBarcode widget
+documentation: UG
 platform: ReactJS
 metaname: 
 metacontent: 
