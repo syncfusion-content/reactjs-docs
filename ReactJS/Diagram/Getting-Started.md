@@ -1,7 +1,7 @@
 ---
-title: Getting Started for React JS Diagram
+title: Getting Started for Syncfusion ReactJS Diagram
 description: How to create a Diagram with nodes, connectors and data source.
-platform: React JS
+platform: ReactJS
 control: Diagram
 documentation: ug
 ---
@@ -95,7 +95,7 @@ ReactDOM.render(
 
 This creates an empty diagram as shown in image
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![Initial diagram](Getting-Started_images/Getting-Started_img1.png)
 
 ### Populate Diagram with nodes and connectors
 
@@ -162,7 +162,7 @@ var def_connectors = [{
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![Render Nodes and Connectors in diagram](Getting-Started_images/Getting-Started_img2.png)
 
 ### Business object (Employee information)
 
@@ -246,4 +246,4 @@ function diagram5Create(args)
 
 * The Employee details are displayed in the Diagram as follows.
 
-![](Getting-Started_images/Getting-Started_img3.png)
+![Render Layout](Getting-Started_images/Getting-Started_img3.png)
