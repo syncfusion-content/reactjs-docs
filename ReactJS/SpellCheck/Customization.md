@@ -1,5 +1,5 @@
 ---
-title: SpellCheck - Customization
+title: SpellCheck - Customization | Syncfusion
 description: SpellCheck Customization
 platform: ReactJS
 control: spellcheck
@@ -19,7 +19,7 @@ The SpellCheck control provide the support(`misspellWordCss]`) to display the er
 
 The following code example depicts the way to customize the error word highlight (displaying error word with red color font and lightblue background).
 
-Jdx file:
+`Jdx file`:
 
 {% highlight html %}
 
