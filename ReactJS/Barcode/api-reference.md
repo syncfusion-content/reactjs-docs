@@ -877,7 +877,7 @@ Specifies the type of the Barcode. See <a href="global.html#SymbologyType">Symbo
             <td class="description">Represents the Code 128 C barcode</td>
         </tr>
         <tr>
-            <td class="name">UpcBarcode</td>
+            <td class="name">UPCBarcode</td>
             <td class="description">Represents the UPC barcode</td>
         </tr>
     </tbody>
@@ -885,7 +885,7 @@ Specifies the type of the Barcode. See <a href="global.html#SymbologyType">Symbo
 Default Value:
 {:.param}
 
-* symbologytype="qrbarcode"
+* symbologyType="qrbarcode"
 
 
 
