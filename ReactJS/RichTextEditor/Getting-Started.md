@@ -2,7 +2,7 @@
 layout: post
 title: Getting-Started | RichTextEditor | JavaScript | Syncfusion
 description: getting started 
-platform: React JS
+platform: ReactJS
 control: RichTextEditor Control
 documentation: ug
 keywords: ejrte, rte, js rte
@@ -10,7 +10,7 @@ keywords: ejrte, rte, js rte
 
 # Getting Started 
 
-This section helps to understand the getting started od RTE control with the step-by-step instruction.
+This section helps to understand the getting started of RTE control with the step-by-step instruction.
 
 ## Create RTE Control in React JS
 
@@ -41,7 +41,7 @@ Define an HTML element for adding RichTextEditor in the application and refer th
 
 The following screenshot displays a RTE widget.
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![create](Getting-Started_images/Getting-Started_img1.png)
 
 ## Toolbar–Configuration
 
@@ -57,10 +57,10 @@ You can configure a toolbar with the tools as your application requires.
 {% highlight js %}
 
 "use strict";
-var toolslist=["style", "lists", "doAction", "links", "images"];
+var tool=["style", "lists", "doAction", "links", "images"];
 var tools={style: ["bold", "italic"], lists: ["unorderedList", "orderedList"],doAction: ["undo", "redo"],links: ["createLink"],images: ["image"] };
 ReactDOM.render(
-    <EJ.RTE width="100%" minWidth="150px" isResponsive={true} toolsList={toolslist} tools={tools}>
+    <EJ.RTE width="100%" minWidth="150px" isResponsive={true} toolsList={tool} tools={tools}>
     </EJ.RTE>,
 document.getElementById('rte-default')
 );
@@ -69,7 +69,7 @@ document.getElementById('rte-default')
 
 The following screenshot displays a RTE widget.
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![RTE](Getting-Started_images/Getting-Started_img2.png)
 
 ## Setting and Getting Content
 
@@ -112,7 +112,7 @@ document.getElementById('rte-default')
 
 The following screenshot displays a RTE widget.
 
-![](Getting-Started_images/Getting-Started_img3.png)
+![value](Getting-Started_images/Getting-Started_img3.png)
 
 You can also set the content of the editor using value property as follows.
 
