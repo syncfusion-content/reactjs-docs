@@ -183,7 +183,7 @@ You can sort a field either to ascending or descending order using the **"sortOr
 
 ### Apply Filtering
 
-Filtering option allows you to specify a set of values that either need to be displayed or hided. Also filtering option is applicable only for Row, Column and Filter areas.
+Filtering option allows you to specify a set of values that either need to be displayed or hidden. Also filtering option is applicable only for Row, Column and Filter areas.
 
 **"filterItems"** object allow us to apply filtering to the fields using the following properties:
 
