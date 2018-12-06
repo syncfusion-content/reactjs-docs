@@ -1,7 +1,7 @@
 ---
-title: Getting Started for React JS PivotGrid
+title: Getting Started for PivotGrid in Syncfusion Essential ReactJS
 description: How to create a PivotGrid with data source.
-platform: React JS
+platform: reactjs
 control: PivotGrid
 documentation: ug
 keywords: ejpivotgrid, pivotgrid, js pivotgrid
@@ -21,14 +21,14 @@ Create a **HTML** page and add the script and CSS references in the order ment
 <html>
     <head>
         <!-- Essential Studio for JavaScript  theme reference -->
-        <link rel="stylesheet" href="http://cdn.syncfusion.com/14.3.0.49/js/web/bootstrap-theme/ej.web.all.min.css" />           
+        <link rel="stylesheet" href="http://cdn.syncfusion.com/14.3.0.49/js/web/bootstrap-theme/ej.web.all.min.css" />
         <!--  react script  -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react-dom.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
         <!--  jquery script  -->
         <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
-        <!-- Essential JS UI widget -->    
+        <!-- Essential JS UI widget -->
         <script src="http://cdn.syncfusion.com/14.3.0.49/js/web/ej.web.all.min.js"></script>
         <script src="http://cdn.syncfusion.com/14.3.0.49/js/common/ej.web.react.min.js"></script>
 
@@ -59,7 +59,7 @@ Add a `div` container to render the PivotGrid.
 {% highlight html %}
 
 <!DOCTYPE html>
-<html> 
+<html>
     <body>
         <div id="PivotGrid1" style="width:99%;"></div>
     </body>
@@ -81,14 +81,14 @@ Initialize the PivotGrid by using the `EJ.PivotGrid` tag.
                 overflow: auto;
             }
         </style>
-    </head>       
+    </head>
     <body>
         <div id="PivotGrid1" style="width:99%;"></div>
         <script type="text/babel">
              ReactDOM.render(
                  <EJ.PivotGrid id="Relational"></EJ.PivotGrid>,
                  document.getElementById('PivotGrid1')
-             );  
+             );
         </script>
     </body>
 </html>
@@ -129,19 +129,19 @@ Let us now see how to populate the PivotGrid control using a sample JSON data as
         { Amount: 300, Country: "United States", Date: "FY 2007", Product: "Van", Quantity: 4, State: "South Carolina" }
     ];
     var  pivotdataSource = {
-        data: pivot_dataset, 
+        data: pivot_dataset,
         rows: [
                   { fieldName: "Country", fieldCaption: "Country" },
                   { fieldName: "State", fieldCaption: "State" }
-              ], 
-        columns: [{ fieldName: "Product", fieldCaption: "Product" }], 
+              ],
+        columns: [{ fieldName: "Product", fieldCaption: "Product" }],
         values: [
                     { fieldName: "Amount", fieldCaption: "Amount" },
                     { fieldName: "Quantity", fieldCaption: "Quantity" }
                 ],
         filters: []
     };
-   
+
     $(function(){
       ReactDOM.render(
         <EJ.PivotGrid id="Relational" dataSource= {pivotdataSource}></EJ.PivotGrid>,
@@ -154,21 +154,21 @@ Let us now see how to populate the PivotGrid control using a sample JSON data as
 
 The above code will generate a simple PivotGrid with “Country” field in Row, “Product” field in Column and “Amount” field in Value section.
 
-![](getting-started_images/purejs.png)
+![Relational pivot grid control in React](getting-started_images/purejs.png)
 
 ### Apply Sorting
 
 You can sort a field either to ascending or descending order using the **"sortOrder"** property. Sorting is applicable only for Row and Column fields. By default, fields are arranged in ascending order.
- 
+
 {% highlight html %}
 
 <script type="text/babel">
     var pivot_dataset = []; // data source
     var  pivotdataSource = {
-        data: pivot_dataset, 
+        data: pivot_dataset,
         rows: [
                   { fieldName: "Country", fieldCaption: "Country", sortOrder: ej.PivotAnalysis.SortOrder.Descending }
-              ], 
+              ],
         columns: [{ fieldName: "Product", fieldCaption: "Product" }]
         values: [
                     { fieldName: "Amount", fieldCaption: "Amount" }
@@ -179,7 +179,7 @@ You can sort a field either to ascending or descending order using the **"sortOr
 
 {% endhighlight %}
 
-![](Getting-Started_images/purejssorting.png)
+![Sorting in React pivot grid control](Getting-Started_images/purejssorting.png)
 
 ### Apply Filtering
 
@@ -196,29 +196,29 @@ Filtering option allows you to specify a set of values that either need to be di
 <script type="text/babel">
     var pivot_dataset = []; // data source
     var  pivotdataSource = {
-        data: pivot_dataset, 
-        rows: [ { fieldName: "Country", 
-                    fieldCaption: "Country", 
-                    filterItems: { 
+        data: pivot_dataset,
+        rows: [ { fieldName: "Country",
+                    fieldCaption: "Country",
+                    filterItems: {
                         filterType: ej.PivotAnalysis.FilterType.Exclude,
                         values: ["United Kingdom"]
-                    } 
+                    }
                   }
-              ], 
-        columns: [{ fieldName: "Product", 
+              ],
+        columns: [{ fieldName: "Product",
                     fieldCaption: "Product",
                     filterItems: {
                         filterType: ej.PivotAnalysis.FilterType.Include,
                         values: ["Bike", "Car"]
                     }
-                 }], 
+                 }],
         //....
     };
 </script>
 
 {% endhighlight %}
 
-![](Getting-Started_images/purejsfiltering.png)
+![Filtering in React pivot grid control](Getting-Started_images/purejsfiltering.png)
 
 ### Apply Summary Types
 
@@ -235,7 +235,7 @@ Allow us to specify the required summary type that PivotGrid should use in its s
 <script type="text/babel">
     var pivot_dataset = []; // data source
     var  pivotdataSource = {
-        data: pivot_dataset, 
+        data: pivot_dataset,
         //...
         values: [
                     { fieldName: "Amount", fieldCaption: "Amount", summaryType: ej.PivotAnalysis.SummaryType.Average },
@@ -245,9 +245,9 @@ Allow us to specify the required summary type that PivotGrid should use in its s
     };
 </script>
 
-{% endhighlight %}    
+{% endhighlight %}
 
-![](Getting-Started_images/purejssummarytype.png)
+![Summary types in React pivot grid control](Getting-Started_images/purejssummarytype.png)
 
 ## OLAP
 
@@ -258,7 +258,7 @@ Add a `div` container to render the PivotGrid.
 {% highlight html %}
 
 <!DOCTYPE html>
-<html> 
+<html>
     <body>
         <div id="PivotGrid1" style="width:99%;"></div>
     </body>
@@ -280,14 +280,14 @@ Initialize the PivotGrid by using the `EJ.PivotGrid` tag.
             overflow: auto;
           }
         </style>
-    </head>       
+    </head>
     <body>
         <div id="PivotGrid1" style="width:99%;"></div>
         <script type="text/babel">
              ReactDOM.render(
                    <EJ.PivotGrid id="Olap"></EJ.PivotGrid>,
                    document.getElementById('PivotGrid1')
-             );  
+             );
         </script>
     </body>
 </html>
@@ -302,10 +302,10 @@ Let us now see how to populate the PivotGrid control using a sample JSON data as
 
 <script type="text/babel">
     var Olap_dataSource={
-        data: "http://bi.syncfusion.com/olap/msmdpump.dll", 
-        catalog: "Adventure Works DW 2008 SE", //"Adventure Works DW 2008 SEtandard Edition
+        data: "http://bi.syncfusion.com/olap/msmdpump.dll",
+        catalog: "Adventure Works DW 2008 SE", //"Adventure Works DW 2008 Standard Edition
         cube: "Adventure Works", rows: [{ fieldName: "[Date].[Fiscal]" }], columns: [{ fieldName: "[Customer].[Customer Geography]" }],
-        values: [{ measures: [{ fieldName: "[Measures].[Internet Sales Amount]" }], axis: "columns" }]    
+        values: [{ measures: [{ fieldName: "[Measures].[Internet Sales Amount]" }], axis: "columns" }]
     };
 
     $(function(){
@@ -320,4 +320,4 @@ Let us now see how to populate the PivotGrid control using a sample JSON data as
 
 The above code will generate a simple PivotGrid with “Fiscal” field in Row, “Customer Geography” field in Column and “Internet Sales Amount” field in Value section.
 
-![](getting-started_images/Olap.png)
+![OLAP pivot grid control in React](getting-started_images/Olap.png)
