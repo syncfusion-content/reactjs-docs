@@ -1,6 +1,6 @@
 ---
 layout: post
-title: getting-started
+title: Syncfusion Navigation Drawer Getting Started
 description: getting started
 platform: reactjs
 control: navigation drawer
@@ -64,7 +64,7 @@ Create the target element as follows to display the list items by clicking targe
   <div id="targetPane">
     <div className="e-lv">
         <div className="e-header">
-            <div id="drawer" className="drawericon e-icon alignText"></div>
+            <div id="drawer" className="drawerIcon e-icon alignText"></div>
         </div>
     </div>
   </div>
@@ -77,7 +77,7 @@ To set the target icon image and with the correct position as using the below me
 
     <style>
     
-        .drawericon {
+        .drawerIcon {
             background-position: center center;
             background-repeat: no-repeat;
             height: 45px;
@@ -86,7 +86,7 @@ To set the target icon image and with the correct position as using the below me
             padding-right: 10px;
         }
 
-        .drawericon:before {
+        .drawerIcon:before {
             content: "\e76b";
             font-size: 24px;
             height: 26px;
@@ -105,7 +105,7 @@ To set the target icon image and with the correct position as using the below me
 
 {% endhighlight %}
 
-![](Getting-Started_images\getting-started_img1.png)
+![Getting Started](Getting-Started_images\getting-started_img1.png)
 
 You can open the list items by clicking on target element using the targetId property. 
 
@@ -125,7 +125,7 @@ You can open the list items by clicking on target element using the targetId pro
 
 {% endhighlight %}
 
-![](Getting-Started_images\getting-started_img2.png)
+![Getting Started Navigations](Getting-Started_images\getting-started_img2.png)
 
 To set the images for list items of the Navigation Drawer by using the [`data-ej-imageclass`] property as follows.
 
@@ -198,7 +198,7 @@ To set the images with the correct position by using the mentioned styles.
 
 {% endhighlight %}
 
-![](Getting-Started_images\getting-started_img3.png)
+![Getting Started Navigation Drawer](Getting-Started_images\getting-started_img3.png)
 
 To add desired page content while selecting the options in navigation drawer as follows.
 
@@ -261,7 +261,7 @@ In the mouse, up handler, it’s display the respective selected item’s conten
 
 Run the above code to render the following output. 
 
-![](Getting-Started_images\getting-started_img4.png)
+![Getting started images](Getting-Started_images\getting-started_img4.png)
 
 ## Customize Direction
 
@@ -283,6 +283,6 @@ By using direction property, to change the list view open direction. The possibl
 
 {% endhighlight %}
 
-![](Getting-Started_images\getting-started_img5.png)
+![Customize direction](Getting-Started_images\getting-started_img5.png)
 
 N> To get the complete API list for all the Syncfusion component’s properties from the [API reference](https://help.syncfusion.com/api/js/ejnavigationdrawer)

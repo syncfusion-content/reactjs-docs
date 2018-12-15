@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Swimlanes
+title:  Syncfusion Kanban Swimlanes
 description: Swimlanes
 documentation: ug
-platform: React JS 
+platform: ReactJS 
 keywords: swimlanes,kanban swimlanes
 ---
 
@@ -24,14 +24,14 @@ ReactDOM.render(
 	    <column headerText="Done" key="Close"></column>
 	</columns>
 </EJ.Kanban>,
-   document.getElementById('kanbanboard-default')
+   document.getElementById('kanbanBoard-default')
 );
 
 {% endhighlight %}
 
 The following output is displayed as a result of the above code example.
 
-![](Swimlane_images/swimlane_img1.png)
+![Swim lanes](Swimlane_images/swimlane_img1.png)
 
 ## Drag And Drop between swim lanes
 
@@ -52,14 +52,14 @@ ReactDOM.render(
 	    <column headerText="Done" key="Close"></column>
 	</columns>
 </EJ.Kanban>,
-   document.getElementById('kanbanboard-default')
+   document.getElementById('kanbanBoard-default')
 );
 
 {% endhighlight %}
 
 The following output is displayed as a result of the above code example.
 
-![](Swimlane_images/swimlane_img2.png)
+![Drag and Drop across swim lanes](Swimlane_images/swimlane_img2.png)
 
 ## Unassigned swim lane group
 
@@ -91,11 +91,11 @@ ReactDOM.render(
 	    <column headerText="Done" key="Close"></column>
 	</columns>
 </EJ.Kanban>,
-   document.getElementById('kanbanboard-default')
+   document.getElementById('kanbanBoard-default')
 );
 
 {% endhighlight %}
 
 The output of the above code example.
 
-![](Swimlane_images/swimlane_img3.png)
+![Swim lane default values](Swimlane_images/swimlane_img3.png)
