@@ -63,7 +63,7 @@ The following output is displayed as a result of the above code example.
 
 ## Unassigned swim lane group
 
-Unassigned swim lane feature provides option to group some common swim lane key values as separate swim lane group. You can enable and disable this behavior using the property [swimlaneSettings-unasignedGroup-enable](https://help.syncfusion.com/api/js/ejkanban#members:swimlanesettings-unassignedgroup-enable).
+Unassigned swim lane feature provides option to group some common swim lane key values as separate swim lane group. You can enable and disable this behavior using the property [swimlaneSettings-unassignedGroup-enable](https://help.syncfusion.com/api/js/ejkanban#members:swimlanesettings-unassignedgroup-enable).
 User can use default common key values or user defined key values. 
 
     •	Using default values
