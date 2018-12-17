@@ -1,7 +1,7 @@
 ---
-title: Getting Started for React JS Kanban
+title: Getting Started for React JS Syncfusion Kanban
 description: Getting-Started
-platform: React JS
+platform: ReactJS
 control: Kanban
 documentation: Ug
 keywords: 
@@ -202,14 +202,14 @@ Control can be initialized in two ways.
  
 ## Using jsx Template
 
-By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be refered in html page.
+By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be referred in html page.
 
 Please refer to the code of HTML file.
 
 {% highlight html %}
 
-    <div id="kanbanboard-default"></div>
-    <script src="app/kanbanboard/default.js"></script>
+    <div id="kanbanBoard-default"></div>
+    <script src="app/kanbanBoard/default.js"></script>
 
 {% endhighlight %}
 
@@ -225,12 +225,12 @@ Kanban control can be initialized with the following in HTML document.
                           <column headerText="Done" />
                       </columns>
             </EJ.Kanban>,
-            document.getElementById('kanbanboard-default')
+            document.getElementById('kanbanBoard-default')
         );
     
 {% endhighlight %}
 
-![](Getting-Started_images/Getting_Started_img1.png)
+![Getting Started](Getting-Started_images/Getting_Started_img1.png)
 
 ### Data Binding
 
@@ -249,12 +249,12 @@ For demonstration purpose, [`Northwind OData service`](http://mvc.syncfusion.com
                           <column headerText="Done" key="Close"/>
                       </columns>
             </EJ.Kanban>,
-            document.getElementById('kanbanboard-default')
+            document.getElementById('kanbanBoard-default')
         );
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting_Started_img2.png)
+![Data Binding](Getting-Started_images/Getting_Started_img2.png)
 
 N>  ODataAdaptor is the default adaptor used within DataManager. While binding to other web services, proper [`data adaptor`](http://help.syncfusion.com/js/datamanager/data-adaptors) needs to be set for `adaptor` option of DataManager.
 
@@ -279,12 +279,12 @@ In order to display cards in Kanban control, you need to map the database fields
                           <column headerText="Done" key="Close"/>
                       </columns>
             </EJ.Kanban>,
-            document.getElementById('kanbanboard-default')
+            document.getElementById('kanbanBoard-default')
         );
 
 {% endhighlight %} 
 
-![](Getting-Started_images/Getting_Started_img3.png)
+![Mapping Values](Getting-Started_images/Getting_Started_img3.png)
 
 N>  `fields.primaryKey` field is mandatory for “Drag and Drop” ,”Selection” and “Editing” Features.
 
@@ -304,12 +304,12 @@ N>  `fields.primaryKey` field is mandatory for “Drag and Drop” ,”Selection
                           <column headerText="Done" key="Close"/>
                       </columns>
             </EJ.Kanban>,
-            document.getElementById('kanbanboard-default')
+            document.getElementById('kanbanBoard-default')
         );
 
 {% endhighlight %} 
 
-![](Getting-Started_images/Getting_Started_img4.png)
+![Swim lane](Getting-Started_images/Getting_Started_img4.png)
 
 ### Adding Filters
 
@@ -330,12 +330,12 @@ Filters allows to filter the collection of cards from `dataSource` which meets t
                           <column headerText="Done" key="Close"/>
                       </columns>
             </EJ.Kanban>,
-            document.getElementById('kanbanboard-default')
+            document.getElementById('kanbanBoard-default')
         );
 
 {% endhighlight %} 
 
-![](Getting-Started_images/Getting_Started_img5.png)
+![Filters](Getting-Started_images/Getting_Started_img5.png)
 
 ## Without using jsx Template
 
@@ -376,10 +376,10 @@ Initialize the Kanban control by adding the following script code to the body se
                             React.createElement("column", { headerText: "Done", key: "Close" })
                         )
              ),
-             document.getElementById('kanbanboard-default')
+             document.getElementById('kanbanBoard-default')
         );        
     </script>
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting_Started_img5.png)
+![Without react template](Getting-Started_images/Getting_Started_img5.png)
