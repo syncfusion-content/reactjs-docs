@@ -3069,9 +3069,9 @@ To customize the error bar cap *visibility, length, width* and *fill* color, you
 
 ## Box and Whisker Chart 
 
-To render a Box and Whisker Chart, set the series [`type`](../api/ejchart.html#members:series-type) as **"boxandwhisker"**.
+To render a Box and Whisker Chart, set the series [`type`](../api/ejchart.html#members:series-type) as **"boxAndWhisker"**.
 Box and Whisker chart requires 2 fields (x and y) to plot a segment. 
-The feild y requires n number of data or it should  contains minimum of five values to plot a segment.
+The field y requires n number of data or it should  contains minimum of five values to plot a segment.
 
 {% highlight javascript %}
 
@@ -3085,7 +3085,7 @@ The feild y requires n number of data or it should  contains minimum of five val
                          { x: "Finance", y: [26,27,28,30,32,34,35,37,35,37,45]},
                          { x: "R&D", y: [26,27,29,32,34,35,36,37,38,39,41,43,58] }
                        ],                    	
-	            type: 'boxandwhisker',                     
+	            type: 'boxAndWhisker',                     
         }]; 
         //...  
 		
