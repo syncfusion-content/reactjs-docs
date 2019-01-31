@@ -125,7 +125,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![Map data into HeatMap](Getting-Started_images/Getting-Started_img1.png)
 
 ### Initialize Legend
 
@@ -156,7 +156,7 @@ document.getElementById('heatmap-default-legend')
 );
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![Initialize legend](Getting-Started_images/Getting-Started_img2.png)
 
 ## Without using jsx Template
 
@@ -214,7 +214,7 @@ var itemsMapping= {
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![Initialize HeatMap](Getting-Started_images/Getting-Started_img1.png)
 
 ## Initialize Legend
 
@@ -244,4 +244,4 @@ var colorMappingCollection = [
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![Initialize legend](Getting-Started_images/Getting-Started_img2.png)
