@@ -61,7 +61,7 @@ Control can be initialized in two ways.
  
 ## Using jsx Template
 
-By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be refered in html page.
+By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be referred in html page.
 
 ### Initialize HeatMap
 
@@ -125,7 +125,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![Map data into HeatMap](Getting-Started_images/Getting-Started_img1.png)
 
 ### Initialize Legend
 
@@ -156,7 +156,7 @@ document.getElementById('heatmap-default-legend')
 );
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![Initialize legend](Getting-Started_images/Getting-Started_img2.png)
 
 ## Without using jsx Template
 
@@ -214,7 +214,7 @@ var itemsMapping= {
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![Initialize HeatMap](Getting-Started_images/Getting-Started_img1.png)
 
 ## Initialize Legend
 
@@ -244,4 +244,4 @@ var colorMappingCollection = [
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![Initialize legend](Getting-Started_images/Getting-Started_img2.png)
