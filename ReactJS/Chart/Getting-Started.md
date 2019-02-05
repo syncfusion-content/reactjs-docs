@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Getting-Started
+title: Syncfusion EJ1 React Getting-Started
 description: getting started
-platform: React JS
+platform: ReactJS
 control: Chart
 documentation: ug
 ---
@@ -62,13 +62,13 @@ Control can be initialized in two ways.
  
 ## Using jsx Template
 
-By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be refered in html page.
+By using the jsx template, we can create the html file and jsx file. The `.jsx` file can be convert to `.js` file and it can be referred in html page.
 
 ### Create your chart
 
 In this tutorial, you will learn how to create a simple chart.The following screen shot displays the output after completing this tutorial.
 
-![](Getting-Started_images/Getting-Started_img3.png)
+![Chart Creation](Getting-Started_images/Getting-Started_img3.png)
 
 1.Create a <div> tag.
 	
@@ -185,7 +185,7 @@ var size = {height:"400",width:"600"};
 {% endhighlight %}
 
 
-![](Getting-Started_images/Getting-Started_img4.png)
+![Mapping Properties](Getting-Started_images/Getting-Started_img4.png)
 
 
 Since the data is related to Sales, format the vertical axis labels by adding ‘$’ as a prefix and ‘K’ as a suffix to each label. This can be achieved by setting the “${value}K” to the **labelFormat** option of the axis. Here, {value} acts as a placeholder for each axis label, “$” and “K” are the actual prefix and suffix added to each axis label. 
@@ -218,7 +218,7 @@ var primaryYAxis= {
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img5.png)
+![Label Format](Getting-Started_images/Getting-Started_img5.png)
 
 ## Add Data Labels
 
@@ -256,7 +256,7 @@ var series= {
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img6.png)
+![Data Labels](Getting-Started_images/Getting-Started_img6.png)
 
 
 There are situations where the default label content is not sufficient to the user. In this case, you can use the **template** option to format the label content with some additional information.
@@ -309,7 +309,7 @@ var series= {
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img7.png)
+![DataLabel Template](Getting-Started_images/Getting-Started_img7.png)
 
 ## Enable Legend
 
@@ -343,7 +343,7 @@ var series= {
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img8.png)
+![Legend](Getting-Started_images/Getting-Started_img8.png)
 
 ## Enable Tooltip
 
@@ -375,7 +375,7 @@ var series= {
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img9.png)
+![Tooltip](Getting-Started_images/Getting-Started_img9.png)
 
 ## Add Chart Title
 
@@ -405,7 +405,7 @@ var title= {
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img10.png)
+![Chart Title](Getting-Started_images/Getting-Started_img10.png)
 
 ## Without using jsx Template
 
@@ -452,4 +452,4 @@ ReactDOM.render(
  {% endhighlight %}
 Now the line chart is rendered 
 
-![](Getting-Started_images/Getting-Started_img4.png)      
+![Chart Using HTML Div](Getting-Started_images/Getting-Started_img4.png)      
