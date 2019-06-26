@@ -101,7 +101,7 @@ Ribbon control can be initialized with the following in HTML document.
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![ribbon](Getting-Started_images/Getting-Started_img1.png)
 
 N>  Set the required width to Ribbon, else default parent container or window width will be considered.
 
@@ -142,7 +142,7 @@ Configure the tabs bind value tab in ReactJS view-model as shown in the followin
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![tabs](Getting-Started_images/Getting-Started_img2.png)
 
 ## Configuring Groups
 
@@ -196,7 +196,7 @@ Configure the tabs bind value tab with group and button named as New.
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img3.png)
+![ribbon](Getting-Started_images/Getting-Started_img3.png)
 
 ## Adding Controls to Group
 
@@ -253,7 +253,7 @@ Configure the tabs bind value tab with groups, button,split button and dropdown 
 
 {% endhighlight %}
 	 
-![](Getting-Started_images/Getting-Started_img4.png)
+![Controls](Getting-Started_images/Getting-Started_img4.png)
 
 ## Without using jsx Template
 
@@ -312,4 +312,4 @@ The Ribbon can be created from a HTML `DIV` element with the HTML `id` attribute
   
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img4.png)
+![Without JSX](Getting-Started_images/Getting-Started_img4.png)
