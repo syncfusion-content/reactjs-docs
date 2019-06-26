@@ -1,7 +1,7 @@
 ---
-title: Getting Started for React JS Ribbon
-description: Getting-Started
-platform: React JS
+title: Getting Started for Syncfusion React JS Ribbon
+description: Getting-Started 
+platform: reactjs
 control: Ribbon
 documentation: Ug
 keywords: 
