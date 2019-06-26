@@ -23,6 +23,8 @@ The required ReactJS script dependencies as follows. And you can also refer [Rea
 * `react-dom.min.js` - [http://cdn.syncfusion.com/js/assets/external/react-dom.min.js](http://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
 * `ej.web.react.min.js` - [http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js](http://cdn.syncfusion.com/14.3.0.49/js/common/ej.web.react.min.js)
 
+To translate JSX to plain JavaScript, we must use <script type=”text/babel”> and refer the browser.min.js file to perform the transformation in the browser.
+
 To get started, you can use the `ej.web.all.min.js` file that encapsulates all the `ej` controls and frameworks in one single file. So the complete boilerplate code is
 
 {% highlight html %}
@@ -37,9 +39,10 @@ To get started, you can use the `ej.web.all.min.js` file that encapsulates all t
     <!-- Essential Studio for JavaScript  theme reference -->
     <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
     <!-- Essential Studio for JavaScript  script references -->
-    <script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>
     <script src="http://cdn.syncfusion.com/js/assets/external/react.min.js"></script>
     <script src="http://cdn.syncfusion.com/js/assets/external/react-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+    <script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>
     <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/ej.web.all.min.js"></script>
     <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js"></script>
     <!-- Add your custom scripts here -->
