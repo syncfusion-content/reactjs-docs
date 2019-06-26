@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Controls-Support
+title: Controls-Support for Syncfusion Ribbon
 description: controls support
 documentation: ug
-platform: React JS
+platform: reactjs
 keywords: controls support,ribbon controls support
 ---
 
@@ -97,4 +97,4 @@ N> 2. For `type` property you can assign either string value (“splitbutton”)
     
 {% endhighlight %}
 
-![](/js/Ribbon/Controls-Support_images/Controls-Support_img1.png)
+![controls](/js/Ribbon/Controls-Support_images/Controls-Support_img1.png)
