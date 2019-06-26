@@ -96,5 +96,3 @@ N> 2. For `type` property you can assign either string value (“splitbutton”)
     );
     
 {% endhighlight %}
-
-![controls](/js/Ribbon/Controls-Support_images/Controls-Support_img1.png)
