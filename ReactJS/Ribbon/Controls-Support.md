@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Controls-Support
+title: Controls-Support for Syncfusion Ribbon
 description: controls support
 documentation: ug
-platform: React JS
+platform: reactjs
 keywords: controls support,ribbon controls support
 ---
 
@@ -53,7 +53,7 @@ N> 2. For `type` property you can assign either string value (“splitbutton”)
 			    <content>
 				   <content defaults-type="button" defaults-width={60} defaults-height={60} defaults-isBig={false}>
 				      <groups>
-					     <group id="new" text="New" toolTip="New" buttonSettings-contentType="imageonly" buttonSettings-imagePosition="imagetop" buttonSettings-prefixIcon="e-icon e-ribbon e-new" buttonSettings-click="executeAction">
+					     <group id="new" text="New" toolTip="New" buttonSettings-contentType="imageonly" buttonSettings-imagePosition="imagetop" buttonSettings-prefixIcon="e-icon e-ribbon e-new" buttonSettings-click={executeAction}>
 						 </group>
 					   </groups>
 					</content>
@@ -63,7 +63,7 @@ N> 2. For `type` property you can assign either string value (“splitbutton”)
                 <content>
                     <content defaults-type="splitbutton" defaults-width={60} defaults-height={70}>
                        <groups>
-                           <group id="paste" text="Paste" customTooltip-prefixIcon="e-pastetip" splitButtonSettings-contentType="imageonly" splitButtonSettings-prefixIcon="e-icon e-ribbon e-ribbonpaste" splitButtonSettings-targetID="pasteSplit1" splitButtonSettings-buttonMode="dropdown" splitButtonSettings-arrowPosition="bottom" splitButtonSettings-click="executeAction">
+                           <group id="paste" text="Paste" customTooltip-prefixIcon="e-pastetip" splitButtonSettings-contentType="imageonly" splitButtonSettings-prefixIcon="e-icon e-ribbon e-ribbonpaste" splitButtonSettings-targetID="pasteSplit1" splitButtonSettings-buttonMode="dropdown" splitButtonSettings-arrowPosition="bottom" splitButtonSettings-click={executeAction}>
                            </group>
                         </groups>
                       </content>
@@ -81,8 +81,8 @@ N> 2. For `type` property you can assign either string value (“splitbutton”)
                             </content>
                           <content defaults-isBig={false}>
                              <groups>
-                                <group id="bold" text="bold" type="togglebutton" toggleButtonSettings-contentType="imageonly" toggleButtonSettings-defaultText="Bold" toggleButtonsettings-activeText="Bold" toggleButtonSettings-defaultPrefixIcon="e-icon e-ribbon e-resbold" toggleButtonSettings-activePrefixIcon="e-icon e-ribbon e-resbold" toggleButtonSettings-click="executeAction"></group>
-                                <group id="italic" type="togglebutton" toggleButtonSettings-contentType="imageonly" toggleButtonSettings-defaultText="Italic" toggleButtonSettings-activeText="Italic" toggleButtonSettings-defaultPrefixIcon="e-icon e-ribbon e-resitalic" toggleButtonsettings-activePrefixIcon="e-icon e-ribbon e-resitalic" toggleButtonSettings-click="executeAction"></group> 
+                                <group id="bold" text="bold" type="togglebutton" toggleButtonSettings-contentType="imageonly" toggleButtonSettings-defaultText="Bold" toggleButtonsettings-activeText="Bold" toggleButtonSettings-defaultPrefixIcon="e-icon e-ribbon e-resbold" toggleButtonSettings-activePrefixIcon="e-icon e-ribbon e-resbold" toggleButtonSettings-click={executeAction}></group>
+                                <group id="italic" type="togglebutton" toggleButtonSettings-contentType="imageonly" toggleButtonSettings-defaultText="Italic" toggleButtonSettings-activeText="Italic" toggleButtonSettings-defaultPrefixIcon="e-icon e-ribbon e-resitalic" toggleButtonsettings-activePrefixIcon="e-icon e-ribbon e-resitalic" toggleButtonSettings-click={executeAction}></group> 
                              </groups>
                           </content>
 					    </content>
@@ -96,5 +96,3 @@ N> 2. For `type` property you can assign either string value (“splitbutton”)
     );
     
 {% endhighlight %}
-
-![](/js/Ribbon/Controls-Support_images/Controls-Support_img1.png)

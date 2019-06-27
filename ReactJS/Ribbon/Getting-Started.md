@@ -1,7 +1,7 @@
 ---
-title: Getting Started for React JS Ribbon
-description: Getting-Started
-platform: React JS
+title: Getting Started for Syncfusion React JS Ribbon
+description: Getting-Started 
+platform: reactjs
 control: Ribbon
 documentation: Ug
 keywords: 
@@ -23,6 +23,8 @@ The required ReactJS script dependencies as follows. And you can also refer [Rea
 * `react-dom.min.js` - [http://cdn.syncfusion.com/js/assets/external/react-dom.min.js](http://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
 * `ej.web.react.min.js` - [http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js](http://cdn.syncfusion.com/14.3.0.49/js/common/ej.web.react.min.js)
 
+To translate JSX to plain JavaScript, we must use <script type=”text/babel”> and refer the browser.min.js file to perform the transformation in the browser.
+
 To get started, you can use the `ej.web.all.min.js` file that encapsulates all the `ej` controls and frameworks in one single file. So the complete boilerplate code is
 
 {% highlight html %}
@@ -37,9 +39,10 @@ To get started, you can use the `ej.web.all.min.js` file that encapsulates all t
     <!-- Essential Studio for JavaScript  theme reference -->
     <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
     <!-- Essential Studio for JavaScript  script references -->
-    <script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>
     <script src="http://cdn.syncfusion.com/js/assets/external/react.min.js"></script>
     <script src="http://cdn.syncfusion.com/js/assets/external/react-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+    <script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>
     <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/ej.web.all.min.js"></script>
     <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js"></script>
     <!-- Add your custom scripts here -->
@@ -98,7 +101,7 @@ Ribbon control can be initialized with the following in HTML document.
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![ribbon](Getting-Started_images/Getting-Started_img1.png)
 
 N>  Set the required width to Ribbon, else default parent container or window width will be considered.
 
@@ -139,7 +142,7 @@ Configure the tabs bind value tab in ReactJS view-model as shown in the followin
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![tabs](Getting-Started_images/Getting-Started_img2.png)
 
 ## Configuring Groups
 
@@ -193,7 +196,7 @@ Configure the tabs bind value tab with group and button named as New.
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img3.png)
+![ribbon](Getting-Started_images/Getting-Started_img3.png)
 
 ## Adding Controls to Group
 
@@ -250,7 +253,7 @@ Configure the tabs bind value tab with groups, button,split button and dropdown 
 
 {% endhighlight %}
 	 
-![](Getting-Started_images/Getting-Started_img4.png)
+![Controls](Getting-Started_images/Getting-Started_img4.png)
 
 ## Without using jsx Template
 
@@ -309,4 +312,4 @@ The Ribbon can be created from a HTML `DIV` element with the HTML `id` attribute
   
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img4.png)
+![Without JSX](Getting-Started_images/Getting-Started_img4.png)
