@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Overview Of the RichTextEditor widget for Syncfusion Essential JS
-description: Overview for the RichTextEditor
-platform: React JS
+description: Overview Of the RichTextEditor widget for Syncfusion Essential JS
+platform: ReactJS
 control: RTE
 documentation: ug
 keywords: RTE features, key features, RTE overview 
