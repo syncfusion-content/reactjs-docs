@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with React JS ReportViewer Control | Syncfusion
 description: Learn here about getting started with Syncfusion React JS ReportViewer Control, its elements, and more.
-platform: React JS
+platform: ReactJS
 control: ReportViewer
 documentation: ug
 ---
