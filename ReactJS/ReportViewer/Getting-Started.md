@@ -21,7 +21,7 @@ Create a **HTML** page and add the script and CSS references in the order ment
 <html>
     <head>
         <!-- Essential Studio for JavaScript  theme reference -->
-        <link rel="stylesheet" href="http://cdn.syncfusion.com/14.3.0.49/js/web/bootstrap-theme/ej.web.all.min.css" />           
+        <link rel="stylesheet" href="http://cdn.syncfusion.com/19.1.0.63/js/web/bootstrap-theme/ej.web.all.min.css" />           
         <!--  react script  -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react-dom.js"></script>
@@ -29,8 +29,8 @@ Create a **HTML** page and add the script and CSS references in the order ment
         <!--  jquery script  -->
         <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
         <!-- Essential JS UI widget -->    
-        <script src="http://cdn.syncfusion.com/14.3.0.49/js/web/ej.web.all.min.js"></script>
-        <script src="http://cdn.syncfusion.com/14.3.0.49/js/common/ej.web.react.min.js"></script>
+        <script src="http://cdn.syncfusion.com/19.1.0.63/js/web/ej.web.all.min.js"></script>
+        <script src="http://cdn.syncfusion.com/19.1.0.63/js/common/ej.web.react.min.js"></script>
 
         <!--Add custom scripts here -->
     </head>
@@ -90,7 +90,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-N> Default RDL Report will be rendered, which is used in the online service. You can obtain sample rdl/rdlc files from Syncfusion installed location (%userprofile%\AppData\Local\Syncfusion\EssentialStudio\{{ site.releaseversion }}\Common\Data\ejReportTemplate).
+N> Default RDL Report will be rendered, which is used in the online service. You can obtain sample rdl/rdlc files from Syncfusion installed location (%userprofile%\AppData\Local\Syncfusion\EssentialStudio\19.1.0.63\Common\Data\ejReportTemplate).
 
 N> The above jsx template needs to be converted from `.jsx` to `.js` extension by using `gulp` nuget package (refer [here](/reactjs/overview#converting-jsx-to-javascript-with-react)) and then it must be referred in the html page.
 
