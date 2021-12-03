@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Render Chart in multiple layouts
-description: Learn how to split chart area into multiple plot areas and render different types of series in each area.                    
+description: Learn here all about how to split chart area into multiple plot areas and render different types of series in each area.                   
 platform: js
 control: Chart
 documentation: ug
 api : /api/js/ejchart
 ---
 
-# Multiple panes
+# Multiple panes in ReactJS Chart
 
 Chart area can be divided into multiple panes using the [`rowDefinitions`](../api/ejchart.html#members:rowdefinitions) and [`columnDefinitions`](../api/ejchart.html#members:rowdefinitions) properties.
 
@@ -66,7 +66,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![](/js/Chart/Multiple-Panes_images/Multiple-Panes_img1.png)
+![RejectJS Chart Multiple Panes](/js/Chart/Multiple-Panes_images/Multiple-Panes_img1.png)
 
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartaxes/multipleaxes) here to view the online demo sample for multiple panes.
@@ -116,7 +116,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![](/js/Chart/Multiple-Panes_images/Multiple-Panes_img2.png)
+![ReactJS Chart Row Span](/js/Chart/Multiple-Panes_images/Multiple-Panes_img2.png)
 
 ## Column Definitions
 
@@ -166,7 +166,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![](/js/Chart/Multiple-Panes_images/Multiple-Panes_img3.png)
+![ReactJS Chart Column Definition](/js/Chart/Multiple-Panes_images/Multiple-Panes_img3.png)
 
 
 **Column Span**
@@ -210,4 +210,4 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![](/js/Chart/Multiple-Panes_images/Multiple-Panes_img4.png)
+![ReactJS Chart Column Span](/js/Chart/Multiple-Panes_images/Multiple-Panes_img4.png)
