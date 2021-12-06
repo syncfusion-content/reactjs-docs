@@ -137,7 +137,7 @@ ReactDOM.render(
 
 **While Category axis isIndexed value false**
 
-![While category axis is lndexed in ReactJS Chart](/js/Chart/Axis_images/axis_img51.png)
+![Category axis is lndexed in ReactJS Chart](/js/Chart/Axis_images/axis_img51.png)
 
 
 ## Numeric Axis 
