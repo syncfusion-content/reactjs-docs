@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Render Chart in multiple layouts
-description: Learn here all about how to split chart area into multiple plot areas and render different types of series in each area.                   
+description: Learn here all about spliting chart area into multiple plot and rendering different types of series support in syncfusion ReactJS Chart control.                   
 platform: js
 control: Chart
 documentation: ug
@@ -66,7 +66,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![RejectJS Chart Multiple Panes](/js/Chart/Multiple-Panes_images/Multiple-Panes_img1.png)
+![Multiple Panes in ReactJS Chart](/js/Chart/Multiple-Panes_images/Multiple-Panes_img1.png)
 
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartaxes/multipleaxes) here to view the online demo sample for multiple panes.
@@ -116,7 +116,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Row Span](/js/Chart/Multiple-Panes_images/Multiple-Panes_img2.png)
+![Row Span in ReactJS Chart](/js/Chart/Multiple-Panes_images/Multiple-Panes_img2.png)
 
 ## Column Definitions
 
@@ -166,7 +166,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Column Definition](/js/Chart/Multiple-Panes_images/Multiple-Panes_img3.png)
+![Column Definition in ReactJS Chart](/js/Chart/Multiple-Panes_images/Multiple-Panes_img3.png)
 
 
 **Column Span**
@@ -210,4 +210,4 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Column Span](/js/Chart/Multiple-Panes_images/Multiple-Panes_img4.png)
+![Column Span in ReactJS Chart](/js/Chart/Multiple-Panes_images/Multiple-Panes_img4.png)

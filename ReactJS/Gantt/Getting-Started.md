@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting-Started
-description: Learn here all about getting started with Syncfusion ReactJS Gantt control,its elements and more. 
+description: Learn here all about getting started support in Syncfusion ReactJS Gantt control,its elements and more. 
 platform: React JS
 control: Gantt
 documentation: ug
@@ -17,7 +17,7 @@ To get started Syncfusion ReactJS application refer [`this`](https://help.syncfu
 
 In this tutorial, you can learn how to create a simple Gantt chart, add tasks or subtasks, and set relationship between tasks during the design phase of a software project. The following screenshot displays the desired output after completing this tutorial,
 
-![ReactJS Gantt Getting Started](Getting-Started_images/Getting-Started_img4.png)
+![Getting Started in ReactJS Gantt](Getting-Started_images/Getting-Started_img4.png)
 
 The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about react js.
 
@@ -167,7 +167,7 @@ ReactDOM.render(
 
 A Gantt chart is created as shown in the following screen shot.
 
-![ReactJS Gantt Using jsx Template](Getting-Started_images/Getting-Started_img5.png)
+![Using jsx Template in ReactJS Gantt](Getting-Started_images/Getting-Started_img5.png)
 
 ## Enable Toolbar
 
@@ -207,7 +207,7 @@ var toolbarsettings = {
 
 The following screen shot displays a Tool bar in Gantt chart control:
 
-![ReactJS Gantt Enable Toolbar](Getting-Started_images/Getting-Started_img6.png)
+![Enable Toolbar in ReactJS Gantt](Getting-Started_images/Getting-Started_img6.png)
 
 N>  Add, edit, delete, indent and outdent options are enabled when enabling the allowEditing, allowAdding, allowDelete, allowIndent and allowOutdent properties in the edit Options.
 
@@ -277,7 +277,7 @@ ReactDOM.render(
 
 The following screen shot displays a Gantt chart control with Enable Editing options.
 
-![ReactJS Gantt chart control with Enable Editing options](Getting-Started_images/Getting-Started_img7.png)
+![Chart control with Enable Editing options in ReactJS Gantt](Getting-Started_images/Getting-Started_img7.png)
 
 N>  Both cellEditing and normal editing operations are performed through double-click or single click action that can be defined by editSettings.beginEditAction property.
 
@@ -299,7 +299,7 @@ You can enable the context menu in Gantt, by setting the [`enableContextMenu`](h
 
 The following screen shot displays Gantt chart in which Context menu option is enabled:
 
-![ReactJS Gantt Enable Content Menu](Getting-Started_images/Getting-Started_img8.png)
+![Enable Content Menu in ReactJS Gantt](Getting-Started_images/Getting-Started_img8.png)
 
 ## Enable Column Menu
 
@@ -319,7 +319,7 @@ You can enable the column menu in Gantt, by setting the [`showColumnChooser`](ht
 
 The following screen shot displays Gantt chart in which column chooser option is enabled:
 
-![ReactJS Gantt Enable Column Menu](Getting-Started_images/Getting-Started_img11.png)
+![Enable Column Menu in ReactJS Gantt](Getting-Started_images/Getting-Started_img11.png)
 
 ## Provide tasks relationship
 
@@ -348,7 +348,7 @@ You can show the relationship in tasks, by using the [`predecessorMapping`](http
 
 The following screenshot displays the relationship between tasks.
 
-![ReactJS Gantt provide tasks relationship](Getting-Started_images/Getting-Started_img9.png)
+![Provide tasks relationship in ReactJS Gantt](Getting-Started_images/Getting-Started_img9.png)
 
 ## Provide Resources
 
@@ -388,7 +388,7 @@ ReactDOM.render(
 
 The following screenshot displays resource allocation for tasks in Gantt chart.
 
-![ReactJS Gantt Provide Resources](Getting-Started_images/Getting-Started_img10.png)
+![Provide Resources in ReactJS Gantt](Getting-Started_images/Getting-Started_img10.png)
 
 By following these steps, you have learned how to provide data source to Gantt chart, how to configure Gantt to set task relationships, assign resources for each task, and add toolbar with necessary buttons.
 
@@ -413,4 +413,4 @@ In Gantt, you can on or off weekends high lighting by setting the [`highlightWee
 
 The following screen shot displays Gantt chart in which highlight weekends is enabled:
 
-![ReactJS Gantt Highlight Weekens](Getting-Started_images/Getting-Started_img12.png)
+![Highlight Weekens in ReactJS Gantt](Getting-Started_images/Getting-Started_img12.png)
