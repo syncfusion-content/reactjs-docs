@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chart Axis in ReactJS Chart | Syncfusion
-description: Learn here on how to customize the grid lines,tick lines,labels and title of chart axis support in Syncfusion ReactJS chart control.
+description: Learn here all about axis support in Syncfusion ReactJS chart control,its element and more.
 platform: js
 control: Chart
 documentation: ug
@@ -652,7 +652,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![Date tme category range in ReactJS Chart](Axis_images/axis_img65.png)
+![Date time category range in ReactJS Chart](Axis_images/axis_img65.png)
 
 
 ## Logarithmic Axis

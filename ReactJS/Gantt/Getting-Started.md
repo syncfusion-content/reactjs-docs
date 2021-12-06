@@ -167,7 +167,7 @@ ReactDOM.render(
 
 A Gantt chart is created as shown in the following screen shot.
 
-![Using jsx Template in ReactJS Gantt](Getting-Started_images/Getting-Started_img5.png)
+![Using Template in ReactJS Gantt](Getting-Started_images/Getting-Started_img5.png)
 
 ## Enable Toolbar
 
