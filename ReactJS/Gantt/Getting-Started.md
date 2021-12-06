@@ -413,4 +413,4 @@ In Gantt, you can on or off weekends high lighting by setting the [`highlightWee
 
 The following screen shot displays Gantt chart in which highlight weekends is enabled:
 
-![Highlight Weekens in ReactJS Gantt](Getting-Started_images/Getting-Started_img12.png)
+![Highlight Weekends in ReactJS Gantt](Getting-Started_images/Getting-Started_img12.png)
