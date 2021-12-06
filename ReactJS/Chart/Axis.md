@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chart Axis
-description: Learn here on how to customize the grid lines, tick lines, labels and title of chart axis support in Syncfution ReactJS chart control.
+description: Learn here on how to customize the grid lines,tick lines,labels and title of chart axis support in Syncfusion ReactJS chart control.
 platform: js
 control: Chart
 documentation: ug

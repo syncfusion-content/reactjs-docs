@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Render Chart in multiple layouts
-description: Learn here all about spliting chart area into multiple plot and rendering different types of series support in syncfusion ReactJS Chart control.                   
+description: Learn here all about Multiple panes support in syncfusion ReactJS Chart control,its element and more.                   
 platform: js
 control: Chart
 documentation: ug
