@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chart Axis in ReactJS Chart | Syncfusion
-description: Learn here all about axis support in Syncfusion ReactJS chart control,its element and more.
+description: Learn here all about axis support in Syncfusion ReactJS chart(SfChart) control,its element and more.
 platform: js
 control: Chart
 documentation: ug
