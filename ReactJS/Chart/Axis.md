@@ -2,7 +2,7 @@
 layout: post
 title: Chart Axis in ReactJS Chart | Syncfusion
 description: Learn here all about axis support in Syncfusion ReactJS chart control,its element and more.
-platform: JS
+platform: js
 control: Chart
 documentation: ug
 api : /api/js/ejchart
@@ -1461,7 +1461,7 @@ ReactDOM.render(
 
 **Chart with Y-axis at opposed position**
 
-![Y axis at opposssed position in ReactJS Chart](Axis_images/axis_img37.png)
+![Y axis at opposed position in ReactJS Chart](Axis_images/axis_img37.png)
 
 
 ### Maximum number of labels per 100 pixels
@@ -1491,7 +1491,7 @@ ReactDOM.render(
 
 **Chart before setting maximum labels per 100 pixels**
 
-[Before setting maximum labels per 100 poxels in ReactJS Chart](Axis_images/axis_img38.png)
+[Before setting maximum labels per 100 pixels in ReactJS Chart](Axis_images/axis_img38.png)
 
 
 **Chart after setting maximum labels one per 100 pixels**
@@ -1600,12 +1600,12 @@ The following screenshot displays the result, when the [`labelIntersectAction`](
 
 The following screenshot displays the result, when of setting the **trim** as value to the [`labelIntersectAction`](../api/ejchart#members:primaryxaxis-labelintersectaction) property.
 
-![ReactJS Chart display when setting the trim as value](Axis_images/axis_img46.png)
+![Display when setting the trim as value in ReactJS Chart](Axis_images/axis_img46.png)
 
 
 The following screenshot displays the result, when the [`labelIntersectAction`](../api/ejchart#members:primaryxaxis-labelintersectaction) property is set as **hide**.
 
-![ReactJS Chart set as hide](Axis_images/axis_img47.png)
+![Set as hide in ReactJS Chart](Axis_images/axis_img47.png)
 
 
 The following screenshot displays the result, when the [`labelIntersectAction`](../api/ejchart#members:primaryxaxis-labelintersectaction) property is set as **multipleRows **.
@@ -1644,7 +1644,7 @@ ReactDOM.render(
 );          
 {% endhighlight %}
 
-![Multo level lables in ReactJS Chart](Axis_images/axis_img57.png)
+![Multi level lables in ReactJS Chart](Axis_images/axis_img57.png)
 
 ### Customizing the multi-Level labels
 The color, width and type of the border can be customized. The default border type is [`Rectangle`]. And the other supported border types are namely brace, curly brace, without top/bottom border and none. 

@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with ReactJS Gantt | Syncfusion
 description: Learn here all about getting started support in Syncfusion ReactJS Gantt control,its elements and more. 
-platform: JS
+platform: js
 control: Gantt
 documentation: ug
 ---
