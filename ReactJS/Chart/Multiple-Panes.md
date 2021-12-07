@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Multiple layouts in ReactJS Chart | Syncfusion
-description: Learn here all about Multiple panes support in syncfusion ReactJS Chart control,its element and more.                   
+description: Learn here all about Multiple panes support in Syncfusion ReactJS Chart control,its element and more.                   
 platform: js
 control: Chart
 documentation: ug
