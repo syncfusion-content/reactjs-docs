@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chart Axis in ReactJS Chart | Syncfusion
-description: Learn here all about axis support in Syncfusion ReactJS chart(SfChart) control,its element and more.
+description: Learn here all about axis support in Syncfusion ReactJS chart(SfChart) control,its element, and more.
 platform: js
 control: Chart
 documentation: ug
@@ -769,7 +769,7 @@ Logarithmic axis interval can be customized by using the [`interval`](../api/ejc
 
 {% endhighlight %}
 
-![logarithmic interval in ReactJS Chart](Axis_images/axis_img22.png)
+![Logarithmic interval in ReactJS Chart](Axis_images/axis_img22.png)
 
 
 ## Label Format
@@ -1585,12 +1585,12 @@ ReactDOM.render(
 
 The following screenshot displays the result, when the [`labelIntersectAction`](../api/ejchart#members:primaryxaxis-labelintersectaction) property is set as **rotate45**.
 
-![Chart display when the label intersect action is set as rotate 45 in ReactJS Chart](Axis_images/axis_img43.png)
+![Chart display when the label intersect action set as rotate 45 in ReactJS Chart](Axis_images/axis_img43.png)
 
 
 The following screenshot displays the result, when the [`labelIntersectAction`](../api/ejchart#members:primaryxaxis-labelintersectaction) property is set as **rotate90**.
 
-![Display when the label intersect action is set as rotate 90 in ReactJS Chart](Axis_images/axis_img44.png)
+![Display when the label intersect action set as rotate 90 in ReactJS Chart](Axis_images/axis_img44.png)
 
 
 The following screenshot displays the result, when the [`labelIntersectAction`](../api/ejchart#members:primaryxaxis-labelintersectaction) property is set as **wrap**.
