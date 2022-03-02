@@ -1,13 +1,13 @@
 ---
-title: Getting Started for Angular 2 PDF viewer
-description: PDF viewer 
+title: Getting Started with ReactJS PDF Viewer Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential ReactJS PDF Viewer Control, its elements, and more.
 platform: React JS
 control: PDF viewer
 documentation: ug
 keywords: ejPdfViewer, PDF viewer, js pdfviewer
 ---
 
-# Getting Started
+# Getting Started with ReactJS PDF Viewer
 
 This section explains briefly about how to integrate a **PDF viewer** control in your application with **React JS**.
 
@@ -99,7 +99,7 @@ Initialize the PDF viewer by using the `EJ.PdfViewer` tag.
 
 Now, the PDF viewer control is rendered with default PDF document, which used in the services.
 
-![](getting-started_images/pdfviewer.png)
+![ReactJS PDF Viewer getting started](getting-started_images/pdfviewer.png)
 
 
 ## Without using jsx Template
@@ -134,5 +134,5 @@ Initialize the PDF viewer control by adding the following script code to the bod
 
 Now, the PDF viewer control will be rendered with the default PDF document, which is used in the service.
 
-![](getting-started_images/pdfviewer.png)
+![ReactJS PDF Viewer Without using jsx Template](getting-started_images/pdfviewer.png)
 
