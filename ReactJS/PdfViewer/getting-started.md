@@ -1,7 +1,7 @@
 ---
 title: Getting Started with ReactJS PDF Viewer Control | Syncfusion
 description: Learn here about getting started with Syncfusion Essential ReactJS PDF Viewer Control, its elements, and more.
-platform: React JS
+platform: ReactJS
 control: PDF viewer
 documentation: ug
 keywords: ejPdfViewer, PDF viewer, js pdfviewer
