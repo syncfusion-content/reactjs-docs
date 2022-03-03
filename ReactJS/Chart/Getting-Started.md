@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Syncfusion EJ1 React Getting-Started
-description: getting started
+title: Getting Started with ReactJS Chart Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential ReactJS Chart Control, its elements, and more.
 platform: ReactJS
 control: Chart
 documentation: ug
 ---
-# Getting Started
+# Getting Started with ReactJS Chart
 
 This section explains you the steps required to populate the Chart with data, add data labels, tooltips and title to the Chart. This section covers only the minimal features that you need to know to get started with the Chart.
 

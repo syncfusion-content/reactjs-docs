@@ -1,13 +1,13 @@
 ---
-title: Getting Started for React JS Syncfusion Kanban
-description: Getting-Started
+title: Getting Started with ReactJS Kanban Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential ReactJS Kanban Control, its elements, and more.
 platform: ReactJS
 control: Kanban
 documentation: Ug
 keywords: 
 ---
 
-# Getting Started
+# Getting Started with ReactJS Kanban
 
 ## Preparing HTML document
 
