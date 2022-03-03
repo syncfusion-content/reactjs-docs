@@ -1,13 +1,13 @@
 ---
 layout: post
-title: getting-startedv 
-description: getting started for TreeView
+title: Getting Started with ReactJS TreeView Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential ReactJS TreeView Control, its elements, and more.
 platform: reactjs
 control: TreeView
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with ReactJS TreeView
 
 Using the following steps, you can create a React TreeView component. The basic rendering of React TreeView is achieved with default functionality.
 
@@ -98,7 +98,7 @@ Define an HTML element for adding TreeView in the application and refer the JSX 
 
 Run the above code to render the following output.
 
-![](getting-started_images\getting-started_img1.jpg)
+![ReactJS TreeView getting started](getting-started_images\getting-started_img1.jpg)
 
 ## Data Binding
 
@@ -144,7 +144,7 @@ document.getElementById('treeview')
 {% endhighlight %}
 
 
-![](getting-started_images\getting-started_img2.jpeg)
+![ReactJS TreeView Data Binding](getting-started_images\getting-started_img2.jpeg)
 
 
 N> You can find the TreeView properties from the [API reference](https://help.syncfusion.com/api/js/ejtreeview) document
