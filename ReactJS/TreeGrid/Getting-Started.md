@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting-Started
-description: getting started
+title: Getting Started with ReactJS TreeGrid Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential ReactJS TreeGrid Control, its elements, and more.
 platform: React JS
 control: TreeGrid
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with ReactJS TreeGrid
 This section helps to understand the getting started of the React JS TreeGrid with the step-by-step instructions.
 
 ## Create your first TreeGrid in React JS
@@ -18,7 +18,7 @@ The **Essential React JS TreeGrid** has been designed to represent and edit the 
 
 This section explains how to create a TreeGrid widget in your application with hierarchical data source and enable sorting and editing. The following screenshot displays the output.
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![ReactJS TreeGrid Getting Started](Getting-Started_images/Getting-Started_img1.png)
 
 The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about react js.
 
@@ -116,7 +116,7 @@ var columns = [{ field: 'taskID', headerText: 'Task Id', width: '45'},
 
 TreeGrid widget is displayed as the output in the following screenshot.
 
-![](Getting-Started_images/Getting-Started_img3.png)
+![ReactJS TreeGrid Using jsx Template](Getting-Started_images/Getting-Started_img3.png)
 
 ### Enable Sorting
 
@@ -137,7 +137,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img4.png)
+![ReactJS TreeGrid Multicolumn Sorting](Getting-Started_images/Getting-Started_img4.png)
 
 ### Enable Editing
 
@@ -209,5 +209,5 @@ var columns = [{ field: 'taskID', headerText: 'Task Id', width: '45', editType: 
 
 The output of the DateTimePicker editor in TreeGrid control is as follows.
 
-![](Getting-Started_images/Getting-Started_img5.png)
+![ReactJS TreeGrid Enable Editing](Getting-Started_images/Getting-Started_img5.png)
 
