@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with ReactJS Report Designer Control | Syncfusion
 description: Learn here about getting started with Syncfusion ReactJS Report Designer Control, its elements, and more.
-platform: React JS
+platform: ReactJS
 control: ReportDesigner
 documentation: ug
 ---

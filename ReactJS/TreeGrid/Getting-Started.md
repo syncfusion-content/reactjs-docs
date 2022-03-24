@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with ReactJS TreeGrid Control | Syncfusion
 description: Learn here about getting started with Syncfusion Essential ReactJS TreeGrid Control, its elements, and more.
-platform: React JS
+platform: ReactJS
 control: TreeGrid
 documentation: ug
 ---

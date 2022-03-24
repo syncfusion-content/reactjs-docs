@@ -45,7 +45,7 @@ ReactDOM.render(
 
 
 
-![ReactJS Chart Category Axis](/js/Chart/Axis_images/axis_img1.png)
+![ReactJS Chart Category Axis](/Chart/Axis_images/axis_img1.png)
 
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/column) here to view our online demo sample that uses Category axis.
@@ -74,7 +74,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Place labels on ticks](/js/Chart/Axis_images/axis_img2.png)
+![ReactJS Chart Place labels on ticks](/Chart/Axis_images/axis_img2.png)
 
 
 ### Display labels after a fixed interval
@@ -99,7 +99,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Display labels after a fixed interval](/js/Chart/Axis_images/axis_img3.png)
+![ReactJS Chart Display labels after a fixed interval](/Chart/Axis_images/axis_img3.png)
 
 
 ### Indexed Category Axis
@@ -133,11 +133,11 @@ ReactDOM.render(
 {% endhighlight %}
 
 
-![ReactJS Chart Indexed Category Axis](/js/Chart/Axis_images/axis_img50.png)
+![ReactJS Chart Indexed Category Axis](/Chart/Axis_images/axis_img50.png)
 
 **While Category axis isIndexed value false**
 
-![ReactJS Chart Category axis isIndexed value](/js/Chart/Axis_images/axis_img51.png)
+![ReactJS Chart Category axis isIndexed value](/Chart/Axis_images/axis_img51.png)
 
 
 ## Numeric Axis 
@@ -164,7 +164,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Numeric Axis](/js/Chart/Axis_images/axis_img4.png)
+![ReactJS Chart Numeric Axis](/Chart/Axis_images/axis_img4.png)
 
 
 ### Customize numeric range
@@ -191,7 +191,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Customize numeric range](/js/Chart/Axis_images/axis_img5.png)
+![ReactJS Chart Customize numeric range](/Chart/Axis_images/axis_img5.png)
 
 
 #### Customizing numeric interval
@@ -217,7 +217,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Customizing numeric interval](/js/Chart/Axis_images/axis_img6.png)
+![ReactJS Chart Customizing numeric interval](/Chart/Axis_images/axis_img6.png)
 
 ### Apply padding to the range
 
@@ -251,7 +251,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Apply padding to the range](/js/Chart/Axis_images/axis_img7.png)
+![ReactJS Chart Apply padding to the range](/Chart/Axis_images/axis_img7.png)
 
 
 #### Round
@@ -278,13 +278,13 @@ ReactDOM.render(
 
 **Chart before rounding axis range**
 
-![ReactJS Chart Round](/js/Chart/Axis_images/axis_img8.png)
+![ReactJS Chart Round](/Chart/Axis_images/axis_img8.png)
 
 
 
 **Chart after rounding axis range**
 
-![ReactJS Chart after rounding axis range](/js/Chart/Axis_images/axis_img9.png)
+![ReactJS Chart after rounding axis range](/Chart/Axis_images/axis_img9.png)
 
 **Additional**
 
@@ -309,7 +309,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart rangePadding](/js/Chart/Axis_images/axis_img10.png)
+![ReactJS Chart rangePadding](/Chart/Axis_images/axis_img10.png)
 
 
 **Normal**
@@ -335,7 +335,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Normal rangePadding](/js/Chart/Axis_images/axis_img11.png)
+![ReactJS Chart Normal rangePadding](/Chart/Axis_images/axis_img11.png)
 
 
 ####Customizing the starting range of the axis
@@ -362,7 +362,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Customizing the starting range of the axis](/js/Chart/Axis_images/axis_img66.png)
+![ReactJS Chart Customizing the starting range of the axis](/Chart/Axis_images/axis_img66.png)
 
 
 ## DateTime Axis
@@ -387,7 +387,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart DateTime Axis](/js/Chart/Axis_images/axis_img12.png)
+![ReactJS Chart DateTime Axis](/Chart/Axis_images/axis_img12.png)
 
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartaxes/datetimeaxis) here to view our online demo sample for date time axis.
@@ -419,7 +419,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Customizing date time range](/js/Chart/Axis_images/axis_img13.png)
+![ReactJS Chart Customizing date time range](/Chart/Axis_images/axis_img13.png)
 
 
 ### Date time intervals
@@ -460,7 +460,7 @@ ReactDOM.render(
 {% endhighlight %}
 
 
-![ReactJS Chart Date time intervals](/js/Chart/Axis_images/axis_img14.png)
+![ReactJS Chart Date time intervals](/Chart/Axis_images/axis_img14.png)
 
 
 ### Apply padding to the range
@@ -496,7 +496,7 @@ When the value of the [`rangePadding`](../api/ejchart#members:primaryxaxis-range
 
 {% endhighlight %} 
 
-![ReactJS Chart Apply padding to the range](/js/Chart/Axis_images/axis_img15.png)
+![ReactJS Chart Apply padding to the range](/Chart/Axis_images/axis_img15.png)
 
 **Round**
 
@@ -525,12 +525,12 @@ When the value of the [`rangePadding`](../api/ejchart#members:primaryxaxis-range
 
 **Chart before rounding axis range**
 
-![ReactJS Chart before rounding axis range](/js/Chart/Axis_images/axis_img16.png)
+![ReactJS Chart before rounding axis range](/Chart/Axis_images/axis_img16.png)
 
 
 **Chart after rounding axis range**
 
-![ReactJS Chart after rounding axis range](/js/Chart/Axis_images/axis_img17.png)
+![ReactJS Chart after rounding axis range](/Chart/Axis_images/axis_img17.png)
 
 **Additional** 
 
@@ -557,7 +557,7 @@ When the value of the [`rangePadding`](../api/ejchart#members:primaryxaxis-range
 
 {% endhighlight %} 
 
-![ReactJS Chart Axis](/js/Chart/Axis_images/axis_img18.png)
+![ReactJS Chart Axis](/Chart/Axis_images/axis_img18.png)
 
 
 ## DateTime Category Axis
@@ -584,7 +584,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart DateTime Category Axis](/js/Chart/Axis_images/axis_img63.png)
+![ReactJS Chart DateTime Category Axis](/Chart/Axis_images/axis_img63.png)
 
  [Click](http://js.syncfusion.com/demos/web/#!/bootstrap/chart/ChartAxes/DateTimeCategoryAxis) here to view our online demo sample for date time axis.
 
@@ -616,7 +616,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Customizing DateTime Category range](/js/Chart/Axis_images/axis_img64.png)
+![ReactJS Chart Customizing DateTime Category range](/Chart/Axis_images/axis_img64.png)
 
 ### DateTime Category intervals
 
@@ -652,7 +652,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart DateTime Category intervals](/js/Chart/Axis_images/axis_img65.png)
+![ReactJS Chart DateTime Category intervals](/Chart/Axis_images/axis_img65.png)
 
 
 ## Logarithmic Axis
@@ -683,7 +683,7 @@ Logarithmic axis uses logarithmic scale and it is very useful in visualizing whe
 {% endhighlight %}
 
 
-![ReactJS Chart Logarithmic Axis](/js/Chart/Axis_images/axis_img19.png)
+![ReactJS Chart Logarithmic Axis](/Chart/Axis_images/axis_img19.png)
 
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartaxes/logaxis) here to view our online demo sample link for logarithmic axis.
@@ -714,7 +714,7 @@ Logarithmic range can be customized by using the [`range`](../api/ejchart#member
 
 {% endhighlight %}
 
-![ReactJS Chart Customize Logarithmic range](/js/Chart/Axis_images/axis_img20.png)
+![ReactJS Chart Customize Logarithmic range](/Chart/Axis_images/axis_img20.png)
 
 ### Logarithmic base
 
@@ -741,7 +741,7 @@ Logarithmic base can be customized by using the [`logBase`](../api/ejchart#membe
 
 {% endhighlight %}
 
-![ReactJS Chart Logarithmic base](/js/Chart/Axis_images/axis_img21.png)
+![ReactJS Chart Logarithmic base](/Chart/Axis_images/axis_img21.png)
 
 
 ### Logarithmic interval
@@ -769,7 +769,7 @@ Logarithmic axis interval can be customized by using the [`interval`](../api/ejc
 
 {% endhighlight %}
 
-![ReactJS Chart Logarithmic interval](/js/Chart/Axis_images/axis_img22.png)
+![ReactJS Chart Logarithmic interval](/Chart/Axis_images/axis_img22.png)
 
 
 ## Label Format
@@ -797,7 +797,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Format numeric labels](/js/Chart/Axis_images/axis_img23.png)
+![ReactJS Chart Format numeric labels](/Chart/Axis_images/axis_img23.png)
 
 The following table describes the result of applying some commonly used label formats on numeric values. 
  
@@ -882,7 +882,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Format date time values](/js/Chart/Axis_images/axis_img24.png)
+![ReactJS Chart Format date time values](/Chart/Axis_images/axis_img24.png)
 
 
 The following table describes the result of applying some common date time formats to the labelFormat property
@@ -955,7 +955,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Custom label format](/js/Chart/Axis_images/axis_img25.png)
+![ReactJS Chart Custom label format](/Chart/Axis_images/axis_img25.png)
 
 
 ## Common axis features
@@ -987,7 +987,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Axis Crossing](/js/Chart/Axis_images/axis_img52.png)
+![ReactJS Chart Axis Crossing](/Chart/Axis_images/axis_img52.png)
 
 
 #### Crossing a specific Axis
@@ -1025,7 +1025,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Crossing a specific Axis](/js/Chart/Axis_images/axis_img53.png)
+![ReactJS Chart Crossing a specific Axis](/Chart/Axis_images/axis_img53.png)
 
 Axis will be placed in the opposite side if value of [`crossesAt`](../api/ejchart#members:primaryxaxis-crossesat) property is greater than the maximum value of crossing axis (axis name provided through [`crossesInAxis`](../api/ejchart#members:primaryxaxis-crossesinaxis) property or primary Y axis for horizontal axis).
 
@@ -1049,7 +1049,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart](/js/Chart/Axis_images/axis_img54.png)
+![ReactJS Chart](/Chart/Axis_images/axis_img54.png)
 
 
 #### Crossing in DateTime Axis
@@ -1076,7 +1076,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Crossing in DateTime Axis](/js/Chart/Axis_images/axis_img55.png)
+![ReactJS Chart Crossing in DateTime Axis](/Chart/Axis_images/axis_img55.png)
 
 
 #### Crossing in Category Axis
@@ -1106,7 +1106,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Crossing in Category Axis](/js/Chart/Axis_images/axis_img56.png)
+![ReactJS Chart Crossing in Category Axis](/Chart/Axis_images/axis_img56.png)
 
 #### Positioning the axis elements while crossing
 The [`showNextToAxisLine`](../api/ejchart#members:primaryxaxis-shownexttoaxisline) property is used for controlling the axis elements movement along with the axis line while axis crossing is performed. When the showNextToAxisLine is set as false only the axis line and the tick lines are placed at the crossing Value and the axis elements will be placed outside the chart area. The default value of [`showNextToAxisLine`](../api/ejchart#members:primaryxaxis-shownexttoaxisline) is **true**.  
@@ -1132,7 +1132,7 @@ The [`showNextToAxisLine`](../api/ejchart#members:primaryxaxis-shownexttoaxislin
 
 The axis is placed at the crossing value without the axis elements 
 
-![ReactJS Chart Positioning the axis elements while crossing](/js/Chart/Axis_images/axis_img67.png)
+![ReactJS Chart Positioning the axis elements while crossing](/Chart/Axis_images/axis_img67.png)
 
 
 ### Axis Visibility
@@ -1159,7 +1159,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Axis Visibility](/js/Chart/Axis_images/axis_img26.png)
+![ReactJS Chart Axis Visibility](/Chart/Axis_images/axis_img26.png)
 
 
 ### Axis title
@@ -1195,7 +1195,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Axis title](/js/Chart/Axis_images/axis_img27.png)
+![ReactJS Chart Axis title](/Chart/Axis_images/axis_img27.png)
 
 You can modify the position of the axis title either inside or outside the chart area using the property [`position`]. By default, it will be placed outside the chart area. In addition, you can also change the alignment of the title to near, far and center by [`alignment`] property, using [`offset`] property you can change the position with respect to pixels.
 
@@ -1223,7 +1223,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart title position](/js/Chart/Axis_images/axis_img62.png)
+![ReactJS Chart title position](/Chart/Axis_images/axis_img62.png)
 
 ### Label customization
 
@@ -1253,7 +1253,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Label customization](/js/Chart/Axis_images/axis_img28.png)
+![ReactJS Chart Label customization](/Chart/Axis_images/axis_img28.png)
 
 
 ### Label and tick positioning
@@ -1281,7 +1281,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Label and tick positioning](/js/Chart/Axis_images/axis_img29.png)
+![ReactJS Chart Label and tick positioning](/Chart/Axis_images/axis_img29.png)
 
 
 ### Edge labels placement
@@ -1309,12 +1309,12 @@ ReactDOM.render(
 
 **Chart before setting edge label placement to X-axis**
 
-![ReactJS Chart Edge labels placement](/js/Chart/Axis_images/axis_img30.png)
+![ReactJS Chart Edge labels placement](/Chart/Axis_images/axis_img30.png)
 
 
 **Chart after setting edge label placement to X-axis**
 
-![ReactJS Chart edge label placement to X-axis](/js/Chart/Axis_images/axis_img31.png)
+![ReactJS Chart edge label placement to X-axis](/Chart/Axis_images/axis_img31.png)
 
 
 ### Grid lines customization
@@ -1351,7 +1351,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Grid lines customization](/js/Chart/Axis_images/axis_img32.png)
+![ReactJS Chart Grid lines customization](/Chart/Axis_images/axis_img32.png)
 
 
 ### Tick lines customization
@@ -1390,7 +1390,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Tick lines customization](/js/Chart/Axis_images/axis_img33.png)
+![ReactJS Chart Tick lines customization](/Chart/Axis_images/axis_img33.png)
 
   
 ### Inversing axis
@@ -1420,12 +1420,12 @@ ReactDOM.render(
 
 **Chart before inversing the axes**
 
-![ReactJS Chart before Inversing the axis](/js/Chart/Axis_images/axis_img34.png)
+![ReactJS Chart before Inversing the axis](/Chart/Axis_images/axis_img34.png)
 
 
 **Chart after inversing the axes**
 
-![ReactJS Chart after inversing the axes](/js/Chart/Axis_images/axis_img35.png)
+![ReactJS Chart after inversing the axes](/Chart/Axis_images/axis_img35.png)
 
    
 
@@ -1456,12 +1456,12 @@ ReactDOM.render(
 
 **Chart with X and Y axes at normal position**
 
-![ReactJS Chart Place axes at the opposite side](/js/Chart/Axis_images/axis_img36.png)
+![ReactJS Chart Place axes at the opposite side](/Chart/Axis_images/axis_img36.png)
 
 
 **Chart with Y-axis at opposed position**
 
-![ReactJS Chart Y-axis at opposed position](/js/Chart/Axis_images/axis_img37.png)
+![ReactJS Chart Y-axis at opposed position](/Chart/Axis_images/axis_img37.png)
 
 
 ### Maximum number of labels per 100 pixels
@@ -1491,19 +1491,19 @@ ReactDOM.render(
 
 **Chart before setting maximum labels per 100 pixels**
 
-![ReactJS Chart before setting maximum labels per 100 pixels](/js/Chart/Axis_images/axis_img38.png)
+![ReactJS Chart before setting maximum labels per 100 pixels](/Chart/Axis_images/axis_img38.png)
 
 
 **Chart after setting maximum labels one per 100 pixels**
 
-![ReactJS Chart after setting maximum labels one per 100 pixels](/js/Chart/Axis_images/axis_img39.png)
+![ReactJS Chart after setting maximum labels one per 100 pixels](/Chart/Axis_images/axis_img39.png)
 
 
 ## Multiple Axis
 
 Multiple axes can be used in the Chart and chart area can be split into multiple panes to draw multiple series with multiple axes.
 
-![ReactJS Chart Multiple Axis](/js/Chart/Axis_images/axis_img40.png)
+![ReactJS Chart Multiple Axis](/Chart/Axis_images/axis_img40.png)
 
 An additional horizontal or vertical axis can be added to the chart by adding an axis instance to the **axes** collection and then you can associate it to a series by specifying the name of the axis to the [`xAxisName`](../api/ejchart#members:series-xaxisname) or [`yAxisName`](../api/ejchart#members:series-yaxisname) property of the series.
 
@@ -1543,7 +1543,7 @@ ReactDOM.render(
 
 
 
-![ReactJS Chart multiple axis](/js/Chart/Axis_images/axis_img41.png)
+![ReactJS Chart multiple axis](/Chart/Axis_images/axis_img41.png)
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartaxes/multipleaxes) here to view the multiple axis online demo sample.
 
@@ -1576,7 +1576,7 @@ ReactDOM.render(
 
 
 
-![ReactJS Chart Smart Axis Labels](/js/Chart/Axis_images/axis_img42.png)
+![ReactJS Chart Smart Axis Labels](/Chart/Axis_images/axis_img42.png)
 
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartaxes/smartaxislabels) here to view our online demo sample for smart axis labels.
@@ -1585,37 +1585,37 @@ ReactDOM.render(
 
 The following screenshot displays the result, when the [`labelIntersectAction`](../api/ejchart#members:primaryxaxis-labelintersectaction) property is set as **rotate45**.
 
-![ReactJS Chart rotate45](/js/Chart/Axis_images/axis_img43.png)
+![ReactJS Chart rotate45](Chart/Axis_images/axis_img43.png)
 
 
 The following screenshot displays the result, when the [`labelIntersectAction`](../api/ejchart#members:primaryxaxis-labelintersectaction) property is set as **rotate90**.
 
-![ReactJS Chart rotate90](/js/Chart/Axis_images/axis_img44.png)
+![ReactJS Chart rotate90](/Chart/Axis_images/axis_img44.png)
 
 
 The following screenshot displays the result, when the [`labelIntersectAction`](../api/ejchart#members:primaryxaxis-labelintersectaction) property is set as **wrap**.
 
-![ReactJS wrap Chart](/js/Chart/Axis_images/axis_img45.png)
+![ReactJS wrap Chart](/Chart/Axis_images/axis_img45.png)
 
 
 The following screenshot displays the result, when of setting the **trim** as value to the [`labelIntersectAction`](../api/ejchart#members:primaryxaxis-labelintersectaction) property.
 
-![ReactJS Chart trim](/js/Chart/Axis_images/axis_img46.png)
+![ReactJS Chart trim](/Chart/Axis_images/axis_img46.png)
 
 
 The following screenshot displays the result, when the [`labelIntersectAction`](../api/ejchart#members:primaryxaxis-labelintersectaction) property is set as **hide**.
 
-![ReactJS Chart labelIntersectAction](/js/Chart/Axis_images/axis_img47.png)
+![ReactJS Chart labelIntersectAction](/Chart/Axis_images/axis_img47.png)
 
 
 The following screenshot displays the result, when the [`labelIntersectAction`](../api/ejchart#members:primaryxaxis-labelintersectaction) property is set as **multipleRows **.
 
-![ReactJS Chart multipleRows](/js/Chart/Axis_images/axis_img48.png)
+![ReactJS Chart multipleRows](/Chart/Axis_images/axis_img48.png)
 
 
 The following screenshot displays the result, when the [`labelIntersectAction`](../api/ejchart#members:primaryxaxis-labelintersectaction) property is set as **wrapByWord**.
 
-![ReactJS Chart wrapByWord](/js/Chart/Axis_images/axis_img49.png)
+![ReactJS Chart wrapByWord](/Chart/Axis_images/axis_img49.png)
 
 ## Multi-level Labels
 Axis can be customized with multiple levels of labels using the [`multiLevelLabels`] property. These labels are placed based on the start and end range values and we can add any number of labels to an axis.
@@ -1644,7 +1644,7 @@ ReactDOM.render(
 );          
 {% endhighlight %}
 
-![ReactJS Chart Multi level Labels](/js/Chart/Axis_images/axis_img57.png)
+![ReactJS Chart Multi level Labels](/Chart/Axis_images/axis_img57.png)
 
 ### Customizing the multi-Level labels
 The color, width and type of the border can be customized. The default border type is [`Rectangle`]. And the other supported border types are namely brace, curly brace, without top/bottom border and none. 
@@ -1675,7 +1675,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart Customizing the multi Level labels](/js/Chart/Axis_images/axis_img58.png)
+![ReactJS Chart Customizing the multi Level labels](/Chart/Axis_images/axis_img58.png)
 
 The text of the labels can be customized using the [`text`] and [`font`] properties 
 
@@ -1706,7 +1706,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart text and font properties](/js/Chart/Axis_images/axis_img59.png)
+![ReactJS Chart text and font properties](/Chart/Axis_images/axis_img59.png)
 
 You can change the alignment of the text to far, near and center position using the [`textAlignment`] property. By default, the text will be center aligned. 
 
@@ -1732,7 +1732,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![ReactJS Chart primaryXAxis](/js/Chart/Axis_images/axis_img60.png)
+![ReactJS Chart primaryXAxis](/Chart/Axis_images/axis_img60.png)
 
 You can trim, wrap or wrapAndTrim the text if it exceeds the maximum text width value using the property [`textOverflow`]
 
@@ -1761,7 +1761,7 @@ ReactDOM.render(
 
 The below screenshot shows the trimmed multi-level labels
 
-![ReactJS Chart trimmed multi level labels](/js/Chart/Axis_images/axis_img61.png)
+![ReactJS Chart trimmed multi level labels](/Chart/Axis_images/axis_img61.png)
 
 And these labels can be placed in various rows using the [`level`] property.
 [Click](http://js.syncfusion.com/demos/web/#!/bootstrap/chart/chartaxes/multi-levellabels) here to view the multi-level labels online demo sample.
