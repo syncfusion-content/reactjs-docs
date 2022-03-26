@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started with Syncfusion Web Report Designer
-description: How to start with Syncfusion Web Report Designer
-platform: React JS
+title: Getting Started with ReactJS Report Designer Control | Syncfusion
+description: Learn here about getting started with Syncfusion ReactJS Report Designer Control, its elements, and more.
+platform: ReactJS
 control: ReportDesigner
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with ReactJS Report Designer
 
 This section explains briefly about how to create a ReportDesigner control in your application with **ReactJS**.
 
@@ -153,4 +153,4 @@ N> In the report designer service url, need to mention the controller name of th
 
 Run the application and you can see the ReportDesigner on the page as displayed in the following screenshot.
 
-![](Getting-Started_images/Getting-Started-img1.png)
+![ReactJS Report Designer Getting Started](Getting-Started_images/Getting-Started-img1.png)
