@@ -35,7 +35,7 @@ EjChart can generate Trendlines for Cartesian type series *(Line, Column, Scatte
 
 {% endhighlight %}
 
-![ReactJS Chart Trendlines](/js/Chart/Trendlines_images/Trendlines_img1.png)
+![ReactJS Chart Trendlines](Trendlines_images/Trendlines_img1.png)
 
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/trendlines) here to view the Trendlines online demo sample.
@@ -69,7 +69,7 @@ A trendline can be customized by using the properties such as [`fill`](../api/ej
 
 {% endhighlight %}
 
-![ReactJS Chart Customize the trendline styles](/js/Chart/Trendlines_images/Trendlines_img2.png)
+![ReactJS Chart Customize the trendline styles](Trendlines_images/Trendlines_img2.png)
 
 
 
@@ -111,7 +111,7 @@ To render Linear Trendline, you have to set the [`type`](../api/ejchart#members:
 
 {% endhighlight %}
 
-![ReactJS Chart Linear Trendline](/js/Chart/Trendlines_images/Trendlines_img3.png)
+![ReactJS Chart Linear Trendline](Trendlines_images/Trendlines_img3.png)
 
 
 ### Exponential
@@ -171,7 +171,7 @@ Logarithmic Trendline can be rendered by setting the [`type`](../api/ejchart#mem
 
 {% endhighlight %}
 
-![ReactJS Chart Logarithmic](/js/Chart/Trendlines_images/Trendlines_img5.png)
+![ReactJS Chart Logarithmic](Trendlines_images/Trendlines_img5.png)
 
 
 ### Power
@@ -201,7 +201,7 @@ Power Trendline can be rendered by setting the [`type`](../api/ejchart#members:s
 
 {% endhighlight %}
 
-![ReactJS Chart Trendlines Power](/js/Chart/Trendlines_images/Trendlines_img6.png)
+![ReactJS Chart Trendlines Power](Trendlines_images/Trendlines_img6.png)
 
 
 ### Polynomial
@@ -231,7 +231,7 @@ Polynomial Trendline can be rendered by setting the trendline [`type`](../api/ej
 
 {% endhighlight %}
 
-![ReactJS Chart Polynomial](/js/Chart/Trendlines_images/Trendlines_img7.png)
+![ReactJS Chart Polynomial](Trendlines_images/Trendlines_img7.png)
 
 
 
@@ -262,7 +262,7 @@ MovingAverage Trendline can be rendered by setting the [`type`](../api/ejchart#m
 
 {% endhighlight %}
 
-![ReactJS Chart MovingAverage](/js/Chart/Trendlines_images/Trendlines_img8.png)
+![ReactJS Chart MovingAverage](Trendlines_images/Trendlines_img8.png)
 
 ## Forecasting
 
@@ -299,7 +299,7 @@ The value set for [`forwardForecast`](../api/ejchart#members:series-trendlines-f
 
 {% endhighlight %}
 
-![ReactJS Chart Forward Forecasting](/js/Chart/Trendlines_images/Trendlines_img9.png)
+![ReactJS Chart Forward Forecasting](Trendlines_images/Trendlines_img9.png)
 
 
 
@@ -331,7 +331,7 @@ The value set for the [`backwardForecast`](../api/ejchart#members:series-trendli
 
 {% endhighlight %}
 
-![ReactJS Chart Backward Forecasting](/js/Chart/Trendlines_images/Trendlines_img10.png)
+![ReactJS Chart Backward Forecasting](Trendlines_images/Trendlines_img10.png)
 
 
 ## Trendlines Legend
@@ -362,4 +362,4 @@ To display the legend item for trendline, use the [`name`](../api/ejchart#member
 
 {% endhighlight %}
 
-![ReactJS Chart Trendlines Legend](/js/Chart/Trendlines_images/Trendlines_img11.png)
+![ReactJS Chart Trendlines Legend](Trendlines_images/Trendlines_img11.png)

@@ -40,7 +40,7 @@ ReactDOM.render(
 
 This print method can be called by performing any action on the web page. For example, by clicking a button. While calling the print method in chart, print preview will be displayed in the browser.
 
-![ReactJS Chart printing](/js/Chart/Printing_images/Printing_img1.png)
+![ReactJS Chart printing](Printing_images/Printing_img1.png)
 
 [Click](http://js.syncfusion.com/demos/web/#!/bootstrap/chart/exportandprint) here to view the Printing chart online demo sample
 
@@ -78,7 +78,7 @@ function print() {
 
 The Print preview of multiple Charts is shown below 
 
-![ReactJS Chart Printing Multiple chart](/js/Chart/Printing_images/Printing_img2.png)
+![ReactJS Chart Printing Multiple chart](Printing_images/Printing_img2.png)
 
 ## Page Setup
 

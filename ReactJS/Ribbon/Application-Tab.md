@@ -59,7 +59,7 @@ Set the UL element `id` to `menuItemID` property to create Application Menu and 
 
 {% endhighlight %}
 
-![ReactJS Ribbon Application Menu](/Application-Tab_images/Application-Tab_img1.png)
+![ReactJS Ribbon Application Menu](Application-Tab_images/Application-Tab_img1.png)
 
 ## Backstage Page
 
@@ -170,7 +170,7 @@ To render the Ribbon with the Backstage page, refer to the following code snippe
 {% endhighlight %}
 
 
-![ReactJS Ribbon Backstage Page](/Application-Tab_images/Application-Tab_img3.png)
+![ReactJS Ribbon Backstage Page](Application-Tab_images/Application-Tab_img3.png)
 
 N> Height & width of backstage can be set using `height` and `width`, if these are not set, Ribbon’s height & width will be considered.
 
