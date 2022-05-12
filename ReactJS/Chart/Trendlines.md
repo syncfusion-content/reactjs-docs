@@ -141,7 +141,7 @@ Exponential Trendline can be rendered by setting the [`type`](../api/ejchart#mem
 
 {% endhighlight %}
 
-![ReactJS Chart Exponential](/js/Chart/Trendlines_images/Trendlines_img4.png)
+![ReactJS Chart Exponential](Trendlines_images/Trendlines_img4.png)
 
 
 ### Logarithmic
