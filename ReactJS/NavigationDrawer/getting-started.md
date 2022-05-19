@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Syncfusion Navigation Drawer Getting Started
-description: getting started
+title: Getting Started with ReactJS Navigation Drawer Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential ReactJS Navigation Drawer Control, its elements, and more.
 platform: reactjs
 control: navigation drawer
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with ReactJS Navigation Drawer
 
 This section helps to get started with Essential ReactJS Navigation Drawer component.
 

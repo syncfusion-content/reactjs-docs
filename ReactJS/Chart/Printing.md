@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Print  in Essential JavaScript Chart
-description: Learn how to print the chart.
+title: Printing in ReactJS Chart Control | Syncfusion
+description: Learn here about printing support in Syncfusion Essential ReactJS Chart Control, its elements, features, and more.
 platform: js
 control: Chart
 documentation: ug
 api : /api/js/ejchart
 ---
 
-# Printing Chart
+# Printing in ReactJS Chart
 The rendered chart can be printed directly from the browser by calling the public method [`print`](../api/ejchart#methods:print). ID of the chart div element must be passed as argument to that method.
 
 {% highlight html %}
@@ -40,7 +40,7 @@ ReactDOM.render(
 
 This print method can be called by performing any action on the web page. For example, by clicking a button. While calling the print method in chart, print preview will be displayed in the browser.
 
-![](/js/Chart/Printing_images/Printing_img1.png)
+![ReactJS Chart printing](Printing_images/Printing_img1.png)
 
 [Click](http://js.syncfusion.com/demos/web/#!/bootstrap/chart/exportandprint) here to view the Printing chart online demo sample
 
@@ -78,7 +78,7 @@ function print() {
 
 The Print preview of multiple Charts is shown below 
 
-![](/js/Chart/Printing_images/Printing_img2.png)
+![ReactJS Chart Printing Multiple chart](Printing_images/Printing_img2.png)
 
 ## Page Setup
 
