@@ -121,7 +121,7 @@ Stacking Column 3DChart is rendered by specifying the series [`type`](../api/ejc
 {% endhighlight %}
 
 
-![JS Chart 3D Stacked Column Chart](/js/Chart/3D-Chart_images/3D-Chart_img3.png)
+![JS Chart 3D-Stacked Column Chart](/js/Chart/3D-Chart_images/3D-Chart_img3.png)
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/3d/stackedcolumn) here to view the Stacked Column 3DChart online demo sample.
 
@@ -161,7 +161,7 @@ Stacking Column 3DChart is rendered by specifying the series [`type`](../api/ejc
 {% endhighlight %}
 
 
-![JS Chart 3D 100% Stacked Column Chart](/js/Chart/3D-Chart_images/3D-Chart_img4.png)
+![JS Chart 3D 100 Stacked Column Chart](/js/Chart/3D-Chart_images/3D-Chart_img4.png)
 
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/3d/100%stackedcolumn) here to view the 100% Stacked Column 3DChart online demo sample.
@@ -242,7 +242,7 @@ You can create 100% Stacking Bar 3DChart by setting the series [`type`](../api/e
 {% endhighlight %}
 
 
-![JS Chart3D 100% Stacked Bar Chart](/js/Chart/3D-Chart_images/3D-Chart_img6.png)
+![JS Chart3D 100 Stacked Bar Chart](/js/Chart/3D-Chart_images/3D-Chart_img6.png)
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/3d/100%stackedbar) here to view the 100% Stacking Bar 3DChart online demo sample.
 
