@@ -1,13 +1,13 @@
 ---
 title: Getting started with Schedule component in React JS	
-description: Rendering a basic Scheduler with local data
+description: Learn here about getting started with Syncfusion Essential ReactJS Schedule Control, its elements, and more.
 platform: ReactJS
 control: schedule
 documentation: ug
 keywords: ejschedule, schedule, schedule widget, js schedule 
 ---
 
-# Getting Started
+# Getting Started with ReactJS Schedule
 
 An introduction to start with ReactJS can be referred from [here](/reactjs/overview#getting-started-with-react). To get start with the usage of Schedule control in ReactJS platform, create a React application layout and refer the following dependencies to it. Refer the individual script references required to render the Schedule control from [here](/reactjs/schedule/dependencies).
 
@@ -86,7 +86,7 @@ ReactDOM.render(
 N> The above jsx template needs to be converted from `.jsx` to `.js` extension by using `gulp` NuGet package (refer [here](/reactjs/overview#converting-jsx-to-javascript-with-react)) and then it must be referred in the HTML page.
 
 
-![](Getting-started_images/Getting-started_img1.png)
+![ReactJS Schedule Getting started](Getting-started_images/Getting-started_img1.png)
 
 ### Using without jsx Template
 
