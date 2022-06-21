@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Filtering with Grid widget for Syncfusion Essential ReactJS
-description: How to enable filtering and its functionalities
+description: How to enable filtering and its functionalities in Syncfusion Essential ReactJS Grid Control, its elements, and more.
 platform: reactjs
 control: Grid
 documentation: ug
 --- 
-# Filtering
+# Filtering in ReactJS Grid
 
 Filtering helps to view particular or related records from dataSource which meets a given filtering criteria. To enable filter, set `allowFiltering` as `true`. 
 
@@ -56,7 +56,7 @@ Create a JSX file and paste the following content
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img1.png)
+![ReactJS Grid filtering](filtering_images/filtering_img1.png)
 
 
 ## Menu filter
@@ -99,19 +99,19 @@ Create a JSX file and paste the following content
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img2.png)
+![ReactJS Grid Numeric Filter](filtering_images/filtering_img2.png)
 {:caption}
 Numeric Filter
 
-![](filtering_images/filtering_img3.png)
+![ReactJS Grid String Filter](filtering_images/filtering_img3.png)
 {:caption}
 String Filter
 
-![](filtering_images/filtering_img4.png)
+![ReactJS Grid Date Filter](filtering_images/filtering_img4.png)
 {:caption}
 Date Filter
 
-![](filtering_images/filtering_img5.png)
+![ReactJS Grid Boolean Filter](filtering_images/filtering_img5.png)
 
 Boolean Filter
 
@@ -148,7 +148,7 @@ Create a JSX file and paste the following content
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img6.png)
+![ReactJS Grid Checkbox list generation](filtering_images/filtering_img6.png)
 
 
 ### Checkbox list generation:
@@ -189,7 +189,7 @@ Create a JSX file and paste the following content
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img7.png)
+![ReactJS Grid Add current selection to filter checkbox](filtering_images/filtering_img7.png)
 
 
 ### Add current selection to filter checkbox:
@@ -198,7 +198,7 @@ When filtering is done multiple times on the same column then the previously fil
 
 The following image describes the above mentioned behavior.
 
-![](filtering_images/filtering_img12.png)
+![ReactJS Grid Case Sensitivity](filtering_images/filtering_img12.png)
 
 
 ### Case Sensitivity
@@ -234,7 +234,7 @@ Create a JSX file and paste the following content
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img8.png)
+![ReactJS Grid Filter bar](filtering_images/filtering_img8.png)
 
 
 ## Filter bar
@@ -408,7 +408,7 @@ Create a JSX file and paste the following content
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img9.png)
+![ReactJS Grid Filter bar modes](filtering_images/filtering_img9.png)
 
 
 Filter bar modes:
@@ -453,7 +453,7 @@ Create a JSX file and paste the following content
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img10.png)
+![ReactJS Grid Filter Operators](filtering_images/filtering_img10.png)
 
 
 ## Filter Operators
@@ -670,7 +670,7 @@ Create a JSX file and paste the following content
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img11.png)
+![ReactJS Grid After Filtering](filtering_images/filtering_img11.png)
 {:caption}
 After Filtering
  
