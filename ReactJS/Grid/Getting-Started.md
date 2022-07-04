@@ -1,7 +1,7 @@
 ---
 title: Getting Started with ReactJS Grid Control | Syncfusion
 description: Learn here about getting started with Syncfusion Essential ReactJS Grid Control, its elements, and more.
-platform: React JS
+platform: ReactJS
 control: Grid
 documentation: ug
 keywords: 
