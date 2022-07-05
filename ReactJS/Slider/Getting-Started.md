@@ -1,13 +1,13 @@
 ---
 layout: post
-title: getting-started
-description: getting started for Slider
+title: Getting Started with ReactJS Slider Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential ReactJS Slider Control, its elements, and more.
 platform: reactjs
 control: Slider
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with ReactJS Slider
 
 This section helps to get started of the Slider component in a React application 
 
@@ -55,7 +55,7 @@ In the JSX, need to declare the Slider properties. Refer to the following code,.
 
 Run the above code to render the following output,
 
-![](Getting-Started_images/Getting-Started_img1.jpg)
+![ReactJS Slider getting started](Getting-Started_images/Getting-Started_img1.jpg)
 
 
 > _Note:_ _You can find the Slider properties from the_ [API reference](https://help.syncfusion.com/api/js/ejslider) _document._

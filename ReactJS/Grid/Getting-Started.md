@@ -1,12 +1,12 @@
 ---
-title: Getting Started for React JS Grid
-description: Getting-Started
-platform: React JS
+title: Getting Started with ReactJS Grid Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential ReactJS Grid Control, its elements, and more.
+platform: ReactJS
 control: Grid
 documentation: ug
 keywords: 
 ---
-# Getting started
+# Getting started with ReactJS Grid
 
 ##Preparing HTML document
 
@@ -205,7 +205,7 @@ Create a JSX file and paste the following content
 
 
 
-![](Getting-started_images/Getting-started_img1.png)
+![ReactJS Grid Using jsx Template](Getting-started_images/Getting-started_img1.png)
 
 
 
@@ -241,7 +241,7 @@ Create a JSX file and paste the following content
 
 {% endhighlight %}
 
-![](Getting-started_images/Getting-started_img2.png)
+![ReactJS Grid Data binding](Getting-started_images/Getting-started_img2.png)
 
 
 
@@ -284,7 +284,7 @@ Create a JSX file and paste the following content
 N> Pager settings can be customized by using the [`pageSettings.pageSize`](http://help.syncfusion.com/js/api/ejgrid#members:pagesettings-pagesize) property. When it is not given the default values for `pageSize` and `pageCount` are 12 and 8 respectively.
 
 
-![](Getting-started_images/Getting-started_img3.png)
+![ReactJS Grid Enable Paging](Getting-started_images/Getting-started_img3.png)
 
 
 
@@ -320,7 +320,7 @@ Create a JSX file and paste the following content
         
 {% endhighlight %}
 
-![](Getting-started_images/Getting-started_img4.png)
+![ReactJS Grid Enable Filtering](Getting-started_images/Getting-started_img4.png)
 
 
 
@@ -357,7 +357,7 @@ Create a JSX file and paste the following content
         
 {% endhighlight %}
 
-![](Getting-started_images/Getting-started_img5.png)
+![ReactJS Grid Enable Grouping](Getting-started_images/Getting-started_img5.png)
 
 
 
@@ -393,7 +393,7 @@ Create a JSX file and paste the following content
         
 {% endhighlight %}
 
-![](Getting-started_images/Getting-started_img6.png)
+![ReactJS Grid grouping](Getting-started_images/Getting-started_img6.png)
 
 
 
@@ -423,4 +423,4 @@ Create a JSX file and paste the following content
         
 {% endhighlight %}
 
-![](Getting-started_images/Getting-started_img7.png)
+![ReactJS Grid Add Summaries](Getting-started_images/Getting-started_img7.png)
