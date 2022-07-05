@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting started with Syncfusion Essential HeatMap for ReactJS
-description: Getting started walk through to create your first Heat map.
+title: Getting Started with ReactJS HeatMap Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential ReactJS HeatMap Control, its elements, and more.
 platform: js
 control: ejHeatMap
 keywords: HeatMap, reactjs heatmap, Populating data
 ---
 
-# Getting Started
+# Getting Started with ReactJS HeatMap
 
 This section helps to get started of the HeatMap component for ReactJS. 
 
