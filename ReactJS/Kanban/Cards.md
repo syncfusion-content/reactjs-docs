@@ -3,7 +3,7 @@ layout: post
 title: Cards in ReactJS Kanban Control | Syncfusion
 description: Learn here about Cards support in Syncfusion Essential ReactJS Kanban Control, its elements, and more.
 documentation: ug
-platform: React JS
+platform: ReactJS
 keywords: cards,kanban cards
 ---
 
