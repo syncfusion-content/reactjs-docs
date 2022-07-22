@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Cards
-description: Cards
+title: Cards in ReactJS Kanban Control | Syncfusion
+description: Learn here about Cards support in Syncfusion Essential ReactJS Kanban Control, its elements, and more.
 documentation: ug
 platform: React JS
 keywords: cards,kanban cards
 ---
 
-# Cards
+# Cards support in ReactJS Kanban
 
 ## Customization
 
@@ -81,7 +81,7 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Cards_images/cards_img1.png)
+![ReactJS Kanban template](Cards_images/cards_img1.png)
 
 ## Template
 
@@ -186,7 +186,7 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Cards_images/cards_img2.png)
+![ReactJS Kanban tooltip](Cards_images/cards_img2.png)
 
 ## Tooltip
 
@@ -211,7 +211,7 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Cards_images/cards_img3.png)
+![ReactJS Kanban cards](Cards_images/cards_img3.png)
 
 ### Template
 
@@ -303,4 +303,4 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Cards_images/cards_img4.png)
+![ReactJS Kanban cards output](Cards_images/cards_img4.png)
