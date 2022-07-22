@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Getting-started | CheckBox | ReactJS | Syncfusion
-description: Getting started for CheckBox
+description: Learn here about Getting started with Syncfusion Essential ReactJS CheckBox Control, its elements, and more.
 platform: ReactJS
 control: CheckBox
 documentation: ug
 ---
 
-# GettingStarted
+# Getting Started with ReactJS CheckBox
 
 This section discloses the details on how to render and configure CheckBox component in a ReactJS application.
 
