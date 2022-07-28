@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Overview | CheckBox | ReactJS | Syncfusion
-description: overview
+description: Learn here about overview of Syncfusion Essential ReactJS CheckBox Control, its elements, and more.
 platform: ReactJS
 control: CheckBox
 documentation: ug
 ---
 
-# Overview
+# Overview of ReactJS CheckBox
 
 **CheckBox** component is an input component with trendy look and appearance used to input multiple options from the user.
 
