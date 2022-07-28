@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overview | CheckBox | ReactJS | Syncfusion
-description: Learn here about overview of Syncfusion Essential ReactJS CheckBox Control, its elements, and more.
+description: Learn here about overview of Syncfusion Essential ReactJS CheckBox Control, its elements, features, and more.
 platform: ReactJS
 control: CheckBox
 documentation: ug
