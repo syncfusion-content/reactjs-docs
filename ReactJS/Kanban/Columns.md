@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  Columns
-description: Columns
+title: Columns in ReactJS Kanban Control | Syncfusion
+description: Learn here about Columns support in Syncfusion Essential ReactJS Kanban Control, its elements, and more.
 documentation: ug
-platform: React JS
+platform: ReactJS
+control: Kanban
 keywords: columns,kanban columns
 ---
 
-# Columns 
+# Columns in ReactJS Kanban
 
 Column fields are present in the [`dataSource`](https://help.syncfusion.com/api/js/ejkanban#members:datasource) schema and it is rendering cards based its mapping column values.
 
@@ -62,7 +63,7 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Columns_images/column_img.png)
+![ReactJS Kanban Key Mapping](Columns_images/column_img.png)
 
 ## Multiple Key Mapping
 
@@ -89,7 +90,7 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Columns_images/column_img9.png)
+![ReactJS Kanban Multiple Key Mapping](Columns_images/column_img9.png)
 
 ## Headers
 
@@ -148,7 +149,7 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Columns_images/column_img1.png)
+![ReactJS Kanban Header Template](Columns_images/column_img1.png)
 
 ## Width
 
@@ -175,7 +176,7 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Columns_images/column_img2.png)
+![ReactJS Kanban Width](Columns_images/column_img2.png)
 
 ## Visibility 
 
@@ -202,7 +203,7 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Columns_images/column_img3.png)
+![ReactJS Kanban Visibility](Columns_images/column_img3.png)
 
 ## Toggle 
 
@@ -229,7 +230,7 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Columns_images/column_img4.png)
+![ReactJS Kanban Toggle](Columns_images/column_img4.png)
 
 ## Allow Dragging
 
@@ -255,7 +256,7 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Columns_images/column_img5.png)
+![ReactJS Kanban Allow Dragging](Columns_images/column_img5.png)
 
 ## Allow Dropping
 
@@ -281,7 +282,7 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Columns_images/column_img6.png)
+![ReactJS Kanban Allow Dropping](Columns_images/column_img6.png)
 
 ##Items Count
 
@@ -307,7 +308,7 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Columns_images/column_img7.png)
+![ReactJS Kanban Items Count](Columns_images/column_img7.png)
 
 
 ## Customize Items Count Text
@@ -334,4 +335,4 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Columns_images/column_img8.png)
+![ReactJS Kanban Customize Items Count Text](Columns_images/column_img8.png)
