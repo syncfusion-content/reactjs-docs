@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  Globalization and Localization
-description: Globalization and Localization
+title: Globalization and Localization in ReactJS Kanban Control | Syncfusion
+description: Learn here about Globalization and Localization in Syncfusion Essential ReactJS Kanban Control, its elements, and more.
 documentation: ug
-platform: React JS
+platform: ReactJS
+control: Kanban
 keywords: globalization and localization,kanban globalization and localizationards
 ---
 
-# Localization
+# Localization and Globalization in ReactJS Kanban
 
 ## Localization
 
@@ -217,6 +218,6 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Localization_images/localization_img1.png)
+![ReactJS Kanban localization](Localization_images/localization_img1.png)
 
 
