@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  Print with Kanban widget for Syncfusion Essential JS
-description: How to enable print option in Kanban
+title: Print in ReactJS Kanban Control | Syncfusion
+description: Learn here about Print support in Syncfusion Essential ReactJS Kanban Control, its elements, and more.
 documentation: ug
-platform: React JS
+platform: ReactJS
+control: Kanban
 ---
 
-# Print
+# Print in ReactJS Kanban
 
  Set [‘allowPrinting’](https://help.syncfusion.com/api/js/ejkanban#members:allowprinting) as true, to enable Print icon in the Kanban toolbar.  You can use [‘print()’](https://help.syncfusion.com/api/js/ejkanban#methods:print) method from Kanban instance to print the Kanban.
 
@@ -30,6 +31,6 @@ ReactDOM.render(
 
 The following output is displayed as a result of the above code example.
 
-![](Printing_images/print_img1.png)
+![ReactJS Kanban printing](Printing_images/print_img1.png)
 
 
