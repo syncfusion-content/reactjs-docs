@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Chart size
-description: Learn how to set Chart size and make it responsive. 
-platform: js
+title: Dimensions in ReactJS Chart Control | Syncfusion
+description: Learn here all about dimensions support in Syncfusion Essential ReactJS Chart control, its elements, and more.
+platform: ReactJS
 control: Chart
 documentation: ug
 api : /api/js/ejchart
 ---
 
-# Chart Dimensions
+# Chart Dimensions in ReactJS Chart
 
 You can set the size of the chart directly on the chart or to the container of the chart. When you do not specify the size, it takes 450px as the height and window size as its width, by default. 
 
@@ -47,7 +47,7 @@ You can also set the chart dimension by using the [`size`](../api/ejchart#member
 
 {% endhighlight %}
 
-![](/js/Chart/Chart-Dimensions_images/Chart-Dimensions_img1.png)
+![ReactJS Chart dimentions](/js/Chart/Chart-Dimensions_images/Chart-Dimensions_img1.png)
 
 
 ## Setting size relative to the container size
@@ -69,7 +69,7 @@ You can specify the chart size in percentage by using the [`size`](../api/ejchar
 
 {% endhighlight %}
 
-![](/js/Chart/Chart-Dimensions_images/Chart-Dimensions_img2.png)
+![ReactJS Chart setting size relative to the container size](/js/Chart/Chart-Dimensions_images/Chart-Dimensions_img2.png)
 
 
 ## Responsive chart
