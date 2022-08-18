@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Getting-Started
-description: getting started
+title: Getting-Started in ReactJS CircularGauge Control | Syncfusion
+description: Learn here all about getting started with Syncfusion Essential ReactJS CircularGauge control, its elements, and more.
 platform: React JS
 control: CircularGauge
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with ReactJS CircularGauge
 
 * This section encompasses how to configure Circular Gauge. You can provide data to a Circular Gauge and make them to display in a required way.
 
 * The following screen shot displays a Circular Gauge, which visually represents the functions of an Automobile speedometer with RPM (Rotation per Minute), kph (Kilometer per hour) and it denotes the speed level indicators (Safe, Caution and Danger).
 
 
-![](Getting-Started_images/Getting-Started_img11.png)
+![ReactJS CirculaGauge Getting Started](Getting-Started_images/Getting-Started_img11.png)
 
 Analog Speedometer
 {:.caption}
@@ -110,7 +110,7 @@ Run the above code example to get a default CircularGauge with default values.
 
 
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![ReactJS CirculaGauge with Default Value](Getting-Started_images/Getting-Started_img2.png)
 
 
 ## Set Height and Width
@@ -142,7 +142,7 @@ Run the above code example and you will see the following output.
 
 
 
-![](Getting-Started_images/Getting-Started_img3.png)
+![ReactJS CirculaGauge Set Height and Width](Getting-Started_images/Getting-Started_img3.png)
 
 
 ## Set Background Color
@@ -183,7 +183,7 @@ Run the above code example and you will see the following output.
 
 
 
-![](Getting-Started_images/Getting-Started_img4.png)
+![ReactJS CirculaGauge Set Background Color](Getting-Started_images/Getting-Started_img4.png)
 
 ## Provide Scale Values
 
@@ -233,7 +233,7 @@ var scales = [{
 
 Run the above code example and you will see the following output.
 
-![](Getting-Started_images/Getting-Started_img5.png)
+![ReactJS CirculaGauge Provide Scale Values](Getting-Started_images/Getting-Started_img5.png)
 
 
 ## Add Label Customization
@@ -278,7 +278,7 @@ Run the above code example and you will see the following output.
 
 
 
-![](Getting-Started_images/Getting-Started_img6.png)
+![ReactJS CirculaGauge Add Label Customization](Getting-Started_images/Getting-Started_img6.png)
 
 
 ## Add Pointers
@@ -359,7 +359,7 @@ var scales = [{
 
 Run the above code example and you will see the following output.
 
-![](Getting-Started_images/Getting-Started_img7.png)
+![ReactJS CirculaGauge Add Pointers](Getting-Started_images/Getting-Started_img7.png)
 
 
 ## Add Tick Details
@@ -418,7 +418,7 @@ var scales = [{
 
 Run the above code example and you will see the following output.
 
-![](Getting-Started_images/Getting-Started_img8.png)
+!ReactJS CirculaGauge Add Tick Details[](Getting-Started_images/Getting-Started_img8.png)
 
 
 ## Add Range Values
@@ -490,7 +490,7 @@ Run the above code example and you will see the following output.
 
 
 
-![](Getting-Started_images/Getting-Started_img9.png)
+![ReactJS CirculaGauge Add Range Values](Getting-Started_images/Getting-Started_img9.png)
 
 
 ## Add Indicator Details
@@ -600,7 +600,7 @@ Run the above code example and you will see the following output.
 
 
 
-![](Getting-Started_images/Getting-Started_img10.png)
+![ReactJS CirculaGauge Add Indicator Details](Getting-Started_images/Getting-Started_img10.png)
 
 
 ## Add Custom Label Details
@@ -674,7 +674,7 @@ var scales = [{
 {% endhighlight  %}
 Run the above code example and you will see the following output.
 
-![](Getting-Started_images/Getting-Started_img11.png)
+![ReactJS CirculaGauge Add Custom Label Details](Getting-Started_images/Getting-Started_img11.png)
 
 ## Without using jsx Template
 
@@ -748,4 +748,4 @@ ReactDOM.render(
  {% endhighlight %}
  Run the above code example and you will see the following output.
 
-![](Getting-Started_images/Getting-Started_img7.png)  
+![ReactJS CirculaGauge Without Using jsx Template](Getting-Started_images/Getting-Started_img7.png)  
