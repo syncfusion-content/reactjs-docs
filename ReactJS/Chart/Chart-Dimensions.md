@@ -47,7 +47,7 @@ You can also set the chart dimension by using the [`size`](../api/ejchart#member
 
 {% endhighlight %}
 
-![ReactJS Chart dimentions](/js/Chart/Chart-Dimensions_images/Chart-Dimensions_img1.png)
+![ReactJS Chart dimentions](Chart-Dimensions_images/Chart-Dimensions_img1.png)
 
 
 ## Setting size relative to the container size
@@ -69,7 +69,7 @@ You can specify the chart size in percentage by using the [`size`](../api/ejchar
 
 {% endhighlight %}
 
-![ReactJS Chart setting size relative to the container size](/js/Chart/Chart-Dimensions_images/Chart-Dimensions_img2.png)
+![ReactJS Chart setting size relative to the container size](Chart-Dimensions_images/Chart-Dimensions_img2.png)
 
 
 ## Responsive chart
