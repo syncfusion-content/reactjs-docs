@@ -47,7 +47,7 @@ You can also set the chart dimension by using the [`size`](../api/ejchart#member
 
 {% endhighlight %}
 
-![ReactJS Chart dimentions](Chart-Dimensions_images/Chart-Dimensions_img1.png)
+![ReactJS Chart dimensions](Chart-Dimensions_images/Chart-Dimensions_img1.png)
 
 
 ## Setting size relative to the container size
