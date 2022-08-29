@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Chart legend
-description: How to cutomize the legend in Essential JavaScript Chart.
-platform: js
+title: Legend in ReactJS Chart Control | Syncfusion
+description: Learn here all about Legend support in Syncfusion Essential ReactJS Chart control, its elements, and more.
+platform: ReactJS
 control: Chart
 documentation: ug
 api : /api/js/ejchart
 ---
 
-# Legend
+# Legend in ReactJS Chart
 
 The legend contains the list of chart series and Trendlines that appear in a chart. 
 
@@ -37,7 +37,7 @@ By default, the legend is enabled in the chart. You can enable or disable it by 
 
 {% endhighlight %}
 
-![](/js/Chart/Legend_images/Legend_img1.png)
+![ReactJS Chart legend visibility](Legend_images/Legend_img1.png)
 
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartcustomization/legendposition) here to view the online demo sample for legend position.
@@ -71,7 +71,7 @@ To add the title to the legend, you have to specify the [`legend.title.text`](..
 
 {% endhighlight %}
 
-![](/js/Chart/Legend_images/Legend_img2.png)
+![ReactJS Chart legend title](Legend_images/Legend_img2.png)
 
 
 ## Position and Align the Legend
@@ -101,7 +101,7 @@ By using the [`position`](../api/ejchart#members:legend-position) option, you ca
 
 {% endhighlight %}
 
-![](/js/Chart/Legend_images/Legend_img3.png)
+![ReactJS Chart position and align the legend](Legend_images/Legend_img3.png)
 
 **Legend Alignment**
 
@@ -131,7 +131,7 @@ You can align the legend to the *center*, *far* or *near* based on its position 
 
 {% endhighlight %}
 
-![](/js/Chart/Legend_images/Legend_img4.png)
+![ReactJS Chart legend alignment](Legend_images/Legend_img4.png)
 
 
 ## Arrange legend items in the rows and columns
@@ -170,7 +170,7 @@ You can arrange the legend items horizontally and vertically by using the [`rowC
 
 {% endhighlight %}
 
-![](/js/Chart/Legend_images/Legend_img5.png)
+![ReactJS Chart arrange legend items in the row and column](Legend_images/Legend_img5.png)
 
 
 ## Customization
@@ -202,7 +202,7 @@ To change the legend icon shape, you have to specify the shape in the [`shape`](
 
 {% endhighlight %}
 
-![](/js/Chart/Legend_images/Legend_img6.png)
+![ReactJS Chart customization](Legend_images/Legend_img6.png)
 
 
 ### Legend items size and border
@@ -232,7 +232,7 @@ You can change the size of the legend items by using the [`itemStyle.width`](../
 
 {% endhighlight %}
 
-![](/js/Chart/Legend_images/Legend_img7.png)
+![ReactJS Chart legend items size and border](Legend_images/Legend_img7.png)
 
 ### Legend size
 
@@ -261,7 +261,7 @@ By default, legend takes 20% of the **height** horizontally when it was placed o
 
 {% endhighlight %}
 
-![](/js/Chart/Legend_images/Legend_img8.png)
+![ReactJS Chart legend size](Legend_images/Legend_img8.png)
 
 
 ### Legend Item Padding
@@ -291,7 +291,7 @@ You can control the spacing between the legend items by using the [`itemPadding`
 
 {% endhighlight %}
 
-![](/js/Chart/Legend_images/Legend_img9.png)
+![ReactJS Chart legend item padding](Legend_images/Legend_img9.png)
 
 ### Legend border
 
@@ -320,7 +320,7 @@ You can customize the legend border by using the [`border`](../api/ejchart#membe
 
 {% endhighlight %}
 
-![](/js/Chart/Legend_images/Legend_img10.png)
+![ReactJS Chart legend border](Legend_images/Legend_img10.png)
 
 ### Scrollbar for legend
 
@@ -350,7 +350,7 @@ You can enable or disable the legend scrollbar by using the [`enableScrollbar`](
 
 {% endhighlight %}
 
-![](/js/Chart/Legend_images/Legend_img11.png)
+![ReactJS Chart scrollbar for legend](Legend_images/Legend_img11.png)
 
 ### Customize the legend text
 
@@ -386,7 +386,7 @@ To customize the legend item text and title you can use the [`legend.font`](../a
 
 {% endhighlight %}
 
-![](/js/Chart/Legend_images/Legend_img12.png)
+![ReactJS Chart customize the legend text](Legend_images/Legend_img12.png)
 
 ### LegendItems Text Overflow
 
@@ -417,20 +417,20 @@ You can trim the legend item text when its width exceeds the [`legend.textWidth`
 
 {% endhighlight %}
 
-![](/js/Chart/Legend_images/Legend_img13.png) 
+![ReactJS Chart legend items text overflow](Legend_images/Legend_img13.png) 
 
 
 **Wrap**
 
 By specifying [`textOverflow`](../api/ejchart#members:legend-textOverflow) as **"wrap"**, you can wrap the legend text by word.
 
-![](/js/Chart/Legend_images/Legend_img14.png)
+![ReactJS Chart wrap](Legend_images/Legend_img14.png)
 
 **WrapAndTrim**
 
 You can wrap and trim the legend text by specifying [`textOverflow`](../api/ejchart#members:legend-textOverflow) as **"wrapAndTrim"**. The original text will be displayed on mouse hover.
 
-![](/js/Chart/Legend_images/Legend_img15.png)
+![ReactJS Chart wrapped and trimmed](Chart/Legend_images/Legend_img15.png)
    
 
 ## Handle the legend item clicked
@@ -491,7 +491,7 @@ You can select a specific series or point while clicking on the corresponding le
 
 {% endhighlight %}
 
-![](/js/Chart/Legend_images/Legend_img16.png)
+![ReactJS Chart series selection on legend item click](Legend_images/Legend_img16.png)
 
 
 
@@ -523,4 +523,4 @@ var legend={visible:true};
       
 {% endhighlight %}
 
-![](/js/Chart/Legend_images/Legend_img17.png)
+![ReactJS Chart collapsing legend item](Legend_images/Legend_img17.png)
