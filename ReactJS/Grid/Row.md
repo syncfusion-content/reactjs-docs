@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Row with Grid widget for Syncfusion Essential ReactJs
-description: How to use and customize the grid row
+title: Row in ReactJS Grid Control | Syncfusion
+description: Learn here all about Row support in Syncfusion Essential ReactJS Grid control, its elements, and more.
 platform: reactjs
 control: Grid
 documentation: ug
 --- 
-# Row
+# Row in ReactJS Grid 
 
 It represents the record details that are fetched from the datasource.
 
@@ -71,7 +71,7 @@ Create a JSX file and paste the following content
 
 The following output is displayed as a result of the above code example.
 
-![](Row_images/Row_img1.png)
+![ReactJS Grid details template](Row_images/Row_img1.png)
 
 ## Row Template
 
@@ -184,4 +184,4 @@ The following code example describes the above behavior.
    
 The following output is displayed as a result of the above code example.
 
-![](Row_images/Row_img2.png)
+![ReactJS Grid row template](Row_images/Row_img2.png)
