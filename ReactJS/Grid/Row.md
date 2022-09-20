@@ -6,7 +6,7 @@ platform: reactjs
 control: Grid
 documentation: ug
 --- 
-# Row in ReactJS Grid 
+# Row in Essential ReactJS Grid 
 
 It represents the record details that are fetched from the datasource.
 
