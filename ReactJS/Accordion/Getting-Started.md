@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting-Started | Accordion | ReactJS | Syncfusion
-description: Learn here more about Getting Started with Syncfusion Essential ReactJS Accordion Control, its elements, and more
+title: Getting Started with ReactJS Accordion control | Syncfusion
+description: Learn here more about Getting Started with Syncfusion Essential ReactJS Accordion Control, its elements, and more.
 platform: ReactJS
 control: Accordion 
 documentation: ug
