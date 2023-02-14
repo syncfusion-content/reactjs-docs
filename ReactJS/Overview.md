@@ -10,6 +10,8 @@ documentation: ug
 
 # React JS
 
+> Syncfusion jQuery based widgets are no longer in active development. Switch to our pure JavaScript based next generation Essential JS 2 library.
+
 React is an DOM management library that is used to create user interfaces, it computes the minimal set of changes that makes keep your DOM up-to-date.
 Essential JavaScript components are supported to React JavaScript library through wrappers in ej.web.react.min.js file. 
 
