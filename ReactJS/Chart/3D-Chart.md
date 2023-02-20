@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3D Chart types available in Essential JavaScript Chart
+title: 3D Chart types available in Syncfusion Essential JavaScript Chart
 description: Learn about the different types of 3D charts supported by Syncfusion Essential JavaScript Chart and how to customize the 3D view.
 platform: js
 control: Chart
@@ -8,7 +8,7 @@ documentation: ug
 api : /api/js/ejchart
 ---
 
-# 3D Chart
+# 3D Chart in Javascript chart
 
 Essential 3D Chart for JavaScript allows you to view 8 chart types in 3D view such as [`Bar`](chart-types#bar-chart), [`StackingBar`](chart-types#stacked-bar-chart), [`StackingBar100`](chart-types#stacked-bar-chart-1), [`Column`](chart-types#column-chart), [`Stacked Column`](chart-types#stacked-column-chart), [`100% Stacked Column`](chart-types#stacked-column-chart-1), [`Pie`](chart-types#pie-chart), [`Doughnut`](chart-types#doughnut-chart).
 
