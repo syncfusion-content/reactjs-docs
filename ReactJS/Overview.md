@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome to Syncfusion ReactJS
+title: Welcome to Syncfusion ReactJS controls
 description: Overview of Syncfusion Essential Studio for React JS components with 70+ unique components which is powered by Essential Studio JavaScript Components.
 platform: reactjs
 control: Introduction
@@ -8,7 +8,7 @@ documentation: ug
 --- 
 
 
-# React JS
+# Welcome to Syncfusion Essential React JS
 
 > Syncfusion jQuery based widgets are no longer in active development. Switch to our pure JavaScript based next generation Essential JS 2 library.
 
