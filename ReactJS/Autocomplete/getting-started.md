@@ -1,13 +1,13 @@
 ---
 layout: post
-title: getting-started
-description: getting started
-platform: js
-control: Control Name undefined
+title: Getting started with ReactJS AutoComplete Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential ReactJS AutoComplete Control, its elements, and more.
+platform: ReactJS
+control: AutoComplete
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with ReactJS AutoComplete
 
 Using the following steps, you can create a React AutoComplete component. The basic rendering of React AutoComplete is achieved with default functionality.
 
@@ -45,7 +45,7 @@ Define an HTML element for adding AutoComplete in the application and refer the 
 
 This will render an Autocomplete with no suggestion on executing.
 
-![](getting-started_images\getting-started_img1.png)
+![ReactJS AutoComplete data binding](getting-started_images\getting-started_img1.png)
 
 ## Data Binding
 
@@ -87,7 +87,7 @@ document.getElementById('autocomplete-default')
 
 
 
-![](getting-started_images\getting-started_img2.png)
+![ReactJS AutoComplete popup button](getting-started_images\getting-started_img2.png)
 
 ## Enable Popup Button
 
@@ -129,7 +129,7 @@ document.getElementById('autocomplete-default')
 
 
 
-![](getting-started_images\getting-started_img3.png)
+![ReactJS AutoComplete enable popup](getting-started_images\getting-started_img3.png)
 
 
 
