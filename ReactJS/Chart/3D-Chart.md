@@ -44,7 +44,7 @@ For rendering a 3D Column Chart, specify the series [`type`](../api/ejchart#memb
 {% endhighlight %}
 
 
-![Column chart in 3D](/js/Chart/3D-Chart_images/D-Chart_img1.png)
+![Column chart in 3D](3D-Chart_images/D-Chart_img1.png)
 
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/3d/column) here to view the 3D Column Chart online demo sample.
