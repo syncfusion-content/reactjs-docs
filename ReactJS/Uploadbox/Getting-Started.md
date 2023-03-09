@@ -2,10 +2,10 @@
 layout: post
 title: Getting Started with ReactJS Uploadbox Control | Syncfusion
 description: Learn here about getting started with Syncfusion Essential ReactJS Uploadbox Control, its elements, and more.
-platform: React JS
+platform: ReactJS
 control: Uploadbox
 documentation: ug
-keywords:Uploadbox,js uploadbox,ejuploadbox
+keywords: Uploadbox,js uploadbox,ejuploadbox
 ---
 
 # Getting Started with ReactJS Uploadbox
