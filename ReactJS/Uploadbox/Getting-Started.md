@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Getting-Started for Angular 2 Upload box
-description: getting started for Angular 2 Upload box
-platform:React JS
+title: Getting Started with ReactJS Uploadbox Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential ReactJS Uploadbox Control, its elements, and more.
+platform: React JS
 control: Uploadbox
 documentation: ug
 keywords:Uploadbox,js uploadbox,ejuploadbox
 ---
 
-# Getting Started
+# Getting Started with ReactJS Uploadbox
 
 This section explains briefly about how to create an **Uploadbox** in your application with **Angular 2.** **Essential JavaScript Uploadbox** widget provides support to upload files or photos within your web page. From the following guidelines, you can learn how to upload the files that are used in a Resume Upload scenario. This helps you to restrict some file extensions when you upload the resume in server by using **Uploadbox** control.
 
 The following screenshot demonstrates the functionality of **Uploadbox** with the file extension.
 
-![](Getting-Started_images/Getting-Started_img1.png) 
+![Getting Started with ReactJS Uploadbox](Getting-Started_images/Getting-Started_img1.png) 
 
 In the above screenshot, you can upload a resume that allows **.txt** files. This helps you to avoid unsupported resume formats getting uploaded in a server.
 
@@ -147,11 +147,11 @@ ReactDOM.render(<DefaultUploadbox />, document.getElementById('uploadbox-default
 
 The following screenshot displays an **Uploadbox** control.
 
-![](Getting-Started_images/Getting-Started_img2.png) 
+![Upload the file in ReactJS Uploadbox](Getting-Started_images/Getting-Started_img2.png) 
 
 After you upload the files, the following screen shot is displayed. 
 
-![](Getting-Started_images/Getting-Started_img3.png) 
+![Displays Uploadbox in ReactJS](Getting-Started_images/Getting-Started_img3.png) 
 
 N> The above screenshot displays the Uploadbox control that shows the files are uploaded successfully.
 
@@ -243,7 +243,7 @@ N> You can restrict one or more files at a time by giving it as .html,.txt
 
 The following screenshot displays an **Uploadbox** control with the file extension.
 
-![](Getting-Started_images/Getting-Started_img4.png) 
+![File extension in ReactJS Uploadbox](Getting-Started_images/Getting-Started_img4.png) 
 
 The above screenshot shows the **Uploadbox** that allows “**.txt”** file formats. You can give  number of  file formats in both allow and deny textbox elements.
 
@@ -253,5 +253,5 @@ You can click the **Browse** button and select  files to upload multiple files i
 
 The following screenshot displays an **Uploadbox** control with multiple files.
 
-![](Getting-Started_images/Getting-Started_img5.png) 
+![Upload multiple files in ReactJS Uploadbox](Getting-Started_images/Getting-Started_img5.png) 
 
