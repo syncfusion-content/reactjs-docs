@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3D Chart types available in Essential JavaScript Chart
+title: 3D Chart types available in Syncfusion Essential JavaScript Chart
 description: Learn about the different types of 3D charts supported by Syncfusion Essential JavaScript Chart and how to customize the 3D view.
 platform: js
 control: Chart
@@ -8,7 +8,7 @@ documentation: ug
 api : /api/js/ejchart
 ---
 
-# 3D Chart
+# 3D Chart in Javascript chart
 
 Essential 3D Chart for JavaScript allows you to view 8 chart types in 3D view such as [`Bar`](chart-types#bar-chart), [`StackingBar`](chart-types#stacked-bar-chart), [`StackingBar100`](chart-types#stacked-bar-chart-1), [`Column`](chart-types#column-chart), [`Stacked Column`](chart-types#stacked-column-chart), [`100% Stacked Column`](chart-types#stacked-column-chart-1), [`Pie`](chart-types#pie-chart), [`Doughnut`](chart-types#doughnut-chart).
 
@@ -44,7 +44,7 @@ For rendering a 3D Column Chart, specify the series [`type`](../api/ejchart#memb
 {% endhighlight %}
 
 
-![](/js/Chart/3D-Chart_images/3D-Chart_img1.png)
+![Column chart in 3D](3D-Chart_images/D-Chart_img1.png)
 
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/3d/column) here to view the 3D Column Chart online demo sample.
@@ -80,7 +80,7 @@ You can create a 3D Bar Chart by setting the series [`type`](../api/ejchart#memb
 {% endhighlight %}
 
 
-![](/js/Chart/3D-Chart_images/3D-Chart_img2.png)
+![Bar chart in 3D](3D-Chart_images/D-Chart_img2.png)
 
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/3d/bar) here to view the 3D Bar Chart online demo sample.
@@ -121,7 +121,7 @@ Stacking Column 3DChart is rendered by specifying the series [`type`](../api/ejc
 {% endhighlight %}
 
 
-![](/js/Chart/3D-Chart_images/3D-Chart_img3.png)
+![Stacked Column chart in 3D](3D-Chart_images/D-Chart_img3.png)
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/3d/stackedcolumn) here to view the Stacked Column 3DChart online demo sample.
 
@@ -161,7 +161,7 @@ Stacking Column 3DChart is rendered by specifying the series [`type`](../api/ejc
 {% endhighlight %}
 
 
-![](/js/Chart/3D-Chart_images/3D-Chart_img4.png)
+![Stacked100 Column chart in 3D](3D-Chart_images/D-Chart_img4.png)
 
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/3d/100%stackedcolumn) here to view the 100% Stacked Column 3DChart online demo sample.
@@ -202,14 +202,14 @@ To create Stacking Bar 3DChart, set the series [`type`](../api/ejchart#members:s
 {% endhighlight %}
 
 
-![](/js/Chart/3D-Chart_images/3D-Chart_img5.png)
+![Stacked Bar chart in 3D](3D-Chart_images/D-Chart_img5.png)
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/3d/stackedbar) here to view the Stacked Bar 3DChart online demo sample.
 
 
 ## 3D 100% Stacked Bar Chart
 
-You can create 100% Stacking Bar 3DChart by setting the series [`type`](../api/ejchart#members:series-type) as **"stackingbar100"** in the chart series and enable [`enable3D`](../api/ejchart#members:enable3d) option in chart.
+You can create 100% Stacking Bar 3DChart by setting the series [`type`](../api/js/ejchart#members:series-type) as **"stackingbar100"** in the chart series and enable [`enable3D`](../api/js/ejchart#members:enable3d) option in chart.
 
 {% highlight javascript %}
 
@@ -242,14 +242,14 @@ You can create 100% Stacking Bar 3DChart by setting the series [`type`](../api/e
 {% endhighlight %}
 
 
-![](/js/Chart/3D-Chart_images/3D-Chart_img6.png)
+![Stacked100 Bar chart in 3D](3D-Chart_images/D-Chart_img6.png)
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/3d/100%stackedbar) here to view the 100% Stacking Bar 3DChart online demo sample.
 
 
 ## 3D Pie Chart
 
-To render the Pie Chart in 3D view, enable the **enbel3D** option in the chart and set the series [`type`](../api/ejchart#members:series-type) as **"pie"** in the chart series.  
+To render the Pie Chart in 3D view, enable the **enbel3D** option in the chart and set the series [`type`](../api/js/ejchart#members:series-type) as **"pie"** in the chart series.  
 
 {% highlight javascript %}
 
@@ -278,14 +278,14 @@ To render the Pie Chart in 3D view, enable the **enbel3D** option in the chart a
 {% endhighlight %}
 
 
-![](/js/Chart/3D-Chart_images/3D-Chart_img7.png)
+![Pie chart in 3D](3D-Chart_images/D-Chart_img7.png)
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/3d/pie) here to view the Pie 3DChart online demo sample.
 
 
 ## 3D Doughnut Chart
 
-To render the Doughnut Chart in 3D view, enable the **enbel3D** option in the chart and set the series [`type`](../api/ejchart#members:series-type) as **"doughnut"** in the chart series. 
+To render the Doughnut Chart in 3D view, enable the **enbel3D** option in the chart and set the series [`type`](../api/js/ejchart#members:series-type) as **"doughnut"** in the chart series. 
 
 {% highlight javascript %}
 
@@ -314,7 +314,7 @@ To render the Doughnut Chart in 3D view, enable the **enbel3D** option in the ch
 {% endhighlight %}
 
 
-![](/js/Chart/3D-Chart_images/3D-Chart_img8.png)
+![Doughnut chart in 3D](3D-Chart_images/D-Chart_img8.png)
 
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/3d/doughnut) here to view the Doughnut 3DChart online demo sample.
@@ -324,7 +324,7 @@ To render the Doughnut Chart in 3D view, enable the **enbel3D** option in the ch
 
 ### 3D View
 
-To render the EjChart in 3D view, set the [`enable3D`](../api/ejchart#members:enable3d) option as *true* in the chart.
+To render the EjChart in 3D view, set the [`enable3D`](../api/js/ejchart#members:enable3d) option as *true* in the chart.
  
 {% highlight javascript %}
 
@@ -345,14 +345,14 @@ To render the EjChart in 3D view, set the [`enable3D`](../api/ejchart#members:en
 {% endhighlight %}
 
 
-![](/js/Chart/3D-Chart_images/3D-Chart_img9.png)
+![View of 3D](3D-Chart_images/D-Chart_img9.png)
 
 [Click](http://js.syncfusion.com/demos/web/#!/azure/chart/3d/column) here to view the 3DChart online demo sample.
 
  
 ### Placing Bar / Column kind of series side-by-side
  
- The [`sideBySideSeriesPlacement`](../api/ejchart#members:sidebysideseriesplacement) defines the appearance of the different sets of data on the 3D Chart. When this property is enabled, the data is displayed side by side, otherwise it is displayed along the depth of the axis.  
+ The [`sideBySideSeriesPlacement`](../api/js/ejchart#members:sidebysideseriesplacement) defines the appearance of the different sets of data on the 3D Chart. When this property is enabled, the data is displayed side by side, otherwise it is displayed along the depth of the axis.  
  
 {% highlight javascript %}
 
@@ -371,12 +371,12 @@ To render the EjChart in 3D view, set the [`enable3D`](../api/ejchart#members:en
 {% endhighlight %}
 
 
-![](/js/Chart/3D-Chart_images/3D-Chart_img10.png)
+![Column chart placed side by side](3D-Chart_images/D-Chart_img10.png)
 
 
 ### Setting Axis Wall Size
 
-In 3DChart, Cartesian axes lines are represented as walls and it defines the width of the 3D wall. 3D Pie and Doughnut Chart does not support [`wallSize`](../api/ejchart#members:wallsize) because they don’t have axes.  
+In 3DChart, Cartesian axes lines are represented as walls and it defines the width of the 3D wall. 3D Pie and Doughnut Chart does not support [`wallSize`](../api/js/ejchart#members:wallsize) because they don’t have axes.  
 
 {% highlight javascript %}
 
@@ -395,12 +395,12 @@ In 3DChart, Cartesian axes lines are represented as walls and it defines the wid
 {% endhighlight %}
 
 
-![](/js/Chart/3D-Chart_images/3D-Chart_img11.png)
+![Axis wall size in chart](3D-Chart_images/D-Chart_img11.png)
 
 
 ### 3D Depth
 
-By using the [`depth`](../api/ejchart#members:depth) property, you can view the 3D Chart from the front view of the series to the background wall.
+By using the [`depth`](../api/js/ejchart#members:depth) property, you can view the 3D Chart from the front view of the series to the background wall.
 
 {% highlight javascript %}
 
@@ -418,12 +418,12 @@ By using the [`depth`](../api/ejchart#members:depth) property, you can view the 
 {% endhighlight %}
 
 
-![](/js/Chart/3D-Chart_images/3D-Chart_img12.png)
+![Depth in 3D chart](3D-Chart_images/D-Chart_img12.png)
 
 
 ### Rotating and Tilting 3D Chart
 
-To spin the 3D Chart on mouse dragging, enable [`enableRotation`](../api/ejchart#members:enablerotation) option in the chart. The [`tilt`](../api/ejchart#members:tilt) property specifies the angle of the slope of the 3D Chart. The positive and negative values are declared to the side where the slope is present. The [`rotation`](../api/ejchart#members:rotation) option is used to rotate the 3D chart towards left or right side of the chart. The direction of the chart depends upon the positive and negative values of the angle.  
+To spin the 3D Chart on mouse dragging, enable [`enableRotation`](../api/js/ejchart#members:enablerotation) option in the chart. The [`tilt`](../api/js/ejchart#members:tilt) property specifies the angle of the slope of the 3D Chart. The positive and negative values are declared to the side where the slope is present. The [`rotation`](../api/js/ejchart#members:rotation) option is used to rotate the 3D chart towards left or right side of the chart. The direction of the chart depends upon the positive and negative values of the angle.  
 
 {% highlight javascript %}
 
@@ -449,12 +449,12 @@ To spin the 3D Chart on mouse dragging, enable [`enableRotation`](../api/ejchart
 {% endhighlight %}
 
 
-![](/js/Chart/3D-Chart_images/3D-Chart_img13.png)
+![Rotating 3D chart](3D-Chart_images/D-Chart_img13.png)
 
 
 ### PerspectiveAngle	
 
-The [`perspectiveAngle`](../api/ejchart#members:perspectiveangle) specifies the appearance of the height, width, depth and wall of the 3D Chart. When the perspectiveAngle is decreased, the 3D object appears very close to the viewer. But when it is increased, the 3D object appears far away from the viewer.   
+The [`perspectiveAngle`](../api/js/ejchart#members:perspectiveangle) specifies the appearance of the height, width, depth and wall of the 3D Chart. When the perspectiveAngle is decreased, the 3D object appears very close to the viewer. But when it is increased, the 3D object appears far away from the viewer.   
 
 {% highlight javascript %}
 
@@ -473,4 +473,4 @@ The [`perspectiveAngle`](../api/ejchart#members:perspectiveangle) specifies the 
 {% endhighlight %}
 
 
-![](/js/Chart/3D-Chart_images/3D-Chart_img14.png)
+![Perspective angle in 3D chart](3D-Chart_images/D-Chart_img14.png)
