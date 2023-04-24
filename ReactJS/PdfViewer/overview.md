@@ -1,13 +1,13 @@
 ---
-title: PDF viewer Control Overview	
-description: Overview of PDF viewer control
+title: Overview	of ReactJS PDF viewer Control | Syncfusion
+description: Learn here about Overview of Syncfusion Essential ReactJS PDF viewer control, its elements, and more.
 platform: React JS
 control: pdfviewer
 documentation: ug
 keywords: PDF viewer features, key features, PDF viewer overview 
 ---
 
-# Overview
+# Overview of ReactJS PDF viewer
 
 PDF viewer for JavaScript is a visualization component to view PDF documents in web pages. It is powered by HTML5/JavaScript and provides various customization.
 
