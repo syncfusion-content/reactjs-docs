@@ -1,13 +1,13 @@
 ---
-title: Getting Started for Syncfusion React JS Ribbon
-description: Getting-Started 
+title: Getting Started with ReactJS Ribbon Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential ReactJS Ribbon Control, its elements, and more.
 platform: reactjs
 control: Ribbon
 documentation: Ug
 keywords: 
 ---
 
-# Getting Started
+# Getting Started with ReactJS Ribbon
 
 This section explains briefly how to create a `Ribbon`.
 
