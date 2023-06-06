@@ -32,7 +32,7 @@ api : /api/js/ejchart
 
 {% endhighlight %}
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/performance) here to view the online demo sample that shows Chart performance with 100,000 data points.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/performance) here to view the online demo sample that shows Chart performance with 100,000 data points.
 
 
 * Instead of enabling data markers and labels when there are large number of data points, you can use **trackball** and **tooltip** to view point information.

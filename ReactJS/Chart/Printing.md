@@ -42,7 +42,7 @@ This print method can be called by performing any action on the web page. For ex
 
 ![ReactJS Chart printing](Printing_images/Printing_img1.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/bootstrap/chart/exportandprint) here to view the Printing chart online demo sample
+[Click](https://ej2.syncfusion.com/home/#!/bootstrap/chart/exportandprint) here to view the Printing chart online demo sample
 
 ## Printing Multiple chart
 
@@ -87,4 +87,4 @@ Some of print options are not configurable through JavaScript code. You need to 
 * [Chrome](https://support.google.com/chrome/answer/1379552?hl=en)
 * [Firefox](https://support.mozilla.org/en-US/kb/how-print-web-pages-firefox)
 * [Safari](http://www.mintprintables.com/print-tips/adjust-margins-osx/)
-* [IE](http://www.helpteaching.com/help/print/index.htm) 
+* [IE](https://www.helpteaching.com/help/print/index.htm) 

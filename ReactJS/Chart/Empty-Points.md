@@ -43,7 +43,7 @@ The Data points that uses the **null** or **undefined** as value are considered 
 ![](/js/Chart/Empty-Points_images/Empty-Points_img1.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartcustomization/emptypoints) here to view the online demo sample for empty points.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/chartcustomization/emptypoints) here to view the online demo sample for empty points.
 
 
 ## EmptyPointSettings

@@ -50,7 +50,7 @@ You can create horizontal stripline by adding the [`stripline`](../api/ejchart#m
 ![](/js/Chart/Striplines_images/Striplines_img1.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartaxes/striplines) here to view the Striplines online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/chartaxes/striplines) here to view the Striplines online demo sample.
 
 
 ## Vertical Stripline
