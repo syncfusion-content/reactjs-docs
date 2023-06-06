@@ -259,7 +259,7 @@ The following screenshot displays the output for the above code
 ![](ValidateOnType_images/validateontype.png)
 
 You can also validate the content within the IFrame element or IFrame element target text, by passing the IFrame element id or class name value to the `controlsToValidate` property. 
-Detailed information is given [here](https://help.syncfusion.com/js/spellcheck/multiple-target)
+Detailed information is given [here](https://help.syncfusion.com/js/spellcheck/target-elements#multiple-target)
 
 ## Suggestion Words
 

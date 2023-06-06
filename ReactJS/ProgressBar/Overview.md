@@ -9,7 +9,7 @@ documentation: ug
 
 # Overview
 
-**Essential JavaScript** **ProgressBar** control is a graphical control element [http://en.wikipedia.org/wiki/Graphical_control_element](http://en.wikipedia.org/wiki/Graphical_control_element) used to visualize the changing status of an extended operation. It is available in **JavaScript** product. **ProgressBar** provides an interactive way to display the progression of the task. You can configure the item size, orientation and the display text on the **ProgressBar** control.
+**Essential JavaScript** **ProgressBar** control is a graphical control element [http://en.wikipedia.org/wiki/Graphical_control_element](https://en.wikipedia.org/wiki/Graphical_control_element) used to visualize the changing status of an extended operation. It is available in **JavaScript** product. **ProgressBar** provides an interactive way to display the progression of the task. You can configure the item size, orientation and the display text on the **ProgressBar** control.
 
 **Key Features**
 

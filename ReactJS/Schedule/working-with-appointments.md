@@ -1301,7 +1301,7 @@ It has the following properties based on which the recurrence appointments are r
     </tr>
 </table>
 
-To know more about other possible combinations of above specified recurrence rule properties, refer [here](http://www.syncfusion.com/kb/3719/what-is-recurrencerule-in-the-schedule-control).
+To know more about other possible combinations of above specified recurrence rule properties, refer [here](https://www.syncfusion.com/kb/3719/what-is-recurrencerule-in-the-schedule-control).
 
 {% highlight html %}
 
@@ -1365,7 +1365,7 @@ ReactDOM.render(<Scheduler />, document.getElementById('schedule-default'));
 
 {% endhighlight %}
 
-N> You can parse the **RecurrenceRule** of an appointment from the server-side by making use of a new generic utility class **RecurrenceHelper**. Refer this [KB document](https://www.syncfusion.com/kb/5390/how-to-parse-the-recurrencerule-in-server-side).
+N> You can parse the **RecurrenceRule** of an appointment from the server-side by making use of a new generic utility class **RecurrenceHelper**. Refer this [KB document](https://support.syncfusion.com/kb/article/5128/how-to-parse-the-recurrencerule-in-server-side).
 
 ### Recurrence Edit and delete options
 
