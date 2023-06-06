@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Overview
-description: overview
+title: Overview of ReactJS ProgressBar Control | Syncfusion
+description: Learn here all about overview of Syncfusion Essential ReactJS ProgressBar control, its elements, and more.
 platform: React JS
 control: ProgressBar
 documentation: ug
 ---
 
-# Overview
+# Overview of ReactJS ProgressBar
 
 **Essential JavaScript** **ProgressBar** control is a graphical control element [http://en.wikipedia.org/wiki/Graphical_control_element](https://en.wikipedia.org/wiki/Graphical_control_element) used to visualize the changing status of an extended operation. It is available in **JavaScript** product. **ProgressBar** provides an interactive way to display the progression of the task. You can configure the item size, orientation and the display text on the **ProgressBar** control.
 
