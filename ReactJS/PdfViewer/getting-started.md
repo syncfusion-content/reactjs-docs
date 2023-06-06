@@ -40,9 +40,9 @@ Create a **HTML** page and add the scripts and CSS references in the order menti
 
 {% endhighlight %}
 
-N> 1. In production, we highly recommend you to use our [`custom script generator`](http://help.syncfusion.com/js/custom-script-generator) to create custom script file with required controls and its dependencies only. Also to reduce the file size further please use [`GZip compression`](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer?hl=en) in your server.
+N> 1. In production, we highly recommend you to use our [`custom script generator`](https://help.syncfusion.com/js/custom-script-generator) to create custom script file with required controls and its dependencies only. Also to reduce the file size further please use [`GZip compression`](https://web.dev/optimizing-content-efficiency-optimize-encoding-and-transfer/) in your server.
 
-N> 2. For themes, you can use the `ej.web.all.min.css` CDN link from the code snippet given. To add the themes in your application, please refer to [`this link`](http://help.syncfusion.com/js/theming-in-essential-javascript-components).
+N> 2. For themes, you can use the `ej.web.all.min.css` CDN link from the code snippet given. To add the themes in your application, please refer to [`this link`](https://help.syncfusion.com/js/theming-in-essential-javascript-components).
 
 * `react.js` and `react-dom.js` are the core files needed to create react elements.
 * `browser.min.js` file is required for code transform.

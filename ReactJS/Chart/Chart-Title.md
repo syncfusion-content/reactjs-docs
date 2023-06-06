@@ -56,7 +56,7 @@ By using the title option, you can add the [`text`](../api/ejchart.html#members:
 ![](/js/Chart/Chart-Title_images/Chart-Title_img1.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartcustomization/subtitle) here to view the Chart Title online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/chartcustomization/subtitle) here to view the Chart Title online demo sample.
 
 
 We can trim, wrap and wrapAndTrim to the chart title using textOverflow property. The original text will be displayed as tooltip on mouse hover.

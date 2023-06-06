@@ -83,12 +83,12 @@ Example</th></tr>
 <tr>
 <td>
 CheckBox</td><td>
-{{ '[ejCheckBox](http://help.syncfusion.com/api/js/ejcheckbox)' | markdownify }} </td><td>
+{{ '[ejCheckBox](https://help.syncfusion.com/api/js/ejcheckbox)' | markdownify }} </td><td>
 editParams: { checked: true }</td></tr>
 <tr>
 <td>
 NumericTextBox </td><td>
-{{ '[ejTextBoxes](http://help.syncfusion.com/api/js/ejtextboxes)' | markdownify }} </td><td>
+{{ '[ejTextBoxes](https://help.syncfusion.com/api/js/ejtextboxes)' | markdownify }} </td><td>
 editParams: { decimalPlaces: 2, value:5  }</td></tr>
 <tr>
 <td>
@@ -98,17 +98,17 @@ InputTextBox </td><td>
 <tr>
 <td>
 DatePicker </td><td>
-{{ '[ejDatePicker](http://help.syncfusion.com/api/js/ejdatepicker)' | markdownify }} </td><td>
+{{ '[ejDatePicker](https://help.syncfusion.com/api/js/ejdatepicker)' | markdownify }} </td><td>
 editParams: {  buttonText : "Now" }</td></tr>
 <tr>
 <td>
 DateTimePicker</td><td>
-{{ '[ejDateTimePicker](http://help.syncfusion.com/api/js/ejdatetimepicker)' | markdownify }} </td><td>
+{{ '[ejDateTimePicker](https://help.syncfusion.com/api/js/ejdatetimepicker)' | markdownify }} </td><td>
 editParams: {  enabled: true }</td></tr>
 <tr>
 <td>
 DropDownList</td><td>
-{{ '[ejDropDownList](http://help.syncfusion.com/api/js/ejdropdownlist)' | markdownify }} </td><td>
+{{ '[ejDropDownList](https://help.syncfusion.com/api/js/ejdropdownlist)' | markdownify }} </td><td>
 editParams: {  allowGrouping: true }</td></tr>
 
 </table>

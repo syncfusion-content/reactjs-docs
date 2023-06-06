@@ -12,8 +12,8 @@ keywords: DropDownList, dropdown, Populating data
 
 The external script dependencies of the DropDownList widget are,
 
-* [jQuery 1.7.1](http://jquery.com/) and later versions.
-* [jQuery.easing](http://gsgd.co.uk/sandbox/jquery/easing/) - to support the animation effects.
+* [jQuery 1.7.1](https://jquery.com/) and later versions.
+* [jQuery.easing](https://gsgd.co.uk/sandbox/jquery/easing/) - to support the animation effects.
 
 And the internal script dependencies of the DropDownList widget are:
 
@@ -50,7 +50,7 @@ And the internal script dependencies of the DropDownList widget are:
 
 For getting started you can use the ‘ej.web.all.min.js’ file, which encapsulates all the 'ej' controls and frameworks in one single file.<br/> 
 
-For themes, you can use the ‘ej.web.all.min.css’ CDN link from the snippet given. To add the themes in your application, please refer [this link](http://help.syncfusion.com/js/theming-in-essential-javascript-components#adding-specific-theme-to-your-application).
+For themes, you can use the ‘ej.web.all.min.css’ CDN link from the snippet given. To add the themes in your application, please refer [this link](https://help.syncfusion.com/js/theming-in-essential-javascript-components#adding-specific-theme-to-your-application).
 
 ## Creating DropDownList in React JS
 
@@ -92,9 +92,9 @@ document.getElementById('dropdownlist-default')
 
 ## Populating data
 
-The DropDownList can be bounded to both local array and remote data services using [ej.DataManager](http://help.syncfusion.com/js/datamanager/overview). You can use [DataManager](http://help.syncfusion.com/js/datamanager/overview) component to serve data from the data services based on the query provided.You can also bind local data using DataManager. To bind data to DropDownList widget, the [dataSource](http://help.syncfusion.com/js/api/ejdropdownlist#members:datasource) property should be assigned with the instance of 'ej.DataManager'.
+The DropDownList can be bounded to both local array and remote data services using [ej.DataManager](https://help.syncfusion.com/js/datamanager/overview). You can use [DataManager](https://help.syncfusion.com/js/datamanager/overview) component to serve data from the data services based on the query provided.You can also bind local data using DataManager. To bind data to DropDownList widget, the [dataSource](https://help.syncfusion.com/js/api/ejdropdownlist) property should be assigned with the instance of 'ej.DataManager'.
  
-N> ODataAdaptor is the default adaptor for DataManager. On binding to other web services, proper [data adaptor](http://help.syncfusion.com/js/datamanager/data-adaptors) needs to be set on 'adaptor' option of DataManager. 
+N> ODataAdaptor is the default adaptor for DataManager. On binding to other web services, proper [data adaptor](https://help.syncfusion.com/js/datamanager/data-adaptors) needs to be set on 'adaptor' option of DataManager. 
 	
 {% highlight html %}
 

@@ -40,7 +40,7 @@ By default, the legend is enabled in the chart. You can enable or disable it by 
 ![ReactJS Chart legend visibility](Legend_images/Legend_img1.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartcustomization/legendposition) here to view the online demo sample for legend position.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/chartcustomization/legendposition) here to view the online demo sample for legend position.
 
 ## Legend title
 

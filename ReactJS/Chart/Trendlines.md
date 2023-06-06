@@ -38,7 +38,7 @@ EjChart can generate Trendlines for Cartesian type series *(Line, Column, Scatte
 ![ReactJS Chart Trendlines](Trendlines_images/Trendlines_img1.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/trendlines) here to view the Trendlines online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/trendlines) here to view the Trendlines online demo sample.
 
 
 ## Customize the trendline styles
