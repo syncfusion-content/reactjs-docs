@@ -11,13 +11,13 @@ keywords: schedule individual dependency files
 
 The following list of external dependencies are mandatory in order to render any of the Syncfusion controls - 
 
-* [jQuery](http://jquery.com) - 1.7.1 and later versions
+* [jQuery](https://jquery.com/) - 1.7.1 and later versions
 * [jsRender](https://github.com/borismoore/jsrender) - to render the templates
 
 The required **ReactJS** script dependencies are as follows.
 
-* `react.min.js` - [http://cdn.syncfusion.com/js/assets/external/react.min.js](http://cdn.syncfusion.com/js/assets/external/react.min.js)
-* `react-dom.min.js` - [http://cdn.syncfusion.com/js/assets/external/react-dom.min.js](http://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
+* `react.min.js` - [https://cdn.syncfusion.com/js/assets/external/react.min.js](https://cdn.syncfusion.com/js/assets/external/react.min.js)
+* `react-dom.min.js` - [https://cdn.syncfusion.com/js/assets/external/react-dom.min.js](https://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
 * `browser.min.js` - [http://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js](http://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js)
 
 The other required internal dependencies of Scheduler are tabulated below,
@@ -57,6 +57,6 @@ N> Scheduler uses one or more sub-controls, therefore refer the `ej.web.all.min.
 
 To get the real appearance of the Scheduler, the dependent CSS file `ej.web.all.min.css` (which includes styles of all the widgets) should also needs to be referred.
 
-N> Uncompressed version of library files are also available which is used for development or debugging purpose and can be generated from the custom script [here](http://csg.syncfusion.com).
+N> Uncompressed version of library files are also available which is used for development or debugging purpose and can be generated from the custom script [here](https://csg.syncfusion.com/).
 
 I> `ej.web.react.min.js` file is additionally required to render the Scheduler in ReactJS which is available under the location, _(**Installed location**)\Syncfusion\Essential Studio\{{ site.releaseversion }}\JavaScript\assets\scripts\common_.
