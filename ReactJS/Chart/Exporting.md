@@ -16,7 +16,7 @@ Exporting a chart can be done in both client-side and in server-side. This can b
 
 In client-side rendered chart can be exported as PNG image or as SVG file.
 
-* Export as PNG - The chart can be exported to image when it is rendered in HTML5 Canvas.To render a chart in canvas, set the [`enableCanvasRendering`](../api/ejchart#members:enablecanvasrendering) option to *true*. To export the chart, you can use the [`export`](../api/ejchart#methods:export) method of the chart. Refer to the online [`KB for exporting`](http://www.syncfusion.com/kb/5045) to know more about chart exporting. 
+* Export as PNG - The chart can be exported to image when it is rendered in HTML5 Canvas.To render a chart in canvas, set the [`enableCanvasRendering`](../api/ejchart#members:enablecanvasrendering) option to *true*. To export the chart, you can use the [`export`](../api/ejchart#methods:export) method of the chart. Refer to the online [`KB for exporting`](https://www.syncfusion.com/kb/5045) to know more about chart exporting. 
 
 * Export as SVG - Chart can be exported as SVG if it is rendered as a scalable vector graphics element. By default chart will be rendered as SVG. 
 
@@ -56,7 +56,7 @@ In client-side rendered chart can be exported as PNG image or as SVG file.
 
 {% endhighlight %}
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/export) here to view the Export chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/export) here to view the Export chart online demo sample.
 
 ## Server-side Exporting
 

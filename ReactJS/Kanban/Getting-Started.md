@@ -13,14 +13,14 @@ keywords:
 
 The Kanban control has the following list of external JavaScript dependencies.
 
-* [`jQuery 1.7.1`](http://jquery.com) and later versions
+* [`jQuery 1.7.1`](https://jquery.com/) and later versions
 * [`jsRender`](https://github.com/borismoore/jsrender) - to render the templates
 
-The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about react js.
+The required ReactJS script dependencies as follows. And you can also refer [React](http://reactjs.org/docs/getting-started.html) to know more about react js.
 
-* `react.min.js` - [http://cdn.syncfusion.com/js/assets/external/react.min.js](http://cdn.syncfusion.com/js/assets/external/react.min.js)
-* `react-dom.min.js` - [http://cdn.syncfusion.com/js/assets/external/react-dom.min.js](http://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
-* `ej.web.react.min.js` - [http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js](http://cdn.syncfusion.com/14.3.0.49/js/common/ej.web.react.min.js)
+* `react.min.js` - [https://cdn.syncfusion.com/js/assets/external/react.min.js](https://cdn.syncfusion.com/js/assets/external/react.min.js)
+* `react-dom.min.js` - [https://cdn.syncfusion.com/js/assets/external/react-dom.min.js](https://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
+* `ej.web.react.min.js` - [https://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js](https://cdn.syncfusion.com/14.3.0.49/js/common/ej.web.react.min.js)
 
 Refer to the internal dependencies in the following table.
 
@@ -190,8 +190,8 @@ To get started, you can use the `ej.web.all.min.js` file that encapsulates all t
 
 {% endhighlight %}
 
-N> 1. In production, we highly recommend you to use our [`custom script generator`](http://help.syncfusion.com/js/custom-script-generator) to create custom script file with required controls and its dependencies only. Also to reduce the file size further please use [`GZip compression`](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer?hl=en) in your server.
-N> 2. For themes, you can use the `ej.web.all.min.css` CDN link from the code snippet given. To add the themes in your application, please refer to [`this link`](http://help.syncfusion.com/js/theming-in-essential-javascript-components).
+N> 1. In production, we highly recommend you to use our [`custom script generator`](https://help.syncfusion.com/js/custom-script-generator) to create custom script file with required controls and its dependencies only. Also to reduce the file size further please use [`GZip compression`](https://web.dev/optimizing-content-efficiency-optimize-encoding-and-transfer/) in your server.
+N> 2. For themes, you can use the `ej.web.all.min.css` CDN link from the code snippet given. To add the themes in your application, please refer to [`this link`](https://help.syncfusion.com/js/theming-in-essential-javascript-components).
 
 ## Create a Kanban
 
@@ -234,9 +234,9 @@ Kanban control can be initialized with the following in HTML document.
 
 ### Data Binding
 
-`Data binding` in the Kanban is achieved by using the [`ej.DataManager`](http://help.syncfusion.com/js/datamanager/overview) that supports both RESTful JSON data services binding and local JSON array binding. To set the data source to Kanban, the `dataSource` property is assigned with the instance of the `ej.DataManger`. 
+`Data binding` in the Kanban is achieved by using the [`ej.DataManager`](https://help.syncfusion.com/js/datamanager/overview) that supports both RESTful JSON data services binding and local JSON array binding. To set the data source to Kanban, the `dataSource` property is assigned with the instance of the `ej.DataManger`. 
 
-For demonstration purpose, [`Northwind OData service`](http://mvc.syncfusion.com/Services/Northwnd.svc/) is used in this tutorial. Refer to the following code example.
+For demonstration purpose, [`Northwind OData service`](https://mvc.syncfusion.com/Services/Northwnd.svc/) is used in this tutorial. Refer to the following code example.
 
 {% highlight html %}
 
@@ -256,7 +256,7 @@ For demonstration purpose, [`Northwind OData service`](http://mvc.syncfusion.com
 
 ![Data Binding](Getting-Started_images/Getting_Started_img2.png)
 
-N>  ODataAdaptor is the default adaptor used within DataManager. While binding to other web services, proper [`data adaptor`](http://help.syncfusion.com/js/datamanager/data-adaptors) needs to be set for `adaptor` option of DataManager.
+N>  ODataAdaptor is the default adaptor used within DataManager. While binding to other web services, proper [`data adaptor`](https://help.syncfusion.com/js/datamanager/data-adaptors) needs to be set for `adaptor` option of DataManager.
 
 
 ### Mapping Values
@@ -313,7 +313,7 @@ N>  `fields.primaryKey` field is mandatory for “Drag and Drop” ,”Selection
 
 ### Adding Filters
 
-Filters allows to filter the collection of cards from `dataSource` which meets the predefined `query` in the filters collection. To enable filtering, define `filterSettings` collection with display `text` and [`ej.Query`](http://help.syncfusion.com/js/datamanager/query).
+Filters allows to filter the collection of cards from `dataSource` which meets the predefined `query` in the filters collection. To enable filtering, define `filterSettings` collection with display `text` and [`ej.Query`](https://help.syncfusion.com/js/datamanager/query).
  
 {% highlight html %}
 

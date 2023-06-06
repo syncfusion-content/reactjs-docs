@@ -72,4 +72,4 @@ ReactDOM.render(
 
 ![](/js/SunburstChart/Animation_images/Animation_img1.gif)
 
-[Click](http://js.syncfusion.com/demos/web/#!/bootstrap/sunburst/animation) here to view the online demo sample of  Animation in  the Sunburst Chart.
+[Click](https://ej2.syncfusion.com/home/#!/bootstrap/sunburst/animation) here to view the online demo sample of  Animation in  the Sunburst Chart.

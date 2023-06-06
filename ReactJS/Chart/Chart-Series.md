@@ -57,7 +57,7 @@ ReactDOM.render(
 ![](/js/Chart/Chart-Series_images/Chart-Series_img1.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/column) here to view the multiple series online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/column) here to view the multiple series online demo sample.
 
 
 ### Customizing all series together
@@ -152,7 +152,7 @@ ReactDOM.render(
 ![](/js/Chart/Chart-Series_images/Chart-Series_img3.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/combination) here to view the combination series online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/combination) here to view the combination series online demo sample.
 
 ### Limitation of combination chart
 

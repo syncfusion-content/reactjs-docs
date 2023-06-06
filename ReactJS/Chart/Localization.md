@@ -44,6 +44,6 @@ EjChart supports localization for its axis labels and tooltip. To render the cha
 
 ![ReactJS Chart Localization](Localization_images/Localization_img1.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartcustomization/localization) here to view the localization chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/chartcustomization/localization) here to view the localization chart online demo sample.
 
 

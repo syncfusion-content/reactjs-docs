@@ -50,7 +50,7 @@ The following output is displayed as a result of the above code example.
 
 
 N> 1. There is no in-built support to bind the XML data to the grid. But you can achieve this requirement with the help of [custom adaptor] concept. 
-N> 2. Refer this [Knowledge Base link](http://www.syncfusion.com/kb/3377/how-to-process-xml-data-from-server-using-datamanager-and-bound-to-grid#) for bounding XML data to grid using custom adaptor. 
+N> 2. Refer this [Knowledge Base link](https://support.syncfusion.com/kb/article/3562/how-to-process-xml-data-from-server-using-datamanager-and-bound-to-grid) for bounding XML data to grid using custom adaptor. 
 
 ## Remote Data
 
@@ -58,7 +58,7 @@ To bind remote data to Grid Control, you can assign a service data as an instanc
 
 ### OData
 
-OData is a standardized protocol for creating and consuming data. You can provide the [OData service](http://www.odata.org/#) URL directly to the [`ej.DataManager`](http://help.syncfusion.com/api/js/ejdatamanager# "DataManager") class and then you can assign it to Grid [`dataSource`](http://help.syncfusion.com/api/js/ejgrid#members:datasource "datasource").
+OData is a standardized protocol for creating and consuming data. You can provide the [OData service](https://www.odata.org/) URL directly to the [`ej.DataManager`](http://help.syncfusion.com/api/js/ejdatamanager# "DataManager") class and then you can assign it to Grid [`dataSource`](http://help.syncfusion.com/api/js/ejgrid#members:datasource "datasource").
 
 The following code example describes the above behavior.
 

@@ -13,14 +13,14 @@ This section explains briefly about how to create a ReportDesigner control in y
 
 ## Script and CSS Reference
 
-* [`jQuery`](http://jquery.com) 1.10.2 and later versions
+* [`jQuery`](https://jquery.com/) 1.10.2 and later versions
 * [jsRender](https://github.com/borismoore/jsrender) - to render the templates
 
-The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about ReactJS.
+The required ReactJS script dependencies as follows. And you can also refer [React](http://reactjs.org/docs/getting-started.html) to know more about ReactJS.
 
-* `react.min.js` - [http://cdn.syncfusion.com/js/assets/external/react.min.js](http://cdn.syncfusion.com/js/assets/external/react.min.js)
-* `react-dom.min.js` - [http://cdn.syncfusion.com/js/assets/external/react-dom.min.js](http://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
-* `ej.web.react.min.js` - [http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js](http://cdn.syncfusion.com/16.3.0.17/js/common/ej.web.react.min.js)
+* `react.min.js` - [https://cdn.syncfusion.com/js/assets/external/react.min.js](https://cdn.syncfusion.com/js/assets/external/react.min.js)
+* `react-dom.min.js` - [https://cdn.syncfusion.com/js/assets/external/react-dom.min.js](https://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
+* `ej.web.react.min.js` - [https://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js](https://cdn.syncfusion.com/16.3.0.17/js/common/ej.web.react.min.js)
 
 **External Dependency - Code Mirror**
 

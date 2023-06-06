@@ -52,4 +52,4 @@ ReactDOM.render(
 
 ![](/js/SunburstChart/Zooming_images/Zooming_img2.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/bootstrap/sunburst/zooming) here to view the online demo sample of Zooming in  the Sunburst Chart
+[Click](https://ej2.syncfusion.com/home/#!/bootstrap/sunburst/zooming) here to view the online demo sample of Zooming in  the Sunburst Chart

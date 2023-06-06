@@ -20,12 +20,12 @@ This section explains how to create a TreeGrid widget in your application with h
 
 ![ReactJS TreeGrid Getting Started](Getting-Started_images/Getting-Started_img1.png)
 
-The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about react js.
+The required ReactJS script dependencies as follows. And you can also refer [React](http://reactjs.org/docs/getting-started.html) to know more about react js.
 
-* `react.min.js` - [http://cdn.syncfusion.com/js/assets/external/react.min.js](http://cdn.syncfusion.com/js/assets/external/react.min.js)
-* `react-dom.min.js` - [http://cdn.syncfusion.com/js/assets/external/react-dom.min.js](http://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
+* `react.min.js` - [https://cdn.syncfusion.com/js/assets/external/react.min.js](https://cdn.syncfusion.com/js/assets/external/react.min.js)
+* `react-dom.min.js` - [https://cdn.syncfusion.com/js/assets/external/react-dom.min.js](https://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
 * `browser.min.js` - [http://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js](http://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js)
-* `ej.web.react.min.js` - [http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js](http://cdn.syncfusion.com/14.3.0.49/js/common/ej.web.react.min.js)
+* `ej.web.react.min.js` - [https://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js](https://cdn.syncfusion.com/14.3.0.49/js/common/ej.web.react.min.js)
 
 1.Create HTML file and add the following necessary script and css files to the HTML file.
 

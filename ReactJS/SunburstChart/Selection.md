@@ -138,4 +138,4 @@ ReactDOM.render(
 
 ![](/js/SunburstChart/Selection_images/Selection_img6.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/bootstrap/sunburst/selection) here to view the online demo sample of Selection  in  the Sunburst Chart
+[Click](https://ej2.syncfusion.com/home/#!/bootstrap/sunburst/selection) here to view the online demo sample of Selection  in  the Sunburst Chart

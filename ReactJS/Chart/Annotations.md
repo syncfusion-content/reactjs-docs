@@ -48,7 +48,7 @@ You can add annotations to the chart by using the [`annotations`](../api/ejchart
 ![](/js/Chart/Annotations_images/Annotations_img1.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartcustomization/annotations) here to view the Annotations online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/chartcustomization/annotations) here to view the Annotations online demo sample.
 
 N> Annotations are not supported in 3D chart types.
 

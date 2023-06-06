@@ -31,7 +31,7 @@ An introduction to start with ReactJS can be referred from [here](/reactjs/overv
 
 {% endhighlight %}
 
-N> Uncompressed version of the library files are also available which is used for development or debugging purpose and can be generated from the custom script [here](http://csg.syncfusion.com).
+N> Uncompressed version of the library files are also available which is used for development or debugging purpose and can be generated from the custom script [here](https://csg.syncfusion.com/).
 
 ## Control Initialization
 
