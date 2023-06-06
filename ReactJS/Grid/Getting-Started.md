@@ -12,7 +12,7 @@ keywords:
 
 The grid control has the following list of external JavaScript dependencies. 
 
-* [jQuery](http://jquery.com/) 1.7.1 and later versions
+* [jQuery](https://jquery.com/) 1.7.1 and later versions
 * [jsRender](https://github.com/borismoore/jsrender) - to render the templates
 
 Refer to the internal dependencies in the following table.
@@ -116,12 +116,12 @@ It is referred when using localization in Grid.</td></tr>
 </table>
 
 
-The required ReactJS script dependencies as follows. And you can also refer [React](https://facebook.github.io/react/docs/getting-started.html) to know more about react js.
+The required ReactJS script dependencies as follows. And you can also refer [React](http://reactjs.org/docs/getting-started.html) to know more about react js.
 
-* `react.min.js` - [http://cdn.syncfusion.com/js/assets/external/react.min.js](http://cdn.syncfusion.com/js/assets/external/react.min.js)
-* `react-dom.min.js` - [http://cdn.syncfusion.com/js/assets/external/react-dom.min.js](http://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
+* `react.min.js` - [https://cdn.syncfusion.com/js/assets/external/react.min.js](https://cdn.syncfusion.com/js/assets/external/react.min.js)
+* `react-dom.min.js` - [https://cdn.syncfusion.com/js/assets/external/react-dom.min.js](https://cdn.syncfusion.com/js/assets/external/react-dom.min.js)
 * `browser.min.js` - [http://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js](http://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js)
-* `ej.web.react.min.js` - [http://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js](http://cdn.syncfusion.com/14.3.0.49/js/common/ej.web.react.min.js)
+* `ej.web.react.min.js` - [https://cdn.syncfusion.com/{{ site.releaseversion }}/js/common/ej.web.react.min.js](https://cdn.syncfusion.com/14.3.0.49/js/common/ej.web.react.min.js)
 
 
 To get started, you can use the `ej.web.all.min.js` file that encapsulates all the `ej` controls and frameworks in one single file. So the complete boilerplate code is
@@ -159,9 +159,9 @@ To get started, you can use the `ej.web.all.min.js` file that encapsulates all t
 
 
 
-N> In production, we highly recommend you to use our [custom script generator](http://helpjs.syncfusion.com/js/include-only-the-needed-widgets)  to create custom script file with required controls and its dependencies only. Also to reduce the file size further please use [GZip compression](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer?hl=en) in your server.
+N> In production, we highly recommend you to use our [custom script generator](https://helpjs.syncfusion.com/js/include-only-the-needed-widgets)  to create custom script file with required controls and its dependencies only. Also to reduce the file size further please use [GZip compression](https://web.dev/optimizing-content-efficiency-optimize-encoding-and-transfer/) in your server.
 
-For themes, you can use the `ej.web.all.min.css` CDN link from the code example given. To add the themes in your application, please refer to [this link](http://help.syncfusion.com/js/theming-in-essential-javascript-components).
+For themes, you can use the `ej.web.all.min.css` CDN link from the code example given. To add the themes in your application, please refer to [this link](https://help.syncfusion.com/js/theming-in-essential-javascript-components).
 
 ## Create a Grid
 
@@ -211,7 +211,7 @@ Create a JSX file and paste the following content
 
 ## Data binding
 
-[`Data binding`](http://helpjs.syncfusion.com/js/grid/data-binding) in the grid is achieved by assigning an array of JavaScript objects to the [`dataSource`](http://help.syncfusion.com/js/api/ejgrid#members:columns-datasource) property. Refer to the following code example.
+[`Data binding`](http://helpjs.syncfusion.com/js/grid/data-binding) in the grid is achieved by assigning an array of JavaScript objects to the [`dataSource`](https://help.syncfusion.com/js/api/ejgrid#members:columns-datasource) property. Refer to the following code example.
 
 
 Please refer to the code of HTML file.
@@ -245,12 +245,12 @@ Create a JSX file and paste the following content
 
 
 
-N> ODataAdaptor is the default adaptor for the DataManager. On binding to other web services, proper [data adaptor](http://helpjs.syncfusion.com/js/datamanager/data-adaptors) needs to be set on `adaptor` option of the DataManager. 
+N> ODataAdaptor is the default adaptor for the DataManager. On binding to other web services, proper [data adaptor](https://helpjs.syncfusion.com/js/datamanager/data-adaptors) needs to be set on `adaptor` option of the DataManager. 
 
 
 ## Enable Paging
 
-[Paging](http://helpjs.syncfusion.com/js/grid/paging) can be enabled by setting the [`allowPaging`](http://help.syncfusion.com/js/api/ejgrid#members:allowpaging) to true.  This adds the pager in the bottom of the grid and page size can be customized by using the [`pageSettings.pageSize`](http://help.syncfusion.com/js/api/ejgrid#members:pagesettings-pagesize) property
+[Paging](http://helpjs.syncfusion.com/js/grid/paging) can be enabled by setting the [`allowPaging`](http://help.syncfusion.com/js/api/ejgrid#members:allowpaging) to true.  This adds the pager in the bottom of the grid and page size can be customized by using the [`pageSettings.pageSize`](https://help.syncfusion.com/js/api/ejgrid#members:pagesettings-pagesize) property
 
 
 Please refer to the code of HTML file.
@@ -281,7 +281,7 @@ Create a JSX file and paste the following content
 
 {% endhighlight %}
 
-N> Pager settings can be customized by using the [`pageSettings.pageSize`](http://help.syncfusion.com/js/api/ejgrid#members:pagesettings-pagesize) property. When it is not given the default values for `pageSize` and `pageCount` are 12 and 8 respectively.
+N> Pager settings can be customized by using the [`pageSettings.pageSize`](https://help.syncfusion.com/js/api/ejgrid) property. When it is not given the default values for `pageSize` and `pageCount` are 12 and 8 respectively.
 
 
 ![ReactJS Grid Enable Paging](Getting-started_images/Getting-started_img3.png)
@@ -290,7 +290,7 @@ N> Pager settings can be customized by using the [`pageSettings.pageSize`](http:
 
 ## Enable Filtering
 
-[`Filtering`](http://helpjs.syncfusion.com/js/grid/filter) can be enabled by setting the `allowFiltering` to `true`. By default, the filter bar row is displayed to perform filtering, you can change the filter type by using the [`filterSetting.filterType`](http://help.syncfusion.com/js/api/ejgrid#members:filtersettings) property.
+[`Filtering`](https://helpjs.syncfusion.com/js/grid/filter) can be enabled by setting the `allowFiltering` to `true`. By default, the filter bar row is displayed to perform filtering, you can change the filter type by using the [`filterSetting.filterType`](https://help.syncfusion.com/js/api/ejgrid) property.
 
 
 Please refer to the code of HTML file.
@@ -326,7 +326,7 @@ Create a JSX file and paste the following content
 
 ## Enable Grouping
 
-[`Grouping`](http://helpjs.syncfusion.com/js/grid/grouping) can be enabled by setting the [`allowGrouping`](http://help.syncfusion.com/js/api/ejgrid#members:allowgrouping) to `true`.  Columns can be grouped dynamically by drag and drop the grid column header to the group drop area. The initial grouping can be done by adding required column names in the [`groupSettings.groupedColumns`](http://help.syncfusion.com/js/api/ejgrid#members:groupsettings-groupedcolumns) property. 
+[`Grouping`](https://helpjs.syncfusion.com/js/grid/grouping) can be enabled by setting the [`allowGrouping`](https://help.syncfusion.com/js/api/ejgrid) to `true`.  Columns can be grouped dynamically by drag and drop the grid column header to the group drop area. The initial grouping can be done by adding required column names in the [`groupSettings.groupedColumns`](https://help.syncfusion.com/js/api/ejgrid) property. 
 
 
 Please refer to the code of HTML file.
@@ -399,7 +399,7 @@ Create a JSX file and paste the following content
 
 ## Add Summaries
 
-[`Summaries`](http://helpjs.syncfusion.com/js/grid/summary) can be added by setting the [`showSummary`](http://help.syncfusion.com/js/api/ejgrid#members:showsummary) to true and adding required summary rows and columns in the [`summaryRows`](http://help.syncfusion.com/js/api/ejgrid#members:summaryrows) property. For demonstration, Stock column's sum value is displayed as summary.
+[`Summaries`](https://helpjs.syncfusion.com/js/grid/summary) can be added by setting the [`showSummary`](https://help.syncfusion.com/js/api/ejgrid) to true and adding required summary rows and columns in the [`summaryRows`](https://help.syncfusion.com/js/api/ejgrid) property. For demonstration, Stock column's sum value is displayed as summary.
 
 {% highlight html %}
 
