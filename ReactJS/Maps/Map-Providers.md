@@ -77,7 +77,7 @@ ReactDOM.render(
 
 ### Key
 
-The bing Map key is provided as input to this `key` property. The Bing Map key can be obtained from [http://www.microsoft.com/maps/create-a-bing-maps-key.aspx](http://www.microsoft.com/maps/create-a-bing-maps-key.aspx).
+The bing Map key is provided as input to this `key` property. The Bing Map key can be obtained from [http://www.microsoft.com/maps/create-a-bing-maps-key.aspx](https://www.microsoft.com/en-us/maps/create-a-bing-maps-key).
 
 ![](/js/Maps/Map-Providers_images/Map-Providers_img2.png)
 
