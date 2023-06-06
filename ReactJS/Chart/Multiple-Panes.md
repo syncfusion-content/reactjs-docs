@@ -69,7 +69,7 @@ ReactDOM.render(
 ![](/js/Chart/Multiple-Panes_images/Multiple-Panes_img1.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartaxes/multipleaxes) here to view the online demo sample for multiple panes.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/chartaxes/multipleaxes) here to view the online demo sample for multiple panes.
 
 
 **Row Span**

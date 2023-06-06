@@ -48,7 +48,7 @@ ReactDOM.render(
 ![ReactJS Chart Category Axis](Chart/Axis_images/axis_img1.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/column) here to view our online demo sample that uses Category axis.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/column) here to view our online demo sample that uses Category axis.
 
 
 ### Place labels on ticks
@@ -390,7 +390,7 @@ ReactDOM.render(
 ![ReactJS Chart DateTime Axis](Chart/Axis_images/axis_img12.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartaxes/datetimeaxis) here to view our online demo sample for date time axis.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/chartaxes/datetimeaxis) here to view our online demo sample for date time axis.
 
  
 ### Customizing date time range
@@ -586,7 +586,7 @@ ReactDOM.render(
 
 ![ReactJS Chart DateTime Category Axis](Chart/Axis_images/axis_img63.png)
 
- [Click](http://js.syncfusion.com/demos/web/#!/bootstrap/chart/ChartAxes/DateTimeCategoryAxis) here to view our online demo sample for date time axis.
+ [Click](https://ej2.syncfusion.com/home/#!/bootstrap/chart/ChartAxes/DateTimeCategoryAxis) here to view our online demo sample for date time axis.
 
 ### Customizing DateTime Category range
 
@@ -686,7 +686,7 @@ Logarithmic axis uses logarithmic scale and it is very useful in visualizing whe
 ![ReactJS Chart Logarithmic Axis](Chart/Axis_images/axis_img19.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartaxes/logaxis) here to view our online demo sample link for logarithmic axis.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/chartaxes/logaxis) here to view our online demo sample link for logarithmic axis.
 
 ### Customize Logarithmic range
 
@@ -1545,7 +1545,7 @@ ReactDOM.render(
 
 ![ReactJS Chart multiple axis](Chart/Axis_images/axis_img41.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartaxes/multipleaxes) here to view the multiple axis online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/chartaxes/multipleaxes) here to view the multiple axis online demo sample.
 
 
 ## Smart Axis Labels
@@ -1579,7 +1579,7 @@ ReactDOM.render(
 ![ReactJS Chart Smart Axis Labels](Chart/Axis_images/axis_img42.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartaxes/smartaxislabels) here to view our online demo sample for smart axis labels.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/chartaxes/smartaxislabels) here to view our online demo sample for smart axis labels.
 
 
 
@@ -1764,4 +1764,4 @@ The below screenshot shows the trimmed multi-level labels
 ![ReactJS Chart trimmed multi level labels](Chart/Axis_images/axis_img61.png)
 
 And these labels can be placed in various rows using the [`level`] property.
-[Click](http://js.syncfusion.com/demos/web/#!/bootstrap/chart/chartaxes/multi-levellabels) here to view the multi-level labels online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/bootstrap/chart/chartaxes/multi-levellabels) here to view the multi-level labels online demo sample.

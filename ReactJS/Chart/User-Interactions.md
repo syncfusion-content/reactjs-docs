@@ -124,7 +124,7 @@ You can also use * **#series.<optionname>#** * as place holder to display the va
 
 ![](/js/Chart/User-Interactions_images/User-Interactions_img3.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/line) here to view the Tooltip template online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/line) here to view the Tooltip template online demo sample.
 
 
 #### Tooltip template animation
@@ -265,7 +265,7 @@ After zooming the chart, a zooming toolbar will appear with options to *zoom*, *
 ![](/js/Chart/User-Interactions_images/User-Interactions_img7.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/userinteraction/zoomingandpanning) here to view the Zooming and Panning online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/userinteraction/zoomingandpanning) here to view the Zooming and Panning online demo sample.
 
 
 ### Types of zooming
@@ -389,7 +389,7 @@ var crosshair={
 
 ![](/js/Chart/User-Interactions_images/User-Interactions_img10.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/userinteraction/crosshair) here to view the Crosshair online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/userinteraction/crosshair) here to view the Crosshair online demo sample.
 
 
 ### Customize the crosshair line and crosshair label
@@ -431,7 +431,7 @@ The [`fill`](../api/ejchart#members:crosshair-fill) and [`border`](../api/ejchar
 
 ![](/js/Chart/User-Interactions_images/User-Interactions_img11.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/userinteraction/crosshair) here to view the Crosshair online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/userinteraction/crosshair) here to view the Crosshair online demo sample.
 
 
 
@@ -467,7 +467,7 @@ Trackball can be enabled by setting the [`visible`](../api/ejchart#members:cross
 
 ![](/js/Chart/User-Interactions_images/User-Interactions_img12.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/userinteraction/trackball) here to view the Trackball online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/userinteraction/trackball) here to view the Trackball online demo sample.
 
 
 #### Customize trackball marker and trackball line
@@ -657,7 +657,7 @@ N> When hovering mouse on the data points, the corresponding series legend also 
 
 {% endhighlight %}
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartcustomization/selection) here to view the highlight and selections online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/chartcustomization/selection) here to view the highlight and selections online demo sample.
 
 
 ### Highlight Mode
@@ -944,7 +944,7 @@ N> When mouse is clicked on the data points, the corresponding series legend als
 
 {% endhighlight %}
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/chartcustomization/selection) here to view the highlight and selections online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/chartcustomization/selection) here to view the highlight and selections online demo sample.
 
 
 ### Selection Mode
@@ -1110,7 +1110,7 @@ To fetch the selected area data points value, you can set the selectionSettings 
 
 ![](/js/Chart/User-Interactions_images/User-Interactions_img23.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/selection/rangeselection) here to view the Multiple data selection online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/selection/rangeselection) here to view the Multiple data selection online demo sample.
 
 
 
@@ -1424,7 +1424,7 @@ EjChart provides support to change the location of the rendered points. This can
 
 ![](/js/Chart/User-Interactions_images/User-Interactions_img31.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/bootstrap/chart/UserInteraction/DataEditing) here to view the data editing online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/bootstrap/chart/UserInteraction/DataEditing) here to view the data editing online demo sample.
 
 ### Customize Dragging direction
 

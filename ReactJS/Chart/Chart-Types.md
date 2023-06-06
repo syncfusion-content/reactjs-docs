@@ -39,7 +39,7 @@ To render a Line Chart, set the series [`type`](../api/ejchart.html#members:seri
 ![Line Chart](Chart-Types_images/Chart-Types_img1.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/line) here to view the Line Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/line) here to view the Line Chart online demo sample.
 
 
 ### Change the line width
@@ -188,7 +188,7 @@ You can change the color of the line segments by using the [`fill`](../api/ejcha
 
 ![MultiColor Line](Chart-Types_images/Chart-Types_img81.png)
 
-[Click](http://js.syncfusion.com/demos/web/#%21/azure/chart/chartcustomization/multicolorline) here to view the MultiColor Line Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#%21/azure/chart/chartcustomization/multicolorline) here to view the MultiColor Line Chart online demo sample.
 
  
 ## Step Line Chart
@@ -220,7 +220,7 @@ To render a Step Line Chart, set the series [`type`](../api/ejchart.html#members
 ![StepLine Chart](Chart-Types_images/Chart-Types_img6.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/stepline) here to view the Step Line Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/stepline) here to view the Step Line Chart online demo sample.
 
 
 ### Changing the line width
@@ -367,7 +367,7 @@ To render an Area chart, you can specify the series [`type`](../api/ejchart.html
 ![Area Chart](Chart-Types_images/Chart-Types_img11.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/area) here to view the Area Chart online demo.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/area) here to view the Area Chart online demo.
 
 
 ## Range Area Chart
@@ -410,7 +410,7 @@ Since the RangeArea series requires two y values for a point, you have to add th
 
 ![RangeArea](Chart-Types_images/Chart-Types_img12.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/rangearea) here to view our Range Area Chart online demo.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/rangearea) here to view our Range Area Chart online demo.
 
 
 ## Step Area Chart
@@ -443,7 +443,7 @@ To render a Step Area Chart, set the [`type`](../api/ejchart.html#members:series
 ![StepArea](Chart-Types_images/Chart-Types_img13.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/steparea) here to view our Step Area Chart online demo.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/steparea) here to view our Step Area Chart online demo.
 
 
 ## Spline Area Chart
@@ -476,7 +476,7 @@ To render a Spline Area Chart, set the [`type`](../api/ejchart.html#members:seri
 ![SplineArea](Chart-Types_images/Chart-Types_img14.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/splinearea) here to view our Spline Area Chart online demo.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/splinearea) here to view our Spline Area Chart online demo.
 
 
 ## Stacked Area Chart
@@ -509,7 +509,7 @@ To render a Stacked Area Chart, set the [`type`](../api/ejchart.html#members:ser
 ![StackedArea](Chart-Types_images/Chart-Types_img15.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/stackedarea) here to view our Stacked Area Chart online demo.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/stackedarea) here to view our Stacked Area Chart online demo.
 
 
 ## 100% Stacked Area Chart  
@@ -542,7 +542,7 @@ To render a 100% Stacked Area Chart, set the [`type`](../api/ejchart.html#member
 ![StackedArea100](Chart-Types_images/Chart-Types_img16.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/100%stackedarea) here to view our 100% Stacked Area Chart online demo.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/100%stackedarea) here to view our 100% Stacked Area Chart online demo.
 
 ## Stacked Spline Area Chart
 
@@ -633,7 +633,7 @@ To render a Column Chart, set the [`type`](../api/ejchart.html#members:series-ty
 ![Column](Chart-Types_images/Chart-Types_img17.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/column) here to view our Column Chart demo.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/column) here to view our Column Chart demo.
 
 
 ### Change a point color
@@ -856,7 +856,7 @@ Since, the RangeColumn series requires two y values for a point, add the [`high`
 ![RangeColumn](Chart-Types_images/Chart-Types_img19.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/rangecolumn) here to view our Range Column Chart online demo.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/rangecolumn) here to view our Range Column Chart online demo.
 
 
 ### Change a point color 
@@ -923,7 +923,7 @@ To render a Stacked Column Chart, set the [`type`](../api/ejchart.html#members:s
 ![StakedColumn](Chart-Types_images/Chart-Types_img21.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/stackedcolumn) here to view our Stacked Column Chart online demo.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/stackedcolumn) here to view our Stacked Column Chart online demo.
 
 
 ### Cluster / Group stacked columns
@@ -1023,7 +1023,7 @@ To render a 100% Stacked Column Chart, set the [`type`](../api/ejchart.html#memb
 ![StackedColumn100](Chart-Types_images/Chart-Types_img24.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/100%stackedcolumn) here to view our 100% Stacked Column Chart online demo.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/100%stackedcolumn) here to view our 100% Stacked Column Chart online demo.
 
 
 ### Cluster / Group 100% stacked columns
@@ -1125,7 +1125,7 @@ To render a bar Chart, set the [`type`](../api/ejchart.html#members:series-type)
 ![Bar Chart](Chart-Types_images/Chart-Types_img27.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/bar) here to view our Bar Chart demo.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/bar) here to view our Bar Chart demo.
 
 
 ### Change the color of a bar
@@ -1191,7 +1191,7 @@ To render a Stacked Bar Chart, set the [`type`](../api/ejchart.html#members:seri
 ![StackedBar](Chart-Types_images/Chart-Types_img29.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/stackedbar) here to view our Stacked Bar Chart online demo.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/stackedbar) here to view our Stacked Bar Chart online demo.
 
 
 ### Cluster / Group stacked bars
@@ -1293,7 +1293,7 @@ To render a 100% Stacked Bar Chart, set the [`type`](../api/ejchart.html#members
 ![StackedBar100](Chart-Types_images/Chart-Types_img32.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/100%stackedbar) here to view our 100% Stacked Bar Chart online demo.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/100%stackedbar) here to view our 100% Stacked Bar Chart online demo.
 
 By using the [`stackingGroup`](../api/ejchart.html#members:series-stackinggroup) property, you can group the 100% stacking bars with the same group name. 
 
@@ -1393,7 +1393,7 @@ To render a Spline Chart, set the [`type`](../api/ejchart.html#members:series-ty
 ![Spline Chart](Chart-Types_images/Chart-Types_img35.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/spline) here to view the Spline Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/spline) here to view the Spline Chart online demo sample.
 
 
 ### Spline Types
@@ -1548,7 +1548,7 @@ You can create a pie chart by setting the series [`type`](../api/ejchart.html#me
 ![Pie](Chart-Types_images/Chart-Types_img38.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/pie) here to view the Pie chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/pie) here to view the Pie chart online demo sample.
 
 
 ### Change the pie size
@@ -1701,7 +1701,7 @@ EjChart allows you to render all the data points/segments in the semi-pie, quart
 
 ![Pie Sector](Chart-Types_images/Chart-Types_img43.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/semipieanddoughnut) here to view the Semi Pie Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/semipieanddoughnut) here to view the Semi Pie Chart online demo sample.
 
 
 
@@ -1735,7 +1735,7 @@ To create a Doughnut chart, you can specify the series [`type`](../api/ejchart.h
 ![Doughnut](Chart-Types_images/Chart-Types_img44.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/doughnut) here to view the Doughnut Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/doughnut) here to view the Doughnut Chart online demo sample.
 
 
 ### Change Doughnut inner radius
@@ -1919,7 +1919,7 @@ EjChart allows you to render all the data points/segments in the semi-doughnut, 
 ![Doughnut Sector](Chart-Types_images/Chart-Types_img50.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/semipieanddoughnut) here to view the Semi Doughnut Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/semipieanddoughnut) here to view the Semi Doughnut Chart online demo sample.
 
 
 
@@ -1961,7 +1961,7 @@ EjChart provides support to render more than one series in pie and in doughnut c
 
 ![Multiple Doughnut](Chart-Types_images/Chart-Types_img83.png)
 
-[Click](http://js.syncfusion.com/demos/web/#%21/azure/chart/multiplepie) here to view the Multiple Pie chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#%21/azure/chart/multiplepie) here to view the Multiple Pie chart online demo sample.
 
 ### Start and End Angle Support
 
@@ -2006,7 +2006,7 @@ To create a Pyramid chart, you can specify the series [`type`](../api/ejchart.ht
 ![Pyramid Chart](Chart-Types_images/Chart-Types_img51.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/pyramid) here to view the Pyramid Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/pyramid) here to view the Pyramid Chart online demo sample.
 
 
 ### Pyramid Mode
@@ -2129,7 +2129,7 @@ You can create a funnel chart by setting the series [`type`](../api/ejchart.html
 ![Funnel Explode](Chart-Types_images/Chart-Types_img55.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/funnel) here to view the Funnel Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/funnel) here to view the Funnel Chart online demo sample.
 
 
 ### Change the funnel width and height
@@ -2235,7 +2235,7 @@ To create a Bubble chart, you can set the series [`type`](../api/ejchart.html#me
 ![Bubble Chart](Chart-Types_images/Chart-Types_img58.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/bubble) here to view the Bubble Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/bubble) here to view the Bubble Chart online demo sample.
 
 ## Scatter
 
@@ -2266,7 +2266,7 @@ To create a Scatter chart, you can set the series [`type`](../api/ejchart.html#m
 ![Scatter Chart](Chart-Types_images/Chart-Types_img59.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/scatter) here to view the Scatter Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/scatter) here to view the Scatter Chart online demo sample.
 
 
 ### Customize the scatter chart
@@ -2349,7 +2349,7 @@ To create a HiLoOpenClose chart, you can set the series [`type`](../api/ejchart.
 ![HiloOpenClose](Chart-Types_images/Chart-Types_img61.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/hiloopenclose) here to view the HiLoOpenClose Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/hiloopenclose) here to view the HiLoOpenClose Chart online demo sample.
 
 
 ### DrawMode
@@ -2457,7 +2457,7 @@ You can create a Candle chart by specifying the series [`type`](../api/ejchart.h
 ![Candle](Chart-Types_images/Chart-Types_img64.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/candle) here to view the Candle Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/candle) here to view the Candle Chart online demo sample.
 
 
 ### Bull and Bear Color
@@ -2533,7 +2533,7 @@ HiLo chart is created by setting the series [`type`](../api/ejchart.html#members
 ![HiLo](Chart-Types_images/Chart-Types_img66.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/hilo) here to view the HiLo Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/hilo) here to view the HiLo Chart online demo sample.
 
 ## Polar
 
@@ -2564,7 +2564,7 @@ Polar chart is created by setting the series [`type`](../api/ejchart.html#member
 ![Polar](Chart-Types_images/Chart-Types_img67.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/polar) here to view the Polar Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/polar) here to view the Polar Chart online demo sample.
 
 
 ### DrawType
@@ -2627,7 +2627,7 @@ By using the [`isStacking`](../api/ejchart.html#members:series-isstacking) prope
 ![Polar Stacked Column](Chart-Types_images/Chart-Types_img69.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/windrose) here to view the Polar Wind Rose Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/windrose) here to view the Polar Wind Rose Chart online demo sample.
 
 
 ## Radar Chart  
@@ -2661,7 +2661,7 @@ Radar **DrawType** property is used to change the series plotting type to *Line*
 ![Radar Chart](Chart-Types_images/Chart-Types_img70.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/radar) here to view the Radar Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/radar) here to view the Radar Chart online demo sample.
 
 
 ### DrawType
@@ -2761,7 +2761,7 @@ N> The inline property of the **series.positiveFill** has the first priority and
 ![WaterFall Chart](Chart-Types_images/Chart-Types_img73.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/waterfall) here to view the Waterfall Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/waterfall) here to view the Waterfall Chart online demo sample.
 
 
 **ShowIntermediateSum**
@@ -2892,7 +2892,7 @@ EjChart can generate Error bar for Cartesian type series *(Line, Column, Bar, Sc
 ![Error Bar Chart](Chart-Types_images/Chart-Types_img75.png)
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/chart/errorbar) here to view the Error bar Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/chart/errorbar) here to view the Error bar Chart online demo sample.
 
 
 ### Changing Error Bar Type
@@ -3190,7 +3190,7 @@ Outlier symbol, width and height can be  customized using outlierSettings throug
 
 ![Outlier Customization](Chart-Types_images/Chart-Types_img92.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/bootstrap/chart/boxandwhisker) here to view the Box and Whisker Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/bootstrap/chart/boxandwhisker) here to view the Box and Whisker Chart online demo sample.
 
 ## Pie Of Pie Chart
 
@@ -3226,7 +3226,7 @@ ReactDOM.render(
 
 ![PieOfPie Chart](Chart-Types_images/Chart-Types_img93.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/bootstrap/chart/pieofpie) here to view the Pie Of Pie Chart online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/bootstrap/chart/pieofpie) here to view the Pie Of Pie Chart online demo sample.
 
 ### Split Mode and Split Value 
 

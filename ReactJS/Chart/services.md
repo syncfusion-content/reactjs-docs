@@ -19,7 +19,7 @@ Export Chart as PNG, JPG, SVG, PDF document, Excel document or Word document.
 
 ### URL
 
-[http://js.syncfusion.com/ExportingServices/api/JSChartExport/ExportChart](http://js.syncfusion.com/ExportingServices/api/JSChartExport/ExportChart)
+[http://js.syncfusion.com/ExportingServices/api/JSChartExport/ExportChart](https://js.syncfusion.com/ExportingServices/api/JSChartExport/ExportChart)
 
 ### Parameters
 <table>
@@ -58,7 +58,7 @@ Browser will prompt a dialog box to save the file (image or document).
 
 ### Online Demo
 
-Our [Exporting Demo](http://js.syncfusion.com/demos/web/#!/azure/chart/export) sample uses this service to export Chart as images (PNG, JPG, SVG), PDF document, Word document and Excel worksheet.
+Our [Exporting Demo](https://ej2.syncfusion.com/home/#!/azure/chart/export) sample uses this service to export Chart as images (PNG, JPG, SVG), PDF document, Word document and Excel worksheet.
 
 
 
