@@ -52,7 +52,7 @@ For rendering a 3D Column Chart, specify the series [`type`](../api/ejchart#memb
 
 ## 3D Bar Chart
 
-You can create a 3D Bar Chart by setting the series [`type`](../api/ejchart#members:series-type) as **"bar"** in the chart series and enable [`enable3D`](../api/ejchart#members:enable3d) option in the chart.
+You can create a 3D Bar Chart by setting the series [`type`](../api/js/ejchart#members:series-type) as **"bar"** in the chart series and enable [`enable3D`](../api/js/ejchart#members:enable3d) option in the chart.
 
 {% highlight javascript %}
 
@@ -88,7 +88,7 @@ You can create a 3D Bar Chart by setting the series [`type`](../api/ejchart#memb
 
 ## 3D Stacked Column Chart
 
-Stacking Column 3DChart is rendered by specifying the series [`type`](../api/ejchart#members:series-type) as **"stackingColumn"** in the chart series and enable [`enable3D`](../api/ejchart#members:enable3d) option in the chart.
+Stacking Column 3DChart is rendered by specifying the series [`type`](../api/js/ejchart#members:series-type) as **"stackingColumn"** in the chart series and enable [`enable3D`](../api/js/ejchart#members:enable3d) option in the chart.
 
 {% highlight javascript %}
 
@@ -128,7 +128,7 @@ Stacking Column 3DChart is rendered by specifying the series [`type`](../api/ejc
 
 ## 3D 100% Stacked Column Chart
 
-100% Stacking Column 3DChart is rendered by specifying the series [`type`](../api/ejchart#members:series-type) as **"stackingColumn100"** in the chart series and enable [`enable3D`](../api/ejchart#members:enable3d) option in the chart.
+100% Stacking Column 3DChart is rendered by specifying the series [`type`](../api/js/ejchart#members:series-type) as **"stackingColumn100"** in the chart series and enable [`enable3D`](../api/js/ejchart#members:enable3d) option in the chart.
 
 {% highlight javascript %}
 
@@ -169,7 +169,7 @@ Stacking Column 3DChart is rendered by specifying the series [`type`](../api/ejc
 
 ## 3D Stacked Bar Chart
 
-To create Stacking Bar 3DChart, set the series [`type`](../api/ejchart#members:series-type) as **"stackingBar"** in the chart series and enable [`enable3D`](../api/ejchart#members:enable3d) option in the chart.
+To create Stacking Bar 3DChart, set the series [`type`](../api/js/ejchart#members:series-type) as **"stackingBar"** in the chart series and enable [`enable3D`](../api/js/ejchart#members:enable3d) option in the chart.
 
 {% highlight javascript %}
 
