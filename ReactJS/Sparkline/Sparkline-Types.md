@@ -11,7 +11,7 @@ documentation: ug
 
 ## Line Type
 
-To render a Line type Sparkline, set the [`type`](../api/ejsparkline.html#members:type) as **line**. To change the color and width of the line, you can use the [`fill`](../api/ejsparkline.html#members:fill) and [`width`](../api/ejsparkline.html#members:width) property.	
+To render a Line type Sparkline, set the [`type`](..api/js/ejsparkline#members:type) as **line**. To change the color and width of the line, you can use the [`fill`](../api/js/ejsparkline#members:fill) and [`width`](../api/js/ejsparkline#members:width) property.	
 
 {% highlight html %}
 
@@ -41,7 +41,7 @@ ReactDOM.render(
 
 ## Column Type
 
-To render a Column Sparkline, set the type as **column** To change the color of the column, you can use the [`fill`](../api/ejsparkline.html#members:fill) property.
+To render a Column Sparkline, set the type as **column** To change the color of the column, you can use the [`fill`](../api/js/ejsparkline#members:fill) property.
 
 {% highlight html %}
 
@@ -59,7 +59,7 @@ ReactDOM.render(
 
 ## Area Type
 
-To render an Area Sparkline, you can specify the type as **area**. To change the Area color, you can use the [`fill`](../api/ejsparkline.html#members:fill) property
+To render an Area Sparkline, you can specify the type as **area**. To change the Area color, you can use the [`fill`](../api/js/ejsparkline#members:fill) property
 
 {% highlight html %}
 
@@ -97,7 +97,7 @@ ReactDOM.render(
 
 ## Pie Type
 
-You can create a pie type sparkline by setting the type as **pie**. Colors for the pie can be customize using [`palette`](../api/ejsparkline.html#members:palette) property.
+You can create a pie type sparkline by setting the type as **pie**. Colors for the pie can be customize using [`palette`](../api/js/ejsparkline#members:palette) property.
 
 {% highlight html %}
 
