@@ -14,7 +14,7 @@ The legend contains the list of the ranges that appear in the circular gauge
 
 ## Legend Visibility
 
-By default, the legend will not be displayed in the circular gauge. You can enable or disable it by using the [`visible`](../api/ejcirculargauge#members:legend-visible) property of the legend.
+By default, the legend will not be displayed in the circular gauge. You can enable or disable it by using the [`visible`](..api/js/ejcirculargauge#members:legend-visible) property of the legend.
 
 {% highlight javascript %}
 
@@ -87,7 +87,7 @@ ReactDOM.render(
 
 ## Position and Align the Legend
 
-By using the [`position`](../api/ejcirculargauge#members:legend-position) property, you can position the legend at *left*, *right*, *top* or *bottom* of the CircularGauge. The legend is positioned at the **bottom** of the circular gauge, by default.
+By using the [`position`](..api/js/ejcirculargauge#members:legend-position) property, you can position the legend at *left*, *right*, *top* or *bottom* of the CircularGauge. The legend is positioned at the **bottom** of the circular gauge, by default.
 
 {% highlight javascript %}
 
@@ -114,7 +114,7 @@ ReactDOM.render(
 
 ### Legend Alignment
 
-You can align the legend to the *center*, *far* or *near* based on its position by using the [`alignment`](../api/ejcirculargauge#members:legend-alignment) property.
+You can align the legend to the *center*, *far* or *near* based on its position by using the [`alignment`](../api/js/ejcirculargauge#members:legend-alignment) property.
 
 {% highlight javascript %}
 
@@ -144,7 +144,7 @@ ReactDOM.render(
 
 ### Legend shape
 
-To change the legend item shape, you have to specify the desired shape in the [`shape`](../api/ejcirculargauge#members:legend-shape) property of the legend. By default, the shape of the legend is **circle**.It also supports rectangle,diamond,triangle,slider,line,pentagon,trapezoid and wedge shapes.
+To change the legend item shape, you have to specify the desired shape in the [`shape`](../api/js/ejcirculargauge#members:legend-shape) property of the legend. By default, the shape of the legend is **circle**.It also supports rectangle,diamond,triangle,slider,line,pentagon,trapezoid and wedge shapes.
 
 {% highlight javascript %}
 
@@ -172,7 +172,7 @@ ReactDOM.render(
 
 ### Legend Item Size and Border
 
-You can change the size of the legend items by using the [`width`](../api/ejcirculargauge#members:legend-itemstyle-width) and [`height`](../api/ejcirculargauge#members:legend-itemstyle-height) properties in the **itemStyle**. To change the legend item border, use [`border`](../api/ejcirculargauge#members:legend-itemstyle-border) property of the legend itemStyle.
+You can change the size of the legend items by using the [`width`](../api/js/ejcirculargauge#members:legend-itemstyle-width) and [`height`](../api/js/ejcirculargauge#members:legend-itemstyle-height) properties in the **itemStyle**. To change the legend item border, use [`border`](../api/js/ejcirculargauge#members:legend-itemstyle-border) property of the legend itemStyle.
 
 {% highlight javascript %}
 
@@ -226,7 +226,7 @@ ReactDOM.render(
 
 ### Legend Item Padding
 
-You can control the spacing between the legend items by using the [`itemPadding`](../api/ejcirculargauge#members:legend-itempadding) option of the legend.  The default value is 20. 
+You can control the spacing between the legend items by using the [`itemPadding`](../api/js/ejcirculargauge#members:legend-itempadding) option of the legend.  The default value is 20. 
 
 {% highlight javascript %}
 
@@ -255,7 +255,7 @@ ReactDOM.render(
 
 ### Legend border
 
-You can customize the legend border by using the [`border`](../api/ejcirculargauge#members:legend-border) option in the legend. 
+You can customize the legend border by using the [`border`](../api/js/ejcirculargauge#members:legend-border) option in the legend. 
 
 {% highlight javascript %}
 
@@ -284,7 +284,7 @@ ReactDOM.render(
 
 ### Font of the legend text
 
-The font of the legend item text can be customized by using the [`font`](../api/ejcirculargauge#members:legend-font)  property in legend.
+The font of the legend item text can be customized by using the [`font`](../api/js/ejcirculargauge#members:legend-font)  property in legend.
 
 
 {% highlight javascript %}
@@ -314,7 +314,7 @@ ReactDOM.render(
 
 ### Legend Item Render
 
-[`LegendItemRender`](../api/ejcirculargauge#events:legenditemrender) event triggers before rendering the legend items. This event is triggered for each legend item in Circular gauge. You can use this event to customize legend item shape or add custom text to legend item dynamically
+[`LegendItemRender`](../api/js/ejcirculargauge#events:legenditemrender) event triggers before rendering the legend items. This event is triggered for each legend item in Circular gauge. You can use this event to customize legend item shape or add custom text to legend item dynamically
 
 {% highlight javascript %}
 
@@ -337,7 +337,7 @@ ReactDOM.render(
 
 ### Legend Item Click
 
-You can get the legend item details such as *RangeIndex, bounds and shape* by subscribing the [`legendItemClick`](../api/ejcirculargauge#events:legenditemclick) event of the circular gauge. When the legend item is clicked, it triggers the event and returns the legend information 
+You can get the legend item details such as *RangeIndex, bounds and shape* by subscribing the [`legendItemClick`](../api/js/ejcirculargauge#events:legenditemclick) event of the circular gauge. When the legend item is clicked, it triggers the event and returns the legend information 
 
 {% highlight javascript %}
 
