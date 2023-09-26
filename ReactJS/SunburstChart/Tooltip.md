@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Add Tooltip to Sunburst Chart | Syncfusion
+title: Tooltip in ReactJS Sunburst Chart Control | Syncfusion
 description: Learn here about how to how to add Tooltip to Sunburst Chart in Syncfusion Essential ReactJS Control, its elements, and more.
 platform: ts
 control: Sunburst Chart
 documentation: ug
 ---
 
-# Adding Tooltip to Sunburst Chart in ReactJS
+# Tooltip in ReactJS Sunburst Chart
 
 [`ToolTip`](../api/ejsunburstchart#members:tooltip) allows you to display any information over a sunburst segment. It appears when mouse hovered over or touch any chart segment. By default, it displays the corresponding segment category name and its value
 
@@ -27,7 +27,7 @@ documentation: ug
 
 {% endhighlight %}
 
-![Adding Tooltip to Sunburst Chart](/js/SunburstChart/Tooltip_images/Tooltip_img1.png)
+![Tooltip in ReactJS Sunburst Chart](/js/SunburstChart/Tooltip_images/Tooltip_img1.png)
 
 ## Tooltip Template   
 
@@ -62,7 +62,7 @@ ReactDOM.render(
 
 {% endhighlight %}
 
-![Tooltip Template](/js/SunburstChart/Tooltip_images/Tooltip_img2.png)
+![Tooltip Template in ReactJS Sunburst Chart](/js/SunburstChart/Tooltip_images/Tooltip_img2.png)
 
 ## Customize the appearance of tooltip
 
