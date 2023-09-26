@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tooltip in ReactJS Sunburst Chart Control | Syncfusion
-description: Learn here about how to how to add Tooltip to Sunburst Chart in Syncfusion Essential ReactJS Control, its elements, and more.
+description: Learn here about Tooltip support in Syncfusion Essential ReactJS Sunburst Chart Control, its elements, and more.
 platform: ts
 control: Sunburst Chart
 documentation: ug
