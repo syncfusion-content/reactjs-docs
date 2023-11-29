@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Getting-Started
-description: getting started 
+title: Getting Started with React Menu Bar | Syncfusion
+description: Learn here all about getting started with Syncfusion Essential React Menu Bar component, it's elements and more details. 
 platform: React JS
 control: Menu
 documentation: ug
 keywords: ejmenu, menu, js menu
 ---
 
-# Getting Started 
+# Getting Started with React Menu Bar
 
 This section explains briefly about how to create a **Menu** control in your application with **JavaScript**. The **Essential JavaScript** **Menu** supports displaying a **Menu** of list-out items. This **Menu** is based on ul-li hierarchy, where the sub-list items are rendered as the sub-menu items. The **Menu** control can also be rendered with local and remote data source.  From the following guidelines, you can learn how to customize the **Menu** control for a website. In this case, **Syncfusion's** website **Menu** is discussed. The following screenshot displays the appearance of **Menu**.
 
-![](Getting-Started_images/Getting-Started_img1.png) 
+![Getting Started with React Menu Bar.](Getting-Started_images/react-menu-bar-getting-started.png) 
 
 ## Create a Menu in React JS
 
@@ -47,7 +47,7 @@ document.getElementById('menu-default')
 
 Output of the above steps.
 
-![](Getting-Started_images/Getting-Started_img2.png) 
+![Create React Menu Bar.](Getting-Started_images/react-menu-bar-create.png) 
 
 ## Configure parent Menu items
 
@@ -81,7 +81,7 @@ document.getElementById('menu-default')
 
 The following screenshot displays output.
 
-![](Getting-Started_images/Getting-Started_img3.JPG) 
+![Configure parent React Menu Bar items.](Getting-Started_images/react-menu-bar-config-item.JPG) 
 
 ## Initialize sub-level Menu items
 
@@ -128,7 +128,7 @@ document.getElementById('menu-default')
 
 Execute the above code example to render the following output.
 
-![](Getting-Started_images/Getting-Started_img4.png) 
+![React Menu Bar sub level.](Getting-Started_images/react-menu-bar-sub-level.png) 
 
 ## Define multiple level Menu items
 
@@ -178,7 +178,7 @@ document.getElementById('menu-default')
 
 The following screenshot is the output.
 
-![](Getting-Started_images/Getting-Started_img1.png) 
+![React Menu Bar screenshot output.](Getting-Started_images/react-menu-bar-getting-started.png) 
 
 By following the above mentioned steps, you can render the **Menu** control with multiple level sub items through online data source. You can simply customize the **Menu** widget in an efficient manner.
 
