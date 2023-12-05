@@ -190,7 +190,7 @@ To get started, you can use the `ej.web.all.min.js` file that encapsulates all t
 
 {% endhighlight %}
 
-N> 1. In production, we highly recommend you to use our [`custom script generator`](https://help.syncfusion.com/js/custom-script-generator) to create custom script file with required controls and its dependencies only. Also to reduce the file size further please use [`GZip compression`](https://web.dev/optimizing-content-efficiency-optimize-encoding-and-transfer/) in your server.
+N> 1. In production, we highly recommend you to use our [`custom script generator`](https://help.syncfusion.com/js/custom-script-generator) to create custom script file with required controls and its dependencies only. Also to reduce the file size further please use [`GZip compression`](https://web.dev/articles/optimizing-content-efficiency-optimize-encoding-and-transfer) in your server.
 N> 2. For themes, you can use the `ej.web.all.min.css` CDN link from the code snippet given. To add the themes in your application, please refer to [`this link`](https://help.syncfusion.com/js/theming-in-essential-javascript-components).
 
 ## Create a Kanban
@@ -230,7 +230,7 @@ Kanban control can be initialized with the following in HTML document.
     
 {% endhighlight %}
 
-![Getting Started](Getting-Started_images/Getting_Started_img1.png)
+![Getting Started with React Kanban.](Getting-Started_images/react-kanban-getting-started.png)
 
 ### Data Binding
 
@@ -254,7 +254,7 @@ For demonstration purpose, [`Northwind OData service`](https://mvc.syncfusion.co
 
 {% endhighlight %}
 
-![Data Binding](Getting-Started_images/Getting_Started_img2.png)
+![Data Binding in React Kanban.](Getting-Started_images/react-kanban-data-binding.png)
 
 N>  ODataAdaptor is the default adaptor used within DataManager. While binding to other web services, proper [`data adaptor`](https://help.syncfusion.com/js/datamanager/data-adaptors) needs to be set for `adaptor` option of DataManager.
 
@@ -284,7 +284,7 @@ In order to display cards in Kanban control, you need to map the database fields
 
 {% endhighlight %} 
 
-![Mapping Values](Getting-Started_images/Getting_Started_img3.png)
+![Mapping Values in React Kanban.](Getting-Started_images/react-kanban-mapping-value.png)
 
 N>  `fields.primaryKey` field is mandatory for “Drag and Drop” ,”Selection” and “Editing” Features.
 
@@ -309,7 +309,7 @@ N>  `fields.primaryKey` field is mandatory for “Drag and Drop” ,”Selection
 
 {% endhighlight %} 
 
-![Swim lane](Getting-Started_images/Getting_Started_img4.png)
+![Swim lane in React Kanban.](Getting-Started_images/react-kanban-swim-lane.png)
 
 ### Adding Filters
 
@@ -335,7 +335,7 @@ Filters allows to filter the collection of cards from `dataSource` which meets t
 
 {% endhighlight %} 
 
-![Filters](Getting-Started_images/Getting_Started_img5.png)
+![Filters in React Kanban.](Getting-Started_images/react-kanban-filters.png)
 
 ## Without using jsx Template
 
