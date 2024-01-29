@@ -11,7 +11,7 @@ documentation: ug
 
 ## Highlight
 
-EjRangeNavigator provides highlighting supports to the intervals on mouse hover. To enable the highlighting option, set the [`enable`](../api/ejrangenavigator/#members:navigatorstylesettings-highlightsettings-enable) property to true in the [`highlightSettings`](../api/ejrangenavigator/#members:navigatorstylesettings-highlightsettings) of [`navigatorStyleSettings`](../api/ejrangenavigator/#members:navigatorstylesettings).
+EjRangeNavigator provides highlighting supports to the intervals on mouse hover. To enable the highlighting option, set the [`enable`](../api/ejrangenavigator#members:navigatorstylesettings-highlightsettings-enable) property to true in the [`highlightSettings`](../api/ejrangenavigator#members:navigatorstylesettings-highlightsettings) of [`navigatorStyleSettings`](../api/ejrangenavigator#members:navigatorstylesettings).
 
 {% highlight html %}
 
@@ -44,7 +44,7 @@ ReactDOM.render(
 
 ### Customize the highlight style
 
-To customize the highlighted intervals, use color, border and opacity options in the [`highlightSettings`](../api/ejrangenavigator/#members:navigatorstylesettings-highlightsettings).
+To customize the highlighted intervals, use color, border and opacity options in the [`highlightSettings`](../api/ejrangenavigator#members:navigatorstylesettings-highlightsettings).
 
 {% highlight html %}
 
@@ -80,7 +80,7 @@ ReactDOM.render(
 
 ## Selection
 
-EjRangeNavigator provides selection supports to the intervals by, clicking and dragging the highlighted intervals. To enable the selection option, set the [`enable`](../api/ejrangenavigator/#members:navigatorstylesettings-selectionsettings-enable) property to true in the [`selectionSettings`](../api/ejrangenavigator/#members:navigatorstylesettings-selectionsettings).
+EjRangeNavigator provides selection supports to the intervals by, clicking and dragging the highlighted intervals. To enable the selection option, set the [`enable`](../api/ejrangenavigator#members:navigatorstylesettings-selectionsettings-enable) property to true in the [`selectionSettings`](../api/ejrangenavigator#members:navigatorstylesettings-selectionsettings).
 
 {% highlight html %}
 "use strict";
@@ -153,13 +153,13 @@ ReactDOM.render(
 
 ## Scrollbar
 
-* To render the Scrollbar in RangeNavigator, you need to enable [`enableScrollbar`](../api/ejrangenavigator/#members:enablescrollbar) option.
+* To render the Scrollbar in RangeNavigator, you need to enable [`enableScrollbar`](../api/ejrangenavigator#members:enablescrollbar) option.
  
-* [`scrollRangeSettings`](../api/ejrangenavigator/#members:scrollrangesettings) of  rangenavigator [`start`](../api/ejrangenavigator/#members:scrollrangesettings-start) and [`end`](../api/ejrangenavigator/#members:scrollrangesettings-end) value is used to set the minimum and maximum datasource value to be added in the rangenavigator.
+* [`scrollRangeSettings`](../api/ejrangenavigator#members:scrollrangesettings) of  rangenavigator [`start`](../api/ejrangenavigator#members:scrollrangesettings-start) and [`end`](../api/ejrangenavigator#members:scrollrangesettings-end) value is used to set the minimum and maximum datasource value to be added in the rangenavigator.
  
 * Based on the scrollRangeSettings *start, end* value and dataSource *start, end* value scrollbar will be adjust.
 
-* When you change the scrollbar position, [`scrollEnd`](../api/ejrangenavigator/#events:scrollend) event returns the current position of start and end range value.
+* When you change the scrollbar position, [`scrollEnd`](../api/ejrangenavigator#events:scrollend) event returns the current position of start and end range value.
 
 {% highlight html %}
 
