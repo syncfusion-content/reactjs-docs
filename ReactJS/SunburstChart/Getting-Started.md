@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started for Essential JavaScript SunburstChart
-description: How to create a SunburstChart.
+title: Getting Started with ReactJS Sunburst Chart Component | Syncfusion
+description: Learn here all about getting started with Syncfusion Essential ReactJS Sunburst Chart component, it's elements and more.
 platform: ts
 control: SunburstChart
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with ReactJS Sunburst Chart
 
 This section explains you the steps required to populate the Sunburst Chart with data, data labels, legend and title. This section covers only the minimal features that you need to know to get started with the Sunburst Chart.
 
@@ -222,6 +222,6 @@ ReactDOM.render(
 
 Now the Sunburst Chart is rendered along with the specified customizations
 
-![](/js/SunburstChart/Getting-Started_images/Getting-Started_img1.png)
+![Add data labels in ReactJS Sunburst Chart.](getting-started_images/reactjs-sunburst-chart-add-data-labels.png)
 
 [Click](https://ej2.syncfusion.com/home/#!/bootstrap/sunburst/deafult) here to view the default sample of the SunburstChart 
