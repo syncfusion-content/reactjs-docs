@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with ReactJS Sunburst Chart Component | Syncfusion
 description: Learn here all about getting started with Syncfusion Essential ReactJS Sunburst Chart component, it's elements and more.
-platform: ts
+platform: reactjs
 control: SunburstChart
 documentation: ug
 ---
