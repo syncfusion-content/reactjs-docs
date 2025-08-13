@@ -53,7 +53,7 @@ By using the title option, you can add the [`text`](../api/ejchart.html#members:
 
 {% endhighlight %}
 
-![](/js/Chart/Chart-Title_images/Chart-Title_img1.png)
+![title in ReactJS Chart.](/js/Chart/Chart-Title_images/Chart-Title_img1.png)
 
 
 [Click](https://ej2.syncfusion.com/home/#!/azure/chart/chartcustomization/subtitle) here to view the Chart Title online demo sample.
@@ -88,7 +88,7 @@ We can trim, wrap and wrapAndTrim to the chart title using textOverflow property
 
 {% endhighlight %}
 
-![](/js/Chart/Chart-Title_images/Chart-Title_img5.png)
+![the original text will be displayed as tooltip on mouse hover.](/js/Chart/Chart-Title_images/Chart-Title_img5.png)
 
 
 ### Title Alignment
@@ -117,7 +117,7 @@ You can change the title alignment to *center*, *far* and *near* by using the [`
 
 {% endhighlight %} 
 
-![](/js/Chart/Chart-Title_images/Chart-Title_img2.png)
+![title alignment in ReactJS Chart.](/js/Chart/Chart-Title_images/Chart-Title_img2.png)
 
 
 ## Add Subtitle to the chart
@@ -166,7 +166,7 @@ By using the subTitle option, you can add the [`subTitle`](../api/ejchart.html#m
 
 {% endhighlight %}
 
-![](/js/Chart/Chart-Title_images/Chart-Title_img3.png)
+![add subtitle to the chart.](/js/Chart/Chart-Title_images/Chart-Title_img3.png)
 
 We can trim, wrap and wrapAndTrim to the chart subtitle using textOverflow property. The original text will be displayed as tooltip on mouse hover.
 
@@ -202,7 +202,7 @@ We can trim, wrap and wrapAndTrim to the chart subtitle using textOverflow prope
 
 {% endhighlight %}
 
-![](/js/Chart/Chart-Title_images/Chart-Title_img6.png)
+![to the chart subtitle using text over flow property in Chart.](/js/Chart/Chart-Title_images/Chart-Title_img6.png)
 
 ### Subtitle Alignment
 
@@ -234,5 +234,5 @@ You can change the subtitle alignment to *center*, *far* and *near* by using the
 
 {% endhighlight %}
 
-![](/js/Chart/Chart-Title_images/Chart-Title_img4.png)
+![subtitle alignment in Chart.](/js/Chart/Chart-Title_images/Chart-Title_img4.png)
 
