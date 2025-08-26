@@ -166,7 +166,7 @@ By using the subTitle option, you can add the [`subTitle`](../api/ejchart.html#m
 
 {% endhighlight %}
 
-![add subtitle to the chart.](/js/Chart/Chart-Title_images/Chart-Title_img3.png)
+![add subtitle to the Chart.](/js/Chart/Chart-Title_images/Chart-Title_img3.png)
 
 We can trim, wrap and wrapAndTrim to the chart subtitle using textOverflow property. The original text will be displayed as tooltip on mouse hover.
 
